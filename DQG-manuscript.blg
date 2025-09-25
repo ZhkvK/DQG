@@ -1,0 +1,19 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'DQG-manuscript.blg'
+[33] biber:340> INFO - === Пт авг 22, 2025, 17:24:11
+[40] Biber.pm:420> INFO - Reading 'DQG-manuscript.bcf'
+[71] Biber.pm:994> INFO - Found 49 citekeys in bib section 0
+[76] Biber.pm:4463> INFO - Processing section 0
+[81] Biber.pm:4654> INFO - Looking for bibtex file 'DQG-bibliography_DOI.bib' for section 0
+[85] bibtex.pm:1713> INFO - LaTeX decoding ...
+[148] bibtex.pm:1519> INFO - Found BibTeX data source 'DQG-bibliography_DOI.bib'
+[350] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[350] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[350] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[350] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[363] bbl.pm:676> INFO - Writing 'DQG-manuscript.bbl' with encoding 'UTF-8'
+[375] bbl.pm:779> INFO - Output to DQG-manuscript.bbl
+[375] Biber.pm:131> WARN - ISBN '978-981-02-4652-5, 978-981-02-4639-6' in entry '978-981-02-4652-5' is invalid - run biber with '--validate_datamodel' for details.
+[375] Biber.pm:131> WARN - ISBN '978-0-521-39293-8, 978-0-521-39894-7, 978-0-511-61988-5' in entry '978-0-521-39293-8' is invalid - run biber with '--validate_datamodel' for details.
+[375] Biber.pm:131> WARN - ISBN '978-1-4615-8105-5, 978-1-4615-8103-1' in entry '10.1007/978-1-4615-8103-1_3' is invalid - run biber with '--validate_datamodel' for details.
+[375] Biber.pm:133> INFO - WARNINGS: 3

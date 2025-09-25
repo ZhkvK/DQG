@@ -1,0 +1,151 @@
+\documentclass[tikz, border=1mm]{standalone}
+
+% ========== Настройка шрифта (pdfLaTeX) ==========
+% Рекомендуем: TeX Gyre Heros — свободная Helvetica-like гарнитура.
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+%\usepackage{tgheros}   % <--- поменяй здесь на \usepackage[scaled]{helvet} если хочешь PS Helvetica
+\usepackage{arev}
+\usepackage{helvet}
+%\usepackage{sansmath}  % даёт \sansmath для sans-математики
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{sfmath}
+\usepackage{textcomp}
+\usepackage{upgreek}
+
+% Подключаем pgfplots/tikz и нужные библиотеки
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18} % современный режим совместимости
+\usepackage{pgfplotstable}
+\usetikzlibrary{calc,arrows.meta,shapes,patterns,decorations.pathreplacing,backgrounds,spy}
+\usepgfplotslibrary{groupplots}
+% (добавь другие библиотеки, если они тебе нужны)
+
+% Математика и шрифты
+\usepackage{amsmath,amssymb}
+
+% ====== Применяем sans ко всему документу (без побочных эффектов на главный файл,
+% поскольку это standalone) ======
+\sffamily
+%\sfmath % теперь все формулы будут в sans внутри этого документа
+
+% --- при желании: уменьшить/увеличить масштаб шрифтов в рисунке ---
+%\renewcommand{\normalsize}{\fontsize{9}{11}\selectfont}
+%\renewcommand{small}{\fontsize{7}{11}\selectfont}
+
+%\renewcommand{\pi}{\uppi}
+%\renewcommand{\omega}{\upomega}
+
+\pgfplotsset{width=8.5cm,
+	compat=1.3,
+	% define the layers you need.
+	% (Don't forget to add `main' somewhere in that list!!)
+	layers/my layer set/.define layer set={
+		background,
+		main,
+		foreground
+	}{
+		% you could state styles here which should be moved to
+		% corresponding layers, but that is not necessary here.
+		% That is why we don't state anything here
+	},
+	% activate the newly created layer set
+	set layers=my layer set,
+	scaled y ticks=true,
+	scaled x ticks=false,}
+
+\begin{document}
+	\begin{tikzpicture}
+		
+		\definecolor{darkgray176}{RGB}{176,176,176}
+		\definecolor{darkorange25512714}{RGB}{255,127,14}
+		\definecolor{steelblue31119180}{RGB}{31,119,180}
+		\definecolor{crimson2143940}{RGB}{214,39,40} 
+		\definecolor{lightgrey204}{RGB}{204,204,204}
+		
+		\begin{groupplot}[group style={group size=2 by 1, horizontal sep=2cm,
+				%			%	xticklabels at=edge bottom, % Метки X только у нижнего графика
+				%			%	ylabel at=edge left,       % Метки Y только у среднего графика
+				%			%	x descriptions at=edge bottom, % Общая подпись X снизу
+				%			xlabels at=edge bottom,
+				%			ylabels at=edge left,
+			},
+			%			width=0.5\textwidth,
+			clip=true,
+			clip mode=individual,
+			%		legend cell align={left},
+			%		legend style={fill opacity=0.8, draw opacity=0, text opacity=1, draw=lightgrey204, at={([yshift=-60pt]0.15,1)},
+				%			anchor=south,},
+			legend cell align={left},
+			legend columns=1,
+			legend image post style={mark size=2pt, line width=0.5mm},
+			%			legend style={
+				%				fill opacity=0, draw opacity=1, text opacity=1, draw=none, at={([yshift=0pt]0.15,0.45)},
+				%				anchor=south,
+				%				%				/tikz/every even column/.append style={column sep=0.2cm}
+				%			},
+			tick align=inside,
+			tick pos=left,
+			x grid style={darkgray176},
+			%		xmajorgrids,
+			xmin=0,
+			%			xmax=0.07,
+			xtick style={color=black},
+			y grid style={darkgray176},
+			%		ymajorgrids,
+			grid style=dashed,
+			%		ylabel={$Dn^{-1/d}/c_L$},
+			%		ylabel shift=-5pt,
+			yticklabel style={
+				/pgf/number format/fixed,
+				/pgf/number format/precision=2
+			},
+			xticklabel style={
+				/pgf/number format/fixed,
+				/pgf/number format/precision=2
+			},
+			ymin=0,
+			]
+			\nextgroupplot[ylabel={Self-diffusion coefficient, $Dn^{1/3}/c$}, xlabel={$ q $-gap, $q_gn^{-1/3}/\pi$},
+			legend style={
+				fill opacity=0, draw opacity=1, text opacity=1, draw=none, at={([yshift=0pt]0.165,0.4)},
+				anchor=south,
+				%				/tikz/every even column/.append style={column sep=0.2cm}
+			},]
+			\addplot [semithick, crimson2143940, mark=o, line width=0.5mm, only marks, mark size=2, mark options={solid}]
+			table[x=q,y=D]{Data/Fig7/a/1.txt};
+			\addlegendentry{$\kappa = 1$};
+			\addplot [semithick, crimson2143940, forget plot, on layer=foreground]
+			table[x=x,y=y]{Data/Fig7/a/fit1.txt};
+			
+			\addplot [semithick, cyan, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
+			table[x=q,y=D]{Data/Fig7/a/2.txt};
+			\addlegendentry{$\kappa = 2$};
+			\addplot [semithick, cyan, forget plot, on layer=foreground]
+			table[x=x,y=y]{Data/Fig7/a/fit2.txt};
+			
+			
+			\node at (rel axis cs:0.105,0.92) {\textbf{(a) LJ 3D}};
+			
+			\nextgroupplot[ylabel={Self-diffusion coefficient, $Dn^{1/3}/c$}, xlabel={$ q $-gap, $q_gn^{-1/3}/\pi$},
+			legend style={
+				fill opacity=0, draw opacity=1, text opacity=1, draw=none, at={([yshift=0pt]0.15,0.55)},
+				anchor=south,
+				%				/tikz/every even column/.append style={column sep=0.2cm}
+			},]
+			\addplot [semithick, crimson2143940, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
+			table[x=q,y=D]{Data/Fig7/b/1.txt};
+			\addlegendentry{$\kappa = 1$};
+			\addplot [semithick, crimson2143940, forget plot, on layer=foreground, line width=0.5mm, dashed]
+			table[x=x,y=y]{Data/Fig7/b/fit1.txt};
+			
+			\addplot [semithick, steelblue31119180, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
+			table[x=q,y=D]{Data/Fig7/b/2.txt};
+			\addlegendentry{$\kappa = 2$};
+			\addplot [semithick, steelblue31119180, forget plot, on layer=foreground, line width=0.5mm, dashed]
+			table[x=x,y=y]{Data/Fig7/b/fit2.txt};
+			\node at (rel axis cs:0.105,0.92) {\textbf{(b) Yukawa 3D}};
+		\end{groupplot}
+		\vspace{2cm}
+	\end{tikzpicture}
+\end{document}

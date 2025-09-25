@@ -1,0 +1,130 @@
+\documentclass[tikz, border=2mm]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+%\usepackage{tgheros}   % <--- поменяй здесь на \usepackage[scaled]{helvet} если хочешь PS Helvetica
+\usepackage{arev}
+\usepackage{helvet}
+%\usepackage{sansmath}  % даёт \sansmath для sans-математики
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{sfmath}
+\usepackage{textcomp}
+\usepackage{upgreek}
+
+% Подключаем pgfplots/tikz и нужные библиотеки
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18} % современный режим совместимости
+\usepackage{pgfplotstable}
+\usetikzlibrary{calc,arrows.meta,shapes,patterns,decorations.pathreplacing,backgrounds,spy}
+\usepgfplotslibrary{groupplots}
+% (добавь другие библиотеки, если они тебе нужны)
+
+% Математика и шрифты
+\usepackage{amsmath,amssymb}
+
+% ====== Применяем sans ко всему документу (без побочных эффектов на главный файл,
+% поскольку это standalone) ======
+\sffamily
+%\sfmath % теперь все формулы будут в sans внутри этого документа
+
+% --- при желании: уменьшить/увеличить масштаб шрифтов в рисунке ---
+%\renewcommand{\normalsize}{\fontsize{9}{11}\selectfont}
+%\renewcommand{small}{\fontsize{7}{11}\selectfont}
+
+%\renewcommand{\pi}{\uppi}
+%\renewcommand{\omega}{\upomega}
+
+\pgfplotsset{width=8.5cm,
+	compat=1.3,
+	% define the layers you need.
+	% (Don't forget to add `main' somewhere in that list!!)
+	layers/my layer set/.define layer set={
+		background,
+		main,
+		foreground
+	}{
+		% you could state styles here which should be moved to
+		% corresponding layers, but that is not necessary here.
+		% That is why we don't state anything here
+	},
+	% activate the newly created layer set
+	set layers=my layer set,
+	scaled y ticks=true,
+	scaled x ticks=false,}
+
+\begin{document}
+	\begin{tikzpicture}
+		\begin{axis}[
+			% Основные настройки
+%			width=12cm,
+%			height=10cm,
+			xlabel={$\left.\partial D/\partial q_g\right|_{q_0}$},
+			ylabel={$Dn^{1/3}/c$},
+			xmin=0,
+			ymin=0,
+			xticklabel style={
+				/pgf/number format/fixed,
+				/pgf/number format/precision=2
+			},
+			% Настройки колормапа
+%			colormap/viridis, % Выберите нужную цветовую схему (viridis, hot, jet, etc.)
+%			colorbar,
+%			colorbar style={ylabel={Slope, $k$}},
+			% Настройки точек
+%			scatter,
+%			scatter src=explicit, % Использовать явные значения из данных
+%			point meta min=0, % Минимальное значение для цвета (автоопределение можно убрать)
+%			point meta max=0.06, % Максимальное значение для цвета
+			% Сетка и прочее
+%			grid=major,
+%			grid style={dotted, gray!30},
+			legend style={
+				fill opacity=1, draw opacity=1, text opacity=1, draw=none, at={([yshift=10pt]0.5,1.05)},
+				anchor=south,},
+			legend columns=2,
+			legend cell align={left},
+			]
+			
+			% Загрузка данных из файла
+			\addplot[red, line width=0.5mm, only marks,
+			mark size=2pt,
+			mark=o,] table [
+			y index=0,
+			x index=2,
+			] {/home/konst/lj_3d/Dqk_lj.txt};
+			\addlegendentry{LJ (3D)};
+			\addplot[blue, line width=0.5mm, only marks,
+			mark size=2pt,
+			mark=o,] table [
+			y index=0,
+			x index=2,
+			] {/home/konst/lj_3d/Dqk_yukawa.txt};
+			\addlegendentry{Yukawa (3D)};
+%			\addplot table [
+%			y index=0,
+%			x index=2,
+%			] {/home/konst/lj_3d/Dqk_lj2d.txt};
+%			\addlegendentry{LJ (2D)};
+			\addplot[orange, line width=0.5mm, only marks,
+			mark size=2pt,
+			mark=o,] table [
+			y index=0,
+			x index=2,
+			] {/home/konst/lj_3d/Dqk_yukawa2d.txt};
+			\addlegendentry{Yukawa (2D)};
+			\addplot[green, line width=0.5mm, only marks,
+			mark size=2pt,
+			mark=o,] table [
+			y index=0,
+			x index=2,
+			] {/home/konst/lj_3d/Dqk_Al.txt};
+			\addlegendentry{Al (3D)};
+			\addplot[black, line width=0.5mm, only marks,
+			mark size=2pt,
+			mark=o,] table [
+			y index=0,
+			x index=2,
+			] {/home/konst/lj_3d/Dqk_Fe.txt};
+			\addlegendentry{Fe (3D)};
+		\end{axis}
+	\end{tikzpicture}
+\end{document}

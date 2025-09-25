@@ -1,0 +1,1163 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  25 AUG 2025 12:59
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Fig2.tex
+(./Fig2.tex
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-12-25>
+(/usr/local/texlive/2024/texmf-dist/tex/latex/standalone/standalone.cls
+Document Class: standalone 2022/10/10 v1.3b Class to compile TeX sub-files stan
+dalone
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count196
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\sa@internal=\count197
+\c@sapage=\count198
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/standalone/standalone.cfg
+File: standalone.cfg 2022/10/10 v1.3b Default configuration file for 'standalon
+e' class
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count199
+\c@section=\count266
+\c@subsection=\count267
+\c@subsubsection=\count268
+\c@paragraph=\count269
+\c@subparagraph=\count270
+\c@figure=\count271
+\c@table=\count272
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks19
+\pgfutil@tempdima=\dimen142
+\pgfutil@tempdimb=\dimen143
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box52
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen144
+\Gin@req@width=\dimen145
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks20
+\pgfkeys@temptoks=\toks21
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
+tered.code.tex
+\pgfkeys@tmptoks=\toks22
+))
+\pgf@x=\dimen146
+\pgf@y=\dimen147
+\pgf@xa=\dimen148
+\pgf@ya=\dimen149
+\pgf@xb=\dimen150
+\pgf@yb=\dimen151
+\pgf@xc=\dimen152
+\pgf@yc=\dimen153
+\pgf@xd=\dimen154
+\pgf@yd=\dimen155
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count273
+\c@pgf@countb=\count274
+\c@pgf@countc=\count275
+\c@pgf@countd=\count276
+\t@pgf@toka=\toks23
+\t@pgf@tokb=\toks24
+\t@pgf@tokc=\toks25
+\pgf@sys@id@count=\count277
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count278
+\pgfsyssoftpath@bigbuffer@items=\count279
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen156
+\pgfmath@count=\count280
+\pgfmath@box=\box53
+\pgfmath@toks=\toks26
+\pgfmath@stack@operand=\toks27
+\pgfmath@stack@operation=\toks28
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count281
+)) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen157
+\pgf@picmaxx=\dimen158
+\pgf@picminy=\dimen159
+\pgf@picmaxy=\dimen160
+\pgf@pathminx=\dimen161
+\pgf@pathmaxx=\dimen162
+\pgf@pathminy=\dimen163
+\pgf@pathmaxy=\dimen164
+\pgf@xx=\dimen165
+\pgf@xy=\dimen166
+\pgf@yx=\dimen167
+\pgf@yy=\dimen168
+\pgf@zx=\dimen169
+\pgf@zy=\dimen170
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen171
+\pgf@path@lasty=\dimen172
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen173
+\pgf@shorten@start@additional=\dimen174
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box54
+\pgf@hbox=\box55
+\pgf@layerbox@main=\box56
+\pgf@picture@serial@count=\count282
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen175
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen176
+\pgf@pt@y=\dimen177
+\pgf@pt@temp=\dimen178
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen179
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen180
+\pgf@sys@shading@range@num=\count283
+\pgf@shadingcount=\count284
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box57
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box58
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen181
+\pgf@nodesepend=\dimen182
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen183
+\pgffor@skip=\dimen184
+\pgffor@stack=\toks29
+\pgffor@toks=\toks30
+))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count285
+\pgfplotmarksize=\dimen185
+)
+\tikz@lastx=\dimen186
+\tikz@lasty=\dimen187
+\tikz@lastxsaved=\dimen188
+\tikz@lastysaved=\dimen189
+\tikz@lastmovetox=\dimen190
+\tikz@lastmovetoy=\dimen191
+\tikzleveldistance=\dimen192
+\tikzsiblingdistance=\dimen193
+\tikz@figbox=\box59
+\tikz@figbox@bg=\box60
+\tikz@tempbox=\box61
+\tikz@tempbox@bg=\box62
+\tikztreelevel=\count286
+\tikznumberofchildren=\count287
+\tikznumberofcurrentchild=\count288
+\tikz@fig@count=\count289
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count290
+\pgfmatrixcurrentcolumn=\count291
+\pgf@matrix@numberofcolumns=\count292
+)
+\tikz@expandcount=\count293
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+\sa@box=\box63
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks31
+\inpenc@posthook=\toks32
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/sfmath/sfmath.sty
+Package: sfmath 2007/08/27 v0.8 sans serif maths
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/phv/m/n on input line 329.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 330.
+\symSFMath=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `SFMath' in version `normal'
+(Font)                  OT1/phv/m/sl --> OT1/phv/m/sl on input line 343.
+LaTeX Font Info:    Overwriting symbol font `SFMath' in version `bold'
+(Font)                  OT1/phv/m/sl --> OT1/phv/bx/sl on input line 344.
+LaTeX Font Info:    Redeclaring math symbol \imath on input line 398.
+LaTeX Font Info:    Redeclaring math symbol \jmath on input line 399.
+\symSFMathUp=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `SFMathUp' in version `normal'
+(Font)                  OT1/phv/m/n --> OT1/phv/m/n on input line 406.
+LaTeX Font Info:    Overwriting symbol font `SFMathUp' in version `bold'
+(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 407.
+LaTeX Font Info:    Redeclaring math symbol \ldotp on input line 410.
+\symSFMathGreek=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `SFMathGreek' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 419.
+LaTeX Font Info:    Overwriting symbol font `SFMathGreek' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 420.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 422.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 423.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 424.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 425.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 426.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 427.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 428.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 429.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 430.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 431.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 432.
+\symSFMathUpGreek=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `SFMathUpGreek' in version `normal'
+
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 436.
+LaTeX Font Info:    Overwriting symbol font `SFMathUpGreek' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 437.
+LaTeX Font Info:    Overwriting math alphabet `\mathnormal' in version `normal'
+
+(Font)                  OML/cmm/m/it --> OT1/phv/m/sl on input line 446.
+LaTeX Font Info:    Overwriting math alphabet `\mathnormal' in version `bold'
+(Font)                  OML/cmm/b/it --> OT1/phv/bx/sl on input line 447.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/phv/m/n --> OT1/phv/m/n on input line 449.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/phv/bx/n --> OT1/phv/bx/n on input line 450.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 452.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 453.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/phv/m/sl on input line 455.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/phv/bx/sl on input line 456.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 458.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/phv/bx/n on input line 459.
+LaTeX Font Info:    Overwriting math alphabet `\mathsl' in version `bold'
+(Font)                  OT1/phv/m/sl --> OT1/phv/bx/sl on input line 466.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/was/upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks33
+\t@pgfplots@tokb=\toks34
+\t@pgfplots@tokc=\toks35
+\pgfplots@tmpa=\dimen194
+\c@pgfplots@coordindex=\count294
+\c@pgfplots@scanlineindex=\count295
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric
+.code.tex))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.c
+ode.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplot
+soldpgfsupp_loader.code.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.cod
+e.tex)
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks36
+\t@pgf@tokb=\toks37
+\t@pgf@tokc=\toks38
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplot
+soldpgfsupp_pgfutil-common-lists.tex))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code
+.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+liststructure.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+liststructureext.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+array.code.tex
+\c@pgfplotsarray@tmp=\count296
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+matrix.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable
+shared.code.tex
+\c@pgfplotstable@counta=\count297
+\t@pgfplotstable@a=\toks39
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+deque.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.co
+de.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.da
+ta.code.tex))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb
+.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplot
+s.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count298
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots
+.surfshading.pgfsys-pdftex.def)))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.
+code.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.cod
+e.tex))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.c
+ode.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.c
+ode.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandle
+r.code.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.
+code.tex)))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.
+tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessin
+g.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.cod
+e.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.
+tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.te
+x)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen195
+\pgfdecoratedremainingdistance=\dimen196
+\pgfdecoratedinputsegmentcompleteddistance=\dimen197
+\pgfdecoratedinputsegmentremainingdistance=\dimen198
+\pgf@decorate@distancetomove=\dimen199
+\pgf@decorate@repeatstate=\count299
+\pgfdecorationsegmentamplitude=\dimen256
+\pgfdecorationsegmentlength=\dimen257
+)
+\tikz@lib@dec@box=\box64
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathmorphing.code.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathmorphing.code.tex))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathreplacing.code.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathreplacing.code.tex))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplo
+ts.contourlua.code.tex)
+\pgfplots@numplots=\count300
+\pgfplots@xmin@reg=\dimen258
+\pgfplots@xmax@reg=\dimen259
+\pgfplots@ymin@reg=\dimen260
+\pgfplots@ymax@reg=\dimen261
+\pgfplots@zmin@reg=\dimen262
+\pgfplots@zmax@reg=\dimen263
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmar
+ks.code.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgfplots/pgfplotstable.sty
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplotstable 2021/05/15 v1.18.1 Table typesetting and Pretty-printing
+ (1.18.1)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable
+.code.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable
+.coltype.code.tex))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen264
+\ar@mcellbox=\box65
+\extrarowheight=\dimen265
+\NC@list=\toks40
+\extratabsurround=\skip51
+\backup@length=\skip52
+\ar@cellbox=\box66
+))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen266
+\pgfarrowlength=\dimen267
+\pgfarrowwidth=\dimen268
+\pgfarrowlinewidth=\dimen269
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.callouts.code.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.callouts.code.tex))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodepartlowerbox=\box67
+\pgfnodeparttwobox=\box68
+\pgfnodepartthreebox=\box69
+\pgfnodepartfourbox=\box70
+\pgfnodeparttwentybox=\box71
+\pgfnodepartnineteenbox=\box72
+\pgfnodeparteighteenbox=\box73
+\pgfnodepartseventeenbox=\box74
+\pgfnodepartsixteenbox=\box75
+\pgfnodepartfifteenbox=\box76
+\pgfnodepartfourteenbox=\box77
+\pgfnodepartthirteenbox=\box78
+\pgfnodeparttwelvebox=\box79
+\pgfnodepartelevenbox=\box80
+\pgfnodeparttenbox=\box81
+\pgfnodepartninebox=\box82
+\pgfnodeparteightbox=\box83
+\pgfnodepartsevenbox=\box84
+\pgfnodepartsixbox=\box85
+\pgfnodepartfivebox=\box86
+)))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibrarypattern
+s.code.tex
+File: pgflibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@layerbox@background=\box87
+\pgf@layerboxsaved@background=\box88
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryspy.code.tex
+File: tikzlibraryspy.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\tikz@lib@spybox=\box89
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplo
+ts.groupplots.code.tex
+\pgfplots@group@current@plot=\count301
+\pgfplots@group@current@row=\count302
+\pgfplots@group@current@column=\count303
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks41
+\ex@=\dimen270
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen271
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count304
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count305
+\leftroot@=\count306
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count307
+\DOTSCASE@=\count308
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box90
+\strutbox@=\box91
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen272
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count309
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count310
+\dotsspace@=\muskip17
+\c@parentequation=\count311
+\dspbrk@lvl=\count312
+\tag@help=\toks42
+\row@=\count313
+\column@=\count314
+\maxfields@=\count315
+\andhelp@=\toks43
+\eqnshift@=\dimen273
+\alignsep@=\dimen274
+\tagshift@=\dimen275
+\tagwidth@=\dimen276
+\totwidth@=\dimen277
+\lineht@=\dimen278
+\@envbody=\toks44
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks45
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup9
+\symAMSb=\mathgroup10
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 28
+.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+\pgf@layerbox@foreground=\box92
+\pgf@layerboxsaved@foreground=\box93
+Package pgfplots info on input line 54: Setting layers 'background,main,foregro
+und'...
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count316
+\l__pdf_internal_box=\box94
+)
+(./Fig2.aux)
+\openout1 = `Fig2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+
+(/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count317
+\scratchdimen=\dimen279
+\scratchbox=\box95
+\nofMPsegments=\count318
+\nofMParguments=\count319
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count320
+\MPscratchDim=\dimen280
+\MPnumerator=\count321
+\makeMPintoPDFobject=\count322
+\everyMPtoPDFconversion=\toks47
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package pgfplots notification 'compat/show suggested version=true': you might b
+enefit from \pgfplotsset{compat=1.18} (current compat level: 1.3).
+
+PGFPlots: reading {Data/Fig2/data1.dat}
+NOTE: coordinate (1Y2.5e0],1.48394) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.0e0],2.4471) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.0e1],4.28212) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.25e1],5.11163) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.75e1],7.12899) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0e1],8.17219) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.5e1],10.0692) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.75e1],10.892) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.25e1],12.849) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.5e1],13.7733) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.0e1],15.6849) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.25e1],16.7438) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.75e1],18.3106) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.0e1],19.2444) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.5e1],21.3103) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.75e1],22.3461) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y6.25e1],24.2222) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y6.5e1],25.1249) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y7.0e1],26.9132) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y7.25e1],27.8885) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y7.75e1],29.9045) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y8.0e1],30.8025) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y8.5e1],32.7588) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y8.75e1],33.5336) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y9.25e1],35.2942) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y9.5e1],36.0584) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.0e2],37.9144) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.025e2],38.8614) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.075e2],40.4436) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.1e2],41.3217) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.15e2],42.8076) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.175e2],43.714) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.225e2],45.7709) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.25e2],46.5106) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.3e2],48.3561) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.325e2],49.1476) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.375e2],51.1119) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.4e2],52.0791) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.45e2],53.7711) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.475e2],54.7183) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.525e2],56.2707) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.55e2],57.0559) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.6e2],58.6844) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.625e2],59.613) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.675e2],61.3316) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.7e2],62.1939) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.75e2],64.3426) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.775e2],65.1122) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.825e2],66.86) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.85e2],67.8315) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.9e2],69.9767) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.925e2],70.9522) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.975e2],72.9296) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0e2],74.0972) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.05e2],75.8686) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.075e2],76.6101) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.125e2],78.0388) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.15e2],79.1312) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.2e2],81.0645) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.225e2],81.606) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.275e2],83.279) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.3e2],84.4125) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.35e2],86.1782) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.375e2],86.9469) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.425e2],88.5814) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.45e2],89.3787) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+PGFPlots: reading {Data/Fig2/data_fit1.txt}
+Missing character: There is no ; in font nullfont!
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
+49.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 149
+.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 149
+.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+PGFPlots: reading {Data/Fig2/data2.dat}
+
+NOTE: coordinate (1Y2.5e0],0.638395) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.0e0],0.973863) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.0e1],1.54743) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.25e1],1.92448) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.75e1],2.57775) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0e1],3.05655) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.5e1],3.88438) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.75e1],4.27558) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.25e1],4.87988) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.5e1],5.12545) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.0e1],6.10944) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.25e1],6.5743) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.75e1],7.35032) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.0e1],7.7897) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.5e1],8.33643) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.75e1],8.73657) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y6.25e1],9.99624) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y6.5e1],10.5303) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y7.0e1],11.2141) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y7.25e1],11.7965) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y7.75e1],12.3226) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y8.0e1],12.7261) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y8.5e1],13.7458) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y8.75e1],14.1109) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y9.25e1],14.7517) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y9.5e1],15.033) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.0e2],17.3183) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.025e2],18.3187) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.075e2],18.7807) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.1e2],19.2972) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.15e2],20.3221) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.175e2],20.5829) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.225e2],20.7506) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.25e2],20.7338) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.3e2],21.2937) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.325e2],21.543) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.375e2],21.8737) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.4e2],23.3) has been dropped because of a coordinate filte
+r. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.45e2],25.0811) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.475e2],25.1828) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.525e2],25.1149) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.55e2],25.3936) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.6e2],25.8036) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.625e2],25.9859) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.675e2],26.8569) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.7e2],26.9912) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.75e2],27.1883) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.775e2],27.5248) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.825e2],28.3413) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.85e2],29.4003) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.9e2],31.5777) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.925e2],31.5369) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.975e2],31.8214) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0e2],32.6277) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.05e2],33.4418) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.075e2],34.4059) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.125e2],35.0475) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.15e2],34.9222) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.2e2],34.2404) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.225e2],34.9857) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.275e2],35.8587) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.3e2],35.8329) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.35e2],36.2416) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.375e2],36.1134) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.425e2],37.0503) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.45e2],37.3256) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+PGFPlots: reading {Data/Fig2/data_fit2.txt}
+
+
+[1
+
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
+al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./Fig2.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-12-25>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 27970 strings out of 473207
+ 735121 string characters out of 5716288
+ 1301929 words of memory out of 5000000
+ 50727 multiletter control sequences out of 15000+600000
+ 574869 words of font info for 63 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 117i,7n,121p,788b,2042s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
+/usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/lo
+cal/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/tex
+live/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on Fig2.pdf (1 page, 40470 bytes).
+PDF statistics:
+ 37 PDF objects out of 1000 (max. 8388607)
+ 23 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+

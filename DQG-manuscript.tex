@@ -79,7 +79,7 @@ twoside, % Two side traditional mode where headers and footers change between od
 	
 	The definition of $q$-gap was first formulated within the framework of Maxwell-Frenkel approach\cite{frenkel_kinetic_1946} as $q_g = 1/2c\tau$, where $c$ is the transverse sound velocity and $\tau$ is the Maxwell relaxation time. Originally identified in dusty plasmas\cite{10.1103/physrevlett.97.115001}, $q$-gap have since been extensively studied by molecular dynamics simulations of classical liquids\cite{10.1103/PhysRevLett.118.215502, 10.1103/physreve.107.014139, 10.1088/1361-648x/ab962e, 10.1038/s41598-019-46979-y,10.1103/PhysRevLett.125.125501, 10.1016/j.nocx.2019.100030, 10.1063/1.5050708, 10.1063/5.0236047, 10.1063/1.4997640} and other liquid systems\cite{10.1063/5.0054854, 10.1063/1.5088141, 10.1103/physreve.107.055211, 10.1103/PhysRevB.101.214312} and experiments in liquid metals and colloidal suspensions\cite{10.1103/PhysRevLett.102.105502, 10.1088/0953-8984/25/11/112101, 10.1088/0953-8984/27/19/194104, 10.1103/PhysRevB.101.214312, 10.1038/s42005-025-02008-1}. Additionally, the similarity between vibrational modes at high frequency/wave-vector in liquids and solids have been experimentally verified\cite{10.1038/379521a0, 10.1073/pnas.1006319107, 10.1103/revmodphys.77.881, 10.1088/0953-8984/24/37/372101, 10.1063/1.1637145}. The recent paper\cite{10.1016/j.physrep.2020.04.002} reviews the emergence of gapped momentum states across diverse physical systems, ranging from ordinary liquids to holographic models, discussing their origin, implications, and theoretical approaches. The review underscores the importance of $q$-gap in characterizing collective behavior across these systems, particularly in distinguishing between vibrational and diffusive regimes. Recent work\cite{10.1103/PhysRevLett.125.125501} establishes a correlation between the $q$-gap width and the system's heat capacity, implying its potential influence on other thermodynamic properties, including the self-diffusion coefficient. However, this topic remains little studied.
 	
-	In this work we establish a correlation between the self-diffusion coefficient $D$ and the $q$-gap width in classical liquids through molecular dynamics simulations of Lennard-Jones, Yukawa, and machine-learning-based (ML-IAP for liquid aluminum) potentials across 2D and 3D configurations. Analysis of velocity current spectra using single-mode approximation and a two-oscillator model reveals a universal linear dependence of $D$ on $q$-gap width across all investigated interaction potentials. We demonstrate that 3D systems exhibit discontinuous growth of $D$ during melting due to crystalline lattice breakdown and metastable cluster formation, while 2D systems show smooth transitions consistent with Kosterlitz-Thouless-Halperin-Nelson-Young
+	In this work we establish a correlation between the self-diffusion coefficient $D$ and the $q$-gap width in classical liquids through molecular dynamics simulations of Lennard-Jones, Yukawa, Embedded atom model (EAM for iron) and machine-learning-based (ML-IAP for liquid aluminum) potentials across 2D and 3D configurations. Analysis of velocity current spectra using two-oscillator model reveals a universal linear dependence of $D$ on $q$-gap width across all investigated interaction potentials in 3D case. We demonstrate that 3D systems exhibit discontinuous growth of $D$ during melting due to crystalline lattice breakdown and metastable cluster formation, while 2D systems show smooth transitions consistent with Kosterlitz-Thouless-Halperin-Nelson-Young
 	(KTHNY) melting mediated by topological defects. The observed temperature-dependent expansion of the $q$-gap and emergence of solid-like transverse modes for $q > q_g$ confirm its role as a critical parameter separating vibrational and diffusive regimes.
 	
 	\section{Methods}
@@ -97,7 +97,7 @@ twoside, % Two side traditional mode where headers and footers change between od
 	
 	We have studied 3D and 2D fluids consisting of $N = 4000$ ($N = 4900$ in 2D case) particles in an NVT ensemble with a Nose–Hoover thermostat. The initial state of the system was a cubic lattice (a square in 2D case) with a size $L = 10$ ($L = 70$ in 2D case) with periodic boundary conditions with Maxwell distribution of velocities. The cutoff radius of interaction was chosen as $r_\text{cut} = 7.5n^{-1/d}$, where $n = N/V$ is the numerical density and $d$ is the space dimension. The mass $m$, length $\sigma$, and energy $\varepsilon$ were normalized to unity.
 	
-	The interatomic potential with machine learning (ML-IAP) for liquid aluminum was also considered\cite{10.1103/PhysRevResearch.5.033162}:
+	The interatomic potential with machine learning (ML-IAP) for liquid aluminum\cite{10.1103/PhysRevResearch.5.033162} was also considered:
 	\begin{equation}
 		\varphi_{\text{ML-IAP}}(r) = \varphi_{\text{ref}}(r) + \sum_{i=1}^{N} E^{i}_{\text{SNAP}},
 	\end{equation}
@@ -107,46 +107,26 @@ twoside, % Two side traditional mode where headers and footers change between od
 	\end{equation}
 	where $\boldsymbol{\beta}$ are linear coefficients and $\mathbf{B}^i$ are descriptors of the local environment of atom $i$. Obtained using machine learning coefficients\cite{10.14278/RODARE.2368} $\boldsymbol{\beta}$ were used in this work.
 	
-	Simulations of liquid \ce{Al} were performed in a three-dimensional cubic box with dimensions of $Lx = Ly = Lz = 10a$, where $a = 4.048$ {\AA} is lattice constant, with mass density $\rho = 2.7 \text{g/cm}^3$. The remaining simulation details including number of particles, thermostating and boundary conditions follow previously established setup.
+	Simulations of liquid \ce{Al} were performed in a three-dimensional face-centered cubic box with dimensions of $Lx = Ly = Lz = 10a$, where $a$ is lattice constant, with mass density $\rho = 2.7 \text{g/cm}^3$. The remaining simulation details including number of particles, thermostating and boundary conditions follow previously established setup.
 	
-	Simulations of fluids of particles interacting via the Lennard-Jones and Yukawa potentials were performed using the numerical time step $\Delta t = 5\times 10^{-3}\sqrt{m\sigma^2/\varepsilon}$. For ML-IAP potential in liquid aluminum the time step $\Delta t = 5$ fs was chosen. All simulations where performed with the LAMMPS package\cite{10.1006/jcph.1995.1039} for $5\times10^4$ time steps, where the first 5000 were used for system relaxation.
+	Moreover, we considered liquid iron using Embedded atom model (EAM). The general form of this potential can be expressed as:
+	%
+	\begin{equation}
+		E_i = \sum_{i} F(\rho_i) + \frac{1}{2} \sum_{i} \sum_{j \neq i} \varphi_{\text{p}}(r_{ij}),
+	\end{equation}
+	where $F_{i}(\rho_{i})$ denotes the embedding energy for atom $i$, a function of the local electron density $\rho_{i}$. This local density is computed as a superposition of the contributions from all neighboring atoms $j$:
+	
+	\begin{equation}
+		\rho_{i} = \sum_{j \neq i} \rho(r_{ij}).
+	\end{equation}
+	
+	In these expressions, $\varphi_{\text{p}}(r_{ij})$ represents the pairwise potential between atoms $i$ and $j$, separated by a distance $r_{ij}$. The specific functional forms for $F(\rho)$, $\rho(r)$, and $\varphi_{\text{p}}(r)$ employed in this work are those established in the corresponding paper\cite{10.1103/PhysRevLett.84.3638}.
+	
+	The mass density $\rho = 10g/cm^3$ was used in the simulations for liquid iron. The remaining simulation parameters correspond to those employed for liquid iron.
+	
+	Simulations of fluids of particles interacting via the Lennard-Jones and Yukawa potentials were performed using the numerical time step $\Delta t = 5\times 10^{-3}\sqrt{m\sigma^2/\varepsilon}$. For ML-IAP and EAM potentials in liquid aluminum and iron the time step $\Delta t = 5$ fs was chosen. All simulations where performed with the LAMMPS package\cite{10.1006/jcph.1995.1039} for $5\times10^4$ time steps, where the first 5000 were used for system relaxation.
 	
 	Fluids in states near the freezing line were considered. Chosen parameters for each system are represented in Table \ref{DQG:Table1}. The Lennard-Jones units are used for LJ and Yukawa systems throughout the paper.
-	
-	\begin{table}[]
-		\caption{Chosen states of considered systems.}
-		\label{DQG:Table1}
-		\begin{tabular}{@{}cccc@{}}
-			\toprule
-			Potential & Dimension & Density & Temperature \\ \midrule
-			ML-IAP (\ce{Al}) & 3D & 2.7 g/cm$^3$ & 1560 --- 2560 K \\
-			\midrule
-			\multirow{11}{*}{LJ} & \multirow{8}{*}{3D} & 1.00 & 1.6 --- 7.0 \\
-			& & 1.10 & 2.7 --- 8.0 \\
-			& & 1.20 & 4.0 --- 9.0 \\
-			& & 1.30 & 5.8 --- 15.6 \\
-			& & 1.40 & 8.1 --- 17.9 \\
-			& & 1.60 & 14.6 --- 21.8 \\
-			& & 1.80 & 24.2 --- 29.8 \\
-			& & 2.00 & 37.4 -- 44.8 \\
-			\cmidrule(l){2-4}
-			& \multirow{3}{*}{2D} & 0.80 & 0.60 --- 3.10 \\
-			& & 0.85 & 1.00 --- 3.50 \\
-			& & 0.90 & 2.00 --- 4.50 \\ \midrule
-			\multirow{12}{*}{Yukawa} & \multicolumn{1}{l}{} & $\kappa$ & $\Gamma$ \\ \cmidrule(l){3-4}
-			& \multirow{7}{*}{3D} & 1.00 & 217 --- 117 \\
-			& & 1.25 & 250 --- 110\\
-			& & 1.50 & 270 --- 86\\
-			& & 2.00 & 440 ---  157\\
-			& & 2.50 & 750 --- 305\\
-			& & 3.00 & 1185 --- 665\\ \cmidrule(l){2-4}
-			& \multirow{5}{*}{2D} & 1.00 & 177 --- 77 \\
-			& & 1.50 & 250 --- 73\\
-			& & 2.00 & 395 --- 112 \\
-			& & 2.50 & 681 --- 285 \\
-			& & 3.00 & 1120 --- 800 \\ \bottomrule
-		\end{tabular}
-	\end{table}
 	
 	To obtain excitation spectra of the fluids, we studied the velocity current spectra\cite{hansen_theory_2013}
 	\begin{equation}
@@ -252,13 +232,13 @@ twoside, % Two side traditional mode where headers and footers change between od
 		\label{DQG:Fig6}
 	\end{figure}
 	
-	\begin{figure}
+	\begin{figure*}
 		\centering
 		\includegraphics[width=\linewidth]{Figs/Fig7}
 		% \input{../vkr_norm/images/MSD}
 		\caption{Scatter plot with colormap of $D(q_g)$ values near the melting point: the color of each point represents the slope value $k$ of the corresponding dependence.}
 		\label{DQG:Fig7}
-	\end{figure}
+	\end{figure*}
 	
 	On the other hand, this effect is not observed in two-dimensional systems, and the least-squares approximations intersect the abscissa axis near the origin. This distinction, as we assume, appears from fundamental differences in the melting scenarios of 2D and 3D systems. In three-dimensional systems, first-order phase transitions dominate, characterized by jumps in thermodynamic parameters and density inhomogeneities, whereas in two-dimensional systems, the Kosterlitz-Thouless-Halperin-Nelson-Young
 	(KTHNY) theory of two-dimensional melting is applied, involving the formation of topological defects and suppression of long-range order\cite{10.1039/C4SM00124A}. These differences are caused by the enhanced role of thermal fluctuations at $d<3$ and the constraints imposed by the Mermin-Wagner theorem\cite{10.1103/physrevlett.17.1133}, which prohibits spontaneous symmetry breaking in two-dimensional systems. However, a detailed study of this phenomenon remains a subject for future work.

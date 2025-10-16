@@ -85,7 +85,7 @@
 %				%				/tikz/every even column/.append style={column sep=0.2cm}
 %			},
 			tick align=inside,
-			tick pos=left,
+%			tick pos=left,
 			x grid style={darkgray176},
 			%		xmajorgrids,
 			xmin=0,
@@ -96,6 +96,7 @@
 			grid style=dashed,
 			%		ylabel={$Dn^{-1/d}/c_L$},
 			%		ylabel shift=-5pt,
+			ytick scale label code/.code={},
 			yticklabel style={
 				/pgf/number format/fixed,
 				/pgf/number format/precision=2
@@ -106,9 +107,9 @@
 			},
 			ymin=0,
 			]
-			\nextgroupplot[ylabel={Self-diffusion coefficient, $Dn^{1/3}/c$}, xlabel={$ q $-gap, $q_gn^{-1/3}/\pi$},
+			\nextgroupplot[ylabel={Self-diffusion coefficient, $Dn^{1/3}/c\cdot10^{-2}$}, xlabel={$ q $-gap, $q_gn^{-1/3}/\pi$},
 			legend style={
-				fill opacity=0, draw opacity=1, text opacity=1, draw=none, at={([yshift=0pt]0.165,0.4)},
+				fill opacity=0, draw opacity=1, text opacity=1, draw=none, at={([yshift=0pt]0.165,0.37)},
 				anchor=south,
 				%				/tikz/every even column/.append style={column sep=0.2cm}
 			},]
@@ -150,9 +151,9 @@
 	
 			\node at (rel axis cs:0.105,0.92) {\textbf{(a) 3D}};
 			
-			\nextgroupplot[ylabel={Self-diffusion coefficient, $Dn^{1/2}/c$}, xlabel={$ q $-gap, $q_gn^{-1/2}/\pi$},
+			\nextgroupplot[ylabel={Self-diffusion coefficient, $Dn^{1/2}/c\cdot10^{-2}$}, xlabel={$ q $-gap, $q_gn^{-1/2}/\pi$},
 			legend style={
-				fill opacity=0, draw opacity=1, text opacity=1, draw=none, at={([yshift=0pt]0.15,0.55)},
+				fill opacity=0, draw opacity=1, text opacity=1, draw=none, at={([yshift=0pt]0.15,0.6)},
 				anchor=south,
 				%				/tikz/every even column/.append style={column sep=0.2cm}
 			},]
@@ -163,7 +164,7 @@
 %			table[x=x,y=y]{Data/Fig4/b/fit1_1.txt};
 %			\addplot [semithick, crimson2143940, forget plot, on layer=foreground, line width=0.5mm]
 %			table[x=x,y=y]{Data/Fig4/b/fit1_2.txt};
-			\addplot [semithick, crimson2143940, forget plot, on layer=foreground, line width=0.5mm, dashed]
+			\addplot [semithick, crimson2143940, forget plot, on layer=foreground]
 			table[x=x,y=y]{Data/Fig4/b/fit1_0.txt};
 			
 			\addplot [semithick, steelblue31119180, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
@@ -173,7 +174,7 @@
 %			table[x=x,y=y]{Data/Fig4/b/fit1.5_1.txt};
 %			\addplot [semithick, steelblue31119180, forget plot, on layer=foreground, line width=0.5mm]
 %			table[x=x,y=y]{Data/Fig4/b/fit1.5_2.txt};
-			\addplot [semithick, steelblue31119180, forget plot, on layer=foreground, line width=0.5mm, dashed]
+			\addplot [semithick, steelblue31119180, forget plot, on layer=foreground]
 			table[x=x,y=y]{Data/Fig4/b/fit1.5_0.txt};
 			
 			\addplot [semithick, darkorange25512714, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
@@ -183,7 +184,7 @@
 %			table[x=x,y=y]{Data/Fig4/b/fit2_1.txt};
 %			\addplot [semithick, darkorange25512714, forget plot, on layer=foreground, line width=0.5mm]
 %			table[x=x,y=y]{Data/Fig4/b/fit2_2.txt};
-			\addplot [semithick, darkorange25512714, forget plot, on layer=foreground, line width=0.5mm, dashed]
+			\addplot [semithick, darkorange25512714, forget plot, on layer=foreground]
 			table[x=x,y=y]{Data/Fig4/b/fit2_0.txt};
 			
 %			\addplot [semithick, cyan, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
@@ -195,7 +196,7 @@
 %%			%			table[x=x,y=y]{Data/Fig4/b/fit2_2.txt};
 %			\addplot [semithick, cyan, forget plot, on layer=foreground, line width=0.5mm, dashed]
 %			table[x=x,y=y]{Data/Fig4/b/fit2.5_0.txt};
-%			
+%%			
 %			\addplot [semithick, red, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
 %			table[x=q,y=D]{Data/Fig4/b/3.txt};
 %			\addlegendentry{$\kappa = 3$};

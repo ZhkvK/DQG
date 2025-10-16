@@ -66,10 +66,10 @@
 	\begin{axis}[
 %		width=0.6\textwidth,
 		legend cell align={left},
-		legend style={fill opacity=0.8, draw opacity=1, text opacity=1, draw=lightgrey204, at={([yshift=10pt]0.5,1)},
+		legend style={fill opacity=0.8, draw opacity=1, draw=none,, text opacity=1, at={([yshift=0pt]0.1,0.78)},
 			anchor=south,},
-		tick align=outside,
-		tick pos=left,
+		tick align=inside,
+%		tick pos=left,
 		x grid style={darkgray176},
 %		xmajorgrids,
 		xlabel={$ q $-gap, $q_gn^{-1/3}/\pi$},
@@ -78,8 +78,9 @@
 		y grid style={darkgray176},
 %		ymajorgrids,
 		grid style=dashed,
-		ylabel={Self-diffusion coefficient, $Dn^{1/3}/c$},
+		ylabel={Self-diffusion coefficient, $Dn^{1/3}/c\cdot10^{-3}$},
 %		ylabel shift=-5pt,
+		ytick scale label code/.code={},
 		yticklabel style={
 			/pgf/number format/fixed,
 			/pgf/number format/precision=2
@@ -95,18 +96,17 @@
 %		\addlegendentry{Single mode analysis};
 %		\addplot [semithick, steelblue31119180, forget plot]
 %		table[x=x,y=y]{../vkr_norm/images/Dvsq_new/Al/1.0/fit2.7.txt};
-%		\addplot [semithick, crimson2143940, line width=0.5mm, mark=o, only marks, mark size=2, mark options={solid}]
-%		table[x=q,y=D]{Data/Fig5/Al.txt};
-%		\addplot [semithick, crimson2143940]
-%		table[x=x,y=y]{Data/Fig5/fitAl.txt};
+		\addplot [semithick, crimson2143940, line width=0.5mm, mark=o, only marks, mark size=2, mark options={solid}]
+		table[x=q,y=D]{Data/Fig5/Al.txt};
+		\addlegendentry{Al};
+		\addplot [semithick, crimson2143940, forget plot]
+		table[x=x,y=y]{Data/Fig5/fitAl.txt};
 		
 		\addplot [semithick, steelblue31119180, line width=0.5mm, mark=o, only marks, mark size=2, mark options={solid}]
 		table[x=q,y=D]{Data/Fig5/Fe.txt};
-		\addplot [semithick, steelblue31119180]
+		\addlegendentry{Fe};
+		\addplot [semithick, steelblue31119180, forget plot]
 		table[x=x,y=y]{Data/Fig5/fitFe.txt};
-		
-		
-		
 	\end{axis}
 %	\spy [black] on (0,0) in node at (1,1);
 \end{tikzpicture}

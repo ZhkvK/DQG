@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  25 SEP 2025 17:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  16 OCT 2025 18:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1649,63 +1649,68 @@ ocal/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 116.
+               Default added (so using `tbp') on input line 131.
 
 
-Overfull \hbox (19.61159pt too wide) in paragraph at lines 119--149
+Overfull \hbox (19.61159pt too wide) in paragraph at lines 134--164
 [][] 
  []
 
 
 
 [2]
-<Figs/Fig1.pdf, id=104, 233.84866pt x 201.75375pt>
+
+<Figs/Fig1.pdf, id=108, 233.84866pt x 201.75375pt>
 File: Figs/Fig1.pdf Graphic file (type pdf)
 <use Figs/Fig1.pdf>
-Package pdftex.def Info: Figs/Fig1.pdf  used on input line 208.
+Package pdftex.def Info: Figs/Fig1.pdf  used on input line 223.
 (pdftex.def)             Requested size: 241.84843pt x 208.65834pt.
 
 
-<Figs/Fig2.pdf, id=117, 235.68552pt x 252.35881pt>
+[3]
+<Figs/Fig2.pdf, id=131, 235.68552pt x 252.35881pt>
 File: Figs/Fig2.pdf Graphic file (type pdf)
 <use Figs/Fig2.pdf>
-Package pdftex.def Info: Figs/Fig2.pdf  used on input line 220.
+Package pdftex.def Info: Figs/Fig2.pdf  used on input line 235.
 (pdftex.def)             Requested size: 231.84843pt x 248.26105pt.
-<Figs/Fig3.pdf, id=118, 496.57921pt x 216.94952pt>
+<Figs/Fig3.pdf, id=132, 496.57921pt x 211.95686pt>
 File: Figs/Fig3.pdf Graphic file (type pdf)
 <use Figs/Fig3.pdf>
-Package pdftex.def Info: Figs/Fig3.pdf  used on input line 227.
-(pdftex.def)             Requested size: 483.69687pt x 211.32796pt.
-<Figs/Fig4.pdf, id=119, 505.83582pt x 216.94652pt>
+Package pdftex.def Info: Figs/Fig3.pdf  used on input line 242.
+(pdftex.def)             Requested size: 483.69687pt x 206.46466pt.
+<Figs/Fig4.pdf, id=133, 505.83582pt x 211.95686pt>
 File: Figs/Fig4.pdf Graphic file (type pdf)
 <use Figs/Fig4.pdf>
-Package pdftex.def Info: Figs/Fig4.pdf  used on input line 233.
-(pdftex.def)             Requested size: 483.69687pt x 207.45856pt.
-<Figs/Fig5.pdf, id=120, 237.0195pt x 221.2235pt>
+Package pdftex.def Info: Figs/Fig4.pdf  used on input line 248.
+(pdftex.def)             Requested size: 483.69687pt x 202.68712pt.
+<Figs/Fig5.pdf, id=134, 232.74855pt x 211.95587pt>
 File: Figs/Fig5.pdf Graphic file (type pdf)
 <use Figs/Fig5.pdf>
-Package pdftex.def Info: Figs/Fig5.pdf  used on input line 240.
-(pdftex.def)             Requested size: 241.84843pt x 225.73273pt.
-<Figs/Fig6.pdf, id=122, 237.88474pt x 271.35178pt>
+Package pdftex.def Info: Figs/Fig5.pdf  used on input line 255.
+(pdftex.def)             Requested size: 241.84843pt x 220.25424pt.
+<Figs/Fig6.pdf, id=136, 251.30286pt x 219.68875pt>
 File: Figs/Fig6.pdf Graphic file (type pdf)
 <use Figs/Fig6.pdf>
-Package pdftex.def Info: Figs/Fig6.pdf  used on input line 249.
-(pdftex.def)             Requested size: 231.84843pt x 264.47374pt.
-<Figs/Fig7.pdf, id=123, 486.50658pt x 216.9455pt>
+Package pdftex.def Info: Figs/Fig6.pdf  used on input line 264.
+(pdftex.def)             Requested size: 231.84843pt x 202.68596pt.
+<Figs/Fig7.pdf, id=137, 486.50658pt x 211.95587pt>
 File: Figs/Fig7.pdf Graphic file (type pdf)
 <use Figs/Fig7.pdf>
-Package pdftex.def Info: Figs/Fig7.pdf  used on input line 257.
-(pdftex.def)             Requested size: 231.84843pt x 103.38783pt.
+Package pdftex.def Info: Figs/Fig7.pdf  used on input line 272.
+(pdftex.def)             Requested size: 483.69687pt x 210.7328pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+
+[4 <./Figs/Fig1.pdf> <./Figs/Fig2.pdf>] [5 <./Figs/Fig3.pdf> <./Figs/Fig4.pdf>]
+
+
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 266.
-
-
-Underfull \vbox (badness 7012) has occurred while \output is active []
-
-
-
-[3]
+               Default added (so using `tbp') on input line 281.
 
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplx/m/sc/10'.
@@ -1715,53 +1720,52 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 2469) in paragraph at lines 311--311
+Underfull \hbox (badness 2469) in paragraph at lines 326--326
 \T1/cmtt/m/n/10 cbo9780511619885$[][]\T1/pplx/m/n/10 (+20) . \T1/pplx/m/sc/10 (
 +20) url\T1/pplx/m/n/10 (+20) : [][]$\T1/cmtt/m/n/10 https : / / www .
  []
 
 
-Underfull \hbox (badness 3679) in paragraph at lines 311--311
+Underfull \hbox (badness 3679) in paragraph at lines 326--326
 \T1/cmtt/m/n/10 9780511619885 / type / book$[][] \T1/pplx/m/n/10 (+20) (vis-ite
 d on
  []
 
 
 
-[4{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
- <./Figs/Fig1.pdf> <./Figs/Fig2.pdf>] [5 <./Figs/Fig3.pdf> <./Figs/Fig4.pdf>]
-[6 <./Figs/Fig5.pdf>]
-
-
-Underfull \hbox (badness 1231) in paragraph at lines 311--311
+[6{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+ <./Figs/Fig5.pdf> <./Figs/Fig6.pdf>] [7 <./Figs/Fig7.pdf>]
+Underfull \hbox (badness 1231) in paragraph at lines 326--326
 []\T1/pplx/m/n/10 (+20) Khrapak, Sergey A. Vi-bra-tional model of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--326
 []\T1/pplx/m/n/10 (+20) Hofmann, Jo-hannes and Das Sarma,
  []
 
 
-Underfull \hbox (badness 6412) in paragraph at lines 311--311
+Underfull \hbox (badness 6412) in paragraph at lines 326--326
 \T1/pplx/m/n/10 (+20) Sankar. Col-lec-tive modes in in-ter-act-ing
  []
 
 
-Underfull \hbox (badness 2134) in paragraph at lines 311--311
+Underfull \hbox (badness 2134) in paragraph at lines 326--326
 \T1/pplx/m/sc/10 (+20) doi\T1/pplx/m/n/10 (+20) : [][]$\T1/cmtt/m/n/10 10 . 110
 3 / PhysRevB . 106 . 205412$[][]\T1/pplx/m/n/10 (+20) .
  []
 
 
-
-[7 <./Figs/Fig6.pdf> <./Figs/Fig7.pdf>]
-Underfull \hbox (badness 1337) in paragraph at lines 311--311
+Underfull \hbox (badness 1337) in paragraph at lines 326--326
 \T1/pplx/m/n/10 (+20) Ther-mo-dy-nam-ics and col-lec-tive modes in
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 311--311
+
+[8]
+Underfull \hbox (badness 1642) in paragraph at lines 326--326
 \T1/pplx/m/sc/10 (+20) url\T1/pplx/m/n/10 (+20) : [][]$\T1/cmtt/m/n/10 http : /
  / archive . org / details /
  []
@@ -1769,43 +1773,43 @@ Underfull \hbox (badness 1642) in paragraph at lines 311--311
 
 
 
-
-[8]
-Underfull \hbox (badness 1199) in paragraph at lines 311--311
+Underfull \hbox (badness 1199) in paragraph at lines 326--326
 \T1/cmtt/m/n/10 0953 -[] 8984 / 27 / 19 / 194104$[][] \T1/pplx/m/n/10 (+20) (vi
 s-ited on
  []
 
 
 
-
-Underfull \hbox (badness 5908) in paragraph at lines 311--311
+[9]
+Underfull \hbox (badness 5908) in paragraph at lines 326--326
 []\T1/pplx/m/n/10 (+20) Yu, Yuanxi et al. Un-veil-ing the solid-
  []
 
 
-Underfull \hbox (badness 3029) in paragraph at lines 311--311
+Underfull \hbox (badness 3029) in paragraph at lines 326--326
 \T1/pplx/m/n/10 (+20) via nano-confinement. In: arXiv preprint
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 311--311
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 326--326
 \T1/pplx/m/n/10 (+20) y-sis method for au-to-mated gen-er-a-tion of
  []
 
 
-
-[9]
-Underfull \hbox (badness 1436) in paragraph at lines 311--311
+Underfull \hbox (badness 1436) in paragraph at lines 326--326
 \T1/cmtt/m/n/10 jcph . 1995 . 1039$[][]\T1/pplx/m/n/10 (+20) . \T1/pplx/m/sc/10
  (+20) url\T1/pplx/m/n/10 (+20) : [][]$\T1/cmtt/m/n/10 https : / / www .
  []
 
 
 
+[10]
 
 
-[10
+
+[11
 
 ] (./DQG-manuscript.aux)
  ***********
@@ -1823,13 +1827,13 @@ Package logreq Info: Writing requests to 'DQG-manuscript.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48098 strings out of 473207
- 1072498 string characters out of 5716288
- 2056835 words of memory out of 5000000
- 69932 multiletter control sequences out of 15000+600000
- 681990 words of font info for 594 fonts, out of 8000000 for 9000
+ 48117 strings out of 473207
+ 1072860 string characters out of 5716288
+ 2050928 words of memory out of 5000000
+ 69935 multiletter control sequences out of 15000+600000
+ 682574 words of font info for 603 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,16n,121p,2551b,1512s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,16n,121p,2551b,1508s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/arev/ArevSans-Oblique.
 pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.p
 fb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
@@ -1850,10 +1854,10 @@ t/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts
 /type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1
 /urw/palatino/uplr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/pa
 latino/uplri8a.pfb>
-Output written on DQG-manuscript.pdf (10 pages, 406860 bytes).
+Output written on DQG-manuscript.pdf (11 pages, 418765 bytes).
 PDF statistics:
- 582 PDF objects out of 1000 (max. 8388607)
- 492 compressed objects within 5 object streams
- 83 named destinations out of 1000 (max. 500000)
+ 600 PDF objects out of 1000 (max. 8388607)
+ 508 compressed objects within 6 object streams
+ 87 named destinations out of 1000 (max. 500000)
  154192 words of extra memory for PDF output out of 184870 (max. 10000000)
 

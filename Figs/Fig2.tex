@@ -75,7 +75,7 @@
 		legend style={fill opacity=0.8, draw opacity=1, text opacity=1, draw=lightgrey204, at={([yshift=10pt]0.5,1)},
 			anchor=south,},
 		tick align=inside,
-		tick pos=left,
+		%tick pos=left,
 		x grid style={darkgrey176},
 		xlabel={Time, \(\displaystyle t\times10^{-3}\)},
 		xmin=0,
@@ -105,7 +105,7 @@
 		]
 		\nextgroupplot[ylabel={$MSD$}, ylabel shift={-5pt},]
 		%		\addplot [semithick, steelblue31119180, mark=o, only marks, mark size=2]
-		%		table[x=q,y=D]{../vkr_norm/images/MSD/yukawa/1.0/1.00.txt};
+		%		table[x=q,y expr=(\thisrow{D}*1000)]{../vkr_norm/images/MSD/yukawa/1.0/1.00.txt};
 		%		\addlegendentry{Single mode analysis};
 		%		\addplot [semithick, steelblue31119180, forget plot]
 		%		table[x=x,y=y]{../vkr_norm/images/MSD/yukawa/1.0/fit1.00.txt};
@@ -119,7 +119,7 @@
 		
 		%		\nextgroupplot
 		%		\addplot [semithick, steelblue31119180, mark=o, only marks, mark size=2]
-		%		table[x=q,y=D]{../vkr_norm/images/MSD/yukawa2d/1.0/0.80.txt};
+		%		table[x=q,y expr=(\thisrow{D}*1000)]{../vkr_norm/images/MSD/yukawa2d/1.0/0.80.txt};
 		%		\addlegendentry{Single mode analysis};
 		%		\addplot [semithick, steelblue31119180, forget plot]
 		%		table[x=x,y=y]{../vkr_norm/images/MSD/yukawa2d/1.0/fit0.80.txt};
@@ -134,7 +134,7 @@
 		
 		%		\nextgroupplot
 		%		\addplot [semithick, steelblue31119180, mark=o, only marks, mark size=2]
-		%		table[x=q,y=D]{../vkr_norm/images/MSD/yukawa/1.0/1.10.txt};
+		%		table[x=q,y expr=(\thisrow{D}*1000)]{../vkr_norm/images/MSD/yukawa/1.0/1.10.txt};
 		%		\addplot [semithick, steelblue31119180, forget plot]
 		%		table[x=x,y=y]{../vkr_norm/images/MSD/yukawa/1.0/fit1.10.txt};
 		%		\addplot [semithick, crimson2143940, mark=o, only marks, mark size=2, mark options={solid}, line width=0.3mm, each nth point={3}]
@@ -148,7 +148,7 @@
 		
 		\nextgroupplot[ylabel={$MSD$}]
 		%		\addplot [semithick, steelblue31119180, mark=o, only marks, mark size=2]
-		%		table[x=q,y=D]{../vkr_norm/images/MSD/yukawa2d/1.0/0.85.txt};
+		%		table[x=q,y expr=(\thisrow{D}*1000)]{../vkr_norm/images/MSD/yukawa2d/1.0/0.85.txt};
 		%		\addplot [semithick, steelblue31119180, forget plot]
 		%		table[x=x,y=y]{../vkr_norm/images/MSD/yukawa2d/1.0/fit0.85.txt};
 		\addplot [semithick, crimson2143940, mark=o, only marks, mark size=2, mark options={solid}, line width=0.3mm, each nth point={3}]
@@ -162,7 +162,7 @@
 		
 		%		\nextgroupplot
 		%		%		\addplot [semithick, steelblue31119180, mark=o, only marks, mark size=2]
-		%		%		table[x=q,y=D]{../vkr_norm/images/MSD/yukawa/1.0/1.20.txt};
+		%		%		table[x=q,y expr=(\thisrow{D}*1000)]{../vkr_norm/images/MSD/yukawa/1.0/1.20.txt};
 		%		%		\addplot [semithick, steelblue31119180, forget plot]
 		%		%		table[x=x,y=y]{../vkr_norm/images/MSD/yukawa/1.0/fit1.20.txt};
 		%		\addplot [semithick, crimson2143940, mark=o, only marks, mark size=2, mark options={solid}, line width=0.3mm, each nth point={3}]
@@ -175,7 +175,7 @@
 		%		
 		%		\nextgroupplot
 		%		%		\addplot [semithick, steelblue31119180, mark=o, only marks, mark size=2]
-		%		%		table[x=q,y=D]{../vkr_norm/images/MSD/yukawa2d/1.0/0.90.txt};
+		%		%		table[x=q,y expr=(\thisrow{D}*1000)]{../vkr_norm/images/MSD/yukawa2d/1.0/0.90.txt};
 		%		%		\addplot [semithick, steelblue31119180, forget plot]
 		%		%		table[x=x,y=y]{../vkr_norm/images/MSD/yukawa2d/1.0/fit0.90.txt};
 		%		\addplot [semithick, crimson2143940, mark=o, only marks, mark size=2, mark options={solid}, line width=0.3mm, each nth point={3}]

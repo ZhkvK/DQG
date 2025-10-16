@@ -2527,6 +2527,60 @@
       \verb https://rodare.hzdr.de/record/2368
       \endverb
     \endentry
+    \entry{10.1103/PhysRevLett.84.3638}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=39fdaa3be3d7c8070f8b18432c84deb7}{%
+           family={Belonoshko},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=5a8a137d77e317c0b11bc8634dae7bd0}{%
+           family={Ahuja},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5f1581b6e37fa321b4e4a1079012fff0}{%
+           family={Johansson},
+           familyi={J\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{11332903a74a5beaa81841bfd2cbd2bb}
+      \strng{fullhash}{11332903a74a5beaa81841bfd2cbd2bb}
+      \strng{fullhashraw}{11332903a74a5beaa81841bfd2cbd2bb}
+      \strng{bibnamehash}{11332903a74a5beaa81841bfd2cbd2bb}
+      \strng{authorbibnamehash}{11332903a74a5beaa81841bfd2cbd2bb}
+      \strng{authornamehash}{11332903a74a5beaa81841bfd2cbd2bb}
+      \strng{authorfullhash}{11332903a74a5beaa81841bfd2cbd2bb}
+      \strng{authorfullhashraw}{11332903a74a5beaa81841bfd2cbd2bb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0031-9007, 1079-7114}
+      \field{journaltitle}{Physical Review Letters}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{16}
+      \field{title}{Quasi-- {{{\emph{Ab Initio}}}} {{Molecular Dynamic Study}} of {{Fe Melting}}}
+      \field{urlday}{16}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{84}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \field{pages}{3638\bibrangedash 3641}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.84.3638
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.84.3638
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.84.3638
+      \endverb
+    \endentry
     \entry{10.1006/jcph.1995.1039}{article}{}{}
       \name{author}{1}{}{%
         {{hash=489ae657404ae2a22eccc4f507442f4d}{%

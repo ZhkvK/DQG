@@ -1,0 +1,155 @@
+\documentclass{article}
+
+\usepackage{cmap}					% поиск в PDF
+\usepackage{mathtext} 				% русские буквы в формулах
+%\usepackage[T2A]{fontenc}			% кодировка
+%\usepackage[utf8]{inputenc}			% кодировка исходного текста
+%\usepackage[english,russian]{babel}	% локализация и переносы
+
+
+%%% Дополнительная работа с математикой
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} % AMS
+\usepackage{icomma} % "Умная" запятая: $0,2$ --- число, $0, 2$ --- перечисление
+
+\usepackage{mhchem} 
+\usepackage{chemfig}
+\usepackage{geometry}
+\geometry{top=25mm}
+\geometry{bottom=35mm}
+\geometry{left=20mm}
+\geometry{right=20mm}
+
+%% Номера формул
+\mathtoolsset{showonlyrefs=true} % Показывать номера только у тех формул, на которые есть \eqref{} в тексте.
+%\usepackage{leqno} % Нумерация формул слева
+
+
+
+%% Перенос знаков в формулах (по Львовскому)
+\newcommand*{\hm}[1]{#1\nobreak\discretionary{}
+	{\hbox{$\mathsurround=0pt #1$}}{}}
+
+%%% Работа с картинками
+\usepackage{graphicx}  % Для вставки рисунков
+\graphicspath{{pictures/}{pictures/linear_accelerator_animation/}}  % папки с картинками
+\setlength\fboxsep{3pt} % Отступ рамки \fbox{} от рисунка
+\setlength\fboxrule{1pt} % Толщина линий рамки \fbox{}
+\usepackage{wrapfig} % Обтекание рисунков текстом
+
+%%% Работа с таблицами
+\usepackage{array,tabularx,tabulary,booktabs} % Дополнительная работа с таблицами
+\usepackage{longtable}  % Длинные таблицы
+\usepackage{multirow} % Слияние строк в таблице
+
+%%% Программирование
+\usepackage{etoolbox} % логические операторы
+
+%%% Другие пакеты
+\usepackage{lastpage} % Узнать, сколько всего страниц в документе.
+\usepackage{soul} % Модификаторы начертания
+\usepackage{csquotes} % Еще инструменты для ссылок
+%\usepackage[style=authoryear,maxcitenames=2,backend=biber,sorting=nty]{biblatex}
+\usepackage{multicol} % Несколько колонок
+
+\title{\textbf{Supplementary material: Dependence of the self-diffusion coefficient \\ on the $q$-gap value in fluids}}
+\author{Konstantin P. Zhukov, Nikita P. Kryuchkov and Stanislav O. Yurchenko}
+\date{\small Bauman Moscow State Technical University, 2nd Baumanskaya Street 5, 105005 Moscow, Russia\\Dated: (\today)}
+
+\begin{document}
+	\maketitle
+	\newpage
+	\begin{table}[]
+		\centering
+	\caption{Chosen states of considered systems.}
+	\label{DQGSM:Table1}
+		\begin{tabular}{@{}cccc@{}}
+			\toprule
+			Potential & Dimension & Density & Temperature \\ \midrule
+			ML-IAP (\ce{Al}) & 3D & 2.7 g/cm$^3$ & 1560 --- 2560 K \\
+			\midrule
+			EAM (\ce{Fe}) & 3D & 3.6 g/cm$^3$ & 1812 --- 2392 K \\
+			\midrule
+			\multirow{11}{*}{LJ} & \multirow{8}{*}{3D} & 1.00 & 1.6 --- 7.0 \\
+			& & 1.10 & 2.7 --- 8.0 \\
+			& & 1.20 & 4.0 --- 9.0 \\
+			& & 1.30 & 5.8 --- 15.6 \\
+			& & 1.40 & 8.1 --- 17.9 \\
+			& & 1.60 & 14.6 --- 21.8 \\
+			& & 1.80 & 24.2 --- 29.8 \\
+			& & 2.00 & 37.4 -- 44.8 \\
+			\cmidrule(l){2-4}
+			& \multirow{3}{*}{2D} & 0.80 & 0.60 --- 3.10 \\
+			& & 0.85 & 1.00 --- 3.50 \\
+			& & 0.90 & 2.00 --- 4.50 \\ \midrule
+			\multirow{12}{*}{Yukawa} & \multicolumn{1}{l}{} & $\kappa$ & $\Gamma$ \\ \cmidrule(l){3-4}
+			& \multirow{7}{*}{3D} & 1.00 & 217 --- 117 \\
+			& & 1.25 & 250 --- 110\\
+			& & 1.50 & 270 --- 86\\
+			& & 2.00 & 440 ---  157\\
+			& & 2.50 & 750 --- 305\\
+			& & 3.00 & 1185 --- 665\\ \cmidrule(l){2-4}
+			& \multirow{5}{*}{2D} & 1.00 & 177 --- 77 \\
+			& & 1.50 & 250 --- 73\\
+			& & 2.00 & 395 --- 112 \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	\begin{figure*}
+		\centering
+		\includegraphics[width=0.6\textwidth]{Figs/Fig1}
+		% \input{../vkr_norm/images/w_lj}
+		\caption{Dispersion relations $\omega_{L,T}(q)$ for a 3D Lennard-Jones fluid at density $n = 1$ and temperature $T = 5$. Transverse ($\omega_T$) and longitudinal ($\omega_L$) modes are represented by orange and gray circles, respectively. The gray and red lines depict the theoretical asymptotic curves $\omega = cq$. The dark gray zone indicates the region where $qn^{-1/3} < 2\pi/L$ and finite-size effects are significant ($L$ being the system size).}
+		\label{DQGSM:Fig1}
+	\end{figure*}
+	
+	\begin{figure*}
+		\centering
+		\includegraphics[width=0.6\textwidth]{Figs/Fig2}
+		% \input{../vkr_norm/images/w_lj}
+		\caption{Dependence of the MSD on the time $t$ for the Lennard-Jones potential in three- and two-dimensional cases.}
+		\label{DQGSM:Fig2}
+	\end{figure*}
+	
+	\begin{figure*}
+		\centering
+		\includegraphics[width=0.9\textwidth]{Figs/Fig7}
+		% \input{../vkr_norm/images/w_lj}
+		\caption{The comparison between $D(q_g)$ relations in extended (blue) and original (red) 3D systems with Lennard-Jones ($n=1$) and Yukawa ($\kappa=1$) potentials.}
+		\label{DQGSM:Fig3}
+	\end{figure*}
+	\begin{table*}[]
+		\centering
+		\caption{Minimum values of $q_g$ and corresponding slopes for studied systems}
+		\label{DQGSM:Table2}
+		\begin{tabular}{@{}ccccc@{}}
+			\toprule
+			Potential & Dimension & Density & \begin{tabular}[c]{@{}c@{}}Value of $q_g$ \\ near the MP, $q_{0}$\end{tabular} & $\left( \dfrac{\text{d}D}{\text{d}q_g}\right)_{q_0}$ \\ \midrule
+			ML-IAP (\ce{Al}) & 3D & 2.7 g/cm$^3$ & 0.078 & 0.013 \\
+			\midrule
+			EAM (\ce{Fe}) & 3D & 3.6 g/cm$^3$ & 0.168 & 0.024 \\
+			\midrule
+			\multirow{11}{*}{LJ} & \multirow{8}{*}{3D} & 1.0 & 0.165 &0.0166 \\
+			& & 1.1 & 0.159 &0.0142 \\
+			& & 1.2 & 0.157 &0.0136 \\
+			& & 1.3 & 0.151 &0.0124 \\
+			& & 1.4 & 0.151 &0.0110 \\
+			& & 1.6 & 0.169 &0.0079 \\
+			& & 1.8 & 0.182 &0.0074 \\
+			& & 2.0 & 0.170 &0.0062 \\ \cmidrule(l){2-5}
+			& \multirow{3}{*}{2D} & 0.80 & 0.172 & \\
+			& & 0.85 & 0.119 &\\
+			& & 0.90 & 0.056 & \\ \midrule
+			\multirow{12}{*}{Yukawa} & \multicolumn{1}{l}{} & $\kappa$ \\ \cmidrule(l){3-3}
+			& \multirow{7}{*}{3D} & 1.00 & 0.115 & 0.015\\
+			& & 1.25 & 0.105 & 0.027\\
+			& & 1.50 & 0.123 & 0.042\\
+			& & 2.00 & 0.106 & 0.052\\
+			& & 2.50 & 0.130 & 0.058\\
+			& & 3.00 & 0.111 & 0.098\\
+			\cmidrule(l){2-5}
+			& \multirow{5}{*}{2D} & 1.00 & 0.090 \\
+			& & 1.50 & 0.097 \\
+			& & 2.00 & 0.129 \\ \bottomrule
+		\end{tabular}
+	\end{table*}
+\end{document}

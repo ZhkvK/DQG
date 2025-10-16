@@ -85,7 +85,7 @@
 				%				%				/tikz/every even column/.append style={column sep=0.2cm}
 				%			},
 			tick align=inside,
-			tick pos=left,
+%			tick pos=left,
 			x grid style={darkgray176},
 			%		xmajorgrids,
 			xmin=0,
@@ -96,6 +96,7 @@
 			grid style=dashed,
 			%		ylabel={$Dn^{-1/d}/c_L$},
 			%		ylabel shift=-5pt,
+			ytick scale label code/.code={},
 			yticklabel style={
 				/pgf/number format/fixed,
 				/pgf/number format/precision=2
@@ -106,45 +107,45 @@
 			},
 			ymin=0,
 			]
-			\nextgroupplot[ylabel={Self-diffusion coefficient, $Dn^{1/3}/c$}, xlabel={$ q $-gap, $q_gn^{-1/3}/\pi$},
+			\nextgroupplot[ylabel={Self-diffusion coefficient, $Dn^{1/3}/c\cdot10^{-3}$}, xlabel={$ q $-gap, $q_gn^{-1/3}/\pi$},
 			legend style={
-				fill opacity=0, draw opacity=1, text opacity=1, draw=none, at={([yshift=0pt]0.165,0.4)},
+				fill opacity=0, draw opacity=1, text opacity=1, draw=none, at={([yshift=0pt]0.27,0.68)},
 				anchor=south,
 				%				/tikz/every even column/.append style={column sep=0.2cm}
 			},]
 			\addplot [semithick, crimson2143940, mark=o, line width=0.5mm, only marks, mark size=2, mark options={solid}]
 			table[x=q,y=D]{Data/Fig7/a/1.txt};
-			\addlegendentry{$\kappa = 1$};
+			\addlegendentry{Original system};
 			\addplot [semithick, crimson2143940, forget plot, on layer=foreground]
 			table[x=x,y=y]{Data/Fig7/a/fit1.txt};
 			
-			\addplot [semithick, cyan, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
+			\addplot [semithick, steelblue31119180, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
 			table[x=q,y=D]{Data/Fig7/a/2.txt};
-			\addlegendentry{$\kappa = 2$};
+			\addlegendentry{Extended system};
 			\addplot [semithick, cyan, forget plot, on layer=foreground]
 			table[x=x,y=y]{Data/Fig7/a/fit2.txt};
 			
 			
-			\node at (rel axis cs:0.105,0.92) {\textbf{(a) LJ 3D}};
+			\node at (rel axis cs:0.14,0.92) {\textbf{(a) LJ 3D}};
 			
-			\nextgroupplot[ylabel={Self-diffusion coefficient, $Dn^{1/3}/c$}, xlabel={$ q $-gap, $q_gn^{-1/3}/\pi$},
+			\nextgroupplot[ylabel={Self-diffusion coefficient, $Dn^{1/3}/c\cdot10^{-3}$}, xlabel={$ q $-gap, $q_gn^{-1/3}/\pi$},
 			legend style={
-				fill opacity=0, draw opacity=1, text opacity=1, draw=none, at={([yshift=0pt]0.15,0.55)},
+				fill opacity=0, draw opacity=1, text opacity=1, draw=none, at={([yshift=0pt]0.27,0.68)},
 				anchor=south,
 				%				/tikz/every even column/.append style={column sep=0.2cm}
 			},]
 			\addplot [semithick, crimson2143940, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
 			table[x=q,y=D]{Data/Fig7/b/1.txt};
-			\addlegendentry{$\kappa = 1$};
-			\addplot [semithick, crimson2143940, forget plot, on layer=foreground, line width=0.5mm, dashed]
+			\addlegendentry{Original system};
+			\addplot [semithick, crimson2143940, forget plot, on layer=foreground]
 			table[x=x,y=y]{Data/Fig7/b/fit1.txt};
 			
 			\addplot [semithick, steelblue31119180, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
 			table[x=q,y=D]{Data/Fig7/b/2.txt};
-			\addlegendentry{$\kappa = 2$};
-			\addplot [semithick, steelblue31119180, forget plot, on layer=foreground, line width=0.5mm, dashed]
+			\addlegendentry{Extended system};
+			\addplot [semithick, steelblue31119180, forget plot, on layer=foreground]
 			table[x=x,y=y]{Data/Fig7/b/fit2.txt};
-			\node at (rel axis cs:0.105,0.92) {\textbf{(b) Yukawa 3D}};
+			\node at (rel axis cs:0.205,0.92) {\textbf{(b) Yukawa 3D}};
 		\end{groupplot}
 		\vspace{2cm}
 	\end{tikzpicture}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  25 SEP 2025 13:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  3 OCT 2025 13:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1195,67 +1195,66 @@ PGFPlots: reading {/home/konst/lj_3d/Dqk_lj.txt}
 Missing character: There is no ; in font nullfont!
 PGFPlots: reading {/home/konst/lj_3d/Dqk_yukawa.txt}
 Missing character: There is no ; in font nullfont!
-PGFPlots: reading {/home/konst/lj_3d/Dqk_yukawa2d.txt}
-Missing character: There is no ; in font nullfont!
 PGFPlots: reading {/home/konst/lj_3d/Dqk_Al.txt}
 Missing character: There is no ; in font nullfont!
 PGFPlots: reading {/home/konst/lj_3d/Dqk_Fe.txt}
 Missing character: There is no ; in font nullfont!
+PGFPlots: reading {Data/Fig6/fit.txt}
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
-28.
+45.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Trying to load font information for OML+zavm on input line 
-128.
+145.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/arev/omlzavm.fd
 File: omlzavm.fd 2006/05/30 Fontinst v1.929 font definitions for OML/zavm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zavm on input line 
-128.
+145.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/arev/omszavm.fd
 File: omszavm.fd 2006/05/30 Fontinst v1.929 font definitions for OMS/zavm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+mdbch on input line
- 128.
+ 145.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/mathdesign/mdbch/omxmdbch.fd
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 128.
+(Font)              scaled to size 9.60007pt on input line 145.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.29605pt on input line 128.
+(Font)              scaled to size 7.29605pt on input line 145.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 128.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 128
+(Font)              scaled to size 5.76004pt on input line 145.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 145
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 128
+LaTeX Font Info:    Trying to load font information for U+msb on input line 145
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for MDA+mdbch on input line
- 128.
+ 145.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 9.60007pt on input line 128.
+(Font)              scaled to size 9.60007pt on input line 145.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 7.29605pt on input line 128.
+(Font)              scaled to size 7.29605pt on input line 145.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 5.76004pt on input line 128.
-LaTeX Font Info:    Trying to load font information for U+zavm on input line 12
-8.
+(Font)              scaled to size 5.76004pt on input line 145.
+LaTeX Font Info:    Trying to load font information for U+zavm on input line 14
+5.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/arev/uzavm.fd
 File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
@@ -1272,20 +1271,20 @@ L3 programming layer <2024-12-25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 28744 strings out of 473207
- 748496 string characters out of 5716288
- 1256831 words of memory out of 5000000
- 51416 multiletter control sequences out of 15000+600000
+ 28756 strings out of 473207
+ 748836 string characters out of 5716288
+ 1298391 words of memory out of 5000000
+ 51428 multiletter control sequences out of 15000+600000
  582860 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,15n,121p,788b,1992s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,15n,121p,788b,2007s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/arev/ArevSans-Oblique.
 pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-
 chb7y.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/mathdesign/mdb
 ch/md-chr7v.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uh
 vr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.p
 fb>
-Output written on Fig6.pdf (1 page, 28564 bytes).
+Output written on Fig6.pdf (1 page, 31034 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream

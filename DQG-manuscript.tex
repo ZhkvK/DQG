@@ -79,7 +79,7 @@ twoside, % Two side traditional mode where headers and footers change between od
 	
 	The definition of $q$-gap was first formulated within the framework of Maxwell-Frenkel approach\cite{frenkel_kinetic_1946} as $q_g = 1/2c\tau$, where $c$ is the transverse sound velocity and $\tau$ is the Maxwell relaxation time. Originally identified in dusty plasmas\cite{10.1103/physrevlett.97.115001}, $q$-gap have since been extensively studied by molecular dynamics simulations of classical liquids\cite{10.1103/PhysRevLett.118.215502, 10.1103/physreve.107.014139, 10.1088/1361-648x/ab962e, 10.1038/s41598-019-46979-y,10.1103/PhysRevLett.125.125501, 10.1016/j.nocx.2019.100030, 10.1063/1.5050708, 10.1063/5.0236047, 10.1063/1.4997640} and other liquid systems\cite{10.1063/5.0054854, 10.1063/1.5088141, 10.1103/physreve.107.055211, 10.1103/PhysRevB.101.214312} and experiments in liquid metals and colloidal suspensions\cite{10.1103/PhysRevLett.102.105502, 10.1088/0953-8984/25/11/112101, 10.1088/0953-8984/27/19/194104, 10.1103/PhysRevB.101.214312, 10.1038/s42005-025-02008-1}. Additionally, the similarity between vibrational modes at high frequency/wave-vector in liquids and solids have been experimentally verified\cite{10.1038/379521a0, 10.1073/pnas.1006319107, 10.1103/revmodphys.77.881, 10.1088/0953-8984/24/37/372101, 10.1063/1.1637145}. The recent paper\cite{10.1016/j.physrep.2020.04.002} reviews the emergence of gapped momentum states across diverse physical systems, ranging from ordinary liquids to holographic models, discussing their origin, implications, and theoretical approaches. The review underscores the importance of $q$-gap in characterizing collective behavior across these systems, particularly in distinguishing between vibrational and diffusive regimes. Recent work\cite{10.1103/PhysRevLett.125.125501} establishes a correlation between the $q$-gap width and the system's heat capacity, implying its potential influence on other thermodynamic properties, including the self-diffusion coefficient. However, this topic remains little studied.
 	
-	In this work we establish a correlation between the self-diffusion coefficient $D$ and the $q$-gap width in classical liquids through molecular dynamics simulations of Lennard-Jones, Yukawa, Embedded atom model (EAM for iron) and machine-learning-based (ML-IAP for liquid aluminum) potentials across 2D and 3D configurations. Analysis of velocity current spectra using two-oscillator model reveals a universal linear dependence of $D$ on $q$-gap width across all investigated interaction potentials in 3D case. We demonstrate that 3D systems exhibit discontinuous growth of $D$ during melting due to crystalline lattice breakdown and metastable cluster formation, while 2D systems show smooth transitions consistent with Kosterlitz-Thouless-Halperin-Nelson-Young
+	In this work we establish a correlation between the self-diffusion coefficient $D$ and the $q$-gap width in classical liquids through molecular dynamics simulations of Lennard-Jones, Yukawa, Embedded atom model (EAM for iron) and machine-learning-based (ML-IAP for liquid aluminum) potentials across 2D and 3D configurations. Analysis of velocity current spectra using two-oscillator model reveals a universal linear dependence of $D$ on $q$-gap width across all investigated interaction potentials in 3D cases. We demonstrate that 3D systems exhibit discontinuous growth of $D$ during melting due to crystalline lattice breakdown and metastable cluster formation, while 2D systems show smooth transitions consistent with Kosterlitz-Thouless-Halperin-Nelson-Young
 	(KTHNY) melting mediated by topological defects. The observed temperature-dependent expansion of the $q$-gap and emergence of solid-like transverse modes for $q > q_g$ confirm its role as a critical parameter separating vibrational and diffusive regimes.
 	
 	\section{Methods}
@@ -126,7 +126,7 @@ twoside, % Two side traditional mode where headers and footers change between od
 	
 	Simulations of fluids of particles interacting via the Lennard-Jones and Yukawa potentials were performed using the numerical time step $\Delta t = 5\times 10^{-3}\sqrt{m\sigma^2/\varepsilon}$. For ML-IAP and EAM potentials in liquid aluminum and iron the time step $\Delta t = 5$ fs was chosen. All simulations where performed with the LAMMPS package\cite{10.1006/jcph.1995.1039} for $5\times10^4$ time steps, where the first 5000 were used for system relaxation.
 	
-	Fluids in states near the freezing line were considered. Chosen parameters for each system are represented in Table \ref{DQG:Table1}. The Lennard-Jones units are used for LJ and Yukawa systems throughout the paper.
+	Fluids in states near the freezing line were considered. Chosen parameters for each system are represented in \href{https://www.latextemplates.com}{supplementary material}. The Lennard-Jones units are used for LJ and Yukawa systems throughout the paper.
 	
 	To obtain excitation spectra of the fluids, we studied the velocity current spectra\cite{hansen_theory_2013}
 	\begin{equation}
@@ -138,14 +138,7 @@ twoside, % Two side traditional mode where headers and footers change between od
 	\end{equation}
 	where $N_q$ is the number of directions used for averaging.
 	
-	Further, to obtain transverse dispersion relations $\omega_{L,T}(q)$ the values of $C_{L, T}(q, \omega)$ were investigated by single mode analysis
-	\begin{equation}
-		\begin{aligned}
-			C_{L, T}(q, \omega)\ \propto\ &\dfrac{\Gamma_{L,T}(q)}{(\omega - \omega_{L,T}(q))^2 + \Gamma^2_{L,T}(q)}\\ &+ \dfrac{\Gamma_{L,T}(q)}{(\omega + \omega_{L,T}(q))^2 + \Gamma^2_{L,T}(q)}
-		\end{aligned}
-		\label{DQG:Eq3}
-	\end{equation}
-	and two-oscillator model\cite{10.1038/s41598-019-46979-y}
+	Further, to obtain transverse dispersion relations $\omega_{L,T}(q)$ the values of $C_{L, T}(q, \omega)$ were investigated by two-oscillator model\cite{10.1038/s41598-019-46979-y}
 	\begin{equation}
 		\begin{aligned}
 			C(q, \omega)\ \propto\ &\dfrac{\Gamma_{L}}{(\omega - \omega_{L})^2 + \Gamma^2_{L}} + \dfrac{\Gamma_{L}}{(\omega + \omega_{L})^2 + \Gamma^2_{L}}\\ &+ \dfrac{(d-1)\Gamma_{T}}{(\omega - \omega_{T})^2 + \Gamma^2_{T}} + \dfrac{(d-1)\Gamma_{T}}{(\omega + \omega_{T})^2 + \Gamma^2_{T}},
@@ -162,7 +155,7 @@ twoside, % Two side traditional mode where headers and footers change between od
 		D = \lim_{t\rightarrow\infty}\dfrac{\text{MSD}(t)}{2dt},
 		\label{DQG:Eq5}
 	\end{equation}
-	where $d$, as clarified earlier, is the space dimension.
+	where $d$, as clarified earlier, is the space dimension. Calculated MSD$(t)$ dependencies for investigated systems are presented in \href{https://www.latextemplates.com}{supplementary material}.
 	% \begin{figure}
 		% \includegraphics[width=\linewidth]{im1.png}
 		% \end{figure}
@@ -176,32 +169,32 @@ twoside, % Two side traditional mode where headers and footers change between od
 		% \end{figure}
 	
 	\section{Results}
-	The fluids were studied at the same densities ($\kappa$ for \ce{Al}), but under different temperatures ($\Gamma$ for \ce{Al}).
+	The fluids were studied at the same densities ($\kappa$ for Yukawa), but under different temperatures ($\Gamma$ for Yukawa).
 	
 	To the obtain excitation spectra, velocity current spectra was calculated in a certain range of wavenumber values. Velocity current spectra for considered systems are presented in \href{https://www.latextemplates.com}{supplementary material}.
 	
 	% Blue symbols on the plots represent calculated $C_T(q, \omega)$ values, while orange symbols correspond to the sum of high- and low-frequency terms $C(q, \omega) = C_L(q, \omega) + (d-1)C_T(q, \omega)$. Solid lines are fits by single-mode analysis (Eq. \eqref{sepmod}) and the two-oscillator model (Eq. \eqref{twomod}). Both approximation models reproduce the corresponding spectral modes with good accuracy. Similar velocity current spectra for other systems are presented in \href{https://www.latextemplates.com}{supplementary material}.
 	
-	To obtain $q$-gap values, dispersion relations $\omega_{L,T}(q)$ using fits by Eqs. \eqref{DQG:Eq3} and \eqref{DQG:Eq4} were calculated. Low-frequency terms $\omega_{T}(q)$ for 3D Lennard-Jones fluid at $T =5,\ 6\ \text{and}\ 7$ are demonstrated in Fig. \ref{DQG:Fig1}.
-	\begin{figure*}
-		\centering
-		\includegraphics[width=0.5\textwidth]{Figs/Fig1}
-		% \input{../vkr_norm/images/w_lj}
-		\caption{Dispersion relations $\omega_{L,T}(q)$ for a 3D Lennard-Jones fluid at density $n = 1$ and temperature $T = 5$. Transverse ($\omega_T$) and longitudinal ($\omega_L$) modes are represented by orange and gray circles, respectively. The gray and red lines depict the theoretical asymptotic curves $\omega = cq$. The dark gray zone indicates the region where $qn^{-1/3} < 2\pi/L$ and finite-size effects are significant ($L$ being the system size).}
-		\label{DQG:Fig1}
-	\end{figure*}
-	Blue and red solid lines on the plots show results obtained using the single-mode analysis \eqref{DQG:Eq3} and the two-oscillator model \eqref{DQG:Eq4}, respectively. For both approximation models, a clear $q$-gap region with zero $\omega_T$ values is observed, confirming the applicability of model \eqref{DQG:Eq4} for identifying gap states in dispersion relations. Note that $q$-gap values calculated using models \eqref{DQG:Eq3} and \eqref{DQG:Eq4} show minor differences at low temperatures but exhibit increasing divergence with rising temperature, consistent with data from recent study\cite{10.1038/s41598-019-46979-y}. Additionally, an increase in $q$-gap width with increasing temperature is observed, which also aligns with results from \cite{10.1103/PhysRevLett.125.125501}. Similar dispersion relations for other systems are presented in \href{https://www.latextemplates.com}{supplementary material}.
-	
+	To obtain $q$-gap values, dispersion relations $\omega_{L,T}(q)$ using fit by Eq. \eqref{DQG:Eq4} were calculated. The examples of low-frequency terms $\omega_{T}(q)$ for  \href{https://www.latextemplates.com}{supplementary material}.
+%	\begin{figure*}
+%		\centering
+%		\includegraphics[width=0.5\textwidth]{Figs/Fig1}
+%		% \input{../vkr_norm/images/w_lj}
+%		\caption{Dispersion relations $\omega_{L,T}(q)$ for a 3D Lennard-Jones fluid at density $n = 1$ and temperature $T = 5$. Transverse ($\omega_T$) and longitudinal ($\omega_L$) modes are represented by orange and gray circles, respectively. The gray and red lines depict the theoretical asymptotic curves $\omega = cq$. The dark gray zone indicates the region where $qn^{-1/3} < 2\pi/L$ and finite-size effects are significant ($L$ being the system size).}
+%		\label{DQG:Fig1}
+%	\end{figure*}
+%	Blue and red solid lines on the plots show results obtained using the single-mode analysis \eqref{DQG:Eq3} and the two-oscillator model \eqref{DQG:Eq4}, respectively. For both approximation models, a clear $q$-gap region with zero $\omega_T$ values is observed, confirming the applicability of model \eqref{DQG:Eq4} for identifying gap states in dispersion relations. Note that $q$-gap values calculated using models \eqref{DQG:Eq3} and \eqref{DQG:Eq4} show minor differences at low temperatures but exhibit increasing divergence with rising temperature, consistent with data from recent study\cite{10.1038/s41598-019-46979-y}. Additionally, an increase in $q$-gap width with increasing temperature is observed, which also aligns with results from \cite{10.1103/PhysRevLett.125.125501}. Similar dispersion relations for other systems are presented in \href{https://www.latextemplates.com}{supplementary material}.
+
 	The dependencies of the self-diffusion coefficient, calculated using particle MSD given by Eq. \eqref{DQG:Eq5}, on the $q$-gap width for the considered systems are shown in Figures \ref{DQG:Fig3}, \ref{DQG:Fig4}, and \ref{DQG:Fig5} for both three- and two-dimensional cases.
 	
-	The plots display values corresponding to the $q$-gap obtained from both single-mode analysis (blue circles) and the two-oscillator model (red diamonds), along with their linear approximations. A clear linear relationship between the coefficient $D$ and the $q$-gap width is observed for both three- and two-dimensional cases.
-	\begin{figure}
-		\centering
-		\includegraphics[width=\linewidth]{Figs/Fig2}
-		% \input{../vkr_norm/images/MSD}
-		\caption{Dependence of the MSD on the time $t$ for the Lennard-Jones potential in three- and two-dimensional cases.}
-		\label{DQG:Fig2}
-	\end{figure}
+	The plots display values corresponding to the $q$-gap along with their approximations. A clear linear relationship between the coefficient $D$ and the $q$-gap width is observed for three-dimensional cases and, notably, it does not pass through the origin, which corresponds to a crystalline state with zero values of $D$ and $q$-gap. Thus, the obtained dependencies indicate a nonlinear growth of the self-diffusion coefficient $D$ with increasing $q$-gap in 3D classical fluids during melting. However, in this work, we were unable to analyze systems with $q_g < q_{0}$ (values of $q_{0}$ are given in Table in \href{https://www.latextemplates.com}{supplementary material}), so clarifying the behavior of $D(q_g)$ in the melting region requires further investigation.
+%	\begin{figure}
+%		\centering
+%		\includegraphics[width=\linewidth]{Figs/Fig2}
+%		% \input{../vkr_norm/images/MSD}
+%		\caption{Dependence of the MSD on the time $t$ for the Lennard-Jones potential in three- and two-dimensional cases.}
+%		\label{DQG:Fig2}
+%	\end{figure}
 	\begin{figure*}
 		\centering
 		\includegraphics[width=\linewidth]{Figs/Fig3}
@@ -222,7 +215,6 @@ twoside, % Two side traditional mode where headers and footers change between od
 		\caption{Dependence of the self-diffusion coefficient $D$ on the $q$-gap width for 3D liquid aluminum at density $\rho = 2.7$ g/cm$^3$.}
 		\label{DQG:Fig5}
 	\end{figure*}
-	Notably, for three-dimensional systems, the dependence does not pass through the origin, which corresponds to a crystalline state with zero values of $D$ and $q$-gap. Thus, the obtained dependencies indicate a nonlinear growth of the self-diffusion coefficient $D$ with increasing $q$-gap in three-dimensional classical fluids during melting. However, in this work, we were unable to analyze systems with $q_g < q_{g,\text{min}}$ (values of $q_{g,\text{min}}$ are given in Table \ref{DQG:Table2}), so clarifying the behavior of $D(q_g)$ in the melting region requires further investigation. A systematic discrepancy between the data from single-mode analysis and the two-oscillator model was also observed: the linearized dependencies show differences in slope angles, the nature of which requires separate study.
 	
 	\begin{figure}
 		\centering
@@ -232,52 +224,57 @@ twoside, % Two side traditional mode where headers and footers change between od
 		\label{DQG:Fig6}
 	\end{figure}
 	
-	\begin{figure*}
-		\centering
-		\includegraphics[width=\linewidth]{Figs/Fig7}
-		% \input{../vkr_norm/images/MSD}
-		\caption{Scatter plot with colormap of $D(q_g)$ values near the melting point: the color of each point represents the slope value $k$ of the corresponding dependence.}
-		\label{DQG:Fig7}
-	\end{figure*}
+%	\begin{figure*}
+%		\centering
+%		\includegraphics[width=\linewidth]{Figs/Fig7}
+%		% \input{../vkr_norm/images/MSD}
+%		\caption{Scatter plot with colormap of $D(q_g)$ values near the melting point: the color of each point represents the slope value $k$ of the corresponding dependence.}
+%		\label{DQG:Fig7}
+%	\end{figure*}
 	
-	On the other hand, this effect is not observed in two-dimensional systems, and the least-squares approximations intersect the abscissa axis near the origin. This distinction, as we assume, appears from fundamental differences in the melting scenarios of 2D and 3D systems. In three-dimensional systems, first-order phase transitions dominate, characterized by jumps in thermodynamic parameters and density inhomogeneities, whereas in two-dimensional systems, the Kosterlitz-Thouless-Halperin-Nelson-Young
+	On the other hand, this effect is not observed in two-dimensional systems, and given dependencies increase smoothly from origin. Nonlinear dependence is observed for 2D Yukawa system. We used fit of Eq. \eqref{DQG:Eq12}.
+	\begin{equation}
+		D \propto q_g^{-\lambda_D/\sqrt{n}}.
+		\label{DQG:Eq12}
+	\end{equation}
+	This distinction, as we assume, appears from fundamental differences in the melting scenarios of 2D and 3D systems. In three-dimensional systems, first-order phase transitions dominate, characterized by jumps in thermodynamic parameters and density inhomogeneities, whereas in two-dimensional systems, the Kosterlitz-Thouless-Halperin-Nelson-Young
 	(KTHNY) theory of two-dimensional melting is applied, involving the formation of topological defects and suppression of long-range order\cite{10.1039/C4SM00124A}. These differences are caused by the enhanced role of thermal fluctuations at $d<3$ and the constraints imposed by the Mermin-Wagner theorem\cite{10.1103/physrevlett.17.1133}, which prohibits spontaneous symmetry breaking in two-dimensional systems. However, a detailed study of this phenomenon remains a subject for future work.
 	
-	\begin{table*}[]
-		\centering
-		\caption{Minimum values of $q_g$ and corresponding slopes for studied systems}
-		\label{DQG:Table2}
-		\begin{tabular}{@{}ccccc@{}}
-			\toprule
-			Potential & Dimension & Density & \begin{tabular}[c]{@{}c@{}}Value of $q_g$ \\ near the MP, $q_{0}$\end{tabular} & $\left( \dfrac{\text{d}D}{\text{d}q_g}\right)_{q_0}$ \\ \midrule
-			ML-IAP (\ce{Al}) & 3D & 2.7 g/cm$^3$ & 0.078 & 0.0130 \\
-			\midrule
-			\multirow{11}{*}{LJ} & \multirow{8}{*}{3D} & 1.0 & 0.165 &0.0166 \\
-			& & 1.1 & 0.159 &0.0142 \\
-			& & 1.2 & 0.157 &0.0136 \\
-			& & 1.3 & 0.151 &0.0124 \\
-			& & 1.4 & 0.151 &0.0110 \\
-			& & 1.6 & 0.169 &0.0079 \\
-			& & 1.8 & 0.182 &0.0074 \\
-			& & 2.0 & 0.170 &0.0062 \\ \cmidrule(l){2-5}
-			& \multirow{3}{*}{2D} & 0.80 & 0.172 & 0.039\\
-			& & 0.85 & 0.119 & 0.034\\
-			& & 0.90 & 0.056 & 0.029\\ \midrule
-			\multirow{12}{*}{Yukawa} & \multicolumn{1}{l}{} & $\kappa$ \\ \cmidrule(l){3-3}
-			& \multirow{7}{*}{3D} & 1.00 & 0.115 & 0.015\\
-			& & 1.25 & 0.105 & 0.027\\
-			& & 1.50 & 0.123 & 0.042\\
-			& & 2.00 & 0.106 & 0.052\\
-			& & 2.50 & 0.130 & 0.058\\
-			& & 3.00 & 0.111 & 0.098\\
-			\cmidrule(l){2-5}
-			& \multirow{5}{*}{2D} & 1.00 & 0.045 \\
-			& & 1.50 & 0.048 \\
-			& & 2.00 & 0.048 \\
-			& & 2.50 & 0.048 \\
-			& & 3.00 & 0.042 \\ \bottomrule
-		\end{tabular}
-	\end{table*}
+%	\begin{table*}[]
+%		\centering
+%		\caption{Minimum values of $q_g$ and corresponding slopes for studied systems}
+%		\label{DQG:Table2}
+%		\begin{tabular}{@{}ccccc@{}}
+%			\toprule
+%			Potential & Dimension & Density & \begin{tabular}[c]{@{}c@{}}Value of $q_g$ \\ near the MP, $q_{0}$\end{tabular} & $\left( \dfrac{\text{d}D}{\text{d}q_g}\right)_{q_0}$ \\ \midrule
+%			ML-IAP (\ce{Al}) & 3D & 2.7 g/cm$^3$ & 0.078 & 0.0130 \\
+%			\midrule
+%			\multirow{11}{*}{LJ} & \multirow{8}{*}{3D} & 1.0 & 0.165 &0.0166 \\
+%			& & 1.1 & 0.159 &0.0142 \\
+%			& & 1.2 & 0.157 &0.0136 \\
+%			& & 1.3 & 0.151 &0.0124 \\
+%			& & 1.4 & 0.151 &0.0110 \\
+%			& & 1.6 & 0.169 &0.0079 \\
+%			& & 1.8 & 0.182 &0.0074 \\
+%			& & 2.0 & 0.170 &0.0062 \\ \cmidrule(l){2-5}
+%			& \multirow{3}{*}{2D} & 0.80 & 0.172 & 0.039\\
+%			& & 0.85 & 0.119 & 0.034\\
+%			& & 0.90 & 0.056 & 0.029\\ \midrule
+%			\multirow{12}{*}{Yukawa} & \multicolumn{1}{l}{} & $\kappa$ \\ \cmidrule(l){3-3}
+%			& \multirow{7}{*}{3D} & 1.00 & 0.115 & 0.015\\
+%			& & 1.25 & 0.105 & 0.027\\
+%			& & 1.50 & 0.123 & 0.042\\
+%			& & 2.00 & 0.106 & 0.052\\
+%			& & 2.50 & 0.130 & 0.058\\
+%			& & 3.00 & 0.111 & 0.098\\
+%			\cmidrule(l){2-5}
+%			& \multirow{5}{*}{2D} & 1.00 & 0.045 \\
+%			& & 1.50 & 0.048 \\
+%			& & 2.00 & 0.048 \\
+%			& & 2.50 & 0.048 \\
+%			& & 3.00 & 0.042 \\ \bottomrule
+%		\end{tabular}
+%	\end{table*}
 	
 	% --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
 	

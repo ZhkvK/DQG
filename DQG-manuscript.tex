@@ -93,7 +93,7 @@ twoside, % Two side traditional mode where headers and footers change between od
 		\label{DQG:Eq2}
 	\end{equation}
 	where $ \varepsilon $ and $ \sigma $ are the energy and length scale of the interaction,
-	respectively; $A$ and $\kappa$ are scaling parameters which where chosen as $A = 1$, $k_D = \lambda_D^{-1} = 1$. Corresponding coupling and screening parameters are $\Gamma = A(ak_BT)^{-1}$ and $\kappa = a\lambda_D^{-1}$, respectively. Here $\lambda_D$ is the Debye length, $a = (3/4\pi n)^{1/3}$ is the Wigner-Seitz radius, where $n = N/V$ is the numerical density, $k_B$ is the Boltzmann constant and $T$ is the temperature.
+	respectively; $A$ and $k_D$ are parameters which where chosen as $A = 1$, $k_D = \lambda_D^{-1} = 1$. Corresponding coupling and screening parameters are $\Gamma = A(ak_BT)^{-1}$ and $\kappa = a\lambda_D^{-1}$, respectively. Here $\lambda_D$ is the Debye length, $a = (3/4\pi n)^{1/3}$ is the Wigner-Seitz radius, where $n = N/V$ is the numerical density, $k_B$ is the Boltzmann constant and $T$ is the temperature.
 	
 	We have studied 3D and 2D fluids consisting of $N = 4000$ ($N = 4900$ in 2D case) particles in an NVT ensemble with a Nose–Hoover thermostat. The initial state of the system was a cubic lattice (a square in 2D case) with a size $L = 10$ ($L = 70$ in 2D case) with periodic boundary conditions with Maxwell distribution of velocities. The cutoff radius of interaction was chosen as $r_\text{cut} = 7.5n^{-1/d}$, where $n = N/V$ is the numerical density and $d$ is the space dimension. The mass $m$, length $\sigma$, and energy $\varepsilon$ were normalized to unity.
 	
@@ -126,7 +126,7 @@ twoside, % Two side traditional mode where headers and footers change between od
 	
 	Simulations of fluids of particles interacting via the Lennard-Jones and Yukawa potentials were performed using the numerical time step $\Delta t = 5\times 10^{-3}\sqrt{m\sigma^2/\varepsilon}$. For ML-IAP and EAM potentials in liquid aluminum and iron the time step $\Delta t = 5$ fs was chosen. All simulations where performed with the LAMMPS package\cite{10.1006/jcph.1995.1039} for $5\times10^4$ time steps, where the first 5000 were used for system relaxation.
 	
-	Fluids in states near the freezing line were considered. Chosen parameters for each system are represented in \href{https://www.latextemplates.com}{supplementary material}. The Lennard-Jones units are used for LJ and Yukawa systems throughout the paper.
+	Fluids in states near the freezing line were considered. Chosen states for each system are represented in \href{https://www.latextemplates.com}{supplementary material}. The Lennard-Jones units are used for LJ and Yukawa systems throughout the paper.
 	
 	To obtain excitation spectra of the fluids, we studied the velocity current spectra\cite{hansen_theory_2013}
 	\begin{equation}
@@ -138,7 +138,7 @@ twoside, % Two side traditional mode where headers and footers change between od
 	\end{equation}
 	where $N_q$ is the number of directions used for averaging.
 	
-	Further, to obtain transverse dispersion relations $\omega_{L,T}(q)$ the values of $C_{L, T}(q, \omega)$ were investigated by two-oscillator model\cite{10.1038/s41598-019-46979-y}
+	Further, to obtain dispersion relations $\omega_{L,T}(q)$ the values of $C_{L, T}(q, \omega)$ were investigated by two-oscillator model\cite{10.1038/s41598-019-46979-y}
 	\begin{equation}
 		\begin{aligned}
 			C(q, \omega)\ \propto\ &\dfrac{\Gamma_{L}}{(\omega - \omega_{L})^2 + \Gamma^2_{L}} + \dfrac{\Gamma_{L}}{(\omega + \omega_{L})^2 + \Gamma^2_{L}}\\ &+ \dfrac{(d-1)\Gamma_{T}}{(\omega - \omega_{T})^2 + \Gamma^2_{T}} + \dfrac{(d-1)\Gamma_{T}}{(\omega + \omega_{T})^2 + \Gamma^2_{T}},
@@ -147,7 +147,7 @@ twoside, % Two side traditional mode where headers and footers change between od
 	\end{equation}
 	where $d$ is the space dimension.
 	
-	The self-diffusion coefficient $D$ was calculated using mean-square deviation of particles:
+	The self-diffusion coefficient $D$ was calculated using mean-squared displacement of particles:
 	\begin{equation}
 		\text{MSD}(t) = N^{-1}\sum_{s}^{N}(\mathbf{r}_s(t) - \mathbf{r}_s(0))^2,
 	\end{equation}
@@ -155,7 +155,7 @@ twoside, % Two side traditional mode where headers and footers change between od
 		D = \lim_{t\rightarrow\infty}\dfrac{\text{MSD}(t)}{2dt},
 		\label{DQG:Eq5}
 	\end{equation}
-	where $d$, as clarified earlier, is the space dimension. Calculated MSD$(t)$ dependencies for investigated systems are presented in \href{https://www.latextemplates.com}{supplementary material}.
+	where $d$, as clarified earlier, is the space dimension. The calculated mean squared displacement dependencies for the investigated systems are illustrated in the \href{https://www.latextemplates.com}{supplementary material}.
 	% \begin{figure}
 		% \includegraphics[width=\linewidth]{im1.png}
 		% \end{figure}
@@ -171,11 +171,11 @@ twoside, % Two side traditional mode where headers and footers change between od
 	\section{Results}
 	The fluids were studied at the same densities ($\kappa$ for Yukawa), but under different temperatures ($\Gamma$ for Yukawa).
 	
-	To the obtain excitation spectra, velocity current spectra was calculated in a certain range of wavenumber values. Velocity current spectra for considered systems are presented in \href{https://www.latextemplates.com}{supplementary material}.
+	To obtain the excitation spectra, velocity current spectra was calculated in a certain range of wavenumber values. The resulting velocity current spectra for the considered systems are presented in the \href{https://www.latextemplates.com}{supplementary material}.
 	
 	% Blue symbols on the plots represent calculated $C_T(q, \omega)$ values, while orange symbols correspond to the sum of high- and low-frequency terms $C(q, \omega) = C_L(q, \omega) + (d-1)C_T(q, \omega)$. Solid lines are fits by single-mode analysis (Eq. \eqref{sepmod}) and the two-oscillator model (Eq. \eqref{twomod}). Both approximation models reproduce the corresponding spectral modes with good accuracy. Similar velocity current spectra for other systems are presented in \href{https://www.latextemplates.com}{supplementary material}.
 	
-	To obtain $q$-gap values, dispersion relations $\omega_{L,T}(q)$ using fit by Eq. \eqref{DQG:Eq4} were calculated. The examples of low-frequency terms $\omega_{T}(q)$ for  \href{https://www.latextemplates.com}{supplementary material}.
+	The $q$-gap values were obtained by calculating the dispersion relations $\omega_{L,T}(q)$ and fitting them using Eq. \eqref{DQG:Eq4}. The \href{https://www.latextemplates.com}{supplementary material}. contains representative examples of the low-frequency terms $\omega_{T}(q)$ for the systems examined in this study.
 %	\begin{figure*}
 %		\centering
 %		\includegraphics[width=0.5\textwidth]{Figs/Fig1}
@@ -208,19 +208,19 @@ twoside, % Two side traditional mode where headers and footers change between od
 		\caption{Dependence of the self-diffusion coefficient $D$ on the $q$-gap width for the Yukawa fluid in (\textbf{a}) 3D and (\textbf{b}) 2D cases. (\textbf{a}) Results for 3D systems screening parameters $\kappa =$ 1 --- 3. Solid colored lines are linear approximations. (\textbf{b}) Results for 2D systems with screening parameters $\kappa =$ 1 --- 3.}
 		\label{DQG:Fig4}
 	\end{figure*}
-	\begin{figure*}
+	\begin{figure}
 		\centering
-		\includegraphics[width=0.5\linewidth]{Figs/Fig5}
+		\includegraphics[width=\linewidth]{Figs/Fig5}
 		% \input{../vkr_norm/images/D_Al}
 		\caption{Dependence of the self-diffusion coefficient $D$ on the $q$-gap width for 3D liquid aluminum at density $\rho = 2.7$ g/cm$^3$.}
 		\label{DQG:Fig5}
-	\end{figure*}
+	\end{figure}
 	
 	\begin{figure}
 		\centering
 		\includegraphics[width=\linewidth]{Figs/Fig6}
 		% \input{../vkr_norm/images/MSD}
-		\caption{Scatter plot with colormap of $D(q_g)$ values near the melting point: the color of each point represents the slope value $k$ of the corresponding dependence.}
+		\caption{Dependence of the self-diffusion coefficient $D$ on the $\left(\text{d}D/\text{d}q_g\right)_{q_0}$ slope for investigated 3D system}
 		\label{DQG:Fig6}
 	\end{figure}
 	
@@ -232,13 +232,20 @@ twoside, % Two side traditional mode where headers and footers change between od
 %		\label{DQG:Fig7}
 %	\end{figure*}
 	
-	On the other hand, this effect is not observed in two-dimensional systems, and given dependencies increase smoothly from origin. Nonlinear dependence is observed for 2D Yukawa system. We used fit of Eq. \eqref{DQG:Eq12}.
+	In contrast, this effect does not manifest in two-dimensional systems, where the given dependencies exhibit a smooth increase from the origin. However, a nonlinear dependence is observed for the 2D Yukawa system. To analyze this behavior, we employed a fit based on Eq. \eqref{DQG:Eq12}.
 	\begin{equation}
 		D \propto q_g^{-\lambda_D/\sqrt{n}}.
 		\label{DQG:Eq12}
 	\end{equation}
-	This distinction, as we assume, appears from fundamental differences in the melting scenarios of 2D and 3D systems. In three-dimensional systems, first-order phase transitions dominate, characterized by jumps in thermodynamic parameters and density inhomogeneities, whereas in two-dimensional systems, the Kosterlitz-Thouless-Halperin-Nelson-Young
-	(KTHNY) theory of two-dimensional melting is applied, involving the formation of topological defects and suppression of long-range order\cite{10.1039/C4SM00124A}. These differences are caused by the enhanced role of thermal fluctuations at $d<3$ and the constraints imposed by the Mermin-Wagner theorem\cite{10.1103/physrevlett.17.1133}, which prohibits spontaneous symmetry breaking in two-dimensional systems. However, a detailed study of this phenomenon remains a subject for future work.
+	
+	We also investigated the dependency of the self-diffusion coefficient on the slope $\left(\frac{\text{d}D}{\text{d}q_g}\right)_{q_0}$ and observed an intriguing behavior, as shown in Figure~\ref{DQG:Fig6}. It appears that this universal relationship is accurately described by the theoretical fit~\eqref{DQG:Eq13}:
+	
+	\begin{equation}
+		D \propto \exp\left[30\left( \frac{\text{d}D}{\text{d}q_g}\right)_{q_0}\right]
+		\label{DQG:Eq13}
+	\end{equation}
+	
+	Furthermore, the extended Lennard-Jones (LJ) and Yukawa systems were analyzed, and a comparison of $D(q_g)$ with the original systems is provided in the \href{https://www.latextemplates.com}{supplementary material}.
 	
 %	\begin{table*}[]
 %		\centering
@@ -279,7 +286,10 @@ twoside, % Two side traditional mode where headers and footers change between od
 	% --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
 	
 	\section{Discussion}
+	The distinction between 3D and 2D systems, as we assume, appears from fundamental differences in the melting scenarios. In three-dimensional systems, first-order phase transitions dominate, characterized by jumps in thermodynamic parameters and density inhomogeneities, whereas in two-dimensional systems, the Kosterlitz-Thouless-Halperin-Nelson-Young
+	(KTHNY) theory of two-dimensional melting is applied, involving the formation of topological defects and suppression of long-range order\cite{10.1039/C4SM00124A}. These differences are caused by the enhanced role of thermal fluctuations at $d<3$ and the constraints imposed by the Mermin-Wagner theorem\cite{10.1103/physrevlett.17.1133}, which prohibits spontaneous symmetry breaking in two-dimensional systems. However, a detailed study of this phenomenon remains a subject for future work.
 	
+	The nonlinear nature of the dependence on Figure \hyperref[DQG:Fig4]{2(b)}, as we suggest, may be caused by the absence of an attraction term in the Yukawa potential. 
 	% --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- -
 	% REFERENCES
 	% --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- -

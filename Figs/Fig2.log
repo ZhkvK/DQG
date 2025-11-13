@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  3 OCT 2025 13:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  13 NOV 2025 13:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -380,29 +380,356 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks31
 \inpenc@posthook=\toks32
 )
+(/usr/local/texlive/2024/texmf-dist/tex/latex/arev/arev.sty
+Package: arev 2005/06/14 0.1 Arev Sans package
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/arev/arevtext.sty
+Package: arevtext 2005/09/01 0.1 Arev Sans Text package
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/arev/arevmath.sty
+Package: arevmath 2006/02/19 0.1 Arev Sans Math package
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks33
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/arev/ams-mdbch.sty
+Package: ams-mdbch 2005/05/08 v1.4 Bold mdbch (Math Design Project) to replace 
+AMS fonts
+Now handling font encoding MDA ...
+... no UTF-8 mapping file for font encoding MDA
+\symmathdesignA=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `mathdesignA' in version `bold'
+(Font)                  MDA/mdbch/b/n --> MDA/mdbch/b/n on input line 47.
+LaTeX Font Info:    Overwriting encoding scheme math defaults on input line 52.
+
+LaTeX Info: Redefining \bold on input line 64.
+LaTeX Font Info:    Redeclaring math delimiter \ulcorner on input line 82.
+LaTeX Font Info:    Redeclaring math delimiter \urcorner on input line 83.
+LaTeX Font Info:    Redeclaring math delimiter \llcorner on input line 84.
+LaTeX Font Info:    Redeclaring math delimiter \lrcorner on input line 85.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 86.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 87.
+LaTeX Font Info:    Redeclaring math symbol \dabar@ on input line 88.
+LaTeX Font Info:    Redeclaring math symbol \lvertneqq on input line 96.
+LaTeX Font Info:    Redeclaring math symbol \gvertneqq on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \nleq on input line 98.
+LaTeX Font Info:    Redeclaring math symbol \ngeq on input line 99.
+LaTeX Font Info:    Redeclaring math symbol \nless on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \ngtr on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \nprec on input line 102.
+LaTeX Font Info:    Redeclaring math symbol \nsucc on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \lneqq on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \gneqq on input line 105.
+LaTeX Font Info:    Redeclaring math symbol \nleqslant on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \ngeqslant on input line 107.
+LaTeX Font Info:    Redeclaring math symbol \lneq on input line 108.
+LaTeX Font Info:    Redeclaring math symbol \gneq on input line 109.
+LaTeX Font Info:    Redeclaring math symbol \npreceq on input line 110.
+LaTeX Font Info:    Redeclaring math symbol \nsucceq on input line 111.
+LaTeX Font Info:    Redeclaring math symbol \precnsim on input line 112.
+LaTeX Font Info:    Redeclaring math symbol \succnsim on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \lnsim on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \gnsim on input line 115.
+LaTeX Font Info:    Redeclaring math symbol \nleqq on input line 116.
+LaTeX Font Info:    Redeclaring math symbol \ngeqq on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \precneqq on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \succneqq on input line 119.
+LaTeX Font Info:    Redeclaring math symbol \precnapprox on input line 120.
+LaTeX Font Info:    Redeclaring math symbol \succnapprox on input line 121.
+LaTeX Font Info:    Redeclaring math symbol \lnapprox on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \gnapprox on input line 123.
+LaTeX Font Info:    Redeclaring math symbol \nsim on input line 124.
+LaTeX Font Info:    Redeclaring math symbol \ncong on input line 125.
+LaTeX Font Info:    Redeclaring math symbol \diagup on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \diagdown on input line 127.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 128.
+LaTeX Font Info:    Redeclaring math symbol \varsupsetneq on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteqq on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteqq on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \supsetneqq on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneqq on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \varsupsetneqq on input line 135.
+LaTeX Font Info:    Redeclaring math symbol \subsetneq on input line 136.
+LaTeX Font Info:    Redeclaring math symbol \supsetneq on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteq on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteq on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \nparallel on input line 140.
+LaTeX Font Info:    Redeclaring math symbol \nmid on input line 141.
+LaTeX Font Info:    Redeclaring math symbol \nshortmid on input line 142.
+LaTeX Font Info:    Redeclaring math symbol \nshortparallel on input line 143.
+LaTeX Font Info:    Redeclaring math symbol \nvdash on input line 144.
+LaTeX Font Info:    Redeclaring math symbol \nVdash on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 146.
+LaTeX Font Info:    Redeclaring math symbol \nVDash on input line 147.
+LaTeX Font Info:    Redeclaring math symbol \ntrianglerighteq on input line 148
+.
+LaTeX Font Info:    Redeclaring math symbol \ntrianglelefteq on input line 149.
+
+LaTeX Font Info:    Redeclaring math symbol \ntriangleleft on input line 150.
+LaTeX Font Info:    Redeclaring math symbol \ntriangleright on input line 151.
+LaTeX Font Info:    Redeclaring math symbol \nleftarrow on input line 152.
+LaTeX Font Info:    Redeclaring math symbol \nrightarrow on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \nLeftarrow on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \nRightarrow on input line 155.
+LaTeX Font Info:    Redeclaring math symbol \nLeftrightarrow on input line 156.
+
+LaTeX Font Info:    Redeclaring math symbol \nleftrightarrow on input line 157.
+
+LaTeX Font Info:    Redeclaring math symbol \divideontimes on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \varnothing on input line 159.
+LaTeX Font Info:    Redeclaring math symbol \nexists on input line 160.
+LaTeX Font Info:    Redeclaring math symbol \Join on input line 161.
+LaTeX Font Info:    Redeclaring math symbol \Finv on input line 165.
+LaTeX Font Info:    Redeclaring math symbol \Game on input line 166.
+LaTeX Font Info:    Redeclaring math symbol \eqsim on input line 167.
+LaTeX Font Info:    Redeclaring math symbol \beth on input line 168.
+LaTeX Font Info:    Redeclaring math symbol \gimel on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \daleth on input line 170.
+LaTeX Font Info:    Redeclaring math symbol \lessdot on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \gtrdot on input line 172.
+LaTeX Font Info:    Redeclaring math symbol \ltimes on input line 173.
+LaTeX Font Info:    Redeclaring math symbol \rtimes on input line 174.
+LaTeX Font Info:    Redeclaring math symbol \shortmid on input line 175.
+LaTeX Font Info:    Redeclaring math symbol \shortparallel on input line 176.
+LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \thicksim on input line 178.
+LaTeX Font Info:    Redeclaring math symbol \thickapprox on input line 179.
+LaTeX Font Info:    Redeclaring math symbol \approxeq on input line 180.
+LaTeX Font Info:    Redeclaring math symbol \succapprox on input line 181.
+LaTeX Font Info:    Redeclaring math symbol \precapprox on input line 182.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 183.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 184.
+
+LaTeX Font Info:    Redeclaring math symbol \Bbbk on input line 189.
+LaTeX Font Info:    Redeclaring math symbol \backepsilon on input line 190.
+LaTeX Font Info:    Redeclaring math symbol \boxdot on input line 192.
+LaTeX Font Info:    Redeclaring math symbol \boxplus on input line 193.
+LaTeX Font Info:    Redeclaring math symbol \boxtimes on input line 194.
+LaTeX Font Info:    Redeclaring math symbol \square on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 196.
+LaTeX Font Info:    Redeclaring math symbol \centerdot on input line 197.
+LaTeX Font Info:    Redeclaring math symbol \lozenge on input line 198.
+LaTeX Font Info:    Redeclaring math symbol \blacklozenge on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \circlearrowright on input line 200
+.
+LaTeX Font Info:    Redeclaring math symbol \circlearrowleft on input line 201.
+
+LaTeX Font Info:    Redeclaring math symbol \rightleftharpoons on input line 20
+3.
+LaTeX Font Info:    Redeclaring math symbol \leftrightharpoons on input line 20
+4.
+LaTeX Font Info:    Redeclaring math symbol \boxminus on input line 205.
+LaTeX Font Info:    Redeclaring math symbol \Vdash on input line 206.
+LaTeX Font Info:    Redeclaring math symbol \Vvdash on input line 207.
+LaTeX Font Info:    Redeclaring math symbol \vDash on input line 208.
+LaTeX Font Info:    Redeclaring math symbol \twoheadrightarrow on input line 20
+9.
+LaTeX Font Info:    Redeclaring math symbol \twoheadleftarrow on input line 210
+.
+LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 211.
+LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 212
+.
+LaTeX Font Info:    Redeclaring math symbol \upuparrows on input line 213.
+LaTeX Font Info:    Redeclaring math symbol \downdownarrows on input line 214.
+LaTeX Font Info:    Redeclaring math symbol \upharpoonright on input line 215.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonright on input line 217
+.
+LaTeX Font Info:    Redeclaring math symbol \upharpoonleft on input line 218.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonleft on input line 219.
+
+LaTeX Font Info:    Redeclaring math symbol \rightarrowtail on input line 220.
+LaTeX Font Info:    Redeclaring math symbol \leftarrowtail on input line 221.
+LaTeX Font Info:    Redeclaring math symbol \leftrightarrows on input line 222.
+
+LaTeX Font Info:    Redeclaring math symbol \rightleftarrows on input line 223.
+
+LaTeX Font Info:    Redeclaring math symbol \Lsh on input line 224.
+LaTeX Font Info:    Redeclaring math symbol \Rsh on input line 225.
+LaTeX Font Info:    Redeclaring math symbol \rightsquigarrow on input line 226.
+
+LaTeX Font Info:    Redeclaring math symbol \leftrightsquigarrow on input line 
+227.
+LaTeX Font Info:    Redeclaring math symbol \looparrowleft on input line 228.
+LaTeX Font Info:    Redeclaring math symbol \looparrowright on input line 229.
+LaTeX Font Info:    Redeclaring math symbol \circeq on input line 230.
+LaTeX Font Info:    Redeclaring math symbol \succsim on input line 231.
+LaTeX Font Info:    Redeclaring math symbol \gtrsim on input line 232.
+LaTeX Font Info:    Redeclaring math symbol \gtrapprox on input line 233.
+LaTeX Font Info:    Redeclaring math symbol \multimap on input line 234.
+LaTeX Font Info:    Redeclaring math symbol \therefore on input line 235.
+LaTeX Font Info:    Redeclaring math symbol \because on input line 236.
+LaTeX Font Info:    Redeclaring math symbol \doteqdot on input line 237.
+LaTeX Font Info:    Redeclaring math symbol \triangleq on input line 239.
+LaTeX Font Info:    Redeclaring math symbol \precsim on input line 240.
+LaTeX Font Info:    Redeclaring math symbol \lesssim on input line 241.
+LaTeX Font Info:    Redeclaring math symbol \lessapprox on input line 242.
+LaTeX Font Info:    Redeclaring math symbol \eqslantless on input line 243.
+LaTeX Font Info:    Redeclaring math symbol \eqslantgtr on input line 244.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqprec on input line 245.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqsucc on input line 246.
+LaTeX Font Info:    Redeclaring math symbol \preccurlyeq on input line 247.
+LaTeX Font Info:    Redeclaring math symbol \leqq on input line 248.
+LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 249.
+LaTeX Font Info:    Redeclaring math symbol \lessgtr on input line 250.
+LaTeX Font Info:    Redeclaring math symbol \backprime on input line 251.
+LaTeX Font Info:    Redeclaring math symbol \risingdotseq on input line 252.
+LaTeX Font Info:    Redeclaring math symbol \fallingdotseq on input line 253.
+LaTeX Font Info:    Redeclaring math symbol \succcurlyeq on input line 254.
+LaTeX Font Info:    Redeclaring math symbol \geqq on input line 255.
+LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 256.
+LaTeX Font Info:    Redeclaring math symbol \gtrless on input line 257.
+LaTeX Font Info:    Redeclaring math symbol \sqsubset on input line 258.
+LaTeX Font Info:    Redeclaring math symbol \sqsupset on input line 259.
+LaTeX Font Info:    Redeclaring math symbol \vartriangleright on input line 260
+.
+LaTeX Font Info:    Redeclaring math symbol \vartriangleleft on input line 261.
+
+LaTeX Font Info:    Redeclaring math symbol \trianglerighteq on input line 262.
+
+LaTeX Font Info:    Redeclaring math symbol \trianglelefteq on input line 263.
+LaTeX Font Info:    Redeclaring math symbol \bigstar on input line 264.
+LaTeX Font Info:    Redeclaring math symbol \between on input line 265.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangledown on input line 26
+6.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 2
+67.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 26
+8.
+LaTeX Font Info:    Redeclaring math symbol \vartriangle on input line 269.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangle on input line 270.
+LaTeX Font Info:    Redeclaring math symbol \triangledown on input line 271.
+LaTeX Font Info:    Redeclaring math symbol \eqcirc on input line 272.
+LaTeX Font Info:    Redeclaring math symbol \lesseqgtr on input line 273.
+LaTeX Font Info:    Redeclaring math symbol \gtreqless on input line 274.
+LaTeX Font Info:    Redeclaring math symbol \lesseqqgtr on input line 275.
+LaTeX Font Info:    Redeclaring math symbol \gtreqqless on input line 276.
+LaTeX Font Info:    Redeclaring math symbol \Rrightarrow on input line 277.
+LaTeX Font Info:    Redeclaring math symbol \Lleftarrow on input line 278.
+LaTeX Font Info:    Redeclaring math symbol \veebar on input line 279.
+LaTeX Font Info:    Redeclaring math symbol \barwedge on input line 280.
+LaTeX Font Info:    Redeclaring math symbol \doublebarwedge on input line 281.
+LaTeX Font Info:    Redeclaring math symbol \angle on input line 282.
+LaTeX Font Info:    Redeclaring math symbol \measuredangle on input line 283.
+LaTeX Font Info:    Redeclaring math symbol \sphericalangle on input line 284.
+LaTeX Font Info:    Redeclaring math symbol \varpropto on input line 285.
+LaTeX Font Info:    Redeclaring math symbol \smallsmile on input line 286.
+LaTeX Font Info:    Redeclaring math symbol \smallfrown on input line 287.
+LaTeX Font Info:    Redeclaring math symbol \Subset on input line 288.
+LaTeX Font Info:    Redeclaring math symbol \Supset on input line 289.
+LaTeX Font Info:    Redeclaring math symbol \Cup on input line 290.
+LaTeX Font Info:    Redeclaring math symbol \Cap on input line 292.
+LaTeX Font Info:    Redeclaring math symbol \curlywedge on input line 294.
+LaTeX Font Info:    Redeclaring math symbol \curlyvee on input line 295.
+LaTeX Font Info:    Redeclaring math symbol \leftthreetimes on input line 296.
+LaTeX Font Info:    Redeclaring math symbol \rightthreetimes on input line 297.
+
+LaTeX Font Info:    Redeclaring math symbol \subseteqq on input line 298.
+LaTeX Font Info:    Redeclaring math symbol \supseteqq on input line 299.
+LaTeX Font Info:    Redeclaring math symbol \bumpeq on input line 300.
+LaTeX Font Info:    Redeclaring math symbol \Bumpeq on input line 301.
+LaTeX Font Info:    Redeclaring math symbol \lll on input line 302.
+LaTeX Font Info:    Redeclaring math symbol \ggg on input line 304.
+LaTeX Font Info:    Redeclaring math symbol \circledS on input line 306.
+LaTeX Font Info:    Redeclaring math symbol \pitchfork on input line 307.
+LaTeX Font Info:    Redeclaring math symbol \dotplus on input line 308.
+LaTeX Font Info:    Redeclaring math symbol \backsim on input line 309.
+LaTeX Font Info:    Redeclaring math symbol \backsimeq on input line 310.
+LaTeX Font Info:    Redeclaring math symbol \complement on input line 311.
+LaTeX Font Info:    Redeclaring math symbol \intercal on input line 312.
+LaTeX Font Info:    Redeclaring math symbol \circledcirc on input line 313.
+LaTeX Font Info:    Redeclaring math symbol \circledast on input line 314.
+LaTeX Font Info:    Redeclaring math symbol \circleddash on input line 315.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/zavm/m/n on input line 71.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/zavm/m/it on input line 72.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/zavm/m/n on input line 73.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/mdbch/m/n on input line 74.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/zavm/b/n on input line 81.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> T1/fvm/m/n on input line 82.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 85.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 89.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 91.
+LaTeX Font Info:    Redeclaring math alphabet \mathbb on input line 105.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/zavm/b/n on input line 112.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/zavm/b/it on input line 113.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/zavm/b/n on input line 114.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/mdbch/b/n on input line 115.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/zavm/b/n on input line 118.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> T1/fvm/b/n on input line 119.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 123.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 124.
+\symextraup=\mathgroup7
+\symextraitalic=\mathgroup8
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/arev/arevsymbols.tex
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \hslash on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \digamma on input line 25.
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \backepsilon on input line 35.
+LaTeX Font Info:    Redeclaring math symbol \emptyset on input line 37.
+LaTeX Font Info:    Redeclaring math symbol \eth on input line 57.
+LaTeX Font Info:    Redeclaring math symbol \mho on input line 58.
+)
+LaTeX Font Info:    Redeclaring math symbol \varnothing on input line 204.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/bera/beramono.sty
+Package: beramono 2004/01/31 (WaS)
+))
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/helvet.sty
 Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/sfmath/sfmath.sty
 Package: sfmath 2007/08/27 v0.8 sans serif maths
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/phv/m/n on input line 329.
+(Font)                  OT1/zavm/m/n --> OT1/phv/m/n on input line 329.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 330.
-\symSFMath=\mathgroup4
+(Font)                  OT1/zavm/b/n --> OT1/phv/bx/n on input line 330.
+\symSFMath=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `SFMath' in version `normal'
 (Font)                  OT1/phv/m/sl --> OT1/phv/m/sl on input line 343.
 LaTeX Font Info:    Overwriting symbol font `SFMath' in version `bold'
 (Font)                  OT1/phv/m/sl --> OT1/phv/bx/sl on input line 344.
 LaTeX Font Info:    Redeclaring math symbol \imath on input line 398.
 LaTeX Font Info:    Redeclaring math symbol \jmath on input line 399.
-\symSFMathUp=\mathgroup5
+\symSFMathUp=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `SFMathUp' in version `normal'
 (Font)                  OT1/phv/m/n --> OT1/phv/m/n on input line 406.
 LaTeX Font Info:    Overwriting symbol font `SFMathUp' in version `bold'
 (Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 407.
 LaTeX Font Info:    Redeclaring math symbol \ldotp on input line 410.
-\symSFMathGreek=\mathgroup6
+\symSFMathGreek=\mathgroup11
 LaTeX Font Info:    Overwriting symbol font `SFMathGreek' in version `normal'
 (Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 419.
 LaTeX Font Info:    Overwriting symbol font `SFMathGreek' in version `bold'
@@ -418,7 +745,7 @@ LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 429.
 LaTeX Font Info:    Redeclaring math symbol \Phi on input line 430.
 LaTeX Font Info:    Redeclaring math symbol \Psi on input line 431.
 LaTeX Font Info:    Redeclaring math symbol \Omega on input line 432.
-\symSFMathUpGreek=\mathgroup7
+\symSFMathUpGreek=\mathgroup12
 LaTeX Font Info:    Overwriting symbol font `SFMathUpGreek' in version `normal'
 
 (Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 436.
@@ -426,35 +753,32 @@ LaTeX Font Info:    Overwriting symbol font `SFMathUpGreek' in version `bold'
 (Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 437.
 LaTeX Font Info:    Overwriting math alphabet `\mathnormal' in version `normal'
 
-(Font)                  OML/cmm/m/it --> OT1/phv/m/sl on input line 446.
+(Font)                  OML/zavm/m/it --> OT1/phv/m/sl on input line 446.
 LaTeX Font Info:    Overwriting math alphabet `\mathnormal' in version `bold'
-(Font)                  OML/cmm/b/it --> OT1/phv/bx/sl on input line 447.
+(Font)                  OML/zavm/b/it --> OT1/phv/bx/sl on input line 447.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  OT1/phv/m/n --> OT1/phv/m/n on input line 449.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  OT1/phv/bx/n --> OT1/phv/bx/n on input line 450.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 452.
+(Font)                  OT1/zavm/b/n --> OT1/phv/bx/n on input line 452.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 453.
+(Font)                  OT1/zavm/b/n --> OT1/phv/bx/n on input line 453.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/phv/m/sl on input line 455.
+(Font)                  OML/zavm/m/it --> OT1/phv/m/sl on input line 455.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/phv/bx/sl on input line 456.
+(Font)                  OML/zavm/b/it --> OT1/phv/bx/sl on input line 456.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 458.
+(Font)                  OML/zavm/m/it --> OT1/phv/m/n on input line 458.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/phv/bx/n on input line 459.
+(Font)                  OML/zavm/b/it --> OT1/phv/bx/n on input line 459.
 LaTeX Font Info:    Overwriting math alphabet `\mathsl' in version `bold'
 (Font)                  OT1/phv/m/sl --> OT1/phv/bx/sl on input line 466.
-)
-(/usr/local/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/was/upgreek.sty
 Package: upgreek 2003/02/12 v2.0 (WaS)
 Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
-\symugrf@m=\mathgroup8
+\symugrf@m=\mathgroup13
 LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 (Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
 )
@@ -463,9 +787,9 @@ LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks33
-\t@pgfplots@tokb=\toks34
-\t@pgfplots@tokc=\toks35
+\t@pgfplots@toka=\toks34
+\t@pgfplots@tokb=\toks35
+\t@pgfplots@tokc=\toks36
 \pgfplots@tmpa=\dimen194
 \c@pgfplots@coordindex=\count294
 \c@pgfplots@scanlineindex=\count295
@@ -479,9 +803,9 @@ soldpgfsupp_loader.code.tex
 (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.cod
 e.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
-\t@pgf@toka=\toks36
-\t@pgf@tokb=\toks37
-\t@pgf@tokc=\toks38
+\t@pgf@toka=\toks37
+\t@pgf@tokb=\toks38
+\t@pgf@tokc=\toks39
 
 (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplot
 soldpgfsupp_pgfutil-common-lists.tex))
@@ -500,7 +824,7 @@ matrix.code.tex)
 (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable
 shared.code.tex
 \c@pgfplotstable@counta=\count297
-\t@pgfplotstable@a=\toks39
+\t@pgfplotstable@a=\toks40
 )
 (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
 deque.code.tex)
@@ -595,7 +919,7 @@ Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \col@sep=\dimen264
 \ar@mcellbox=\box65
 \extrarowheight=\dimen265
-\NC@list=\toks40
+\NC@list=\toks41
 \extratabsurround=\skip51
 \backup@length=\skip52
 \ar@cellbox=\box66
@@ -715,7 +1039,7 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks41
+\@emptytoks=\toks42
 \ex@=\dimen270
 ))
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -755,36 +1079,25 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \dotsspace@=\muskip17
 \c@parentequation=\count311
 \dspbrk@lvl=\count312
-\tag@help=\toks42
+\tag@help=\toks43
 \row@=\count313
 \column@=\count314
 \maxfields@=\count315
-\andhelp@=\toks43
+\andhelp@=\toks44
 \eqnshift@=\dimen273
 \alignsep@=\dimen274
 \tagshift@=\dimen275
 \tagwidth@=\dimen276
 \totwidth@=\dimen277
 \lineht@=\dimen278
-\@envbody=\toks44
+\@envbody=\toks45
 \multlinegap=\skip54
 \multlinetaggap=\skip55
-\mathdisplay@stack=\toks45
+\mathdisplay@stack=\toks46
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup9
-\symAMSb=\mathgroup10
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 28
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 26
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/t1phv.fd
@@ -792,7 +1105,7 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 \pgf@layerbox@foreground=\box92
 \pgf@layerboxsaved@foreground=\box93
-Package pgfplots info on input line 54: Setting layers 'background,main,foregro
+Package pgfplots info on input line 52: Setting layers 'background,main,foregro
 und'...
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -803,38 +1116,73 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 (./Fig2.aux)
 \openout1 = `Fig2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-
-(/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 54.
+LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 5
+4.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/mathdesign/mdacmr.fd
+File: mdacmr.fd 
+)
+LaTeX Font Info:    ... okay on input line 54.
+ (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count317
 \scratchdimen=\dimen279
 \scratchbox=\box95
 \nofMPsegments=\count318
 \nofMParguments=\count319
-\everyMPshowfont=\toks46
+\everyMPshowfont=\toks47
 \MPscratchCnt=\count320
 \MPscratchDim=\dimen280
 \MPnumerator=\count321
 \makeMPintoPDFobject=\count322
-\everyMPtoPDFconversion=\toks47
+\everyMPtoPDFconversion=\toks48
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -843,321 +1191,101 @@ e
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.18} (current compat level: 1.3).
 
-PGFPlots: reading {Data/Fig2/data1.dat}
-NOTE: coordinate (1Y2.5e0],1.48394) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y5.0e0],2.4471) has been dropped because of a coordinate fil
-ter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.0e1],4.28212) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.25e1],5.11163) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.75e1],7.12899) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.0e1],8.17219) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.5e1],10.0692) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.75e1],10.892) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.25e1],12.849) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.5e1],13.7733) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y4.0e1],15.6849) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y4.25e1],16.7438) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y4.75e1],18.3106) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y5.0e1],19.2444) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y5.5e1],21.3103) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y5.75e1],22.3461) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y6.25e1],24.2222) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y6.5e1],25.1249) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y7.0e1],26.9132) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y7.25e1],27.8885) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y7.75e1],29.9045) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y8.0e1],30.8025) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y8.5e1],32.7588) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y8.75e1],33.5336) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y9.25e1],35.2942) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y9.5e1],36.0584) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.0e2],37.9144) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.025e2],38.8614) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.075e2],40.4436) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.1e2],41.3217) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.15e2],42.8076) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.175e2],43.714) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.225e2],45.7709) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.25e2],46.5106) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.3e2],48.3561) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.325e2],49.1476) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.375e2],51.1119) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.4e2],52.0791) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.45e2],53.7711) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.475e2],54.7183) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.525e2],56.2707) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.55e2],57.0559) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.6e2],58.6844) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.625e2],59.613) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.675e2],61.3316) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.7e2],62.1939) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.75e2],64.3426) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.775e2],65.1122) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.825e2],66.86) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.85e2],67.8315) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.9e2],69.9767) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.925e2],70.9522) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.975e2],72.9296) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.0e2],74.0972) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.05e2],75.8686) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.075e2],76.6101) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.125e2],78.0388) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.15e2],79.1312) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.2e2],81.0645) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.225e2],81.606) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.275e2],83.279) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.3e2],84.4125) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.35e2],86.1782) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.375e2],86.9469) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.425e2],88.5814) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.45e2],89.3787) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-PGFPlots: reading {Data/Fig2/data_fit1.txt}
+PGFPlots: reading {/home/konst/lj_3d/Dqk_lj.txt}
 Missing character: There is no ; in font nullfont!
+PGFPlots: reading {/home/konst/lj_3d/Dqk_yukawa.txt}
+Missing character: There is no ; in font nullfont!
+PGFPlots: reading {/home/konst/lj_3d/Dqk_Al.txt}
+Missing character: There is no ; in font nullfont!
+PGFPlots: reading {/home/konst/lj_3d/Dqk_Fe.txt}
+Missing character: There is no ; in font nullfont!
+PGFPlots: reading {Data/Fig6/fit.txt}
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
-49.
+45.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 149
+LaTeX Font Info:    Trying to load font information for OML+zavm on input line 
+145.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/arev/omlzavm.fd
+File: omlzavm.fd 2006/05/30 Fontinst v1.929 font definitions for OML/zavm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+zavm on input line 
+145.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/arev/omszavm.fd
+File: omszavm.fd 2006/05/30 Fontinst v1.929 font definitions for OMS/zavm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+mdbch on input line
+ 145.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/mathdesign/mdbch/omxmdbch.fd
+File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
+)
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 9.60007pt on input line 145.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 7.29605pt on input line 145.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 145.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 145
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 149
+LaTeX Font Info:    Trying to load font information for U+msb on input line 145
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-PGFPlots: reading {Data/Fig2/data2.dat}
+LaTeX Font Info:    Trying to load font information for MDA+mdbch on input line
+ 145.
 
-NOTE: coordinate (1Y2.5e0],0.638395) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y5.0e0],0.973863) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.0e1],1.54743) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.25e1],1.92448) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.75e1],2.57775) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.0e1],3.05655) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.5e1],3.88438) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.75e1],4.27558) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.25e1],4.87988) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.5e1],5.12545) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y4.0e1],6.10944) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y4.25e1],6.5743) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y4.75e1],7.35032) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y5.0e1],7.7897) has been dropped because of a coordinate fil
-ter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y5.5e1],8.33643) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y5.75e1],8.73657) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y6.25e1],9.99624) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y6.5e1],10.5303) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y7.0e1],11.2141) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y7.25e1],11.7965) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y7.75e1],12.3226) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y8.0e1],12.7261) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y8.5e1],13.7458) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y8.75e1],14.1109) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y9.25e1],14.7517) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y9.5e1],15.033) has been dropped because of a coordinate fil
-ter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.0e2],17.3183) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.025e2],18.3187) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.075e2],18.7807) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.1e2],19.2972) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.15e2],20.3221) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.175e2],20.5829) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.225e2],20.7506) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.25e2],20.7338) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.3e2],21.2937) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.325e2],21.543) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.375e2],21.8737) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.4e2],23.3) has been dropped because of a coordinate filte
-r. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.45e2],25.0811) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.475e2],25.1828) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.525e2],25.1149) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.55e2],25.3936) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.6e2],25.8036) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.625e2],25.9859) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.675e2],26.8569) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.7e2],26.9912) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.75e2],27.1883) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.775e2],27.5248) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.825e2],28.3413) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.85e2],29.4003) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.9e2],31.5777) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.925e2],31.5369) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.975e2],31.8214) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.0e2],32.6277) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.05e2],33.4418) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.075e2],34.4059) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.125e2],35.0475) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.15e2],34.9222) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.2e2],34.2404) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.225e2],34.9857) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.275e2],35.8587) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.3e2],35.8329) has been dropped because of a coordinate fi
-lter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.35e2],36.2416) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.375e2],36.1134) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.425e2],37.0503) has been dropped because of a coordinate 
-filter. (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.45e2],37.3256) has been dropped because of a coordinate f
-ilter. (see also unbounded coords=jump). 
-PGFPlots: reading {Data/Fig2/data_fit2.txt}
+(/usr/local/texlive/2024/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
+File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
+)
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 9.60007pt on input line 145.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 7.29605pt on input line 145.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 5.76004pt on input line 145.
+LaTeX Font Info:    Trying to load font information for U+zavm on input line 14
+5.
 
+(/usr/local/texlive/2024/texmf-dist/tex/latex/arev/uzavm.fd
+File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
+)
 
 [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./Fig2.aux)
+al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2024
+/texmf-dist/fonts/enc/dvips/arev/arevoml.enc}] (./Fig2.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 27970 strings out of 473207
- 735121 string characters out of 5716288
- 1302862 words of memory out of 5000000
- 50727 multiletter control sequences out of 15000+600000
- 574869 words of font info for 63 fonts, out of 8000000 for 9000
+ 28754 strings out of 473207
+ 748822 string characters out of 5716288
+ 1298452 words of memory out of 5000000
+ 51428 multiletter control sequences out of 15000+600000
+ 581301 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,7n,121p,788b,2036s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
-/usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/lo
-cal/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/tex
-live/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Fig2.pdf (1 page, 40647 bytes).
+ 117i,15n,121p,788b,2007s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/arev/ArevSans-Oblique.
+pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-
+chb7y.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.p
+fb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on Fig2.pdf (1 page, 28494 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 33 PDF objects out of 1000 (max. 8388607)
+ 21 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

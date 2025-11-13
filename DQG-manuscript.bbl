@@ -1,2778 +1,724 @@
-% $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.3 $
-% Do not modify the above lines!
-%
-% This is an auxiliary file used by the 'biblatex' package.
-% This file may safely be deleted. It will be recreated by
-% biber as required.
-%
-\begingroup
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{50}%
 \makeatletter
-\@ifundefined{ver@biblatex.sty}
-  {\@latex@error
-     {Missing 'biblatex' package}
-     {The bibliography requires the 'biblatex' package.}
-      \aftergroup\endinput}
-  {}
-\endgroup
-
-
-\refsection{0}
-  \datalist[entry]{none/global//global/global/global}
-    \entry{978-981-02-4652-5}{book}{}{}
-      \name{author}{3}{}{%
-        {{hash=ce3ae801d9dfce256f4a18ad269d97ed}{%
-           family={March},
-           familyi={M\bibinitperiod},
-           given={Norman\bibnamedelima H.},
-           giveni={N\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=cee8417589c0457dbcb7e7ddecfead63}{%
-           family={Tosi},
-           familyi={T\bibinitperiod},
-           given={Mario\bibnamedelima P.},
-           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=cee8417589c0457dbcb7e7ddecfead63}{%
-           family={Tosi},
-           familyi={T\bibinitperiod},
-           given={Mario\bibnamedelima P.},
-           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {eng}%
-      }
-      \list{location}{1}{%
-        {River Edge, NJ}%
-      }
-      \list{publisher}{1}{%
-        {World Scientific}%
-      }
-      \strng{namehash}{144e943938d1ca516b1e153e4393399f}
-      \strng{fullhash}{144e943938d1ca516b1e153e4393399f}
-      \strng{fullhashraw}{144e943938d1ca516b1e153e4393399f}
-      \strng{bibnamehash}{144e943938d1ca516b1e153e4393399f}
-      \strng{authorbibnamehash}{144e943938d1ca516b1e153e4393399f}
-      \strng{authornamehash}{144e943938d1ca516b1e153e4393399f}
-      \strng{authorfullhash}{144e943938d1ca516b1e153e4393399f}
-      \strng{authorfullhashraw}{144e943938d1ca516b1e153e4393399f}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-981-02-4652-5, 978-981-02-4639-6}
-      \field{title}{Introduction to liquid state physics}
-      \field{year}{2002}
-    \endentry
-    \entry{978-0-521-39293-8}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=14832c712b0bfa8577f748ecef6811e1}{%
-           family={Dove},
-           familyi={D\bibinitperiod},
-           given={Martin\bibnamedelima T.},
-           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Cambridge University Press}%
-      }
-      \strng{namehash}{14832c712b0bfa8577f748ecef6811e1}
-      \strng{fullhash}{14832c712b0bfa8577f748ecef6811e1}
-      \strng{fullhashraw}{14832c712b0bfa8577f748ecef6811e1}
-      \strng{bibnamehash}{14832c712b0bfa8577f748ecef6811e1}
-      \strng{authorbibnamehash}{14832c712b0bfa8577f748ecef6811e1}
-      \strng{authornamehash}{14832c712b0bfa8577f748ecef6811e1}
-      \strng{authorfullhash}{14832c712b0bfa8577f748ecef6811e1}
-      \strng{authorfullhashraw}{14832c712b0bfa8577f748ecef6811e1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The vibrations of atoms inside crystals - lattice dynamics - is basic to many fields of study in the solid-state and mineral sciences. Lattice dynamics is becoming increasingly important for work on mineral stability. This book provides a self-contained text that introduces the subject from a basic level and then takes the reader through real applications of the theory. The book is aimed at advanced undergraduates, graduate students and research workers in the earth and solid-state sciences who need to incorporate lattice dynamic treatments into their work. Applications include the use of lattice dynamics instabilities to study the origin of phase transitions in crystals and the use of vibrational spectra to obtain information about inter-atomic forces.}
-      \field{edition}{1}
-      \field{isbn}{978-0-521-39293-8, 978-0-521-39894-7, 978-0-511-61988-5}
-      \field{month}{10}
-      \field{title}{Introduction to {Lattice} {Dynamics}}
-      \field{urlday}{15}
-      \field{urlmonth}{7}
-      \field{urlyear}{2025}
-      \field{year}{1993}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.1017/cbo9780511619885
-      \endverb
-      \verb{urlraw}
-      \verb https://www.cambridge.org/core/product/identifier/9780511619885/type/book
-      \endverb
-      \verb{url}
-      \verb https://www.cambridge.org/core/product/identifier/9780511619885/type/book
-      \endverb
-    \endentry
-    \entry{978-0-19-850779-6}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=9519a745eeae96335f3f3bd1ea592dfe}{%
-           family={Ziman},
-           familyi={Z\bibinitperiod},
-           given={J.\bibnamedelimi M.},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Oxford : New York}%
-      }
-      \list{publisher}{1}{%
-        {Clarendon Press ; Oxford University Press}%
-      }
-      \strng{namehash}{9519a745eeae96335f3f3bd1ea592dfe}
-      \strng{fullhash}{9519a745eeae96335f3f3bd1ea592dfe}
-      \strng{fullhashraw}{9519a745eeae96335f3f3bd1ea592dfe}
-      \strng{bibnamehash}{9519a745eeae96335f3f3bd1ea592dfe}
-      \strng{authorbibnamehash}{9519a745eeae96335f3f3bd1ea592dfe}
-      \strng{authornamehash}{9519a745eeae96335f3f3bd1ea592dfe}
-      \strng{authorfullhash}{9519a745eeae96335f3f3bd1ea592dfe}
-      \strng{authorfullhashraw}{9519a745eeae96335f3f3bd1ea592dfe}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{isbn}{978-0-19-850779-6}
-      \field{series}{Oxford classic texts in the physical sciences}
-      \field{shorttitle}{Electrons and phonons}
-      \field{title}{Electrons and phonons: the theory of transport phenomena in solids}
-      \field{year}{2001}
-      \keyw{Electrons,Phonons,Transport theory}
-    \endentry
-    \entry{10.1088/0034-4885/79/1/016502}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=af18a89f8591f25b0cceb67565d1dd45}{%
-           family={Trachenko},
-           familyi={T\bibinitperiod},
-           given={K},
-           giveni={K\bibinitperiod}}}%
-        {{hash=7e3063e97f48cf2ec8f137f22ba04aa4}{%
-           family={Brazhkin},
-           familyi={B\bibinitperiod},
-           given={V\bibnamedelima V},
-           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{4a7ad349d7ede02fe22ccfe2b88bf16d}
-      \strng{fullhash}{4a7ad349d7ede02fe22ccfe2b88bf16d}
-      \strng{fullhashraw}{4a7ad349d7ede02fe22ccfe2b88bf16d}
-      \strng{bibnamehash}{4a7ad349d7ede02fe22ccfe2b88bf16d}
-      \strng{authorbibnamehash}{4a7ad349d7ede02fe22ccfe2b88bf16d}
-      \strng{authornamehash}{4a7ad349d7ede02fe22ccfe2b88bf16d}
-      \strng{authorfullhash}{4a7ad349d7ede02fe22ccfe2b88bf16d}
-      \strng{authorfullhashraw}{4a7ad349d7ede02fe22ccfe2b88bf16d}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Strongly interacting, dynamically disordered and with no small parameter, liquids took a theoretical status between gases and solids with the historical tradition of hydrodynamic description as the starting point. We review different approaches to liquids as well as recent experimental and theoretical work, and propose that liquids do not need classifying in terms of their proximity to gases and solids or any categorizing for that matter. Instead, they are a unique system in their own class with a notably mixed dynamical state in contrast to pure dynamical states of solids and gases. We start with explaining how the first-principles approach to liquids is an intractable, exponentially complex problem of coupled non-linear oscillators with bifurcations. This is followed by a reduction of the problem based on liquid relaxation time τ representing non-perturbative treatment of strong interactions. On the basis of τ, solid-like high-frequency modes are predicted and we review related recent experiments. We demonstrate how the propagation of these modes can be derived by generalizing either hydrodynamic or elasticity equations. We comment on the historical trend to approach liquids using hydrodynamics and compare it to an alternative solid-like approach. We subsequently discuss how collective modes evolve with temperature and how this evolution affects liquid energy and heat capacity as well as other properties such as fast sound. Here, our emphasis is on understanding experimental data in real, rather than model, liquids. Highlighting the dominant role of solid-like high-frequency modes for liquid energy and heat capacity, we review a wide range of liquids: subcritical low-viscous liquids, supercritical state with two different dynamical and thermodynamic regimes separated by the Frenkel line, highly-viscous liquids in the glass transformation range and liquid-glass transition. We subsequently discuss the fairly recent area of liquid–liquid phase transitions, the area where the solid-like properties of liquids have become further apparent. We then discuss gas-like and solid-like approaches to quantum liquids and theoretical issues that are similar to the classical case. Finally, we summarize the emergent view of liquids as a unique system with a mixed dynamical state, and list several areas where interesting insights may appear and continue the extraordinary liquid story.}
-      \field{issn}{0034-4885}
-      \field{journaltitle}{Reports on Progress in Physics}
-      \field{month}{12}
-      \field{note}{Publisher: IOP Publishing}
-      \field{number}{1}
-      \field{title}{Collective modes and thermodynamics of the liquid state}
-      \field{urlday}{2}
-      \field{urlmonth}{3}
-      \field{urlyear}{2025}
-      \field{volume}{79}
-      \field{year}{2015}
-      \field{urldateera}{ce}
-      \field{pages}{016502}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1088/0034-4885/79/1/016502
-      \endverb
-      \verb{file}
-      \verb Отправленная версия:/home/konst/Zotero/storage/L3TU3R53/Trachenko и Brazhkin - 2015 - Collective modes and thermodynamics of the liquid .pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://dx.doi.org/10.1088/0034-4885/79/1/016502
-      \endverb
-      \verb{url}
-      \verb https://dx.doi.org/10.1088/0034-4885/79/1/016502
-      \endverb
-    \endentry
-    \entry{10.1038/s41598-019-46979-y}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=9e206a75eaff4c683778b73553e6ef97}{%
-           family={Kryuchkov},
-           familyi={K\bibinitperiod},
-           given={Nikita\bibnamedelima P},
-           giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=4e15107c0c8ba2e4d9eb8048a18ef4fb}{%
-           family={Mistryukova},
-           familyi={M\bibinitperiod},
-           given={Lukiya\bibnamedelima A},
-           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=d9c860c931294bcbc14150d7aaf561f9}{%
-           family={Brazhkin},
-           familyi={B\bibinitperiod},
-           given={Vadim\bibnamedelima V},
-           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=66c412397702c29b137b7c74ec0774f3}{%
-           family={Yurchenko},
-           familyi={Y\bibinitperiod},
-           given={Stanislav\bibnamedelima O},
-           giveni={S\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
-      }
-      \strng{namehash}{0eb848656c68a6a46b8957158eb9ab26}
-      \strng{fullhash}{c78fad975e3237324f87bf6fbf2f8c1a}
-      \strng{fullhashraw}{c78fad975e3237324f87bf6fbf2f8c1a}
-      \strng{bibnamehash}{0eb848656c68a6a46b8957158eb9ab26}
-      \strng{authorbibnamehash}{0eb848656c68a6a46b8957158eb9ab26}
-      \strng{authornamehash}{0eb848656c68a6a46b8957158eb9ab26}
-      \strng{authorfullhash}{c78fad975e3237324f87bf6fbf2f8c1a}
-      \strng{authorfullhashraw}{c78fad975e3237324f87bf6fbf2f8c1a}
-      \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Scientific reports}
-      \field{note}{Publisher: Nature Publishing Group UK London}
-      \field{number}{1}
-      \field{title}{Excitation spectra in fluids: {How} to analyze them properly}
-      \field{volume}{9}
-      \field{year}{2019}
-      \field{pages}{10483}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1038/s41598-019-46979-y
-      \endverb
-    \endentry
-    \entry{10.1021/acs.jpclett.9b03568.s001}{article}{}{}
-      \name{author}{6}{}{%
-        {{hash=ce61ed261fce269b2eb3e092a9c1fd03}{%
-           family={Yakovlev},
-           familyi={Y\bibinitperiod},
-           given={Egor\bibnamedelima V},
-           giveni={E\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=9e206a75eaff4c683778b73553e6ef97}{%
-           family={Kryuchkov},
-           familyi={K\bibinitperiod},
-           given={Nikita\bibnamedelima P},
-           giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=69320687351ce31104a08d671ebff7bf}{%
-           family={Ovcharov},
-           familyi={O\bibinitperiod},
-           given={Pavel\bibnamedelima V},
-           giveni={P\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=4ebefb48833484991ab1a2d748cb19c0}{%
-           family={Sapelkin},
-           familyi={S\bibinitperiod},
-           given={Andrei\bibnamedelima V},
-           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=d9c860c931294bcbc14150d7aaf561f9}{%
-           family={Brazhkin},
-           familyi={B\bibinitperiod},
-           given={Vadim\bibnamedelima V},
-           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=66c412397702c29b137b7c74ec0774f3}{%
-           family={Yurchenko},
-           familyi={Y\bibinitperiod},
-           given={Stanislav\bibnamedelima O},
-           giveni={S\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
-      }
-      \strng{namehash}{5e8523279e60246897bfc65d01be518d}
-      \strng{fullhash}{ed915aa5ff1775425168ff2d03b7ed49}
-      \strng{fullhashraw}{ed915aa5ff1775425168ff2d03b7ed49}
-      \strng{bibnamehash}{5e8523279e60246897bfc65d01be518d}
-      \strng{authorbibnamehash}{5e8523279e60246897bfc65d01be518d}
-      \strng{authornamehash}{5e8523279e60246897bfc65d01be518d}
-      \strng{authorfullhash}{ed915aa5ff1775425168ff2d03b7ed49}
-      \strng{authorfullhashraw}{ed915aa5ff1775425168ff2d03b7ed49}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Journal of Physical Chemistry Letters}
-      \field{note}{Publisher: ACS Publications}
-      \field{number}{4}
-      \field{title}{Direct experimental evidence of longitudinal and transverse mode hybridization and anticrossing in simple model fluids}
-      \field{volume}{11}
-      \field{year}{2020}
-      \field{pages}{1370\bibrangedash 1376}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1021/acs.jpclett.9b03568.s001
-      \endverb
-    \endentry
-    \entry{10.1103/PhysRevLett.125.125501}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=9e206a75eaff4c683778b73553e6ef97}{%
-           family={Kryuchkov},
-           familyi={K\bibinitperiod},
-           given={Nikita\bibnamedelima P.},
-           giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=4e15107c0c8ba2e4d9eb8048a18ef4fb}{%
-           family={Mistryukova},
-           familyi={M\bibinitperiod},
-           given={Lukiya\bibnamedelima A.},
-           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=4ebefb48833484991ab1a2d748cb19c0}{%
-           family={Sapelkin},
-           familyi={S\bibinitperiod},
-           given={Andrei\bibnamedelima V.},
-           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=d9c860c931294bcbc14150d7aaf561f9}{%
-           family={Brazhkin},
-           familyi={B\bibinitperiod},
-           given={Vadim\bibnamedelima V.},
-           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=66c412397702c29b137b7c74ec0774f3}{%
-           family={Yurchenko},
-           familyi={Y\bibinitperiod},
-           given={Stanislav\bibnamedelima O.},
-           giveni={S\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{0eb848656c68a6a46b8957158eb9ab26}
-      \strng{fullhash}{79a8db513dd056683f0b4ee37c44b7fc}
-      \strng{fullhashraw}{79a8db513dd056683f0b4ee37c44b7fc}
-      \strng{bibnamehash}{0eb848656c68a6a46b8957158eb9ab26}
-      \strng{authorbibnamehash}{0eb848656c68a6a46b8957158eb9ab26}
-      \strng{authornamehash}{0eb848656c68a6a46b8957158eb9ab26}
-      \strng{authorfullhash}{79a8db513dd056683f0b4ee37c44b7fc}
-      \strng{authorfullhashraw}{79a8db513dd056683f0b4ee37c44b7fc}
-      \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0031-9007, 1079-7114}
-      \field{journaltitle}{Physical Review Letters}
-      \field{month}{9}
-      \field{number}{12}
-      \field{title}{Universal {Effect} of {Excitation} {Dispersion} on the {Heat} {Capacity} and {Gapped} {States} in {Fluids}}
-      \field{urlday}{10}
-      \field{urlmonth}{3}
-      \field{urlyear}{2025}
-      \field{volume}{125}
-      \field{year}{2020}
-      \field{urldateera}{ce}
-      \field{pages}{125501}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevLett.125.125501
-      \endverb
-      \verb{file}
-      \verb Отправленная версия:/home/konst/Zotero/storage/DXYJRVFI/Kryuchkov и др. - 2020 - Universal Effect of Excitation Dispersion on the H.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.125.125501
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.125.125501
-      \endverb
-    \endentry
-    \entry{10.1103/PhysRevE.103.013207}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=ac8a425b390ebadd69406956c24620ac}{%
-           family={Khrapak},
-           familyi={K\bibinitperiod},
-           given={Sergey\bibnamedelima A.},
-           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \strng{namehash}{ac8a425b390ebadd69406956c24620ac}
-      \strng{fullhash}{ac8a425b390ebadd69406956c24620ac}
-      \strng{fullhashraw}{ac8a425b390ebadd69406956c24620ac}
-      \strng{bibnamehash}{ac8a425b390ebadd69406956c24620ac}
-      \strng{authorbibnamehash}{ac8a425b390ebadd69406956c24620ac}
-      \strng{authornamehash}{ac8a425b390ebadd69406956c24620ac}
-      \strng{authorfullhash}{ac8a425b390ebadd69406956c24620ac}
-      \strng{authorfullhashraw}{ac8a425b390ebadd69406956c24620ac}
-      \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{A vibrational model of heat transfer in simple liquids with soft pairwise interatomic interactions is discussed. A general expression is derived, which involves an averaging over the liquid collective mode excitation spectrum. The model is applied to quantify heat transfer in a dense Lennard-Jones liquid and a strongly coupled one-component plasma. Remarkable agreement with the available numerical results is documented. A similar picture does not apply to the momentum transfer and shear viscosity of liquids.}
-      \field{journaltitle}{Physical Review E}
-      \field{month}{1}
-      \field{note}{Publisher: American Physical Society}
-      \field{number}{1}
-      \field{title}{Vibrational model of thermal conduction for fluids with soft interactions}
-      \field{urlday}{2}
-      \field{urlmonth}{3}
-      \field{urlyear}{2025}
-      \field{volume}{103}
-      \field{year}{2021}
-      \field{urldateera}{ce}
-      \field{pages}{013207}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevE.103.013207
-      \endverb
-      \verb{file}
-      \verb Отправленная версия:/home/konst/Zotero/storage/MY6DWI6X/Khrapak - 2021 - Vibrational model of thermal conduction for fluids.pdf:application/pdf;APS Snapshot:/home/konst/Zotero/storage/QENVXENF/PhysRevE.103.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevE.103.013207
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevE.103.013207
-      \endverb
-    \endentry
-    \entry{10.1063/5.0054854}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=9e206a75eaff4c683778b73553e6ef97}{%
-           family={Kryuchkov},
-           familyi={K\bibinitperiod},
-           given={Nikita\bibnamedelima P},
-           giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=66c412397702c29b137b7c74ec0774f3}{%
-           family={Yurchenko},
-           familyi={Y\bibinitperiod},
-           given={Stanislav\bibnamedelima O},
-           giveni={S\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
-      }
-      \strng{namehash}{5598f34686f56e9a6921a142399e8d19}
-      \strng{fullhash}{5598f34686f56e9a6921a142399e8d19}
-      \strng{fullhashraw}{5598f34686f56e9a6921a142399e8d19}
-      \strng{bibnamehash}{5598f34686f56e9a6921a142399e8d19}
-      \strng{authorbibnamehash}{5598f34686f56e9a6921a142399e8d19}
-      \strng{authornamehash}{5598f34686f56e9a6921a142399e8d19}
-      \strng{authorfullhash}{5598f34686f56e9a6921a142399e8d19}
-      \strng{authorfullhashraw}{5598f34686f56e9a6921a142399e8d19}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Journal of Chemical Physics}
-      \field{note}{Publisher: AIP Publishing}
-      \field{number}{2}
-      \field{title}{Collective excitations in active fluids: {Microflows} and breakdown in spectral equipartition of kinetic energy}
-      \field{volume}{155}
-      \field{year}{2021}
-      \verb{doi}
-      \verb 10.1063/5.0054854
-      \endverb
-    \endentry
-    \entry{10.1021/acs.jpclett.2c00297}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=c6ca6045b6a760949a5fc6f01aeeb263}{%
-           family={Stamper},
-           familyi={S\bibinitperiod},
-           given={Caleb},
-           giveni={C\bibinitperiod}}}%
-        {{hash=711590cebd275c6eb3b4bde0b0f1c85d}{%
-           family={Cortie},
-           familyi={C\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-        {{hash=05b95936c58031acd86850885b9f636f}{%
-           family={Yue},
-           familyi={Y\bibinitperiod},
-           given={Zengji},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=3fb1ca9f34e5292ad4c23ecee0a30c24}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Xiaolin},
-           giveni={X\bibinitperiod}}}%
-        {{hash=70cc7417977203247797e81387c04217}{%
-           family={Yu},
-           familyi={Y\bibinitperiod},
-           given={Dehong},
-           giveni={D\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{768c5abcd26552979dae5c691bdaa68d}
-      \strng{fullhash}{b81ed4212c8fbd98cf5930218aa4f4ea}
-      \strng{fullhashraw}{b81ed4212c8fbd98cf5930218aa4f4ea}
-      \strng{bibnamehash}{768c5abcd26552979dae5c691bdaa68d}
-      \strng{authorbibnamehash}{768c5abcd26552979dae5c691bdaa68d}
-      \strng{authornamehash}{768c5abcd26552979dae5c691bdaa68d}
-      \strng{authorfullhash}{b81ed4212c8fbd98cf5930218aa4f4ea}
-      \strng{authorfullhashraw}{b81ed4212c8fbd98cf5930218aa4f4ea}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1948-7185, 1948-7185}
-      \field{journaltitle}{The Journal of Physical Chemistry Letters}
-      \field{month}{4}
-      \field{number}{13}
-      \field{title}{Experimental {Confirmation} of the {Universal} {Law} for the {Vibrational} {Density} of {States} of {Liquids}}
-      \field{urlday}{8}
-      \field{urlmonth}{3}
-      \field{urlyear}{2025}
-      \field{volume}{13}
-      \field{year}{2022}
-      \field{urldateera}{ce}
-      \field{pages}{3105\bibrangedash 3111}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1021/acs.jpclett.2c00297
-      \endverb
-      \verb{file}
-      \verb Отправленная версия:/home/konst/Zotero/storage/VG5V86KE/Stamper и др. - 2022 - Experimental Confirmation of the Universal Law for.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://pubs.acs.org/doi/10.1021/acs.jpclett.2c00297
-      \endverb
-      \verb{url}
-      \verb https://pubs.acs.org/doi/10.1021/acs.jpclett.2c00297
-      \endverb
-    \endentry
-    \entry{10.1103/PhysRevB.106.205412}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=da3f4d7be4be5f48f6525dd628ab5fed}{%
-           family={Hofmann},
-           familyi={H\bibinitperiod},
-           given={Johannes},
-           giveni={J\bibinitperiod}}}%
-        {{hash=0850ad71b34e8d6fa3687767990eddc7}{%
-           family={Das\bibnamedelima Sarma},
-           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
-           given={Sankar},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{c4d060f27000624b8946bf46175a5b8f}
-      \strng{fullhash}{c4d060f27000624b8946bf46175a5b8f}
-      \strng{fullhashraw}{c4d060f27000624b8946bf46175a5b8f}
-      \strng{bibnamehash}{c4d060f27000624b8946bf46175a5b8f}
-      \strng{authorbibnamehash}{c4d060f27000624b8946bf46175a5b8f}
-      \strng{authornamehash}{c4d060f27000624b8946bf46175a5b8f}
-      \strng{authorfullhash}{c4d060f27000624b8946bf46175a5b8f}
-      \strng{authorfullhashraw}{c4d060f27000624b8946bf46175a5b8f}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{We develop an analytically solvable model for interacting two-dimensional Fermi liquids with separate collisional relaxation rates for parity-odd and parity-even Fermi surface deformations. Such a disparity of collisional lifetimes exists whenever scattering is restricted to inversion-symmetric Fermi surfaces, and should thus be a generic feature of two-dimensional Fermi liquids. It implies an additional unanticipated “tomographic” transport regime (in between the standard collisionless and hydrodynamic regimes) in which even-parity modes are overdamped while odd-parity modes are collisionless. We derive expressions for both the longitudinal and the transverse conductivity and discuss the collective mode spectrum along the collisionless-tomographic-hydrodynamic crossover. Longitudinal modes cross over from zero sound in the collisionless regime to hydrodynamic first sound in the tomographic and hydrodynamic regime, where odd-parity damping appears as a subleading correction to the lifetime. In charged Fermi liquids with long-range Coulomb coupling, these modes reduce to plasmons with a strongly suppressed odd-parity correction to the damping. The transverse response, by contrast, has a specific tomographic transport regime with two imaginary odd-parity modes, one of which requires a finite repulsive interaction, distinct from both the shear sound in the collisionless regime and an overdamped diffusive current mode in the hydrodynamic limit. Our work demonstrates that there are deep many-body aspects of interacting Fermi liquids, which are often thought to be well understood theoretically, remaining unexplored.}
-      \field{journaltitle}{Physical Review B}
-      \field{month}{11}
-      \field{note}{Publisher: American Physical Society}
-      \field{number}{20}
-      \field{title}{Collective modes in interacting two-dimensional tomographic {Fermi} liquids}
-      \field{urlday}{2}
-      \field{urlmonth}{3}
-      \field{urlyear}{2025}
-      \field{volume}{106}
-      \field{year}{2022}
-      \field{urldateera}{ce}
-      \field{pages}{205412}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevB.106.205412
-      \endverb
-      \verb{file}
-      \verb APS Snapshot:/home/konst/Zotero/storage/6KJVHXDQ/PhysRevB.106.html:text/html;Full Text PDF:/home/konst/Zotero/storage/FVZZ8YW3/Hofmann и Das Sarma - 2022 - Collective modes in interacting two-dimensional to.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevB.106.205412
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevB.106.205412
-      \endverb
-    \endentry
-    \entry{10.1016/j.pmatsci.2023.101180}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=c4ddabd77581a0d32a89b7c74afd6bf8}{%
-           family={Zhao},
-           familyi={Z\bibinitperiod},
-           given={Andrew\bibnamedelima Z.},
-           giveni={A\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
-        {{hash=0432eeb9d93a224003f290016956c29e}{%
-           family={Garay},
-           familyi={G\bibinitperiod},
-           given={Javier\bibnamedelima E.},
-           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{fb46f74a16b1f3ff5bb1b28939cbe012}
-      \strng{fullhash}{fb46f74a16b1f3ff5bb1b28939cbe012}
-      \strng{fullhashraw}{fb46f74a16b1f3ff5bb1b28939cbe012}
-      \strng{bibnamehash}{fb46f74a16b1f3ff5bb1b28939cbe012}
-      \strng{authorbibnamehash}{fb46f74a16b1f3ff5bb1b28939cbe012}
-      \strng{authornamehash}{fb46f74a16b1f3ff5bb1b28939cbe012}
-      \strng{authorfullhash}{fb46f74a16b1f3ff5bb1b28939cbe012}
-      \strng{authorfullhashraw}{fb46f74a16b1f3ff5bb1b28939cbe012}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{issn}{00796425}
-      \field{journaltitle}{Progress in Materials Science}
-      \field{month}{10}
-      \field{shorttitle}{High temperature liquid thermal conductivity}
-      \field{title}{High temperature liquid thermal conductivity: {A} review of measurement techniques, theoretical understanding, and energy applications}
-      \field{urlday}{8}
-      \field{urlmonth}{3}
-      \field{urlyear}{2025}
-      \field{volume}{139}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \field{pages}{101180}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1016/j.pmatsci.2023.101180
-      \endverb
-      \verb{urlraw}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0079642523001123
-      \endverb
-      \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0079642523001123
-      \endverb
-    \endentry
-    \entry{10.1103/PhysRevResearch.5.013149}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=81cb97c4e6f229298dbc162aa26adec5}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={Dong},
-           giveni={D\bibinitperiod}}}%
-        {{hash=f341ee3275756ceb65aa9d8b4a719da4}{%
-           family={Baggioli},
-           familyi={B\bibinitperiod},
-           given={Matteo},
-           giveni={M\bibinitperiod}}}%
-        {{hash=6ae4a1ae1f5fdda167e2ffc3440e3689}{%
-           family={Lu},
-           familyi={L\bibinitperiod},
-           given={Shaoyu},
-           giveni={S\bibinitperiod}}}%
-        {{hash=b802a990259afbc910bae77ab08e3e18}{%
-           family={Ma},
-           familyi={M\bibinitperiod},
-           given={Zhuang},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=d1d912509d266eb94dfcd8d6e4984992}{%
-           family={Feng},
-           familyi={F\bibinitperiod},
-           given={Yan},
-           giveni={Y\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{bb4daa6ba212510899ad8071e9e72314}
-      \strng{fullhash}{91a453d13e60fe543768c1df7ef62a92}
-      \strng{fullhashraw}{91a453d13e60fe543768c1df7ef62a92}
-      \strng{bibnamehash}{bb4daa6ba212510899ad8071e9e72314}
-      \strng{authorbibnamehash}{bb4daa6ba212510899ad8071e9e72314}
-      \strng{authornamehash}{bb4daa6ba212510899ad8071e9e72314}
-      \strng{authorfullhash}{91a453d13e60fe543768c1df7ef62a92}
-      \strng{authorfullhashraw}{91a453d13e60fe543768c1df7ef62a92}
-      \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{2643-1564}
-      \field{journaltitle}{Physical Review Research}
-      \field{month}{2}
-      \field{number}{1}
-      \field{title}{Revealing the supercritical dynamics of dusty plasmas and their liquidlike to gaslike dynamical crossover}
-      \field{urlday}{8}
-      \field{urlmonth}{3}
-      \field{urlyear}{2025}
-      \field{volume}{5}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \field{pages}{013149}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevResearch.5.013149
-      \endverb
-      \verb{file}
-      \verb Полный текст:/home/konst/Zotero/storage/HBGMQU2V/Huang и др. - 2023 - Revealing the supercritical dynamics of dusty plas.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevResearch.5.013149
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevResearch.5.013149
-      \endverb
-    \endentry
-    \entry{10.1063/5.0201689}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=96a1312f719a8555b2b02ec5963d1e41}{%
-           family={Cockrell},
-           familyi={C\bibinitperiod},
-           given={Cillian},
-           giveni={C\bibinitperiod}}}%
-        {{hash=365b92f5fe3f30f3862f6ad3a3d8883a}{%
-           family={Dragović},
-           familyi={D\bibinitperiod},
-           given={Aleksandra},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{01296a5d218e3b737b1bee98fc82d561}
-      \strng{fullhash}{01296a5d218e3b737b1bee98fc82d561}
-      \strng{fullhashraw}{01296a5d218e3b737b1bee98fc82d561}
-      \strng{bibnamehash}{01296a5d218e3b737b1bee98fc82d561}
-      \strng{authorbibnamehash}{01296a5d218e3b737b1bee98fc82d561}
-      \strng{authornamehash}{01296a5d218e3b737b1bee98fc82d561}
-      \strng{authorfullhash}{01296a5d218e3b737b1bee98fc82d561}
-      \strng{authorfullhashraw}{01296a5d218e3b737b1bee98fc82d561}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Journal of Chemical Physics}
-      \field{note}{Publisher: AIP Publishing}
-      \field{number}{11}
-      \field{title}{Thermodynamics and collective modes in hydrogen-bonded fluids}
-      \field{volume}{160}
-      \field{year}{2024}
-      \verb{doi}
-      \verb 10.1063/5.0201689
-      \endverb
-    \endentry
-    \entry{10.1016/j.physrep.2023.11.004}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=84dd6cd05ec7b932b380e8df6299958e}{%
-           family={Khrapak},
-           familyi={K\bibinitperiod},
-           given={S.\bibnamedelimi A.},
-           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \strng{namehash}{84dd6cd05ec7b932b380e8df6299958e}
-      \strng{fullhash}{84dd6cd05ec7b932b380e8df6299958e}
-      \strng{fullhashraw}{84dd6cd05ec7b932b380e8df6299958e}
-      \strng{bibnamehash}{84dd6cd05ec7b932b380e8df6299958e}
-      \strng{authorbibnamehash}{84dd6cd05ec7b932b380e8df6299958e}
-      \strng{authornamehash}{84dd6cd05ec7b932b380e8df6299958e}
-      \strng{authorfullhash}{84dd6cd05ec7b932b380e8df6299958e}
-      \strng{authorfullhashraw}{84dd6cd05ec7b932b380e8df6299958e}
-      \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{A vibrational model of transport properties of dense fluids assumes that solid-like oscillations of atoms around their temporary equilibrium positions dominate the dynamical picture. The temporary equilibrium positions of atoms do not form any regular structure and are not fixed, unlike in solids. Instead, they are allowed to diffuse and this is why liquids can flow. However, this diffusive motion is characterized by much longer time scales compared to those of solid-like oscillations. Although this general picture is not particularly new, only in a recent series of works it has been possible to construct a coherent and internally consistent quantitative description of transport properties such as self-diffusion, shear viscosity, and thermal conductivity. Moreover, the magnitudes of these transport coefficients have been related to the properties of collective excitations in dense fluids. Importantly, the model is simple and no free parameters are involved. Recent achievements are summarized in this overview. Application of the vibrational model to various single-component model systems such as plasma-related Coulomb and screened Coulomb (Yukawa) fluids, the Lennard-Jones fluid, and the hard-sphere fluid is considered in detail. Applications to real liquids are also briefly discussed. Overall, good to excellent agreement with available numerical and experimental data is demonstrated. Conditions of applicability of the vibrational model and a related question concerning the location of the gas–liquid dynamical crossover are discussed.}
-      \field{issn}{0370-1573}
-      \field{journaltitle}{Physics Reports}
-      \field{month}{1}
-      \field{series}{Elementary vibrational model for transport properties of dense fluids}
-      \field{title}{Elementary vibrational model for transport properties of dense fluids}
-      \field{urlday}{8}
-      \field{urlmonth}{3}
-      \field{urlyear}{2025}
-      \field{volume}{1050}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \field{pages}{1\bibrangedash 29}
-      \range{pages}{29}
-      \verb{doi}
-      \verb 10.1016/j.physrep.2023.11.004
-      \endverb
-      \verb{file}
-      \verb Khrapak - 2024 - Elementary vibrational model for transport propert.pdf:/home/konst/Zotero/storage/S3DQ4PP7/Khrapak - 2024 - Elementary vibrational model for transport propert.pdf:application/pdf;ScienceDirect Snapshot:/home/konst/Zotero/storage/Z2N48S97/S0370157323003885.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0370157323003885
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0370157323003885
-      \endverb
-      \keyw{Complex (dusty) plasma,Fluid–solid phase transition,Frenkel line,Gas-to-liquid dynamical crossover,Hard-sphere fluid,Lennard-Jones fluid,One-component plasma,Self-diffusion,Shear viscosity,Simple fluids,Stokes–Einstein relation,Thermal conductivity,Thermodynamics of fluids,Transport in fluids,Transport phenomena,Vibrational model of transport in fluids,Yukawa fluids}
-    \endentry
-    \entry{10.1103/physreve.109.035202}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=c3b7a96f0106e32dd204bbfac5fdb97f}{%
-           family={Yu},
-           familyi={Y\bibinitperiod},
-           given={Nichen},
-           giveni={N\bibinitperiod}}}%
-        {{hash=81cb97c4e6f229298dbc162aa26adec5}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={Dong},
-           giveni={D\bibinitperiod}}}%
-        {{hash=6ae4a1ae1f5fdda167e2ffc3440e3689}{%
-           family={Lu},
-           familyi={L\bibinitperiod},
-           given={Shaoyu},
-           giveni={S\bibinitperiod}}}%
-        {{hash=aaddfbf273db0edb4a2831d742ea9508}{%
-           family={Khrapak},
-           familyi={K\bibinitperiod},
-           given={Sergey},
-           giveni={S\bibinitperiod}}}%
-        {{hash=d1d912509d266eb94dfcd8d6e4984992}{%
-           family={Feng},
-           familyi={F\bibinitperiod},
-           given={Yan},
-           giveni={Y\bibinitperiod}}}%
-      }
-      \strng{namehash}{33c0085e38f581b4dde8109a45d8f1f6}
-      \strng{fullhash}{a3ae4d1eb188f6a78b36ac7b875542e0}
-      \strng{fullhashraw}{a3ae4d1eb188f6a78b36ac7b875542e0}
-      \strng{bibnamehash}{33c0085e38f581b4dde8109a45d8f1f6}
-      \strng{authorbibnamehash}{33c0085e38f581b4dde8109a45d8f1f6}
-      \strng{authornamehash}{33c0085e38f581b4dde8109a45d8f1f6}
-      \strng{authorfullhash}{a3ae4d1eb188f6a78b36ac7b875542e0}
-      \strng{authorfullhashraw}{a3ae4d1eb188f6a78b36ac7b875542e0}
-      \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Physical Review E}
-      \field{note}{Publisher: APS}
-      \field{number}{3}
-      \field{title}{Universal scaling of transverse sound speed and its isomorphic property in {Yukawa} fluids}
-      \field{volume}{109}
-      \field{year}{2024}
-      \field{pages}{035202}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/physreve.109.035202
-      \endverb
-    \endentry
-    \entry{10.1103/PhysRevE.110.034602}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=84dd6cd05ec7b932b380e8df6299958e}{%
-           family={Khrapak},
-           familyi={K\bibinitperiod},
-           given={S.\bibnamedelimi A.},
-           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{84dd6cd05ec7b932b380e8df6299958e}
-      \strng{fullhash}{84dd6cd05ec7b932b380e8df6299958e}
-      \strng{fullhashraw}{84dd6cd05ec7b932b380e8df6299958e}
-      \strng{bibnamehash}{84dd6cd05ec7b932b380e8df6299958e}
-      \strng{authorbibnamehash}{84dd6cd05ec7b932b380e8df6299958e}
-      \strng{authornamehash}{84dd6cd05ec7b932b380e8df6299958e}
-      \strng{authorfullhash}{84dd6cd05ec7b932b380e8df6299958e}
-      \strng{authorfullhashraw}{84dd6cd05ec7b932b380e8df6299958e}
-      \field{extraname}{3}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{2470-0045, 2470-0053}
-      \field{journaltitle}{Physical Review E}
-      \field{month}{9}
-      \field{number}{3}
-      \field{title}{Entropy of strongly coupled {Yukawa} fluids}
-      \field{urlday}{8}
-      \field{urlmonth}{3}
-      \field{urlyear}{2025}
-      \field{volume}{110}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \field{pages}{034602}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevE.110.034602
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevE.110.034602
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevE.110.034602
-      \endverb
-    \endentry
-    \entry{10.1039/d4cp04180a}{article}{}{}
-      \name{author}{10}{}{%
-        {{hash=96a1312f719a8555b2b02ec5963d1e41}{%
-           family={Cockrell},
-           familyi={C\bibinitperiod},
-           given={Cillian},
-           giveni={C\bibinitperiod}}}%
-        {{hash=c97460984b74159618356065a61713db}{%
-           family={Withington},
-           familyi={W\bibinitperiod},
-           given={M},
-           giveni={M\bibinitperiod}}}%
-        {{hash=8e93cfef7296866025cfc5cc2ab214f0}{%
-           family={Devereux},
-           familyi={D\bibinitperiod},
-           given={Harvey\bibnamedelima L},
-           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=6f576131d85dd79a2fa0fbb7ca8e75af}{%
-           family={Elena},
-           familyi={E\bibinitperiod},
-           given={Alin\bibnamedelima M},
-           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=f49b9d38c56ce8214542d4716160074f}{%
-           family={Todorov},
-           familyi={T\bibinitperiod},
-           given={Ilian\bibnamedelima T},
-           giveni={I\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=28585cf6e45c6bac4827d7c6d030d621}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Zi-Kui},
-           giveni={Z\bibinithyphendelim K\bibinitperiod}}}%
-        {{hash=5cdf721206d31025368acee2deb04592}{%
-           family={Shang},
-           familyi={S\bibinitperiod},
-           given={Shun-Li},
-           giveni={S\bibinithyphendelim L\bibinitperiod}}}%
-        {{hash=71c998e61548136b83bfa43cae2109bd}{%
-           family={McCloy},
-           familyi={M\bibinitperiod},
-           given={James\bibnamedelima S},
-           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=eebc19e51cb6a3ad6c57767160a65be3}{%
-           family={Bingham},
-           familyi={B\bibinitperiod},
-           given={Paul\bibnamedelima A},
-           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=e82a5a936f721768b933d01b8d8682a8}{%
-           family={Trachenko},
-           familyi={T\bibinitperiod},
-           given={Kostya},
-           giveni={K\bibinitperiod}}}%
-      }
-      \strng{namehash}{0010e6fb16270e8c414316b4cc538cc5}
-      \strng{fullhash}{74c4917bad032a203e60912a5031e8f5}
-      \strng{fullhashraw}{74c4917bad032a203e60912a5031e8f5}
-      \strng{bibnamehash}{0010e6fb16270e8c414316b4cc538cc5}
-      \strng{authorbibnamehash}{0010e6fb16270e8c414316b4cc538cc5}
-      \strng{authornamehash}{0010e6fb16270e8c414316b4cc538cc5}
-      \strng{authorfullhash}{74c4917bad032a203e60912a5031e8f5}
-      \strng{authorfullhashraw}{74c4917bad032a203e60912a5031e8f5}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Physical Chemistry Chemical Physics}
-      \field{note}{Publisher: Royal Society of Chemistry}
-      \field{number}{3}
-      \field{title}{Thermodynamics and transport in molten chloride salts and their mixtures}
-      \field{volume}{27}
-      \field{year}{2025}
-      \field{pages}{1604\bibrangedash 1615}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1039/d4cp04180a
-      \endverb
-    \endentry
-    \entry{10.1063/5.0266423}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=81cb97c4e6f229298dbc162aa26adec5}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={Dong},
-           giveni={D\bibinitperiod}}}%
-        {{hash=6ae4a1ae1f5fdda167e2ffc3440e3689}{%
-           family={Lu},
-           familyi={L\bibinitperiod},
-           given={Shaoyu},
-           giveni={S\bibinitperiod}}}%
-        {{hash=8b0338921cb1b7773c2e58d76fd85d2e}{%
-           family={Liang},
-           familyi={L\bibinitperiod},
-           given={Chen},
-           giveni={C\bibinitperiod}}}%
-        {{hash=f341ee3275756ceb65aa9d8b4a719da4}{%
-           family={Baggioli},
-           familyi={B\bibinitperiod},
-           given={Matteo},
-           giveni={M\bibinitperiod}}}%
-        {{hash=d1d912509d266eb94dfcd8d6e4984992}{%
-           family={Feng},
-           familyi={F\bibinitperiod},
-           given={Yan},
-           giveni={Y\bibinitperiod}}}%
-      }
-      \strng{namehash}{bb4daa6ba212510899ad8071e9e72314}
-      \strng{fullhash}{90cb56b6942ed8d09b9d162fdf18495d}
-      \strng{fullhashraw}{90cb56b6942ed8d09b9d162fdf18495d}
-      \strng{bibnamehash}{bb4daa6ba212510899ad8071e9e72314}
-      \strng{authorbibnamehash}{bb4daa6ba212510899ad8071e9e72314}
-      \strng{authornamehash}{bb4daa6ba212510899ad8071e9e72314}
-      \strng{authorfullhash}{90cb56b6942ed8d09b9d162fdf18495d}
-      \strng{authorfullhashraw}{90cb56b6942ed8d09b9d162fdf18495d}
-      \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv preprint arXiv:2502.12522}
-      \field{title}{Fundamental {Origin} of {Viscosity} in {2D} {Simple} {Liquids}}
-      \field{year}{2025}
-      \verb{doi}
-      \verb 10.1063/5.0266423
-      \endverb
-    \endentry
-    \entry{frenkel_kinetic_1946}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=953b9f85633a570a1b2ab3462f87522f}{%
-           family={Frenkel},
-           familyi={F\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {eng}%
-      }
-      \strng{namehash}{953b9f85633a570a1b2ab3462f87522f}
-      \strng{fullhash}{953b9f85633a570a1b2ab3462f87522f}
-      \strng{fullhashraw}{953b9f85633a570a1b2ab3462f87522f}
-      \strng{bibnamehash}{953b9f85633a570a1b2ab3462f87522f}
-      \strng{authorbibnamehash}{953b9f85633a570a1b2ab3462f87522f}
-      \strng{authornamehash}{953b9f85633a570a1b2ab3462f87522f}
-      \strng{authorfullhash}{953b9f85633a570a1b2ab3462f87522f}
-      \strng{authorfullhashraw}{953b9f85633a570a1b2ab3462f87522f}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Book Source: Digital Library of India Item 2015.53485 dc.contributor.author: Frenkel, J. dc.contributor.other: Fowler, R. H., Ed. (series) dc.date.accessioned: 2015-06-29T14:25:53Z dc.date.available: 2015-06-29T14:25:53Z dc.date.copyrightexpirydate: 0000-00-00 dc.date.digitalpublicationdate: 2006-07-23 dc.date.citation: 1946 dc.identifier.barcode: 4990010256512 dc.identifier.origpath: /data4/upload/0109/224 dc.identifier.copyno: 1 dc.identifier.uri: http://www.new.dli.ernet.in/handle/2015/53485 dc.description.scanningcentre: C-DAK, Kolkata dc.description.main: 1 dc.description.tagged: 0 dc.description.totalpages: 502 dc.format.mimetype: application/pdf dc.language.iso: English dc.publisher.digitalrepublisher: Digital Library Of India dc.publisher: Clarendon Press, Oxford dc.rights: In Public Domain dc.source.library: Dr. Meghnad Saha Collection dc.subject.classification: Natural Sciences dc.subject.classification: Physics dc.subject.classification: Mechanics Of Liquids dc.subject.keywords: Hydromechanics dc.subject.keywords: Crystals dc.subject.keywords: Tharmodynamics dc.title: Kinetic Theory Of Liquids}
-      \field{title}{Kinetic {Theory} {Of} {Liquids}}
-      \field{urlday}{7}
-      \field{urlmonth}{3}
-      \field{urlyear}{2025}
-      \field{year}{1946}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb http://archive.org/details/in.ernet.dli.2015.53485
-      \endverb
-      \verb{url}
-      \verb http://archive.org/details/in.ernet.dli.2015.53485
-      \endverb
-      \keyw{C-DAK}
-    \endentry
-    \entry{10.1103/physrevlett.97.115001}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=a49e4571e76131abbb2e211ea4e7cb50}{%
-           family={Nosenko},
-           familyi={N\bibinitperiod},
-           given={V},
-           giveni={V\bibinitperiod}}}%
-        {{hash=9e798a9ba5ae72d7028b8abac845fda5}{%
-           family={Goree},
-           familyi={G\bibinitperiod},
-           given={J},
-           giveni={J\bibinitperiod}}}%
-        {{hash=4fdda577889536a19a4a9a90bab4755d}{%
-           family={Piel},
-           familyi={P\bibinitperiod},
-           given={A},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{42e9f9bd83b446f7f5a8f5322a0f4833}
-      \strng{fullhash}{42e9f9bd83b446f7f5a8f5322a0f4833}
-      \strng{fullhashraw}{42e9f9bd83b446f7f5a8f5322a0f4833}
-      \strng{bibnamehash}{42e9f9bd83b446f7f5a8f5322a0f4833}
-      \strng{authorbibnamehash}{42e9f9bd83b446f7f5a8f5322a0f4833}
-      \strng{authornamehash}{42e9f9bd83b446f7f5a8f5322a0f4833}
-      \strng{authorfullhash}{42e9f9bd83b446f7f5a8f5322a0f4833}
-      \strng{authorfullhashraw}{42e9f9bd83b446f7f5a8f5322a0f4833}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Physical review letters}
-      \field{note}{Publisher: APS}
-      \field{number}{11}
-      \field{title}{Cutoff wave number for shear waves in a two-dimensional {Yukawa} system (dusty plasma)}
-      \field{volume}{97}
-      \field{year}{2006}
-      \field{pages}{115001}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/physrevlett.97.115001
-      \endverb
-    \endentry
-    \entry{10.1103/PhysRevLett.118.215502}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=8a9ab49f0fe827e25142df0f1ec23209}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=d5d128f121f5f23262f39bf7464019dd}{%
-           family={Dove},
-           familyi={D\bibinitperiod},
-           given={M.\bibnamedelimi T.},
-           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=7e3063e97f48cf2ec8f137f22ba04aa4}{%
-           family={Brazhkin},
-           familyi={B\bibinitperiod},
-           given={V.\bibnamedelimi V.},
-           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=af18a89f8591f25b0cceb67565d1dd45}{%
-           family={Trachenko},
-           familyi={T\bibinitperiod},
-           given={K.},
-           giveni={K\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{c38afeb8ad71c87317c22a236110fa0c}
-      \strng{fullhash}{a37ffb2928c2f7866b45aacdfe56fa7d}
-      \strng{fullhashraw}{a37ffb2928c2f7866b45aacdfe56fa7d}
-      \strng{bibnamehash}{c38afeb8ad71c87317c22a236110fa0c}
-      \strng{authorbibnamehash}{c38afeb8ad71c87317c22a236110fa0c}
-      \strng{authornamehash}{c38afeb8ad71c87317c22a236110fa0c}
-      \strng{authorfullhash}{a37ffb2928c2f7866b45aacdfe56fa7d}
-      \strng{authorfullhashraw}{a37ffb2928c2f7866b45aacdfe56fa7d}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0031-9007, 1079-7114}
-      \field{journaltitle}{Physical Review Letters}
-      \field{month}{5}
-      \field{number}{21}
-      \field{title}{Emergence and {Evolution} of the k {Gap} in {Spectra} of {Liquid} and {Supercritical} {States}}
-      \field{urlday}{8}
-      \field{urlmonth}{3}
-      \field{urlyear}{2025}
-      \field{volume}{118}
-      \field{year}{2017}
-      \field{urldateera}{ce}
-      \field{pages}{215502}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevLett.118.215502
-      \endverb
-      \verb{file}
-      \verb Отправленная версия:/home/konst/Zotero/storage/F2E3JT8B/Yang и др. - 2017 - Emergence and Evolution of the k Gap in Spectra of.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://link.aps.org/doi/10.1103/PhysRevLett.118.215502
-      \endverb
-      \verb{url}
-      \verb http://link.aps.org/doi/10.1103/PhysRevLett.118.215502
-      \endverb
-    \endentry
-    \entry{10.1103/physreve.107.014139}{article}{}{}
-      \name{author}{8}{}{%
-        {{hash=1316269c93289e6e5a84c6d22cfaf635}{%
-           family={Guarini},
-           familyi={G\bibinitperiod},
-           given={Eleonora},
-           giveni={E\bibinitperiod}}}%
-        {{hash=f7db32378ba2061523a55a804e64e0e2}{%
-           family={Neumann},
-           familyi={N\bibinitperiod},
-           given={Martin},
-           giveni={M\bibinitperiod}}}%
-        {{hash=9ab37a13a228d9f1203a03cec5fb8e53}{%
-           family={De\bibnamedelima Francesco},
-           familyi={D\bibinitperiod\bibinitdelim F\bibinitperiod},
-           given={Alessio},
-           giveni={A\bibinitperiod}}}%
-        {{hash=9bff7af82cce7f83c9e603d568a100dc}{%
-           family={Formisano},
-           familyi={F\bibinitperiod},
-           given={Ferdinando},
-           giveni={F\bibinitperiod}}}%
-        {{hash=a1a1e958e991f1b938113746936ed40a}{%
-           family={Cunsolo},
-           familyi={C\bibinitperiod},
-           given={Alessandro},
-           giveni={A\bibinitperiod}}}%
-        {{hash=7266fb18980ef535ed0d95739c9e4070}{%
-           family={Montfrooij},
-           familyi={M\bibinitperiod},
-           given={Wouter},
-           giveni={W\bibinitperiod}}}%
-        {{hash=34009f980d59f48d7717fd888d0c8fce}{%
-           family={Colognesi},
-           familyi={C\bibinitperiod},
-           given={Daniele},
-           giveni={D\bibinitperiod}}}%
-        {{hash=6b41451454cfb4048085570a7cf047f7}{%
-           family={Bafile},
-           familyi={B\bibinitperiod},
-           given={Ubaldo},
-           giveni={U\bibinitperiod}}}%
-      }
-      \strng{namehash}{bc10c7d740a58eef963c2c52c64fd4ff}
-      \strng{fullhash}{2103e2e42e77807b1903e6e8e3f098cc}
-      \strng{fullhashraw}{2103e2e42e77807b1903e6e8e3f098cc}
-      \strng{bibnamehash}{bc10c7d740a58eef963c2c52c64fd4ff}
-      \strng{authorbibnamehash}{bc10c7d740a58eef963c2c52c64fd4ff}
-      \strng{authornamehash}{bc10c7d740a58eef963c2c52c64fd4ff}
-      \strng{authorfullhash}{2103e2e42e77807b1903e6e8e3f098cc}
-      \strng{authorfullhashraw}{2103e2e42e77807b1903e6e8e3f098cc}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Physical Review E}
-      \field{note}{Publisher: APS}
-      \field{number}{1}
-      \field{title}{Onset of collective excitations in the transverse dynamics of simple fluids}
-      \field{volume}{107}
-      \field{year}{2023}
-      \field{pages}{014139}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/physreve.107.014139
-      \endverb
-    \endentry
-    \entry{10.1088/1361-648x/ab962e}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=c8bd9daa3c0af351995777a9e835e1a9}{%
-           family={Fomin},
-           familyi={F\bibinitperiod},
-           given={Yu\bibnamedelima D},
-           giveni={Y\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-      }
-      \strng{namehash}{c8bd9daa3c0af351995777a9e835e1a9}
-      \strng{fullhash}{c8bd9daa3c0af351995777a9e835e1a9}
-      \strng{fullhashraw}{c8bd9daa3c0af351995777a9e835e1a9}
-      \strng{bibnamehash}{c8bd9daa3c0af351995777a9e835e1a9}
-      \strng{authorbibnamehash}{c8bd9daa3c0af351995777a9e835e1a9}
-      \strng{authornamehash}{c8bd9daa3c0af351995777a9e835e1a9}
-      \strng{authorfullhash}{c8bd9daa3c0af351995777a9e835e1a9}
-      \strng{authorfullhashraw}{c8bd9daa3c0af351995777a9e835e1a9}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Physics: Condensed Matter}
-      \field{note}{Publisher: IOP Publishing}
-      \field{number}{39}
-      \field{title}{Dispersion of acoustic excitations in tetrahedral liquids}
-      \field{volume}{32}
-      \field{year}{2020}
-      \field{pages}{395101}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1088/1361-648x/ab962e
-      \endverb
-    \endentry
-    \entry{10.1016/j.nocx.2019.100030}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=0fd85d7f7e50fc28510ee9e7376089d6}{%
-           family={Toledo-Marín},
-           familyi={T\bibinithyphendelim M\bibinitperiod},
-           given={J\bibnamedelima Quetzalcóatl},
-           giveni={J\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
-        {{hash=a3f85764d9836800c6113b11680886fa}{%
-           family={Naumis},
-           familyi={N\bibinitperiod},
-           given={Gerardo\bibnamedelima G},
-           giveni={G\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-      }
-      \strng{namehash}{168f34d8ecef30920b9379229798709e}
-      \strng{fullhash}{168f34d8ecef30920b9379229798709e}
-      \strng{fullhashraw}{168f34d8ecef30920b9379229798709e}
-      \strng{bibnamehash}{168f34d8ecef30920b9379229798709e}
-      \strng{authorbibnamehash}{168f34d8ecef30920b9379229798709e}
-      \strng{authornamehash}{168f34d8ecef30920b9379229798709e}
-      \strng{authorfullhash}{168f34d8ecef30920b9379229798709e}
-      \strng{authorfullhashraw}{168f34d8ecef30920b9379229798709e}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Non-Crystalline Solids: X}
-      \field{note}{Publisher: Elsevier}
-      \field{title}{Viscoelasticity and dynamical gaps: rigidity in crystallization and glass-forming liquids}
-      \field{volume}{3}
-      \field{year}{2019}
-      \field{pages}{100030}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1016/j.nocx.2019.100030
-      \endverb
-    \endentry
-    \entry{10.1063/1.5050708}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=ac8a425b390ebadd69406956c24620ac}{%
-           family={Khrapak},
-           familyi={K\bibinitperiod},
-           given={Sergey\bibnamedelima A},
-           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=9e206a75eaff4c683778b73553e6ef97}{%
-           family={Kryuchkov},
-           familyi={K\bibinitperiod},
-           given={Nikita\bibnamedelima P},
-           giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=fcf9ebed12319d61ffb2633027dac732}{%
-           family={Mistryukova},
-           familyi={M\bibinitperiod},
-           given={Lukia\bibnamedelima A},
-           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=c30aa612f0c7afb0e7eb07ae6e3a835d}{%
-           family={Khrapak},
-           familyi={K\bibinitperiod},
-           given={Alexey\bibnamedelima G},
-           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=66c412397702c29b137b7c74ec0774f3}{%
-           family={Yurchenko},
-           familyi={Y\bibinitperiod},
-           given={Stanislav\bibnamedelima O},
-           giveni={S\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
-      }
-      \strng{namehash}{1e96207fe045feb0afb6870dc37c6a24}
-      \strng{fullhash}{da63d47b5157d47ee33e51521b918282}
-      \strng{fullhashraw}{da63d47b5157d47ee33e51521b918282}
-      \strng{bibnamehash}{1e96207fe045feb0afb6870dc37c6a24}
-      \strng{authorbibnamehash}{1e96207fe045feb0afb6870dc37c6a24}
-      \strng{authornamehash}{1e96207fe045feb0afb6870dc37c6a24}
-      \strng{authorfullhash}{da63d47b5157d47ee33e51521b918282}
-      \strng{authorfullhashraw}{da63d47b5157d47ee33e51521b918282}
-      \field{extraname}{1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Journal of Chemical Physics}
-      \field{note}{Publisher: AIP Publishing}
-      \field{number}{13}
-      \field{title}{Collective modes of two-dimensional classical {Coulomb} fluids}
-      \field{volume}{149}
-      \field{year}{2018}
-      \verb{doi}
-      \verb 10.1063/1.5050708
-      \endverb
-    \endentry
-    \entry{10.1063/5.0236047}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=1afac4e935716b788f296b7afa379adb}{%
-           family={Bryk},
-           familyi={B\bibinitperiod},
-           given={Taras},
-           giveni={T\bibinitperiod}}}%
-        {{hash=0cba65287a19d150f5784c5e58d7ca63}{%
-           family={Kopcha},
-           familyi={K\bibinitperiod},
-           given={Maria},
-           giveni={M\bibinitperiod}}}%
-        {{hash=a909a5c490ca4006ded93334826e802c}{%
-           family={Yidak},
-           familyi={Y\bibinitperiod},
-           given={Ihor},
-           giveni={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{acbf7a28ddfad22c0d295599d057ea0c}
-      \strng{fullhash}{acbf7a28ddfad22c0d295599d057ea0c}
-      \strng{fullhashraw}{acbf7a28ddfad22c0d295599d057ea0c}
-      \strng{bibnamehash}{acbf7a28ddfad22c0d295599d057ea0c}
-      \strng{authorbibnamehash}{acbf7a28ddfad22c0d295599d057ea0c}
-      \strng{authornamehash}{acbf7a28ddfad22c0d295599d057ea0c}
-      \strng{authorfullhash}{acbf7a28ddfad22c0d295599d057ea0c}
-      \strng{authorfullhashraw}{acbf7a28ddfad22c0d295599d057ea0c}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Journal of Chemical Physics}
-      \field{note}{Publisher: AIP Publishing}
-      \field{number}{18}
-      \field{title}{Propagation gap for shear waves in binary liquids: {Analytical} and simulation study}
-      \field{volume}{161}
-      \field{year}{2024}
-      \verb{doi}
-      \verb 10.1063/5.0236047
-      \endverb
-    \endentry
-    \entry{10.1063/1.4997640}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=1afac4e935716b788f296b7afa379adb}{%
-           family={Bryk},
-           familyi={B\bibinitperiod},
-           given={Taras},
-           giveni={T\bibinitperiod}}}%
-        {{hash=e542a2b27acd85d0cd7c5293e345113c}{%
-           family={Huerta},
-           familyi={H\bibinitperiod},
-           given={Adrian},
-           giveni={A\bibinitperiod}}}%
-        {{hash=c4bae7e9ba39f3946187dcf3e9ee9773}{%
-           family={Hordiichuk},
-           familyi={H\bibinitperiod},
-           given={V},
-           giveni={V\bibinitperiod}}}%
-        {{hash=f1e7d1cf96950e4f169e648b4d83a15b}{%
-           family={Trokhymchuk},
-           familyi={T\bibinitperiod},
-           given={AD},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{43186efcd799117922706c4683247d1e}
-      \strng{fullhash}{d858055ce32f899497d04f5f28b6fcce}
-      \strng{fullhashraw}{d858055ce32f899497d04f5f28b6fcce}
-      \strng{bibnamehash}{43186efcd799117922706c4683247d1e}
-      \strng{authorbibnamehash}{43186efcd799117922706c4683247d1e}
-      \strng{authornamehash}{43186efcd799117922706c4683247d1e}
-      \strng{authorfullhash}{d858055ce32f899497d04f5f28b6fcce}
-      \strng{authorfullhashraw}{d858055ce32f899497d04f5f28b6fcce}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Journal of Chemical Physics}
-      \field{note}{Publisher: AIP Publishing}
-      \field{number}{6}
-      \field{title}{Non-hydrodynamic transverse collective excitations in hard-sphere fluids}
-      \field{volume}{147}
-      \field{year}{2017}
-      \verb{doi}
-      \verb 10.1063/1.4997640
-      \endverb
-    \endentry
-    \entry{10.1063/1.5088141}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=ac8a425b390ebadd69406956c24620ac}{%
-           family={Khrapak},
-           familyi={K\bibinitperiod},
-           given={Sergey\bibnamedelima A},
-           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=c30aa612f0c7afb0e7eb07ae6e3a835d}{%
-           family={Khrapak},
-           familyi={K\bibinitperiod},
-           given={Alexey\bibnamedelima G},
-           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=9e206a75eaff4c683778b73553e6ef97}{%
-           family={Kryuchkov},
-           familyi={K\bibinitperiod},
-           given={Nikita\bibnamedelima P},
-           giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=66c412397702c29b137b7c74ec0774f3}{%
-           family={Yurchenko},
-           familyi={Y\bibinitperiod},
-           given={Stanislav\bibnamedelima O},
-           giveni={S\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
-      }
-      \strng{namehash}{1e96207fe045feb0afb6870dc37c6a24}
-      \strng{fullhash}{1b71e672d9a1f4b097cac287173dbb96}
-      \strng{fullhashraw}{1b71e672d9a1f4b097cac287173dbb96}
-      \strng{bibnamehash}{1e96207fe045feb0afb6870dc37c6a24}
-      \strng{authorbibnamehash}{1e96207fe045feb0afb6870dc37c6a24}
-      \strng{authornamehash}{1e96207fe045feb0afb6870dc37c6a24}
-      \strng{authorfullhash}{1b71e672d9a1f4b097cac287173dbb96}
-      \strng{authorfullhashraw}{1b71e672d9a1f4b097cac287173dbb96}
-      \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Journal of chemical physics}
-      \field{note}{Publisher: AIP Publishing}
-      \field{number}{10}
-      \field{title}{Onset of transverse (shear) waves in strongly-coupled {Yukawa} fluids}
-      \field{volume}{150}
-      \field{year}{2019}
-      \verb{doi}
-      \verb 10.1063/1.5088141
-      \endverb
-    \endentry
-    \entry{10.1103/physreve.107.055211}{article}{}{}
-      \name{author}{6}{}{%
-        {{hash=f0bb41221675b745138726d9a01fffe9}{%
-           family={Ge},
-           familyi={G\bibinitperiod},
-           given={Zhenyu},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=81cb97c4e6f229298dbc162aa26adec5}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={Dong},
-           giveni={D\bibinitperiod}}}%
-        {{hash=6ae4a1ae1f5fdda167e2ffc3440e3689}{%
-           family={Lu},
-           familyi={L\bibinitperiod},
-           given={Shaoyu},
-           giveni={S\bibinitperiod}}}%
-        {{hash=8b0338921cb1b7773c2e58d76fd85d2e}{%
-           family={Liang},
-           familyi={L\bibinitperiod},
-           given={Chen},
-           giveni={C\bibinitperiod}}}%
-        {{hash=f341ee3275756ceb65aa9d8b4a719da4}{%
-           family={Baggioli},
-           familyi={B\bibinitperiod},
-           given={Matteo},
-           giveni={M\bibinitperiod}}}%
-        {{hash=d1d912509d266eb94dfcd8d6e4984992}{%
-           family={Feng},
-           familyi={F\bibinitperiod},
-           given={Yan},
-           giveni={Y\bibinitperiod}}}%
-      }
-      \strng{namehash}{78954e58f5f826cd8be998d055c1b013}
-      \strng{fullhash}{4129ddf3cd9c2943d0af03289e42f19c}
-      \strng{fullhashraw}{4129ddf3cd9c2943d0af03289e42f19c}
-      \strng{bibnamehash}{78954e58f5f826cd8be998d055c1b013}
-      \strng{authorbibnamehash}{78954e58f5f826cd8be998d055c1b013}
-      \strng{authornamehash}{78954e58f5f826cd8be998d055c1b013}
-      \strng{authorfullhash}{4129ddf3cd9c2943d0af03289e42f19c}
-      \strng{authorfullhashraw}{4129ddf3cd9c2943d0af03289e42f19c}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Physical Review E}
-      \field{note}{Publisher: APS}
-      \field{number}{5}
-      \field{title}{Observation of fast sound in two-dimensional dusty plasma liquids}
-      \field{volume}{107}
-      \field{year}{2023}
-      \field{pages}{055211}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/physreve.107.055211
-      \endverb
-    \endentry
-    \entry{10.1103/PhysRevB.101.214312}{article}{}{}
-      \name{author}{10}{}{%
-        {{hash=00c7c50eacab1c69d1337c07cee5692e}{%
-           family={Khusnutdinoff},
-           familyi={K\bibinitperiod},
-           given={R.\bibnamedelimi M.},
-           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=788347f4a61f0530fa9aed591b8d0a29}{%
-           family={Cockrell},
-           familyi={C\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=847b1cd184a9b2e0ea9394f7b40cf90f}{%
-           family={Dicks},
-           familyi={D\bibinitperiod},
-           given={O.\bibnamedelimi A.},
-           giveni={O\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=a0d8505a4fd2c3ffc27b0f54701a7f04}{%
-           family={Jensen},
-           familyi={J\bibinitperiod},
-           given={A.\bibnamedelimi C.\bibnamedelimi S.},
-           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=ef5d074c132d8b20858ebdfac33780d1}{%
-           family={Le},
-           familyi={L\bibinitperiod},
-           given={M.\bibnamedelimi D.},
-           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=9a75ee293f2555f40976345739087998}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=d5d128f121f5f23262f39bf7464019dd}{%
-           family={Dove},
-           familyi={D\bibinitperiod},
-           given={M.\bibnamedelimi T.},
-           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=801fae5d0dac3a9124f8d61369fc5652}{%
-           family={Mokshin},
-           familyi={M\bibinitperiod},
-           given={A.\bibnamedelimi V.},
-           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=7e3063e97f48cf2ec8f137f22ba04aa4}{%
-           family={Brazhkin},
-           familyi={B\bibinitperiod},
-           given={V.\bibnamedelimi V.},
-           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=af18a89f8591f25b0cceb67565d1dd45}{%
-           family={Trachenko},
-           familyi={T\bibinitperiod},
-           given={K.},
-           giveni={K\bibinitperiod}}}%
-      }
-      \strng{namehash}{9d65c9cb9efbb613e472a48255a0762b}
-      \strng{fullhash}{3e23e001c240762dc8e9fe0cbf49effa}
-      \strng{fullhashraw}{3e23e001c240762dc8e9fe0cbf49effa}
-      \strng{bibnamehash}{9d65c9cb9efbb613e472a48255a0762b}
-      \strng{authorbibnamehash}{9d65c9cb9efbb613e472a48255a0762b}
-      \strng{authornamehash}{9d65c9cb9efbb613e472a48255a0762b}
-      \strng{authorfullhash}{3e23e001c240762dc8e9fe0cbf49effa}
-      \strng{authorfullhashraw}{3e23e001c240762dc8e9fe0cbf49effa}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Collective excitations in liquids are important for understanding liquid dynamical and thermodynamic properties. Gapped momentum states (GMS) are a notable feature of liquid dynamics predicted to operate in the transverse collective excitations. Here, we combine inelastic neutron scattering experiments, theory, and molecular dynamics modeling to study collective excitations and GMS in liquid Ga in a wide range of temperature and 𝑘 points. We find that all three lines of enquiry agree for the longitudinal liquid collective dynamics. In the transverse collective dynamics, the experiments agree with theory, modeling, as well as earlier x-ray experiments at larger 𝑘, whereas theory and modeling agree in a wide range of temperature and 𝑘 points. We observe the emergence and development of the 𝑘 gap in the transverse dispersion relation which increases with temperature and inverse of relaxation time as predicted theoretically.}
-      \field{journaltitle}{Physical Review B}
-      \field{month}{6}
-      \field{note}{Publisher: American Physical Society}
-      \field{number}{21}
-      \field{shorttitle}{Collective modes and gapped momentum states in liquid {Ga}}
-      \field{title}{Collective modes and gapped momentum states in liquid {Ga}: {Experiment}, theory, and simulation}
-      \field{urlday}{2}
-      \field{urlmonth}{3}
-      \field{urlyear}{2025}
-      \field{volume}{101}
-      \field{year}{2020}
-      \field{urldateera}{ce}
-      \field{pages}{214312}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevB.101.214312
-      \endverb
-      \verb{file}
-      \verb Отправленная версия:/home/konst/Zotero/storage/4UIVFDSE/Khusnutdinoff и др. - 2020 - Collective modes and gapped momentum states in liq.pdf:application/pdf;APS Snapshot:/home/konst/Zotero/storage/L4E6T2XD/PhysRevB.101.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevB.101.214312
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevB.101.214312
-      \endverb
-    \endentry
-    \entry{10.1103/PhysRevLett.102.105502}{article}{}{}
-      \name{author}{11}{}{%
-        {{hash=8d512a4dadc22745e9a77b849c1f9dcb}{%
-           family={Hosokawa},
-           familyi={H\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=8308218ea7d7964518e00f463cc12fa8}{%
-           family={Inui},
-           familyi={I\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=e1cc2a85051a64f06c0253700b341bbf}{%
-           family={Kajihara},
-           familyi={K\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=542287874f9ac49b398281c8bf811ce6}{%
-           family={Matsuda},
-           familyi={M\bibinitperiod},
-           given={K.},
-           giveni={K\bibinitperiod}}}%
-        {{hash=618cea4127c7249e53568316d70c4694}{%
-           family={Ichitsubo},
-           familyi={I\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-        {{hash=8d471d856ddf35ac95e097cce05a106f}{%
-           family={Pilgrim},
-           familyi={P\bibinitperiod},
-           given={W.-C.},
-           giveni={W\bibinithyphendelim C\bibinitperiod}}}%
-        {{hash=8ded94c39dfc1857ce98bf429b840330}{%
-           family={Sinn},
-           familyi={S\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod}}}%
-        {{hash=98229a7886d4acc1bd840a3bd8e90129}{%
-           family={González},
-           familyi={G\bibinitperiod},
-           given={L.\bibnamedelimi E.},
-           giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=ed65cef70999b0557e8ead2c867c160c}{%
-           family={González},
-           familyi={G\bibinitperiod},
-           given={D.\bibnamedelimi J.},
-           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=2d45648aa809b6be73611413b36c8bbc}{%
-           family={Tsutsui},
-           familyi={T\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=7b236ccfbdd9e6b0962a35b116d72d2d}{%
-           family={Baron},
-           familyi={B\bibinitperiod},
-           given={A.\bibnamedelimi Q.\bibnamedelimi R.},
-           giveni={A\bibinitperiod\bibinitdelim Q\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{f9a393b2ed942241adb2db325e4aa3a7}
-      \strng{fullhash}{5b5cd34fef551d947da359e1ab5bc7d3}
-      \strng{fullhashraw}{5b5cd34fef551d947da359e1ab5bc7d3}
-      \strng{bibnamehash}{f9a393b2ed942241adb2db325e4aa3a7}
-      \strng{authorbibnamehash}{f9a393b2ed942241adb2db325e4aa3a7}
-      \strng{authornamehash}{f9a393b2ed942241adb2db325e4aa3a7}
-      \strng{authorfullhash}{5b5cd34fef551d947da359e1ab5bc7d3}
-      \strng{authorfullhashraw}{5b5cd34fef551d947da359e1ab5bc7d3}
-      \field{extraname}{1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0031-9007, 1079-7114}
-      \field{journaltitle}{Physical Review Letters}
-      \field{month}{3}
-      \field{number}{10}
-      \field{title}{Transverse {Acoustic} {Excitations} in {Liquid} {Ga}}
-      \field{urlday}{7}
-      \field{urlmonth}{3}
-      \field{urlyear}{2025}
-      \field{volume}{102}
-      \field{year}{2009}
-      \field{urldateera}{ce}
-      \field{pages}{105502}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevLett.102.105502
-      \endverb
-      \verb{file}
-      \verb Отправленная версия:/home/konst/Zotero/storage/3VNBDJ2H/Hosokawa и др. - 2009 - Transverse Acoustic Excitations in Liquid Ga.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.102.105502
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.102.105502
-      \endverb
-    \endentry
-    \entry{10.1088/0953-8984/25/11/112101}{article}{}{}
-      \name{author}{10}{}{%
-        {{hash=8d512a4dadc22745e9a77b849c1f9dcb}{%
-           family={Hosokawa},
-           familyi={H\bibinitperiod},
-           given={S},
-           giveni={S\bibinitperiod}}}%
-        {{hash=c61091a13ee131aed0eb5528ff2dd22e}{%
-           family={Munejiri},
-           familyi={M\bibinitperiod},
-           given={S},
-           giveni={S\bibinitperiod}}}%
-        {{hash=8308218ea7d7964518e00f463cc12fa8}{%
-           family={Inui},
-           familyi={I\bibinitperiod},
-           given={M},
-           giveni={M\bibinitperiod}}}%
-        {{hash=e1cc2a85051a64f06c0253700b341bbf}{%
-           family={Kajihara},
-           familyi={K\bibinitperiod},
-           given={Y},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=8d471d856ddf35ac95e097cce05a106f}{%
-           family={Pilgrim},
-           familyi={P\bibinitperiod},
-           given={W-C},
-           giveni={W\bibinithyphendelim C\bibinitperiod}}}%
-        {{hash=d375a798cc002415c65859e0ad29f9fd}{%
-           family={Ohmasa},
-           familyi={O\bibinitperiod},
-           given={Y},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=2d45648aa809b6be73611413b36c8bbc}{%
-           family={Tsutsui},
-           familyi={T\bibinitperiod},
-           given={S},
-           giveni={S\bibinitperiod}}}%
-        {{hash=7b236ccfbdd9e6b0962a35b116d72d2d}{%
-           family={Baron},
-           familyi={B\bibinitperiod},
-           given={A\bibnamedelima Q\bibnamedelima R},
-           giveni={A\bibinitperiod\bibinitdelim Q\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=4bb29cbd98f4573e011f8d73c4d2c125}{%
-           family={Shimojo},
-           familyi={S\bibinitperiod},
-           given={F},
-           giveni={F\bibinitperiod}}}%
-        {{hash=072735ffdc29fc8a5d8804f801466cc3}{%
-           family={Hoshino},
-           familyi={H\bibinitperiod},
-           given={K},
-           giveni={K\bibinitperiod}}}%
-      }
-      \strng{namehash}{f9a393b2ed942241adb2db325e4aa3a7}
-      \strng{fullhash}{89cc9480d08f881a456e8df16ddebff2}
-      \strng{fullhashraw}{89cc9480d08f881a456e8df16ddebff2}
-      \strng{bibnamehash}{f9a393b2ed942241adb2db325e4aa3a7}
-      \strng{authorbibnamehash}{f9a393b2ed942241adb2db325e4aa3a7}
-      \strng{authornamehash}{f9a393b2ed942241adb2db325e4aa3a7}
-      \strng{authorfullhash}{89cc9480d08f881a456e8df16ddebff2}
-      \strng{authorfullhashraw}{89cc9480d08f881a456e8df16ddebff2}
-      \field{extraname}{2}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0953-8984, 1361-648X}
-      \field{journaltitle}{Journal of Physics: Condensed Matter}
-      \field{month}{3}
-      \field{number}{11}
-      \field{title}{Transverse excitations in liquid {Sn}}
-      \field{urlday}{7}
-      \field{urlmonth}{3}
-      \field{urlyear}{2025}
-      \field{volume}{25}
-      \field{year}{2013}
-      \field{urldateera}{ce}
-      \field{pages}{112101}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1088/0953-8984/25/11/112101
-      \endverb
-      \verb{urlraw}
-      \verb https://iopscience.iop.org/article/10.1088/0953-8984/25/11/112101
-      \endverb
-      \verb{url}
-      \verb https://iopscience.iop.org/article/10.1088/0953-8984/25/11/112101
-      \endverb
-    \endentry
-    \entry{10.1088/0953-8984/27/19/194104}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=8d512a4dadc22745e9a77b849c1f9dcb}{%
-           family={Hosokawa},
-           familyi={H\bibinitperiod},
-           given={S},
-           giveni={S\bibinitperiod}}}%
-        {{hash=8308218ea7d7964518e00f463cc12fa8}{%
-           family={Inui},
-           familyi={I\bibinitperiod},
-           given={M},
-           giveni={M\bibinitperiod}}}%
-        {{hash=e1cc2a85051a64f06c0253700b341bbf}{%
-           family={Kajihara},
-           familyi={K\bibinitperiod},
-           given={Y},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=2d45648aa809b6be73611413b36c8bbc}{%
-           family={Tsutsui},
-           familyi={T\bibinitperiod},
-           given={S},
-           giveni={S\bibinitperiod}}}%
-        {{hash=7b236ccfbdd9e6b0962a35b116d72d2d}{%
-           family={Baron},
-           familyi={B\bibinitperiod},
-           given={A\bibnamedelima Q\bibnamedelima R},
-           giveni={A\bibinitperiod\bibinitdelim Q\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \strng{namehash}{f9a393b2ed942241adb2db325e4aa3a7}
-      \strng{fullhash}{a2e82ad36adca16c4e7dc1c681e7118d}
-      \strng{fullhashraw}{a2e82ad36adca16c4e7dc1c681e7118d}
-      \strng{bibnamehash}{f9a393b2ed942241adb2db325e4aa3a7}
-      \strng{authorbibnamehash}{f9a393b2ed942241adb2db325e4aa3a7}
-      \strng{authornamehash}{f9a393b2ed942241adb2db325e4aa3a7}
-      \strng{authorfullhash}{a2e82ad36adca16c4e7dc1c681e7118d}
-      \strng{authorfullhashraw}{a2e82ad36adca16c4e7dc1c681e7118d}
-      \field{extraname}{3}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0953-8984, 1361-648X}
-      \field{journaltitle}{Journal of Physics: Condensed Matter}
-      \field{month}{5}
-      \field{number}{19}
-      \field{title}{Transverse excitations in liquid {Fe}, {Cu} and {Zn}}
-      \field{urlday}{7}
-      \field{urlmonth}{3}
-      \field{urlyear}{2025}
-      \field{volume}{27}
-      \field{year}{2015}
-      \field{urldateera}{ce}
-      \field{pages}{194104}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1088/0953-8984/27/19/194104
-      \endverb
-      \verb{file}
-      \verb PDF:/home/konst/Zotero/storage/W7KKZ5Z7/Hosokawa и др. - 2015 - Transverse excitations in liquid Fe, Cu and Zn.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://iopscience.iop.org/article/10.1088/0953-8984/27/19/194104
-      \endverb
-      \verb{url}
-      \verb https://iopscience.iop.org/article/10.1088/0953-8984/27/19/194104
-      \endverb
-    \endentry
-    \entry{10.1038/s42005-025-02008-1}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=c514e8cad907b1695184492611931a82}{%
-           family={Jiang},
-           familyi={J\bibinitperiod},
-           given={Cunyuan},
-           giveni={C\bibinitperiod}}}%
-        {{hash=db0cb71ed9ef782bb466be24f0336fb8}{%
-           family={Zheng},
-           familyi={Z\bibinitperiod},
-           given={Zihan},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=ef9d53f36f856c13784c1549493413b7}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Yangrui},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=f341ee3275756ceb65aa9d8b4a719da4}{%
-           family={Baggioli},
-           familyi={B\bibinitperiod},
-           given={Matteo},
-           giveni={M\bibinitperiod}}}%
-        {{hash=2f4cc163c8766d4437008ea260208de8}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Jie},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{f2322d4ca0d1a436ca106f949874e44e}
-      \strng{fullhash}{5021551941409d34e7b546881b019f36}
-      \strng{fullhashraw}{5021551941409d34e7b546881b019f36}
-      \strng{bibnamehash}{f2322d4ca0d1a436ca106f949874e44e}
-      \strng{authorbibnamehash}{f2322d4ca0d1a436ca106f949874e44e}
-      \strng{authornamehash}{f2322d4ca0d1a436ca106f949874e44e}
-      \strng{authorfullhash}{5021551941409d34e7b546881b019f36}
-      \strng{authorfullhashraw}{5021551941409d34e7b546881b019f36}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Unlike crystalline solids, liquids lack long-range order, resulting in diffusive shear fluctuations rather than propagating waves. Simulations predict that liquids exhibit a k-gap in wave-vector space, where solid-like transverse waves reappear above this gap. Experimental evidence in classical liquids has been limited, observed only in 2D dusty plasmas. Here, we investigate this phenomenon using active Brownian vibrators and uncover distinct gas-like and liquid-like phases depending on the packing fraction. We measure key properties, including pair correlation functions, mean square displacements, velocity auto-correlation functions, and vibrational density of states. In the liquid-like phase, we confirm the k-gap in transverse excitations, whose size grows as the packing fraction decreases and eventually disappears in the gas phase. Our findings extend the concept of the k-gap to active granular systems and reveal striking parallels with supercritical fluids.}
-      \field{issn}{2399-3650}
-      \field{journaltitle}{Communications Physics}
-      \field{month}{2}
-      \field{note}{Publisher: Nature Publishing Group}
-      \field{number}{1}
-      \field{title}{Experimental observation of gapped shear waves and liquid-like to gas-like dynamical crossover in active granular matter}
-      \field{urlday}{2}
-      \field{urlmonth}{3}
-      \field{urlyear}{2025}
-      \field{volume}{8}
-      \field{year}{2025}
-      \field{urldateera}{ce}
-      \field{pages}{1\bibrangedash 12}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1038/s42005-025-02008-1
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:/home/konst/Zotero/storage/I5ZHR45L/Jiang и др. - 2025 - Experimental observation of gapped shear waves and.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.nature.com/articles/s42005-025-02008-1
-      \endverb
-      \verb{url}
-      \verb https://www.nature.com/articles/s42005-025-02008-1
-      \endverb
-      \keyw{Phase transitions and critical phenomena}
-    \endentry
-    \entry{10.1038/379521a0}{article}{}{}
-      \name{author}{8}{}{%
-        {{hash=cbc3d1b9e376ca8f4cc2adb6a2b05b09}{%
-           family={Ruocco},
-           familyi={R\bibinitperiod},
-           given={G},
-           giveni={G\bibinitperiod}}}%
-        {{hash=b013da7f2c987fa4ab55621f28427c23}{%
-           family={Sette},
-           familyi={S\bibinitperiod},
-           given={F},
-           giveni={F\bibinitperiod}}}%
-        {{hash=f528ea0e446be6aa8adb888aa45039eb}{%
-           family={Bergmann},
-           familyi={B\bibinitperiod},
-           given={U},
-           giveni={U\bibinitperiod}}}%
-        {{hash=9e404662ef6e33f9bfbeaaf4fdaf4829}{%
-           family={Krisch},
-           familyi={K\bibinitperiod},
-           given={M},
-           giveni={M\bibinitperiod}}}%
-        {{hash=17cf855e574688355a9f1f2cb286ca56}{%
-           family={Masciovecchlo},
-           familyi={M\bibinitperiod},
-           given={C},
-           giveni={C\bibinitperiod}}}%
-        {{hash=41623b8328ec234ed6a209176f9e5834}{%
-           family={Mazzacurati},
-           familyi={M\bibinitperiod},
-           given={V},
-           giveni={V\bibinitperiod}}}%
-        {{hash=8add1a2fee12720cd6fe344e9469bcb7}{%
-           family={Signorelli},
-           familyi={S\bibinitperiod},
-           given={G},
-           giveni={G\bibinitperiod}}}%
-        {{hash=f5a482fd3ee88413c201f45d44c8b676}{%
-           family={Verbeni},
-           familyi={V\bibinitperiod},
-           given={R},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{61ee96fc712b582359afe754b3a37da1}
-      \strng{fullhash}{e78ed13b7b175cf8b6035c2d98d75b62}
-      \strng{fullhashraw}{e78ed13b7b175cf8b6035c2d98d75b62}
-      \strng{bibnamehash}{61ee96fc712b582359afe754b3a37da1}
-      \strng{authorbibnamehash}{61ee96fc712b582359afe754b3a37da1}
-      \strng{authornamehash}{61ee96fc712b582359afe754b3a37da1}
-      \strng{authorfullhash}{e78ed13b7b175cf8b6035c2d98d75b62}
-      \strng{authorfullhashraw}{e78ed13b7b175cf8b6035c2d98d75b62}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Nature}
-      \field{note}{Publisher: Nature Publishing Group UK London}
-      \field{number}{6565}
-      \field{title}{Equivalence of the sound velocity in water and ice at mesoscopic wavelengths}
-      \field{volume}{379}
-      \field{year}{1996}
-      \field{pages}{521\bibrangedash 523}
-      \range{pages}{3}
-      \verb{doi}
-      \verb 10.1038/379521a0
-      \endverb
-    \endentry
-    \entry{10.1073/pnas.1006319107}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=a010087519de786f4dd3597140cb176a}{%
-           family={Giordano},
-           familyi={G\bibinitperiod},
-           given={Valentina\bibnamedelima M.},
-           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=fa5d58ccbdc42e89956460d8c7923a42}{%
-           family={Monaco},
-           familyi={M\bibinitperiod},
-           given={Giulio},
-           giveni={G\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{7705ee4def855a95017830f535f3cd2b}
-      \strng{fullhash}{7705ee4def855a95017830f535f3cd2b}
-      \strng{fullhashraw}{7705ee4def855a95017830f535f3cd2b}
-      \strng{bibnamehash}{7705ee4def855a95017830f535f3cd2b}
-      \strng{authorbibnamehash}{7705ee4def855a95017830f535f3cd2b}
-      \strng{authornamehash}{7705ee4def855a95017830f535f3cd2b}
-      \strng{authorfullhash}{7705ee4def855a95017830f535f3cd2b}
-      \strng{authorfullhashraw}{7705ee4def855a95017830f535f3cd2b}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{It is largely accepted that liquids are characterized by a short-range order usually corresponding to that of the solid phase at the same density. It is less clear to what extent dynamic properties of liquids and crystals can be compared. In particular, high-frequency collective excitations reminiscent of phonons in solids exist as well in liquids. They are however traditionally discussed in terms of relaxation processes characteristic of the liquid phase. We report here on a quantitative comparison of the collective excitations in liquid and polycrystalline sodium. We show that liquid sodium exhibits acoustic excitations of both longitudinal and transverse polarization at frequencies strictly related to those of the corresponding crystal. The only relevant difference between the liquid and the polycrystal appears in the broadening of the excitations: An additional disorder-induced contribution comes into play in the case of the liquid, which we show to be related to the distribution of local structures around the average one. These results establish a direct connection between structural and dynamic properties of liquids, with short-range order and overall structural disorder leaving very specific fingerprints.}
-      \field{issn}{0027-8424, 1091-6490}
-      \field{journaltitle}{Proceedings of the National Academy of Sciences}
-      \field{month}{12}
-      \field{number}{51}
-      \field{title}{Fingerprints of order and disorder on the high-frequency dynamics of liquids}
-      \field{urlday}{7}
-      \field{urlmonth}{3}
-      \field{urlyear}{2025}
-      \field{volume}{107}
-      \field{year}{2010}
-      \field{urldateera}{ce}
-      \field{pages}{21985\bibrangedash 21989}
-      \range{pages}{5}
-      \verb{doi}
-      \verb 10.1073/pnas.1006319107
-      \endverb
-      \verb{file}
-      \verb Полный текст:/home/konst/Zotero/storage/PZ6QW8ZA/Giordano и Monaco - 2010 - Fingerprints of order and disorder on the high-fre.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://pnas.org/doi/full/10.1073/pnas.1006319107
-      \endverb
-      \verb{url}
-      \verb https://pnas.org/doi/full/10.1073/pnas.1006319107
-      \endverb
-    \endentry
-    \entry{10.1103/revmodphys.77.881}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=a2c2fcec09ef741b2abe4bc0c2666b35}{%
-           family={Scopigno},
-           familyi={S\bibinitperiod},
-           given={Tullio},
-           giveni={T\bibinitperiod}}}%
-        {{hash=944c0b6607a1db611cb23842d6b22115}{%
-           family={Ruocco},
-           familyi={R\bibinitperiod},
-           given={Giancarlo},
-           giveni={G\bibinitperiod}}}%
-        {{hash=2354a320d902e21c1b871d8891bbffa7}{%
-           family={Sette},
-           familyi={S\bibinitperiod},
-           given={Francesco},
-           giveni={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{da89150f7152c90c54b5eb70ff22f70b}
-      \strng{fullhash}{da89150f7152c90c54b5eb70ff22f70b}
-      \strng{fullhashraw}{da89150f7152c90c54b5eb70ff22f70b}
-      \strng{bibnamehash}{da89150f7152c90c54b5eb70ff22f70b}
-      \strng{authorbibnamehash}{da89150f7152c90c54b5eb70ff22f70b}
-      \strng{authornamehash}{da89150f7152c90c54b5eb70ff22f70b}
-      \strng{authorfullhash}{da89150f7152c90c54b5eb70ff22f70b}
-      \strng{authorfullhashraw}{da89150f7152c90c54b5eb70ff22f70b}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Reviews of Modern Physics}
-      \field{note}{Publisher: APS}
-      \field{number}{3}
-      \field{title}{Microscopic dynamics in liquid metals: {The} experimental point of view}
-      \field{volume}{77}
-      \field{year}{2005}
-      \field{pages}{881\bibrangedash 933}
-      \range{pages}{53}
-      \verb{doi}
-      \verb 10.1103/revmodphys.77.881
-      \endverb
-    \endentry
-    \entry{10.1088/0953-8984/24/37/372101}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=862f7dd37352a1a14486c1e66d287aa3}{%
-           family={Noirez},
-           familyi={N\bibinitperiod},
-           given={Laurence},
-           giveni={L\bibinitperiod}}}%
-        {{hash=d1901c41b2c69b9b4ba16803079d544b}{%
-           family={Baroni},
-           familyi={B\bibinitperiod},
-           given={Patrick},
-           giveni={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{a26c617b5c638e1e1b9a5f99e3c526bc}
-      \strng{fullhash}{a26c617b5c638e1e1b9a5f99e3c526bc}
-      \strng{fullhashraw}{a26c617b5c638e1e1b9a5f99e3c526bc}
-      \strng{bibnamehash}{a26c617b5c638e1e1b9a5f99e3c526bc}
-      \strng{authorbibnamehash}{a26c617b5c638e1e1b9a5f99e3c526bc}
-      \strng{authornamehash}{a26c617b5c638e1e1b9a5f99e3c526bc}
-      \strng{authorfullhash}{a26c617b5c638e1e1b9a5f99e3c526bc}
-      \strng{authorfullhashraw}{a26c617b5c638e1e1b9a5f99e3c526bc}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Physics: Condensed Matter}
-      \field{note}{Publisher: IOP Publishing}
-      \field{number}{37}
-      \field{title}{Identification of a low-frequency elastic behaviour in liquid water}
-      \field{volume}{24}
-      \field{year}{2012}
-      \field{pages}{372101}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1088/0953-8984/24/37/372101
-      \endverb
-    \endentry
-    \entry{10.1063/1.1637145}{article}{}{}
-      \name{author}{7}{}{%
-        {{hash=c9950b10a7cf756f63ea5dd9edf677fa}{%
-           family={Yu},
-           familyi={Y\bibinitperiod},
-           given={Yuanxi},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=1e414cb0be2af1996ba40eb09ef8948d}{%
-           family={Jin},
-           familyi={J\bibinitperiod},
-           given={Sha},
-           giveni={S\bibinitperiod}}}%
-        {{hash=b3a53e872c44cedf4e78eb9bcea1ff0f}{%
-           family={Fan},
-           familyi={F\bibinitperiod},
-           given={Xue},
-           giveni={X\bibinitperiod}}}%
-        {{hash=6983f60f2f67fc1c0a7e6487153d7855}{%
-           family={Sarter},
-           familyi={S\bibinitperiod},
-           given={Mona},
-           giveni={M\bibinitperiod}}}%
-        {{hash=70cc7417977203247797e81387c04217}{%
-           family={Yu},
-           familyi={Y\bibinitperiod},
-           given={Dehong},
-           giveni={D\bibinitperiod}}}%
-        {{hash=f341ee3275756ceb65aa9d8b4a719da4}{%
-           family={Baggioli},
-           familyi={B\bibinitperiod},
-           given={Matteo},
-           giveni={M\bibinitperiod}}}%
-        {{hash=22f12e4c48a5fb57c2754ebdbcdc682d}{%
-           family={Hong},
-           familyi={H\bibinitperiod},
-           given={Liang},
-           giveni={L\bibinitperiod}}}%
-      }
-      \strng{namehash}{fb6565741ef40c0cd6a7eb98bd1cf66d}
-      \strng{fullhash}{d2ff6d080eadc6cd612e4fc73f532194}
-      \strng{fullhashraw}{d2ff6d080eadc6cd612e4fc73f532194}
-      \strng{bibnamehash}{fb6565741ef40c0cd6a7eb98bd1cf66d}
-      \strng{authorbibnamehash}{fb6565741ef40c0cd6a7eb98bd1cf66d}
-      \strng{authornamehash}{fb6565741ef40c0cd6a7eb98bd1cf66d}
-      \strng{authorfullhash}{d2ff6d080eadc6cd612e4fc73f532194}
-      \strng{authorfullhashraw}{d2ff6d080eadc6cd612e4fc73f532194}
-      \field{extraname}{2}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv preprint arXiv:2307.11429}
-      \field{title}{Unveiling the solid-like dynamics of liquids at low-frequency via nano-confinement}
-      \field{year}{2023}
-      \verb{doi}
-      \verb 10.1063/1.1637145
-      \endverb
-    \endentry
-    \entry{10.1016/j.physrep.2020.04.002}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=f341ee3275756ceb65aa9d8b4a719da4}{%
-           family={Baggioli},
-           familyi={B\bibinitperiod},
-           given={Matteo},
-           giveni={M\bibinitperiod}}}%
-        {{hash=c18ecd7b9d52b41d05a52d535ce410d8}{%
-           family={Vasin},
-           familyi={V\bibinitperiod},
-           given={Mikhail},
-           giveni={M\bibinitperiod}}}%
-        {{hash=71267133a8f1c5ca8a9ea01b55702630}{%
-           family={Brazhkin},
-           familyi={B\bibinitperiod},
-           given={Vadim},
-           giveni={V\bibinitperiod}}}%
-        {{hash=e82a5a936f721768b933d01b8d8682a8}{%
-           family={Trachenko},
-           familyi={T\bibinitperiod},
-           given={Kostya},
-           giveni={K\bibinitperiod}}}%
-      }
-      \strng{namehash}{67be75d69195677f941fbb90df162fa4}
-      \strng{fullhash}{acbb43729311d225ad6b889818e39276}
-      \strng{fullhashraw}{acbb43729311d225ad6b889818e39276}
-      \strng{bibnamehash}{67be75d69195677f941fbb90df162fa4}
-      \strng{authorbibnamehash}{67be75d69195677f941fbb90df162fa4}
-      \strng{authornamehash}{67be75d69195677f941fbb90df162fa4}
-      \strng{authorfullhash}{acbb43729311d225ad6b889818e39276}
-      \strng{authorfullhashraw}{acbb43729311d225ad6b889818e39276}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Important properties of a particle, wave or a statistical system depend on the form of a dispersion relation (DR). Two commonly-discussed dispersion relations are the gapless phonon-like DR and the DR with the energy or frequency gap. More recently, the third and intriguing type of DR has been emerging in different areas of physics: the DR with the gap in momentum, or k-space. It has been increasingly appreciated that gapped momentum states (GMS) have important implications for dynamical and thermodynamic properties of the system. Here, we review the origin of this phenomenon in a range of physical systems, starting from ordinary liquids to holographic models. We observe how GMS emerge in the Maxwell–Frenkel approach to liquid viscoelasticity, relate the k-gap to dissipation and observe how the gaps in DR can continuously change from the energy to momentum space and vice versa. We subsequently discuss how GMS emerge in the two-field description which is analogous to the quantum formulation of dissipation in the Keldysh–Schwinger approach. We discuss experimental evidence for GMS, including the direct evidence of gapped DR coming from strongly-coupled plasma. We also discuss GMS in electromagnetic waves and non-linear Sine–Gordon model. We then move on to discuss the recently developed quasihydrodynamic framework which relates the k-gap with the presence of a softly broken global symmetry and its applications. Finally, we review recent discussions of GMS in relativistic hydrodynamics and holographic models. Throughout the review, we point out essential physical ingredients required by GMS to emerge and make links between different areas of physics, with the view that new and deeper understanding will benefit from studying the GMS in seemingly disparate fields and from clarifying the origin of potentially similar underlying physical ideas and equations.}
-      \field{issn}{0370-1573}
-      \field{journaltitle}{Physics Reports}
-      \field{month}{6}
-      \field{series}{Gapped momentum states}
-      \field{title}{Gapped momentum states}
-      \field{urlday}{2}
-      \field{urlmonth}{3}
-      \field{urlyear}{2025}
-      \field{volume}{865}
-      \field{year}{2020}
-      \field{urldateera}{ce}
-      \field{pages}{1\bibrangedash 44}
-      \range{pages}{44}
-      \verb{doi}
-      \verb 10.1016/j.physrep.2020.04.002
-      \endverb
-      \verb{file}
-      \verb Отправленная версия:/home/konst/Zotero/storage/M3YSZ6K8/Baggioli и др. - 2020 - Gapped momentum states.pdf:application/pdf;ScienceDirect Snapshot:/home/konst/Zotero/storage/VTDRGZTD/S0370157320301198.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0370157320301198
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0370157320301198
-      \endverb
-    \endentry
-    \entry{10.1103/PhysRevResearch.5.033162}{article}{}{}
-      \name{author}{8}{}{%
-        {{hash=00205351ab4f99c0159fcd1ce4793acc}{%
-           family={Kumar},
-           familyi={K\bibinitperiod},
-           given={Sandeep},
-           giveni={S\bibinitperiod}}}%
-        {{hash=072670628c063050c85dbbbe2a4a7876}{%
-           family={Tahmasbi},
-           familyi={T\bibinitperiod},
-           given={Hossein},
-           giveni={H\bibinitperiod}}}%
-        {{hash=a31528061796f681228f63c696f31c48}{%
-           family={Ramakrishna},
-           familyi={R\bibinitperiod},
-           given={Kushal},
-           giveni={K\bibinitperiod}}}%
-        {{hash=7dceaafdf408f29c1f84d363043c3c60}{%
-           family={Lokamani},
-           familyi={L\bibinitperiod},
-           given={Mani},
-           giveni={M\bibinitperiod}}}%
-        {{hash=74695ca475c00dfd18aeea4f05efd259}{%
-           family={Nikolov},
-           familyi={N\bibinitperiod},
-           given={Svetoslav},
-           giveni={S\bibinitperiod}}}%
-        {{hash=047f9bea0748c8b3677f63dd20895887}{%
-           family={Tranchida},
-           familyi={T\bibinitperiod},
-           given={Julien},
-           giveni={J\bibinitperiod}}}%
-        {{hash=93cda5accb0c5a3f2299ab32033e4721}{%
-           family={Wood},
-           familyi={W\bibinitperiod},
-           given={Mitchell\bibnamedelima A.},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=12055e48c0dce1a01fb7aeeb976fc90b}{%
-           family={Cangi},
-           familyi={C\bibinitperiod},
-           given={Attila},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{4bb54db2903cebec3bc9cdecfdab3a4c}
-      \strng{fullhash}{c0ed5c8f34779cbc551686608fcf47e4}
-      \strng{fullhashraw}{c0ed5c8f34779cbc551686608fcf47e4}
-      \strng{bibnamehash}{4bb54db2903cebec3bc9cdecfdab3a4c}
-      \strng{authorbibnamehash}{4bb54db2903cebec3bc9cdecfdab3a4c}
-      \strng{authornamehash}{4bb54db2903cebec3bc9cdecfdab3a4c}
-      \strng{authorfullhash}{c0ed5c8f34779cbc551686608fcf47e4}
-      \strng{authorfullhashraw}{c0ed5c8f34779cbc551686608fcf47e4}
-      \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{2643-1564}
-      \field{journaltitle}{Physical Review Research}
-      \field{month}{9}
-      \field{number}{3}
-      \field{title}{Transferable interatomic potential for aluminum from ambient conditions to warm dense matter}
-      \field{urlday}{10}
-      \field{urlmonth}{3}
-      \field{urlyear}{2025}
-      \field{volume}{5}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \field{pages}{033162}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevResearch.5.033162
-      \endverb
-      \verb{file}
-      \verb Полный текст:/home/konst/Zotero/storage/UHV9PKUR/Kumar и др. - 2023 - Transferable interatomic potential for aluminum fr.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevResearch.5.033162
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevResearch.5.033162
-      \endverb
-    \endentry
-    \entry{10.1016/j.jcp.2014.12.018}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=314ce0ba4722b3250568dd5470b8f873}{%
-           family={Thompson},
-           familyi={T\bibinitperiod},
-           given={A.P.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=8f2f50b005da2f05851ec49479d8f1ae}{%
-           family={Swiler},
-           familyi={S\bibinitperiod},
-           given={L.P.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=bf0a90de5b99dd7d67e7cace9fe351a2}{%
-           family={Trott},
-           familyi={T\bibinitperiod},
-           given={C.R.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=2489dd13dbacc094aef6951437398f02}{%
-           family={Foiles},
-           familyi={F\bibinitperiod},
-           given={S.M.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=26c60fb5edf2a91f0c01ee9ae50e9fbd}{%
-           family={Tucker},
-           familyi={T\bibinitperiod},
-           given={G.J.},
-           giveni={G\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{0d83af67aff31198b99e771add88433b}
-      \strng{fullhash}{558c9b7b4c042571381d1de603513066}
-      \strng{fullhashraw}{558c9b7b4c042571381d1de603513066}
-      \strng{bibnamehash}{0d83af67aff31198b99e771add88433b}
-      \strng{authorbibnamehash}{0d83af67aff31198b99e771add88433b}
-      \strng{authornamehash}{0d83af67aff31198b99e771add88433b}
-      \strng{authorfullhash}{558c9b7b4c042571381d1de603513066}
-      \strng{authorfullhashraw}{558c9b7b4c042571381d1de603513066}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{00219991}
-      \field{journaltitle}{Journal of Computational Physics}
-      \field{month}{3}
-      \field{title}{Spectral neighbor analysis method for automated generation of quantum-accurate interatomic potentials}
-      \field{urlday}{21}
-      \field{urlmonth}{3}
-      \field{urlyear}{2025}
-      \field{volume}{285}
-      \field{year}{2015}
-      \field{urldateera}{ce}
-      \field{pages}{316\bibrangedash 330}
-      \range{pages}{15}
-      \verb{doi}
-      \verb 10.1016/j.jcp.2014.12.018
-      \endverb
-      \verb{file}
-      \verb Принятая версия:/home/konst/Zotero/storage/XUDC4ZPA/Thompson и др. - 2015 - Spectral neighbor analysis method for automated generation of quantum-accurate interatomic potential.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0021999114008353
-      \endverb
-      \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0021999114008353
-      \endverb
-    \endentry
-    \entry{10.1007/978-1-4615-8103-1_3}{incollection}{}{}
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{location}{1}{%
-        {Boston, MA}%
-      }
-      \list{publisher}{1}{%
-        {Springer US}%
-      }
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Treatise on {Heavy}-{Ion} {Science}}
-      \field{isbn}{978-1-4615-8105-5, 978-1-4615-8103-1}
-      \field{title}{The {Stopping} and {Range} of {Ions} in {Matter}}
-      \field{urlday}{21}
-      \field{urlmonth}{7}
-      \field{urlyear}{2025}
-      \field{year}{1985}
-      \field{urldateera}{ce}
-      \field{pages}{93\bibrangedash 129}
-      \range{pages}{37}
-      \verb{doi}
-      \verb 10.1007/978-1-4615-8103-1_3
-      \endverb
-      \verb{urlraw}
-      \verb http://link.springer.com/10.1007/978-1-4615-8103-1_3
-      \endverb
-      \verb{url}
-      \verb http://link.springer.com/10.1007/978-1-4615-8103-1_3
-      \endverb
-    \endentry
-    \entry{10.14278/RODARE.2368}{misc}{}{}
-      \name{author}{8}{}{%
-        {{hash=00205351ab4f99c0159fcd1ce4793acc}{%
-           family={Kumar},
-           familyi={K\bibinitperiod},
-           given={Sandeep},
-           giveni={S\bibinitperiod}}}%
-        {{hash=072670628c063050c85dbbbe2a4a7876}{%
-           family={Tahmasbi},
-           familyi={T\bibinitperiod},
-           given={Hossein},
-           giveni={H\bibinitperiod}}}%
-        {{hash=a31528061796f681228f63c696f31c48}{%
-           family={Ramakrishna},
-           familyi={R\bibinitperiod},
-           given={Kushal},
-           giveni={K\bibinitperiod}}}%
-        {{hash=7dceaafdf408f29c1f84d363043c3c60}{%
-           family={Lokamani},
-           familyi={L\bibinitperiod},
-           given={Mani},
-           giveni={M\bibinitperiod}}}%
-        {{hash=74695ca475c00dfd18aeea4f05efd259}{%
-           family={Nikolov},
-           familyi={N\bibinitperiod},
-           given={Svetoslav},
-           giveni={S\bibinitperiod}}}%
-        {{hash=047f9bea0748c8b3677f63dd20895887}{%
-           family={Tranchida},
-           familyi={T\bibinitperiod},
-           given={Julien},
-           giveni={J\bibinitperiod}}}%
-        {{hash=93cda5accb0c5a3f2299ab32033e4721}{%
-           family={Wood},
-           familyi={W\bibinitperiod},
-           given={Mitchell\bibnamedelima A.},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=12055e48c0dce1a01fb7aeeb976fc90b}{%
-           family={Cangi},
-           familyi={C\bibinitperiod},
-           given={Attila},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Rodare}%
-      }
-      \strng{namehash}{4bb54db2903cebec3bc9cdecfdab3a4c}
-      \strng{fullhash}{c0ed5c8f34779cbc551686608fcf47e4}
-      \strng{fullhashraw}{c0ed5c8f34779cbc551686608fcf47e4}
-      \strng{bibnamehash}{4bb54db2903cebec3bc9cdecfdab3a4c}
-      \strng{authorbibnamehash}{4bb54db2903cebec3bc9cdecfdab3a4c}
-      \strng{authornamehash}{4bb54db2903cebec3bc9cdecfdab3a4c}
-      \strng{authorfullhash}{c0ed5c8f34779cbc551686608fcf47e4}
-      \strng{authorfullhashraw}{c0ed5c8f34779cbc551686608fcf47e4}
-      \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Here, we provide FitSNAP and DAKOTA input scripts and DFT-MD training data sets used for the generation of transferable SNAP ML-IAP for aluminum.}
-      \field{month}{7}
-      \field{shorttitle}{Training scripts and input data sets}
-      \field{title}{Training scripts and input data sets: {Transferable} {Interatomic} {Potential} for {Aluminum} from {Ambient} {Conditions} to {Warm} {Dense} {Matter}}
-      \field{urlday}{21}
-      \field{urlmonth}{3}
-      \field{urlyear}{2025}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.14278/RODARE.2368
-      \endverb
-      \verb{urlraw}
-      \verb https://rodare.hzdr.de/record/2368
-      \endverb
-      \verb{url}
-      \verb https://rodare.hzdr.de/record/2368
-      \endverb
-    \endentry
-    \entry{10.1103/PhysRevLett.84.3638}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=39fdaa3be3d7c8070f8b18432c84deb7}{%
-           family={Belonoshko},
-           familyi={B\bibinitperiod},
-           given={A.\bibnamedelimi B.},
-           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-        {{hash=5a8a137d77e317c0b11bc8634dae7bd0}{%
-           family={Ahuja},
-           familyi={A\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=5f1581b6e37fa321b4e4a1079012fff0}{%
-           family={Johansson},
-           familyi={J\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{11332903a74a5beaa81841bfd2cbd2bb}
-      \strng{fullhash}{11332903a74a5beaa81841bfd2cbd2bb}
-      \strng{fullhashraw}{11332903a74a5beaa81841bfd2cbd2bb}
-      \strng{bibnamehash}{11332903a74a5beaa81841bfd2cbd2bb}
-      \strng{authorbibnamehash}{11332903a74a5beaa81841bfd2cbd2bb}
-      \strng{authornamehash}{11332903a74a5beaa81841bfd2cbd2bb}
-      \strng{authorfullhash}{11332903a74a5beaa81841bfd2cbd2bb}
-      \strng{authorfullhashraw}{11332903a74a5beaa81841bfd2cbd2bb}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0031-9007, 1079-7114}
-      \field{journaltitle}{Physical Review Letters}
-      \field{langid}{english}
-      \field{month}{4}
-      \field{number}{16}
-      \field{title}{Quasi-- {{{\emph{Ab Initio}}}} {{Molecular Dynamic Study}} of {{Fe Melting}}}
-      \field{urlday}{16}
-      \field{urlmonth}{10}
-      \field{urlyear}{2025}
-      \field{volume}{84}
-      \field{year}{2000}
-      \field{urldateera}{ce}
-      \field{pages}{3638\bibrangedash 3641}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1103/PhysRevLett.84.3638
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.84.3638
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.84.3638
-      \endverb
-    \endentry
-    \entry{10.1006/jcph.1995.1039}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=489ae657404ae2a22eccc4f507442f4d}{%
-           family={Plimpton},
-           familyi={P\bibinitperiod},
-           given={Steve},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{489ae657404ae2a22eccc4f507442f4d}
-      \strng{fullhash}{489ae657404ae2a22eccc4f507442f4d}
-      \strng{fullhashraw}{489ae657404ae2a22eccc4f507442f4d}
-      \strng{bibnamehash}{489ae657404ae2a22eccc4f507442f4d}
-      \strng{authorbibnamehash}{489ae657404ae2a22eccc4f507442f4d}
-      \strng{authornamehash}{489ae657404ae2a22eccc4f507442f4d}
-      \strng{authorfullhash}{489ae657404ae2a22eccc4f507442f4d}
-      \strng{authorfullhashraw}{489ae657404ae2a22eccc4f507442f4d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Three parallel algorithms for classical molecular dynamics are presented. The first assigns each processor a fixed subset of atoms; the second assigns each a fixed subset of inter-atomic forces to compute; the third assigns each a fixed spatial region. The algorithms are suitable for molecular dynamics models which can be difficult to parallelize efficiently—those with short-range forces where the neighbors of each atom change rapidly. They can be implemented on any distributed-memory parallel machine which allows for message-passing of data between independently executing processors. The algorithms are tested on a standard Lennard-Jones benchmark problem for system sizes ranging from 500 to 100,000,000 atoms on several parallel supercomputers--the nCUBE 2, Intel iPSC/860 and Paragon, and Cray T3D. Comparing the results to the fastest reported vectorized Cray Y-MP and C90 algorithm shows that the current generation of parallel machines is competitive with conventional vector supercomputers even for small problems. For large problems, the spatial algorithm achieves parallel efficiencies of 90\% and a 1840-node Intel Paragon performs up to 165 faster than a single Cray C9O processor. Trade-offs between the three algorithms and guidelines for adapting them to more complex molecular dynamics simulations are also discussed.}
-      \field{issn}{0021-9991}
-      \field{journaltitle}{Journal of Computational Physics}
-      \field{month}{3}
-      \field{number}{1}
-      \field{title}{Fast {Parallel} {Algorithms} for {Short}-{Range} {Molecular} {Dynamics}}
-      \field{urlday}{10}
-      \field{urlmonth}{3}
-      \field{urlyear}{2025}
-      \field{volume}{117}
-      \field{year}{1995}
-      \field{urldateera}{ce}
-      \field{pages}{1\bibrangedash 19}
-      \range{pages}{19}
-      \verb{doi}
-      \verb 10.1006/jcph.1995.1039
-      \endverb
-      \verb{file}
-      \verb Отправленная версия:/home/konst/Zotero/storage/QVLN97CB/Plimpton - 1995 - Fast Parallel Algorithms for Short-Range Molecular.pdf:application/pdf;ScienceDirect Snapshot:/home/konst/Zotero/storage/I6HS6Y43/S002199918571039X.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S002199918571039X
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S002199918571039X
-      \endverb
-    \endentry
-    \entry{hansen_theory_2013}{book}{}{}
-      \name{author}{2}{}{%
-        {{hash=17be630b0669caa9c2d86ff6ddc578ff}{%
-           family={Hansen},
-           familyi={H\bibinitperiod},
-           given={Jean-Pierre},
-           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
-        {{hash=5d86824366b979becd2f549662d12639}{%
-           family={McDonald},
-           familyi={M\bibinitperiod},
-           given={Ian\bibnamedelima Ranald},
-           giveni={I\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Academic press}%
-      }
-      \strng{namehash}{280f94315486830cb2950656c77752dd}
-      \strng{fullhash}{280f94315486830cb2950656c77752dd}
-      \strng{fullhashraw}{280f94315486830cb2950656c77752dd}
-      \strng{bibnamehash}{280f94315486830cb2950656c77752dd}
-      \strng{authorbibnamehash}{280f94315486830cb2950656c77752dd}
-      \strng{authornamehash}{280f94315486830cb2950656c77752dd}
-      \strng{authorfullhash}{280f94315486830cb2950656c77752dd}
-      \strng{authorfullhashraw}{280f94315486830cb2950656c77752dd}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Theory of simple liquids: with applications to soft matter}
-      \field{year}{2013}
-    \endentry
-    \entry{10.1039/C4SM00124A}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=38234bb0974838edad9c06df171f9858}{%
-           family={Dudalov},
-           familyi={D\bibinitperiod},
-           given={D.\bibnamedelimi E.},
-           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=8a14b73ca855da8260c724a881dad13d}{%
-           family={Fomin},
-           familyi={F\bibinitperiod},
-           given={Y.\bibnamedelimi D.},
-           giveni={Y\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=1daa15aaf26764278f3ad4d5434fbca1}{%
-           family={Tsiok},
-           familyi={T\bibinitperiod},
-           given={E.\bibnamedelimi N.},
-           giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=9f10c14399317141370104ae83ae4b3e}{%
-           family={Ryzhov},
-           familyi={R\bibinitperiod},
-           given={V.\bibnamedelimi N.},
-           giveni={V\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{69706e0a02b8545199d4a8c17d120d17}
-      \strng{fullhash}{41aaad0d8fbb5eb80ac8149b36ba9cce}
-      \strng{fullhashraw}{41aaad0d8fbb5eb80ac8149b36ba9cce}
-      \strng{bibnamehash}{69706e0a02b8545199d4a8c17d120d17}
-      \strng{authorbibnamehash}{69706e0a02b8545199d4a8c17d120d17}
-      \strng{authornamehash}{69706e0a02b8545199d4a8c17d120d17}
-      \strng{authorfullhash}{41aaad0d8fbb5eb80ac8149b36ba9cce}
-      \strng{authorfullhashraw}{41aaad0d8fbb5eb80ac8149b36ba9cce}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{We present a computer simulation study of the phase diagram and anomalous behavior of two-dimensional (2D) and three-dimensional (3D) classical particles repelling each other through an isotropic core-softened potential. , We present a computer simulation study of the phase diagram and anomalous behavior of two-dimensional (2D) and three-dimensional (3D) classical particles repelling each other through an isotropic core-softened potential. As in the analogous three-dimensional case, in 2D a reentrant-melting transition occurs upon compression under not too high pressure, along with a spectrum of thermodynamic and dynamic anomalies in the fluid phase. However, in two dimensions the order of the region of anomalous diffusion and the region of structural anomaly is inverted in comparison with the 3D case, where there exists a water-like sequence of anomalies, and has a silica-like sequence. In the low density part of the 2D phase diagram, melting is a continuous two-stage transition, with an intermediate hexatic phase. All available evidence supports the Kosterlitz–Thouless–Halperin–Nelson–Young (KTHNY) scenario for this melting transition. On the other hand, at high density part of the phase diagram one first-order transition takes place.}
-      \field{issn}{1744-683X, 1744-6848}
-      \field{journaltitle}{Soft Matter}
-      \field{number}{27}
-      \field{title}{How dimensionality changes the anomalous behavior and melting scenario of a core-softened potential system?}
-      \field{urlday}{5}
-      \field{urlmonth}{4}
-      \field{urlyear}{2025}
-      \field{volume}{10}
-      \field{year}{2014}
-      \field{urldateera}{ce}
-      \field{pages}{4966\bibrangedash 4976}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1039/C4SM00124A
-      \endverb
-      \verb{urlraw}
-      \verb https://xlink.rsc.org/?DOI=C4SM00124A
-      \endverb
-      \verb{url}
-      \verb https://xlink.rsc.org/?DOI=C4SM00124A
-      \endverb
-    \endentry
-    \entry{10.1103/physrevlett.17.1133}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=b5f10f77e7a1e023c7eacaca5e364c2c}{%
-           family={Mermin},
-           familyi={M\bibinitperiod},
-           given={N.\bibnamedelimi D.},
-           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=803e71bc4f3ca668cfa4307813326ee1}{%
-           family={Wagner},
-           familyi={W\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{174c30505691fc1676655c7d5e49179e}
-      \strng{fullhash}{174c30505691fc1676655c7d5e49179e}
-      \strng{fullhashraw}{174c30505691fc1676655c7d5e49179e}
-      \strng{bibnamehash}{174c30505691fc1676655c7d5e49179e}
-      \strng{authorbibnamehash}{174c30505691fc1676655c7d5e49179e}
-      \strng{authornamehash}{174c30505691fc1676655c7d5e49179e}
-      \strng{authorfullhash}{174c30505691fc1676655c7d5e49179e}
-      \strng{authorfullhashraw}{174c30505691fc1676655c7d5e49179e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0031-9007}
-      \field{journaltitle}{Physical Review Letters}
-      \field{month}{11}
-      \field{note}{Publisher: American Physical Society (APS)}
-      \field{number}{22}
-      \field{title}{Absence of {Ferromagnetism} or {Antiferromagnetism} in {One}- or {Two}-{Dimensional} {Isotropic} {Heisenberg} {Models}}
-      \field{urlday}{23}
-      \field{urlmonth}{7}
-      \field{urlyear}{2025}
-      \field{volume}{17}
-      \field{year}{1966}
-      \field{urldateera}{ce}
-      \field{pages}{1133\bibrangedash 1136}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1103/physrevlett.17.1133
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.17.1133
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.17.1133
-      \endverb
-    \endentry
-  \enddatalist
-\endrefsection
-\endinput
-
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {March}\ \emph {et~al.}(2002)\citenamefont {March},
+  \citenamefont {Tosi},\ and\ \citenamefont {Tosi}}]{978-981-02-4652-5}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~H.}\ \bibnamefont
+  {March}}, \bibinfo {author} {\bibfnamefont {M.~P.}\ \bibnamefont {Tosi}},\
+  and\ \bibinfo {author} {\bibfnamefont {M.~P.}\ \bibnamefont {Tosi}},\
+  }\href@noop {} {\emph {\bibinfo {title} {Introduction to liquid state
+  physics}}}\ (\bibinfo  {publisher} {World Scientific},\ \bibinfo {address}
+  {River Edge, NJ},\ \bibinfo {year} {2002})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Dove}(1993)}]{978-0-521-39293-8}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~T.}\ \bibnamefont
+  {Dove}},\ }\href {https://doi.org/10.1017/cbo9780511619885} {\emph {\bibinfo
+  {title} {Introduction to {Lattice} {Dynamics}}}},\ \bibinfo {edition} {1st}\
+  ed.\ (\bibinfo  {publisher} {Cambridge University Press},\ \bibinfo {year}
+  {1993})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ziman}(2001)}]{978-0-19-850779-6}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Ziman}},\ }\href@noop {} {\emph {\bibinfo {title} {Electrons and phonons:
+  the theory of transport phenomena in solids}}},\ Oxford classic texts in the
+  physical sciences\ (\bibinfo  {publisher} {Clarendon Press ; Oxford
+  University Press},\ \bibinfo {address} {Oxford : New York},\ \bibinfo {year}
+  {2001})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Trachenko}\ and\ \citenamefont
+  {Brazhkin}(2015)}]{10.1088/0034-4885/79/1/016502}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Trachenko}}\ and\ \bibinfo {author} {\bibfnamefont {V.~V.}\ \bibnamefont
+  {Brazhkin}},\ }\bibfield  {title} {\bibinfo {title} {Collective modes and
+  thermodynamics of the liquid state},\ }\href
+  {https://doi.org/10.1088/0034-4885/79/1/016502} {\bibfield  {journal}
+  {\bibinfo  {journal} {Reports on Progress in Physics}\ }\textbf {\bibinfo
+  {volume} {79}},\ \bibinfo {pages} {016502} (\bibinfo {year} {2015})},\
+  \bibinfo {note} {publisher: IOP Publishing}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kryuchkov}\ \emph {et~al.}(2019)\citenamefont
+  {Kryuchkov}, \citenamefont {Mistryukova}, \citenamefont {Brazhkin},\ and\
+  \citenamefont {Yurchenko}}]{10.1038/s41598-019-46979-y}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~P.}\ \bibnamefont
+  {Kryuchkov}}, \bibinfo {author} {\bibfnamefont {L.~A.}\ \bibnamefont
+  {Mistryukova}}, \bibinfo {author} {\bibfnamefont {V.~V.}\ \bibnamefont
+  {Brazhkin}},\ and\ \bibinfo {author} {\bibfnamefont {S.~O.}\ \bibnamefont
+  {Yurchenko}},\ }\bibfield  {title} {\bibinfo {title} {Excitation spectra in
+  fluids: {How} to analyze them properly},\ }\href
+  {https://doi.org/10.1038/s41598-019-46979-y} {\bibfield  {journal} {\bibinfo
+  {journal} {Scientific reports}\ }\textbf {\bibinfo {volume} {9}},\ \bibinfo
+  {pages} {10483} (\bibinfo {year} {2019})},\ \bibinfo {note} {publisher:
+  Nature Publishing Group UK London}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yakovlev}\ \emph {et~al.}(2020)\citenamefont
+  {Yakovlev}, \citenamefont {Kryuchkov}, \citenamefont {Ovcharov},
+  \citenamefont {Sapelkin}, \citenamefont {Brazhkin},\ and\ \citenamefont
+  {Yurchenko}}]{10.1021/acs.jpclett.9b03568.s001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~V.}\ \bibnamefont
+  {Yakovlev}}, \bibinfo {author} {\bibfnamefont {N.~P.}\ \bibnamefont
+  {Kryuchkov}}, \bibinfo {author} {\bibfnamefont {P.~V.}\ \bibnamefont
+  {Ovcharov}}, \bibinfo {author} {\bibfnamefont {A.~V.}\ \bibnamefont
+  {Sapelkin}}, \bibinfo {author} {\bibfnamefont {V.~V.}\ \bibnamefont
+  {Brazhkin}},\ and\ \bibinfo {author} {\bibfnamefont {S.~O.}\ \bibnamefont
+  {Yurchenko}},\ }\bibfield  {title} {\bibinfo {title} {Direct experimental
+  evidence of longitudinal and transverse mode hybridization and anticrossing
+  in simple model fluids},\ }\href
+  {https://doi.org/10.1021/acs.jpclett.9b03568.s001} {\bibfield  {journal}
+  {\bibinfo  {journal} {The Journal of Physical Chemistry Letters}\ }\textbf
+  {\bibinfo {volume} {11}},\ \bibinfo {pages} {1370} (\bibinfo {year}
+  {2020})},\ \bibinfo {note} {publisher: ACS Publications}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Kryuchkov}\ \emph {et~al.}(2020)\citenamefont
+  {Kryuchkov}, \citenamefont {Mistryukova}, \citenamefont {Sapelkin},
+  \citenamefont {Brazhkin},\ and\ \citenamefont
+  {Yurchenko}}]{10.1103/PhysRevLett.125.125501}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~P.}\ \bibnamefont
+  {Kryuchkov}}, \bibinfo {author} {\bibfnamefont {L.~A.}\ \bibnamefont
+  {Mistryukova}}, \bibinfo {author} {\bibfnamefont {A.~V.}\ \bibnamefont
+  {Sapelkin}}, \bibinfo {author} {\bibfnamefont {V.~V.}\ \bibnamefont
+  {Brazhkin}},\ and\ \bibinfo {author} {\bibfnamefont {S.~O.}\ \bibnamefont
+  {Yurchenko}},\ }\bibfield  {title} {\bibinfo {title} {Universal {Effect} of
+  {Excitation} {Dispersion} on the {Heat} {Capacity} and {Gapped} {States} in
+  {Fluids}},\ }\href {https://doi.org/10.1103/PhysRevLett.125.125501}
+  {\bibfield  {journal} {\bibinfo  {journal} {Physical Review Letters}\
+  }\textbf {\bibinfo {volume} {125}},\ \bibinfo {pages} {125501} (\bibinfo
+  {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Khrapak}(2021)}]{10.1103/PhysRevE.103.013207}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~A.}\ \bibnamefont
+  {Khrapak}},\ }\bibfield  {title} {\bibinfo {title} {Vibrational model of
+  thermal conduction for fluids with soft interactions},\ }\href
+  {https://doi.org/10.1103/PhysRevE.103.013207} {\bibfield  {journal} {\bibinfo
+   {journal} {Physical Review E}\ }\textbf {\bibinfo {volume} {103}},\ \bibinfo
+  {pages} {013207} (\bibinfo {year} {2021})},\ \bibinfo {note} {publisher:
+  American Physical Society}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kryuchkov}\ and\ \citenamefont
+  {Yurchenko}(2021)}]{10.1063/5.0054854}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~P.}\ \bibnamefont
+  {Kryuchkov}}\ and\ \bibinfo {author} {\bibfnamefont {S.~O.}\ \bibnamefont
+  {Yurchenko}},\ }\bibfield  {title} {\bibinfo {title} {Collective excitations
+  in active fluids: {Microflows} and breakdown in spectral equipartition of
+  kinetic energy},\ }\bibfield  {journal} {\bibinfo  {journal} {The Journal of
+  Chemical Physics}\ }\textbf {\bibinfo {volume} {155}},\ \href
+  {https://doi.org/10.1063/5.0054854} {10.1063/5.0054854} (\bibinfo {year}
+  {2021}),\ \bibinfo {note} {publisher: AIP Publishing}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Stamper}\ \emph {et~al.}(2022)\citenamefont
+  {Stamper}, \citenamefont {Cortie}, \citenamefont {Yue}, \citenamefont
+  {Wang},\ and\ \citenamefont {Yu}}]{10.1021/acs.jpclett.2c00297}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Stamper}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Cortie}},
+  \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Yue}}, \bibinfo {author}
+  {\bibfnamefont {X.}~\bibnamefont {Wang}},\ and\ \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Yu}},\ }\bibfield  {title} {\bibinfo
+  {title} {Experimental {Confirmation} of the {Universal} {Law} for the
+  {Vibrational} {Density} of {States} of {Liquids}},\ }\href
+  {https://doi.org/10.1021/acs.jpclett.2c00297} {\bibfield  {journal} {\bibinfo
+   {journal} {The Journal of Physical Chemistry Letters}\ }\textbf {\bibinfo
+  {volume} {13}},\ \bibinfo {pages} {3105} (\bibinfo {year}
+  {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hofmann}\ and\ \citenamefont
+  {Das~Sarma}(2022)}]{10.1103/PhysRevB.106.205412}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Hofmann}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Das~Sarma}},\ }\bibfield  {title} {\bibinfo {title} {Collective modes in
+  interacting two-dimensional tomographic {Fermi} liquids},\ }\href
+  {https://doi.org/10.1103/PhysRevB.106.205412} {\bibfield  {journal} {\bibinfo
+   {journal} {Physical Review B}\ }\textbf {\bibinfo {volume} {106}},\ \bibinfo
+  {pages} {205412} (\bibinfo {year} {2022})},\ \bibinfo {note} {publisher:
+  American Physical Society}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zhao}\ and\ \citenamefont
+  {Garay}(2023)}]{10.1016/j.pmatsci.2023.101180}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~Z.}\ \bibnamefont
+  {Zhao}}\ and\ \bibinfo {author} {\bibfnamefont {J.~E.}\ \bibnamefont
+  {Garay}},\ }\bibfield  {title} {\bibinfo {title} {High temperature liquid
+  thermal conductivity: {A} review of measurement techniques, theoretical
+  understanding, and energy applications},\ }\href
+  {https://doi.org/10.1016/j.pmatsci.2023.101180} {\bibfield  {journal}
+  {\bibinfo  {journal} {Progress in Materials Science}\ }\textbf {\bibinfo
+  {volume} {139}},\ \bibinfo {pages} {101180} (\bibinfo {year}
+  {2023})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Huang}\ \emph {et~al.}(2023)\citenamefont {Huang},
+  \citenamefont {Baggioli}, \citenamefont {Lu}, \citenamefont {Ma},\ and\
+  \citenamefont {Feng}}]{10.1103/PhysRevResearch.5.013149}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Huang}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Baggioli}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Lu}}, \bibinfo {author}
+  {\bibfnamefont {Z.}~\bibnamefont {Ma}},\ and\ \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {Feng}},\ }\bibfield  {title} {\bibinfo
+  {title} {Revealing the supercritical dynamics of dusty plasmas and their
+  liquidlike to gaslike dynamical crossover},\ }\href
+  {https://doi.org/10.1103/PhysRevResearch.5.013149} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physical Review Research}\ }\textbf {\bibinfo {volume}
+  {5}},\ \bibinfo {pages} {013149} (\bibinfo {year} {2023})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Cockrell}\ and\ \citenamefont
+  {Dragović}(2024)}]{10.1063/5.0201689}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Cockrell}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Dragović}},\ }\bibfield  {title} {\bibinfo {title} {Thermodynamics and
+  collective modes in hydrogen-bonded fluids},\ }\bibfield  {journal} {\bibinfo
+   {journal} {The Journal of Chemical Physics}\ }\textbf {\bibinfo {volume}
+  {160}},\ \href {https://doi.org/10.1063/5.0201689} {10.1063/5.0201689}
+  (\bibinfo {year} {2024}),\ \bibinfo {note} {publisher: AIP
+  Publishing}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont
+  {Khrapak}(2024{\natexlab{a}})}]{10.1016/j.physrep.2023.11.004}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~A.}\ \bibnamefont
+  {Khrapak}},\ }\bibfield  {title} {\bibinfo {title} {Elementary vibrational
+  model for transport properties of dense fluids},\ }\href
+  {https://doi.org/10.1016/j.physrep.2023.11.004} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physics Reports}\ }\bibinfo {series} {Elementary
+  vibrational model for transport properties of dense fluids},\ \textbf
+  {\bibinfo {volume} {1050}},\ \bibinfo {pages} {1} (\bibinfo {year}
+  {2024}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yu}\ \emph {et~al.}(2024)\citenamefont {Yu},
+  \citenamefont {Huang}, \citenamefont {Lu}, \citenamefont {Khrapak},\ and\
+  \citenamefont {Feng}}]{10.1103/physreve.109.035202}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Yu}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Huang}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Lu}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Khrapak}},\ and\ \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {Feng}},\ }\bibfield  {title} {\bibinfo
+  {title} {Universal scaling of transverse sound speed and its isomorphic
+  property in {Yukawa} fluids},\ }\href
+  {https://doi.org/10.1103/physreve.109.035202} {\bibfield  {journal} {\bibinfo
+   {journal} {Physical Review E}\ }\textbf {\bibinfo {volume} {109}},\ \bibinfo
+  {pages} {035202} (\bibinfo {year} {2024})},\ \bibinfo {note} {publisher:
+  APS}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont
+  {Khrapak}(2024{\natexlab{b}})}]{10.1103/PhysRevE.110.034602}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~A.}\ \bibnamefont
+  {Khrapak}},\ }\bibfield  {title} {\bibinfo {title} {Entropy of strongly
+  coupled {Yukawa} fluids},\ }\href
+  {https://doi.org/10.1103/PhysRevE.110.034602} {\bibfield  {journal} {\bibinfo
+   {journal} {Physical Review E}\ }\textbf {\bibinfo {volume} {110}},\ \bibinfo
+  {pages} {034602} (\bibinfo {year} {2024}{\natexlab{b}})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Cockrell}\ \emph {et~al.}(2025)\citenamefont
+  {Cockrell}, \citenamefont {Withington}, \citenamefont {Devereux},
+  \citenamefont {Elena}, \citenamefont {Todorov}, \citenamefont {Liu},
+  \citenamefont {Shang}, \citenamefont {McCloy}, \citenamefont {Bingham},\ and\
+  \citenamefont {Trachenko}}]{10.1039/d4cp04180a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Cockrell}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Withington}}, \bibinfo {author} {\bibfnamefont {H.~L.}\ \bibnamefont
+  {Devereux}}, \bibinfo {author} {\bibfnamefont {A.~M.}\ \bibnamefont {Elena}},
+  \bibinfo {author} {\bibfnamefont {I.~T.}\ \bibnamefont {Todorov}}, \bibinfo
+  {author} {\bibfnamefont {Z.-K.}\ \bibnamefont {Liu}}, \bibinfo {author}
+  {\bibfnamefont {S.-L.}\ \bibnamefont {Shang}}, \bibinfo {author}
+  {\bibfnamefont {J.~S.}\ \bibnamefont {McCloy}}, \bibinfo {author}
+  {\bibfnamefont {P.~A.}\ \bibnamefont {Bingham}},\ and\ \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Trachenko}},\ }\bibfield  {title} {\bibinfo
+  {title} {Thermodynamics and transport in molten chloride salts and their
+  mixtures},\ }\href {https://doi.org/10.1039/d4cp04180a} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physical Chemistry Chemical Physics}\ }\textbf
+  {\bibinfo {volume} {27}},\ \bibinfo {pages} {1604} (\bibinfo {year}
+  {2025})},\ \bibinfo {note} {publisher: Royal Society of
+  Chemistry}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Huang}\ \emph {et~al.}(2025)\citenamefont {Huang},
+  \citenamefont {Lu}, \citenamefont {Liang}, \citenamefont {Baggioli},\ and\
+  \citenamefont {Feng}}]{10.1063/5.0266423}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Huang}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Lu}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Liang}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Baggioli}},\ and\ \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {Feng}},\ }\bibfield  {title} {\bibinfo
+  {title} {Fundamental {Origin} of {Viscosity} in {2D} {Simple} {Liquids}},\
+  }\bibfield  {journal} {\bibinfo  {journal} {arXiv preprint arXiv:2502.12522}\
+  }\href {https://doi.org/10.1063/5.0266423} {10.1063/5.0266423} (\bibinfo
+  {year} {2025})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Frenkel}(1946)}]{frenkel_kinetic_1946}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Frenkel}},\ }\href {http://archive.org/details/in.ernet.dli.2015.53485}
+  {\emph {\bibinfo {title} {Kinetic {Theory} {Of} {Liquids}}}}\ (\bibinfo
+  {year} {1946})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nosenko}\ \emph {et~al.}(2006)\citenamefont
+  {Nosenko}, \citenamefont {Goree},\ and\ \citenamefont
+  {Piel}}]{10.1103/physrevlett.97.115001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Nosenko}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Goree}},\
+  and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Piel}},\ }\bibfield
+  {title} {\bibinfo {title} {Cutoff wave number for shear waves in a
+  two-dimensional {Yukawa} system (dusty plasma)},\ }\href
+  {https://doi.org/10.1103/physrevlett.97.115001} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physical review letters}\ }\textbf {\bibinfo {volume}
+  {97}},\ \bibinfo {pages} {115001} (\bibinfo {year} {2006})},\ \bibinfo {note}
+  {publisher: APS}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yang}\ \emph {et~al.}(2017)\citenamefont {Yang},
+  \citenamefont {Dove}, \citenamefont {Brazhkin},\ and\ \citenamefont
+  {Trachenko}}]{10.1103/PhysRevLett.118.215502}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Yang}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Dove}}, \bibinfo
+  {author} {\bibfnamefont {V.}~\bibnamefont {Brazhkin}},\ and\ \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Trachenko}},\ }\bibfield  {title}
+  {\bibinfo {title} {Emergence and {Evolution} of the k {Gap} in {Spectra} of
+  {Liquid} and {Supercritical} {States}},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.118.215502} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physical Review Letters}\ }\textbf {\bibinfo {volume}
+  {118}},\ \bibinfo {pages} {215502} (\bibinfo {year} {2017})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Guarini}\ \emph {et~al.}(2023)\citenamefont
+  {Guarini}, \citenamefont {Neumann}, \citenamefont {De~Francesco},
+  \citenamefont {Formisano}, \citenamefont {Cunsolo}, \citenamefont
+  {Montfrooij}, \citenamefont {Colognesi},\ and\ \citenamefont
+  {Bafile}}]{10.1103/physreve.107.014139}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Guarini}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Neumann}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {De~Francesco}}, \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {Formisano}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Cunsolo}}, \bibinfo {author} {\bibfnamefont
+  {W.}~\bibnamefont {Montfrooij}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {Colognesi}},\ and\ \bibinfo {author} {\bibfnamefont
+  {U.}~\bibnamefont {Bafile}},\ }\bibfield  {title} {\bibinfo {title} {Onset of
+  collective excitations in the transverse dynamics of simple fluids},\ }\href
+  {https://doi.org/10.1103/physreve.107.014139} {\bibfield  {journal} {\bibinfo
+   {journal} {Physical Review E}\ }\textbf {\bibinfo {volume} {107}},\ \bibinfo
+  {pages} {014139} (\bibinfo {year} {2023})},\ \bibinfo {note} {publisher:
+  APS}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fomin}(2020)}]{10.1088/1361-648x/ab962e}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.~D.}\ \bibnamefont
+  {Fomin}},\ }\bibfield  {title} {\bibinfo {title} {Dispersion of acoustic
+  excitations in tetrahedral liquids},\ }\href
+  {https://doi.org/10.1088/1361-648x/ab962e} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Physics: Condensed Matter}\ }\textbf {\bibinfo {volume}
+  {32}},\ \bibinfo {pages} {395101} (\bibinfo {year} {2020})},\ \bibinfo {note}
+  {publisher: IOP Publishing}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Toledo-Marín}\ and\ \citenamefont
+  {Naumis}(2019)}]{10.1016/j.nocx.2019.100030}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~Q.}\ \bibnamefont
+  {Toledo-Marín}}\ and\ \bibinfo {author} {\bibfnamefont {G.~G.}\ \bibnamefont
+  {Naumis}},\ }\bibfield  {title} {\bibinfo {title} {Viscoelasticity and
+  dynamical gaps: rigidity in crystallization and glass-forming liquids},\
+  }\href {https://doi.org/10.1016/j.nocx.2019.100030} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Non-Crystalline Solids: X}\ }\textbf
+  {\bibinfo {volume} {3}},\ \bibinfo {pages} {100030} (\bibinfo {year}
+  {2019})},\ \bibinfo {note} {publisher: Elsevier}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Khrapak}\ \emph {et~al.}(2018)\citenamefont
+  {Khrapak}, \citenamefont {Kryuchkov}, \citenamefont {Mistryukova},
+  \citenamefont {Khrapak},\ and\ \citenamefont
+  {Yurchenko}}]{10.1063/1.5050708}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~A.}\ \bibnamefont
+  {Khrapak}}, \bibinfo {author} {\bibfnamefont {N.~P.}\ \bibnamefont
+  {Kryuchkov}}, \bibinfo {author} {\bibfnamefont {L.~A.}\ \bibnamefont
+  {Mistryukova}}, \bibinfo {author} {\bibfnamefont {A.~G.}\ \bibnamefont
+  {Khrapak}},\ and\ \bibinfo {author} {\bibfnamefont {S.~O.}\ \bibnamefont
+  {Yurchenko}},\ }\bibfield  {title} {\bibinfo {title} {Collective modes of
+  two-dimensional classical {Coulomb} fluids},\ }\bibfield  {journal} {\bibinfo
+   {journal} {The Journal of Chemical Physics}\ }\textbf {\bibinfo {volume}
+  {149}},\ \href {https://doi.org/10.1063/1.5050708} {10.1063/1.5050708}
+  (\bibinfo {year} {2018}),\ \bibinfo {note} {publisher: AIP
+  Publishing}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bryk}\ \emph {et~al.}(2024)\citenamefont {Bryk},
+  \citenamefont {Kopcha},\ and\ \citenamefont {Yidak}}]{10.1063/5.0236047}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Bryk}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Kopcha}},\ and\
+  \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Yidak}},\ }\bibfield
+  {title} {\bibinfo {title} {Propagation gap for shear waves in binary liquids:
+  {Analytical} and simulation study},\ }\bibfield  {journal} {\bibinfo
+  {journal} {The Journal of Chemical Physics}\ }\textbf {\bibinfo {volume}
+  {161}},\ \href {https://doi.org/10.1063/5.0236047} {10.1063/5.0236047}
+  (\bibinfo {year} {2024}),\ \bibinfo {note} {publisher: AIP
+  Publishing}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bryk}\ \emph {et~al.}(2017)\citenamefont {Bryk},
+  \citenamefont {Huerta}, \citenamefont {Hordiichuk},\ and\ \citenamefont
+  {Trokhymchuk}}]{10.1063/1.4997640}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Bryk}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Huerta}},
+  \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Hordiichuk}},\ and\
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Trokhymchuk}},\
+  }\bibfield  {title} {\bibinfo {title} {Non-hydrodynamic transverse collective
+  excitations in hard-sphere fluids},\ }\bibfield  {journal} {\bibinfo
+  {journal} {The Journal of Chemical Physics}\ }\textbf {\bibinfo {volume}
+  {147}},\ \href {https://doi.org/10.1063/1.4997640} {10.1063/1.4997640}
+  (\bibinfo {year} {2017}),\ \bibinfo {note} {publisher: AIP
+  Publishing}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Khrapak}\ \emph {et~al.}(2019)\citenamefont
+  {Khrapak}, \citenamefont {Khrapak}, \citenamefont {Kryuchkov},\ and\
+  \citenamefont {Yurchenko}}]{10.1063/1.5088141}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~A.}\ \bibnamefont
+  {Khrapak}}, \bibinfo {author} {\bibfnamefont {A.~G.}\ \bibnamefont
+  {Khrapak}}, \bibinfo {author} {\bibfnamefont {N.~P.}\ \bibnamefont
+  {Kryuchkov}},\ and\ \bibinfo {author} {\bibfnamefont {S.~O.}\ \bibnamefont
+  {Yurchenko}},\ }\bibfield  {title} {\bibinfo {title} {Onset of transverse
+  (shear) waves in strongly-coupled {Yukawa} fluids},\ }\bibfield  {journal}
+  {\bibinfo  {journal} {The Journal of chemical physics}\ }\textbf {\bibinfo
+  {volume} {150}},\ \href {https://doi.org/10.1063/1.5088141}
+  {10.1063/1.5088141} (\bibinfo {year} {2019}),\ \bibinfo {note} {publisher:
+  AIP Publishing}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ge}\ \emph {et~al.}(2023)\citenamefont {Ge},
+  \citenamefont {Huang}, \citenamefont {Lu}, \citenamefont {Liang},
+  \citenamefont {Baggioli},\ and\ \citenamefont
+  {Feng}}]{10.1103/physreve.107.055211}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont
+  {Ge}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Huang}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Lu}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Liang}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Baggioli}},\ and\ \bibinfo {author} {\bibfnamefont
+  {Y.}~\bibnamefont {Feng}},\ }\bibfield  {title} {\bibinfo {title}
+  {Observation of fast sound in two-dimensional dusty plasma liquids},\ }\href
+  {https://doi.org/10.1103/physreve.107.055211} {\bibfield  {journal} {\bibinfo
+   {journal} {Physical Review E}\ }\textbf {\bibinfo {volume} {107}},\ \bibinfo
+  {pages} {055211} (\bibinfo {year} {2023})},\ \bibinfo {note} {publisher:
+  APS}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Khusnutdinoff}\ \emph {et~al.}(2020)\citenamefont
+  {Khusnutdinoff}, \citenamefont {Cockrell}, \citenamefont {Dicks},
+  \citenamefont {Jensen}, \citenamefont {Le}, \citenamefont {Wang},
+  \citenamefont {Dove}, \citenamefont {Mokshin}, \citenamefont {Brazhkin},\
+  and\ \citenamefont {Trachenko}}]{10.1103/PhysRevB.101.214312}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~M.}\ \bibnamefont
+  {Khusnutdinoff}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Cockrell}}, \bibinfo {author} {\bibfnamefont {O.~A.}\ \bibnamefont {Dicks}},
+  \bibinfo {author} {\bibfnamefont {A.~C.~S.}\ \bibnamefont {Jensen}}, \bibinfo
+  {author} {\bibfnamefont {M.~D.}\ \bibnamefont {Le}}, \bibinfo {author}
+  {\bibfnamefont {L.}~\bibnamefont {Wang}}, \bibinfo {author} {\bibfnamefont
+  {M.~T.}\ \bibnamefont {Dove}}, \bibinfo {author} {\bibfnamefont {A.~V.}\
+  \bibnamefont {Mokshin}}, \bibinfo {author} {\bibfnamefont {V.~V.}\
+  \bibnamefont {Brazhkin}},\ and\ \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Trachenko}},\ }\bibfield  {title} {\bibinfo {title}
+  {Collective modes and gapped momentum states in liquid {Ga}: {Experiment},
+  theory, and simulation},\ }\href
+  {https://doi.org/10.1103/PhysRevB.101.214312} {\bibfield  {journal} {\bibinfo
+   {journal} {Physical Review B}\ }\textbf {\bibinfo {volume} {101}},\ \bibinfo
+  {pages} {214312} (\bibinfo {year} {2020})},\ \bibinfo {note} {publisher:
+  American Physical Society}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hosokawa}\ \emph {et~al.}(2009)\citenamefont
+  {Hosokawa}, \citenamefont {Inui}, \citenamefont {Kajihara}, \citenamefont
+  {Matsuda}, \citenamefont {Ichitsubo}, \citenamefont {Pilgrim}, \citenamefont
+  {Sinn}, \citenamefont {González}, \citenamefont {González}, \citenamefont
+  {Tsutsui},\ and\ \citenamefont {Baron}}]{10.1103/PhysRevLett.102.105502}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Hosokawa}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Inui}},
+  \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Kajihara}}, \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Matsuda}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Ichitsubo}}, \bibinfo {author}
+  {\bibfnamefont {W.-C.}\ \bibnamefont {Pilgrim}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Sinn}}, \bibinfo {author} {\bibfnamefont
+  {L.~E.}\ \bibnamefont {González}}, \bibinfo {author} {\bibfnamefont {D.~J.}\
+  \bibnamefont {González}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Tsutsui}},\ and\ \bibinfo {author} {\bibfnamefont {A.~Q.~R.}\ \bibnamefont
+  {Baron}},\ }\bibfield  {title} {\bibinfo {title} {Transverse {Acoustic}
+  {Excitations} in {Liquid} {Ga}},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.102.105502} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physical Review Letters}\ }\textbf {\bibinfo {volume}
+  {102}},\ \bibinfo {pages} {105502} (\bibinfo {year} {2009})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Hosokawa}\ \emph {et~al.}(2013)\citenamefont
+  {Hosokawa}, \citenamefont {Munejiri}, \citenamefont {Inui}, \citenamefont
+  {Kajihara}, \citenamefont {Pilgrim}, \citenamefont {Ohmasa}, \citenamefont
+  {Tsutsui}, \citenamefont {Baron}, \citenamefont {Shimojo},\ and\
+  \citenamefont {Hoshino}}]{10.1088/0953-8984/25/11/112101}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Hosokawa}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Munejiri}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Inui}}, \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {Kajihara}}, \bibinfo {author}
+  {\bibfnamefont {W.-C.}\ \bibnamefont {Pilgrim}}, \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {Ohmasa}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Tsutsui}}, \bibinfo {author} {\bibfnamefont {A.~Q.~R.}\
+  \bibnamefont {Baron}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Shimojo}},\ and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Hoshino}},\ }\bibfield  {title} {\bibinfo {title} {Transverse excitations in
+  liquid {Sn}},\ }\href {https://doi.org/10.1088/0953-8984/25/11/112101}
+  {\bibfield  {journal} {\bibinfo  {journal} {Journal of Physics: Condensed
+  Matter}\ }\textbf {\bibinfo {volume} {25}},\ \bibinfo {pages} {112101}
+  (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hosokawa}\ \emph {et~al.}(2015)\citenamefont
+  {Hosokawa}, \citenamefont {Inui}, \citenamefont {Kajihara}, \citenamefont
+  {Tsutsui},\ and\ \citenamefont {Baron}}]{10.1088/0953-8984/27/19/194104}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Hosokawa}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Inui}},
+  \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Kajihara}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Tsutsui}},\ and\ \bibinfo {author}
+  {\bibfnamefont {A.~Q.~R.}\ \bibnamefont {Baron}},\ }\bibfield  {title}
+  {\bibinfo {title} {Transverse excitations in liquid {Fe}, {Cu} and {Zn}},\
+  }\href {https://doi.org/10.1088/0953-8984/27/19/194104} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Physics: Condensed Matter}\ }\textbf
+  {\bibinfo {volume} {27}},\ \bibinfo {pages} {194104} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Jiang}\ \emph {et~al.}(2025)\citenamefont {Jiang},
+  \citenamefont {Zheng}, \citenamefont {Chen}, \citenamefont {Baggioli},\ and\
+  \citenamefont {Zhang}}]{10.1038/s42005-025-02008-1}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Jiang}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Zheng}},
+  \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Chen}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Baggioli}},\ and\ \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Zhang}},\ }\bibfield  {title} {\bibinfo
+  {title} {Experimental observation of gapped shear waves and liquid-like to
+  gas-like dynamical crossover in active granular matter},\ }\href
+  {https://doi.org/10.1038/s42005-025-02008-1} {\bibfield  {journal} {\bibinfo
+  {journal} {Communications Physics}\ }\textbf {\bibinfo {volume} {8}},\
+  \bibinfo {pages} {1} (\bibinfo {year} {2025})},\ \bibinfo {note} {publisher:
+  Nature Publishing Group}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ruocco}\ \emph {et~al.}(1996)\citenamefont {Ruocco},
+  \citenamefont {Sette}, \citenamefont {Bergmann}, \citenamefont {Krisch},
+  \citenamefont {Masciovecchlo}, \citenamefont {Mazzacurati}, \citenamefont
+  {Signorelli},\ and\ \citenamefont {Verbeni}}]{10.1038/379521a0}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Ruocco}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Sette}},
+  \bibinfo {author} {\bibfnamefont {U.}~\bibnamefont {Bergmann}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Krisch}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Masciovecchlo}}, \bibinfo {author}
+  {\bibfnamefont {V.}~\bibnamefont {Mazzacurati}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Signorelli}},\ and\ \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Verbeni}},\ }\bibfield  {title} {\bibinfo
+  {title} {Equivalence of the sound velocity in water and ice at mesoscopic
+  wavelengths},\ }\href {https://doi.org/10.1038/379521a0} {\bibfield
+  {journal} {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo {volume} {379}},\
+  \bibinfo {pages} {521} (\bibinfo {year} {1996})},\ \bibinfo {note}
+  {publisher: Nature Publishing Group UK London}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Giordano}\ and\ \citenamefont
+  {Monaco}(2010)}]{10.1073/pnas.1006319107}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.~M.}\ \bibnamefont
+  {Giordano}}\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Monaco}},\ }\bibfield  {title} {\bibinfo {title} {Fingerprints of order and
+  disorder on the high-frequency dynamics of liquids},\ }\href
+  {https://doi.org/10.1073/pnas.1006319107} {\bibfield  {journal} {\bibinfo
+  {journal} {Proceedings of the National Academy of Sciences}\ }\textbf
+  {\bibinfo {volume} {107}},\ \bibinfo {pages} {21985} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Scopigno}\ \emph {et~al.}(2005)\citenamefont
+  {Scopigno}, \citenamefont {Ruocco},\ and\ \citenamefont
+  {Sette}}]{10.1103/revmodphys.77.881}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Scopigno}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Ruocco}},\
+  and\ \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Sette}},\ }\bibfield
+   {title} {\bibinfo {title} {Microscopic dynamics in liquid metals: {The}
+  experimental point of view},\ }\href
+  {https://doi.org/10.1103/revmodphys.77.881} {\bibfield  {journal} {\bibinfo
+  {journal} {Reviews of Modern Physics}\ }\textbf {\bibinfo {volume} {77}},\
+  \bibinfo {pages} {881} (\bibinfo {year} {2005})},\ \bibinfo {note}
+  {publisher: APS}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Noirez}\ and\ \citenamefont
+  {Baroni}(2012)}]{10.1088/0953-8984/24/37/372101}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Noirez}}\ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Baroni}},\ }\bibfield  {title} {\bibinfo {title} {Identification of a
+  low-frequency elastic behaviour in liquid water},\ }\href
+  {https://doi.org/10.1088/0953-8984/24/37/372101} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Physics: Condensed Matter}\ }\textbf
+  {\bibinfo {volume} {24}},\ \bibinfo {pages} {372101} (\bibinfo {year}
+  {2012})},\ \bibinfo {note} {publisher: IOP Publishing}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yu}\ \emph {et~al.}(2023)\citenamefont {Yu},
+  \citenamefont {Jin}, \citenamefont {Fan}, \citenamefont {Sarter},
+  \citenamefont {Yu}, \citenamefont {Baggioli},\ and\ \citenamefont
+  {Hong}}]{10.1063/1.1637145}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Yu}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Jin}}, \bibinfo
+  {author} {\bibfnamefont {X.}~\bibnamefont {Fan}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Sarter}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {Yu}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Baggioli}},\ and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Hong}},\ }\bibfield  {title} {\bibinfo {title} {Unveiling the solid-like
+  dynamics of liquids at low-frequency via nano-confinement},\ }\bibfield
+  {journal} {\bibinfo  {journal} {arXiv preprint arXiv:2307.11429}\ }\href
+  {https://doi.org/10.1063/1.1637145} {10.1063/1.1637145} (\bibinfo {year}
+  {2023})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Baggioli}\ \emph {et~al.}(2020)\citenamefont
+  {Baggioli}, \citenamefont {Vasin}, \citenamefont {Brazhkin},\ and\
+  \citenamefont {Trachenko}}]{10.1016/j.physrep.2020.04.002}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Baggioli}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Vasin}},
+  \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Brazhkin}},\ and\
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Trachenko}},\ }\bibfield
+  {title} {\bibinfo {title} {Gapped momentum states},\ }\href
+  {https://doi.org/10.1016/j.physrep.2020.04.002} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physics Reports}\ }\bibinfo {series} {Gapped momentum
+  states},\ \textbf {\bibinfo {volume} {865}},\ \bibinfo {pages} {1} (\bibinfo
+  {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kumar}\ \emph
+  {et~al.}(2023{\natexlab{a}})\citenamefont {Kumar}, \citenamefont {Tahmasbi},
+  \citenamefont {Ramakrishna}, \citenamefont {Lokamani}, \citenamefont
+  {Nikolov}, \citenamefont {Tranchida}, \citenamefont {Wood},\ and\
+  \citenamefont {Cangi}}]{10.1103/PhysRevResearch.5.033162}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Kumar}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Tahmasbi}},
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Ramakrishna}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Lokamani}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Nikolov}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Tranchida}}, \bibinfo {author} {\bibfnamefont {M.~A.}\
+  \bibnamefont {Wood}},\ and\ \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Cangi}},\ }\bibfield  {title} {\bibinfo {title}
+  {Transferable interatomic potential for aluminum from ambient conditions to
+  warm dense matter},\ }\href
+  {https://doi.org/10.1103/PhysRevResearch.5.033162} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physical Review Research}\ }\textbf {\bibinfo {volume}
+  {5}},\ \bibinfo {pages} {033162} (\bibinfo {year}
+  {2023}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Thompson}\ \emph {et~al.}(2015)\citenamefont
+  {Thompson}, \citenamefont {Swiler}, \citenamefont {Trott}, \citenamefont
+  {Foiles},\ and\ \citenamefont {Tucker}}]{10.1016/j.jcp.2014.12.018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Thompson}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Swiler}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Trott}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Foiles}},\ and\ \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Tucker}},\ }\bibfield  {title} {\bibinfo
+  {title} {Spectral neighbor analysis method for automated generation of
+  quantum-accurate interatomic potentials},\ }\href
+  {https://doi.org/10.1016/j.jcp.2014.12.018} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Computational Physics}\ }\textbf {\bibinfo {volume}
+  {285}},\ \bibinfo {pages} {316} (\bibinfo {year} {2015})}\BibitemShut
+  {NoStop}%
+\bibitem [{10.(1985)}]{10.1007/978-1-4615-8103-1_3}%
+  \BibitemOpen
+  \bibfield  {title} {\bibinfo {title} {The {Stopping} and {Range} of {Ions} in
+  {Matter}},\ }in\ \href {https://doi.org/10.1007/978-1-4615-8103-1_3} {\emph
+  {\bibinfo {booktitle} {Treatise on {Heavy}-{Ion} {Science}}}}\ (\bibinfo
+  {publisher} {Springer US},\ \bibinfo {address} {Boston, MA},\ \bibinfo {year}
+  {1985})\ pp.\ \bibinfo {pages} {93--129}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kumar}\ \emph
+  {et~al.}(2023{\natexlab{b}})\citenamefont {Kumar}, \citenamefont {Tahmasbi},
+  \citenamefont {Ramakrishna}, \citenamefont {Lokamani}, \citenamefont
+  {Nikolov}, \citenamefont {Tranchida}, \citenamefont {Wood},\ and\
+  \citenamefont {Cangi}}]{10.14278/RODARE.2368}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Kumar}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Tahmasbi}},
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Ramakrishna}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Lokamani}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Nikolov}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Tranchida}}, \bibinfo {author} {\bibfnamefont {M.~A.}\
+  \bibnamefont {Wood}},\ and\ \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Cangi}},\ }\href {https://doi.org/10.14278/RODARE.2368}
+  {\bibinfo {title} {Training scripts and input data sets: {Transferable}
+  {Interatomic} {Potential} for {Aluminum} from {Ambient} {Conditions} to
+  {Warm} {Dense} {Matter}}} (\bibinfo {year} {2023}{\natexlab{b}})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Belonoshko}\ \emph {et~al.}(2000)\citenamefont
+  {Belonoshko}, \citenamefont {Ahuja},\ and\ \citenamefont
+  {Johansson}}]{10.1103/PhysRevLett.84.3638}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~B.}\ \bibnamefont
+  {Belonoshko}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Ahuja}},\
+  and\ \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Johansson}},\
+  }\bibfield  {title} {\bibinfo {title} {Quasi-- {{{\emph{Ab Initio}}}}
+  {{Molecular Dynamic Study}} of {{Fe Melting}}},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.84.3638} {\bibfield  {journal} {\bibinfo
+   {journal} {Physical Review Letters}\ }\textbf {\bibinfo {volume} {84}},\
+  \bibinfo {pages} {3638} (\bibinfo {year} {2000})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Plimpton}(1995)}]{10.1006/jcph.1995.1039}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Plimpton}},\ }\bibfield  {title} {\bibinfo {title} {Fast {Parallel}
+  {Algorithms} for {Short}-{Range} {Molecular} {Dynamics}},\ }\href
+  {https://doi.org/10.1006/jcph.1995.1039} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Computational Physics}\ }\textbf {\bibinfo {volume}
+  {117}},\ \bibinfo {pages} {1} (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hansen}\ and\ \citenamefont
+  {McDonald}(2013)}]{hansen_theory_2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.-P.}\ \bibnamefont
+  {Hansen}}\ and\ \bibinfo {author} {\bibfnamefont {I.~R.}\ \bibnamefont
+  {McDonald}},\ }\href@noop {} {\emph {\bibinfo {title} {Theory of simple
+  liquids: with applications to soft matter}}}\ (\bibinfo  {publisher}
+  {Academic press},\ \bibinfo {year} {2013})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Dudalov}\ \emph {et~al.}(2014)\citenamefont
+  {Dudalov}, \citenamefont {Fomin}, \citenamefont {Tsiok},\ and\ \citenamefont
+  {Ryzhov}}]{10.1039/C4SM00124A}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~E.}\ \bibnamefont
+  {Dudalov}}, \bibinfo {author} {\bibfnamefont {Y.~D.}\ \bibnamefont {Fomin}},
+  \bibinfo {author} {\bibfnamefont {E.~N.}\ \bibnamefont {Tsiok}},\ and\
+  \bibinfo {author} {\bibfnamefont {V.~N.}\ \bibnamefont {Ryzhov}},\ }\bibfield
+   {title} {\bibinfo {title} {How dimensionality changes the anomalous behavior
+  and melting scenario of a core-softened potential system?},\ }\href
+  {https://doi.org/10.1039/C4SM00124A} {\bibfield  {journal} {\bibinfo
+  {journal} {Soft Matter}\ }\textbf {\bibinfo {volume} {10}},\ \bibinfo {pages}
+  {4966} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mermin}\ and\ \citenamefont
+  {Wagner}(1966)}]{10.1103/physrevlett.17.1133}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~D.}\ \bibnamefont
+  {Mermin}}\ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Wagner}},\ }\bibfield  {title} {\bibinfo {title} {Absence of
+  {Ferromagnetism} or {Antiferromagnetism} in {One}- or {Two}-{Dimensional}
+  {Isotropic} {Heisenberg} {Models}},\ }\href
+  {https://doi.org/10.1103/physrevlett.17.1133} {\bibfield  {journal} {\bibinfo
+   {journal} {Physical Review Letters}\ }\textbf {\bibinfo {volume} {17}},\
+  \bibinfo {pages} {1133} (\bibinfo {year} {1966})},\ \bibinfo {note}
+  {publisher: American Physical Society (APS)}\BibitemShut {NoStop}%
+\end{thebibliography}%

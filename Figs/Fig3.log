@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  3 OCT 2025 13:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  13 NOV 2025 13:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1278,6 +1278,30 @@ PGFPlots: reading {Data/Fig3/b/fit0.85.txt}
 PGFPlots: reading {Data/Fig3/b/0.90.txt}
 Missing character: There is no ; in font nullfont!
 PGFPlots: reading {Data/Fig3/b/fit0.90.txt}
+PGFPlots: reading {Data/Fig4/a/1.txt}
+Missing character: There is no ; in font nullfont!
+PGFPlots: reading {Data/Fig4/a/fit1.txt}
+PGFPlots: reading {Data/Fig4/a/1.5.txt}
+Missing character: There is no ; in font nullfont!
+PGFPlots: reading {Data/Fig4/a/fit1.5.txt}
+PGFPlots: reading {Data/Fig4/a/2.txt}
+Missing character: There is no ; in font nullfont!
+PGFPlots: reading {Data/Fig4/a/fit2.txt}
+PGFPlots: reading {Data/Fig4/a/2.5.txt}
+Missing character: There is no ; in font nullfont!
+PGFPlots: reading {Data/Fig4/a/fit2.5.txt}
+PGFPlots: reading {Data/Fig4/a/3.txt}
+Missing character: There is no ; in font nullfont!
+PGFPlots: reading {Data/Fig4/a/fit3.txt}
+PGFPlots: reading {Data/Fig4/b/1.txt}
+Missing character: There is no ; in font nullfont!
+PGFPlots: reading {Data/Fig4/b/fit1_0.txt}
+PGFPlots: reading {Data/Fig4/b/1.5.txt}
+Missing character: There is no ; in font nullfont!
+PGFPlots: reading {Data/Fig4/b/fit1.5_0.txt}
+PGFPlots: reading {Data/Fig4/b/2.txt}
+Missing character: There is no ; in font nullfont!
+PGFPlots: reading {Data/Fig4/b/fit2_0.txt}
 
 
 [1
@@ -1291,19 +1315,19 @@ L3 programming layer <2024-12-25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 28811 strings out of 473207
- 749601 string characters out of 5716288
- 1473536 words of memory out of 5000000
- 51456 multiletter control sequences out of 15000+600000
+ 28867 strings out of 473207
+ 750385 string characters out of 5716288
+ 1584139 words of memory out of 5000000
+ 51484 multiletter control sequences out of 15000+600000
  584031 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,16n,121p,788b,2378s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,16n,121p,788b,2402s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/arev/ArevSans-Oblique.
 pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-
 chb7y.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.p
 fb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Fig3.pdf (1 page, 62641 bytes).
+Output written on Fig3.pdf (1 page, 89498 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream

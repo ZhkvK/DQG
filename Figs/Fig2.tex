@@ -1,10 +1,8 @@
-\documentclass[tikz, border=1mm]{standalone}
-
-% ========== Настройка шрифта (pdfLaTeX) ==========
-% Рекомендуем: TeX Gyre Heros — свободная Helvetica-like гарнитура.
+\documentclass[tikz, border=2mm]{standalone}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 %\usepackage{tgheros}   % <--- поменяй здесь на \usepackage[scaled]{helvet} если хочешь PS Helvetica
+\usepackage{arev}
 \usepackage{helvet}
 %\usepackage{sansmath}  % даёт \sansmath для sans-математики
 \renewcommand{\familydefault}{\sfdefault}
@@ -35,7 +33,7 @@
 %\renewcommand{\pi}{\uppi}
 %\renewcommand{\omega}{\upomega}
 
-\pgfplotsset{width=8.5cm, height=5cm,
+\pgfplotsset{width=8.5cm,
 	compat=1.3,
 	% define the layers you need.
 	% (Don't forget to add `main' somewhere in that list!!)
@@ -54,138 +52,96 @@
 	scaled x ticks=false,}
 
 \begin{document}
-\begin{tikzpicture}
-	
-	\definecolor{darkgray176}{RGB}{176,176,176}
-	\definecolor{darkorange25512714}{RGB}{255,127,14}
-	\definecolor{steelblue31119180}{RGB}{31,119,180}
-	\definecolor{crimson2143940}{RGB}{214,39,40} 
-	\definecolor{lightgrey204}{RGB}{204,204,204}
-	
-	\begin{groupplot}[group style={group size=1 by 2, horizontal sep=1cm,
-			vertical sep=0.5cm,
-			xticklabels at=edge bottom, % Метки X только у нижнего графика
-			%	ylabel at=edge left,       % Метки Y только у среднего графика
-			%	x descriptions at=edge bottom, % Общая подпись X снизу
-			xlabels at=edge bottom,
-			ylabels at=edge left,},   % Общая подпись Y слева,
-%		width=0.5\textwidth,
-%		height=0.15\textheight,
-		legend cell align={left},
-		legend style={fill opacity=0.8, draw opacity=1, text opacity=1, draw=lightgrey204, at={([yshift=10pt]0.5,1)},
-			anchor=south,},
-		tick align=inside,
-		%tick pos=left,
-		x grid style={darkgrey176},
-		xlabel={Time, \(\displaystyle t\times10^{-3}\)},
-		xmin=0,
-		xtick style={color=black},
-		%		xtick={0, 20, 40, 60},
-		y grid style={darkgrey176},
-		ymin=0,
-		ytick style={color=black},
-		%		ytick={0, 1},
-%		ylabel shift={-5pt},
-		yticklabel style={
-			/pgf/number format/fixed,
-			/pgf/number format/precision=2
-		},
-		xticklabel style={
-			/pgf/number format/fixed,
-			/pgf/number format/precision=2
-		},
-		clip=true,
-		clip mode=individual,
-		%		enlargelimits=false,
-		%		every axis y label/.style={
-			%			at={(ticklabel* cs:1.0)},
-			%			xshift=0pt,
-			%			rotate=90 % уменьшает расстояние
-			%		},
-		]
-		\nextgroupplot[ylabel={$MSD$}, ylabel shift={-5pt},]
-		%		\addplot [semithick, steelblue31119180, mark=o, only marks, mark size=2]
-		%		table[x=q,y expr=(\thisrow{D}*1000)]{../vkr_norm/images/MSD/yukawa/1.0/1.00.txt};
-		%		\addlegendentry{Single mode analysis};
-		%		\addplot [semithick, steelblue31119180, forget plot]
-		%		table[x=x,y=y]{../vkr_norm/images/MSD/yukawa/1.0/fit1.00.txt};
-		\addplot [semithick, crimson2143940, mark=o, only marks, mark size=2, mark options={solid}, line width=0.3mm, each nth point={3}]
-		table[x expr=(\thisrow{t} - 50500) * 0.005,
-		y=MSD
-		]{Data/Fig2/data1.dat};
-		\addplot [semithick, steelblue31119180, on layer=foreground]
-		table[x=t,y=MSD]{Data/Fig2/data_fit1.txt};
-		\node at (rel axis cs:0.2,0.88) {\textbf{(a)} \text{3D}, $T = 2.0$};;
+	\begin{tikzpicture}
 		
-		%		\nextgroupplot
-		%		\addplot [semithick, steelblue31119180, mark=o, only marks, mark size=2]
-		%		table[x=q,y expr=(\thisrow{D}*1000)]{../vkr_norm/images/MSD/yukawa2d/1.0/0.80.txt};
-		%		\addlegendentry{Single mode analysis};
-		%		\addplot [semithick, steelblue31119180, forget plot]
-		%		table[x=x,y=y]{../vkr_norm/images/MSD/yukawa2d/1.0/fit0.80.txt};
-		%		\addplot [semithick, crimson2143940, mark=o, only marks, mark size=2, mark options={solid}, line width=0.3mm, each nth point={3}]
-		%		table[x expr=(\thisrow{t} - 500) * 0.005,
-		%		y=MSD
-		%		]{../vkr_norm/images/MSD/lj/msd5.0_1.00.dat};
-		%		\addplot [semithick, steelblue31119180, on layer=foreground]
-		%		table[x=t,y=MSD]{../vkr_norm/images/MSD/lj/msd_fit_5.0_1.00.txt};
-		%		\node at (rel axis cs:0.35,0.88) {\textbf{(d)} \text{3D}, $T = 5.0$};
-		%		\node at (rel axis cs:0.3,0.70) {\text{3D}, $T = 5.0$};
+		\definecolor{darkgray176}{RGB}{176,176,176}
+		\definecolor{darkorange25512714}{RGB}{255,127,14}
+		\definecolor{steelblue31119180}{RGB}{31,119,180}
+		\definecolor{crimson2143940}{RGB}{214,39,40} 
+		\definecolor{lightgrey204}{RGB}{204,204,204}
 		
-		%		\nextgroupplot
-		%		\addplot [semithick, steelblue31119180, mark=o, only marks, mark size=2]
-		%		table[x=q,y expr=(\thisrow{D}*1000)]{../vkr_norm/images/MSD/yukawa/1.0/1.10.txt};
-		%		\addplot [semithick, steelblue31119180, forget plot]
-		%		table[x=x,y=y]{../vkr_norm/images/MSD/yukawa/1.0/fit1.10.txt};
-		%		\addplot [semithick, crimson2143940, mark=o, only marks, mark size=2, mark options={solid}, line width=0.3mm, each nth point={3}]
-		%		table[x expr=(\thisrow{t} - 500) * 0.005,
-		%		y=MSD
-		%		]{../vkr_norm/images/MSD/lj/msd7.0_1.00.dat};
-		%		\addplot [semithick, steelblue31119180, on layer=foreground]
-		%		table[x=t,y=MSD]{../vkr_norm/images/MSD/lj/msd_fit_7.0_1.00.txt};
-		%		\node at (rel axis cs:0.35,0.88) {\textbf{(b)} \text{3D}, $T = 7.0$};
-		%		\node at (rel axis cs:0.3,0.70) {\text{3D}, $T = 7.0$};
-		
-		\nextgroupplot[ylabel={$MSD$}]
-		%		\addplot [semithick, steelblue31119180, mark=o, only marks, mark size=2]
-		%		table[x=q,y expr=(\thisrow{D}*1000)]{../vkr_norm/images/MSD/yukawa2d/1.0/0.85.txt};
-		%		\addplot [semithick, steelblue31119180, forget plot]
-		%		table[x=x,y=y]{../vkr_norm/images/MSD/yukawa2d/1.0/fit0.85.txt};
-		\addplot [semithick, crimson2143940, mark=o, only marks, mark size=2, mark options={solid}, line width=0.3mm, each nth point={3}]
-		table[x expr=*(\thisrow{t} - 101000) * 0.0025,
-		y=MSD
-		]{Data/Fig2/data2.dat};
-		\addplot [semithick, steelblue31119180, on layer=foreground]
-		table[x=t,y=MSD]{Data/Fig2/data_fit2.txt};
-		\node at (rel axis cs:0.2,0.88) {\textbf{(b)} \text{2D}, $T = 1.2$};
-		%		\node at (rel axis cs:0.3,0.70) {\text{2D}, $T = 1.2$};
-		
-		%		\nextgroupplot
-		%		%		\addplot [semithick, steelblue31119180, mark=o, only marks, mark size=2]
-		%		%		table[x=q,y expr=(\thisrow{D}*1000)]{../vkr_norm/images/MSD/yukawa/1.0/1.20.txt};
-		%		%		\addplot [semithick, steelblue31119180, forget plot]
-		%		%		table[x=x,y=y]{../vkr_norm/images/MSD/yukawa/1.0/fit1.20.txt};
-		%		\addplot [semithick, crimson2143940, mark=o, only marks, mark size=2, mark options={solid}, line width=0.3mm, each nth point={3}]
-		%		table[x expr=(\thisrow{t} - 101000) * 0.0025,
-		%		y=MSD
-		%		]{../vkr_norm/images/MSD/lj2d/msd1.50_0.90.dat};
-		%		\addplot [semithick, steelblue31119180, on layer=foreground]
-		%		table[x=t,y=MSD]{../vkr_norm/images/MSD/lj2d/msd_fit_1.50_0.90.txt};
-		%		\node at (rel axis cs:0.35,0.88) {\textbf{(c)} \text{2D}, $T = 1.5$};
-		%		
-		%		\nextgroupplot
-		%		%		\addplot [semithick, steelblue31119180, mark=o, only marks, mark size=2]
-		%		%		table[x=q,y expr=(\thisrow{D}*1000)]{../vkr_norm/images/MSD/yukawa2d/1.0/0.90.txt};
-		%		%		\addplot [semithick, steelblue31119180, forget plot]
-		%		%		table[x=x,y=y]{../vkr_norm/images/MSD/yukawa2d/1.0/fit0.90.txt};
-		%		\addplot [semithick, crimson2143940, mark=o, only marks, mark size=2, mark options={solid}, line width=0.3mm, each nth point={3}]
-		%		table[x expr=(\thisrow{t} - 101000) * 0.0025,
-		%		y=MSD
-		%		]{../vkr_norm/images/MSD/lj2d/msd1.80_0.90.dat};
-		%		\addplot [semithick, steelblue31119180, on layer=foreground]
-		%		table[x=t,y=MSD]{../vkr_norm/images/MSD/lj2d/msd_fit_1.80_0.90.txt};
-		%		\node at (rel axis cs:0.35,0.88) {\textbf{(f)} \text{2D}, $T = 1.8$};
-	\end{groupplot}
-\end{tikzpicture}
-
+		\begin{axis}[
+			% Основные настройки
+%			width=12cm,
+%			height=10cm,
+			xmax=0.06,
+			clip=true,
+			clip mode=individual,
+			xlabel={$\partial D/\partial q_g$},
+			ylabel={Self-diffusion coefficient, $Dn^{1/3}/c\cdot10^{-3}$},
+			xmin=0,
+			ymin=0,
+			xticklabel style={
+				/pgf/number format/fixed,
+				/pgf/number format/precision=2
+			},
+			ytick scale label code/.code={},
+			% Настройки колормапа
+%			colormap/viridis, % Выберите нужную цветовую схему (viridis, hot, jet, etc.)
+%			colorbar,
+%			colorbar style={ylabel={Slope, $k$}},
+			% Настройки точек
+%			scatter,
+%			scatter src=explicit, % Использовать явные значения из данных
+%			point meta min=0, % Минимальное значение для цвета (автоопределение можно убрать)
+%			point meta max=0.06, % Максимальное значение для цвета
+			% Сетка и прочее
+%			grid=major,
+%			grid style={dotted, gray!30},
+			legend style={
+				fill opacity=1, draw opacity=1, text opacity=1, draw=none, at={([yshift=0pt]0.33,0.75)},
+				anchor=south,},
+			legend columns=2,
+			legend cell align={left},
+			]
+			
+			% Загрузка данных из файла
+			\addplot[crimson2143940, line width=0.5mm, only marks,
+			mark size=2pt,
+			mark=o,] table [
+			y index=0,
+			x index=2,
+			] {/home/konst/lj_3d/Dqk_lj.txt};
+			\addlegendentry{LJ (3D)};
+			\addplot[steelblue31119180, line width=0.5mm, only marks,
+			mark size=2pt,
+			mark=o,] table [
+			y index=0,
+			x index=2,
+			] {/home/konst/lj_3d/Dqk_yukawa.txt};
+			\addlegendentry{Yukawa (3D)};
+%			\addplot[orange, line width=0.5mm, only marks,
+%						mark size=2pt,
+%						mark=o,] 
+%			table [
+%			y index=0,
+%			x index=2,
+%			] {/home/konst/lj_3d/Dqk_lj2d.txt};
+%			\addlegendentry{LJ (2D)};
+%			\addplot[orange, line width=0.5mm, only marks,
+%			mark size=2pt,
+%			mark=o,] table [
+%			y index=0,
+%			x index=2,
+%			] {/home/konst/lj_3d/Dqk_yukawa2d.txt};
+%			\addlegendentry{Yukawa (2D)};
+			\addplot[darkorange25512714, line width=0.5mm, only marks,
+			mark size=2pt,
+			mark=o,] table [
+			y index=0,
+			x index=2,
+			] {/home/konst/lj_3d/Dqk_Al.txt};
+			\addlegendentry{Al (3D)};
+			\addplot[olive, line width=0.5mm, only marks,
+			mark size=2pt,
+			mark=o,] table [
+			y index=0,
+			x index=2,
+			] {/home/konst/lj_3d/Dqk_Fe.txt};
+			\addlegendentry{Fe (3D)};
+			
+			\addplot [semithick, gray, forget plot, on layer=foreground]
+			table[x=x,y=y]{Data/Fig6/fit.txt};
+		\end{axis}
+	\end{tikzpicture}
 \end{document}

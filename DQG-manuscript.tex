@@ -1,148 +1,119 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Journal Article
-% LaTeX Template
-% Version 2.0 (February 7, 2023)
-%
-% This template originates from:
-% https://www.LaTeXTemplates.com
-%
-% Author:
-% Vel (vel@latextemplates.com)
-%
-% License:
-% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
-%
-% NOTE: The bibliography needs to be compiled using the biber engine.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Group addresses by affiliation; use superscriptaddress for long
+% author lists, or if there are many overlapping affiliations.
+% For Phys. Rev. appearance, change preprint to twocolumn.
+% Choose pra, prb, prc, prd, pre, prl, prstab, prstper, or rmp for journal
+%  Add 'draft' option to mark overfull boxes with black boxes
+%  Add 'showkeys' option to make keywords appear
+%\documentclass[aps,prl,reprint,superscriptaddress]{revtex4-2}
+%\documentclass[aps,prl,preprint,superscriptaddress]{revtex4-2}
+\documentclass[aps,prl,reprint,groupedaddress]{revtex4-2}
 
-% --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- -
-% PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-% --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- -
 
-\documentclass[
-a4paper, % Paper size, use either a4paper or letterpaper
-10pt, % Default font size, can also use 11pt or 12pt, although this is not recommended
-unnumberedsections, % Comment to enable section numbering
-twoside, % Two side traditional mode where headers and footers change between odd and even pages, comment this option to make them fixed
-]{DQG-preamble}
 
-\addbibresource{DQG-bibliography_DOI.bib} % BibLaTeX bibliography file
+% Standard packages
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\graphicspath{{Figures/}{./}}
 
-\runninghead{Shortened Running Article Title} % A shortened article title to appear in the running head, leave this command empty for no running head
-
-\footertext{\textit{Journal of Biological Sampling} (2024) 12:533-684} % Text to appear in the footer, leave this command empty for no footer text
-
-\setcounter{page}{1} % The page number of the first page, set this to a higher number if the article is to be part of an issue or larger work
-
-% --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- -
-% TITLE SECTION
-% --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- -
-
-\title{Dependence of the self-diffusion coefficient \\ on the $q$-gap value in fluids} % Article title, use manual lines breaks (\\) to beautify the layout
-
-% Authors are listed in a comma-separated list with superscript numbers indicating affiliations
-% \thanks{} is used for any text that should be placed in a footnote on the first page, such as the corresponding author's email, journal acceptance dates, a copyright/license notice, keywords, etc
-\author{%
-	Konstantin P. Zhukov,\textsuperscript{1} Nikita P. Kryuchkov\textsuperscript{1}\thanks{Corresponding author: \href{mailto:kruchkov\_nkt@mail.ru}{kruchkov\_nkt@mail.ru} \\ \textbf{Received:} October 20, 2023, \textbf{Published:} December 14, 2023} and Stanislav O. Yurchenko\textsuperscript{1}
-}
-
-% Affiliations are output in the \date{} command
-\date{\footnotesize\textsuperscript{\textbf{1}}Bauman Moscow State Technical University, 2nd Baumanskaya Street 5, 105005 Moscow, Russia}
-
-% Full-width abstract
-\renewcommand{\maketitlehookd}{%
-	\begin{abstract}
-		\noindent abstractabstractabstractabstractabstractabstractabstractabstractabstract abstractabstractabstractabstractabstractabstractabstractabstractabstract abstractabstractabstractabstractabstractabstractabstractabstractabstract abstractabstractabstractabstractabstractabstractabstractabstractabstract abstractabstractabstractabstractabstractabstractabstractabstract.
-		abstractabstractabstractabstractabstractabstractabstractabstract
-		abstractabstractabstractabstractabstractabstractabstractabstract
-	\end{abstract}
-}
-
-% --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- -
+% Math packages
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools}
+\usepackage[version=4]{mhchem}
 
 \usepackage{indentfirst}
 
+% Hyperlink setup
+\usepackage{hyperref} % Required for links
+\hypersetup{
+	colorlinks=true, % Whether to color the text of links
+	urlcolor=blue, % Color for \url and \href links
+	linkcolor=blue, % Color for \nameref links
+	citecolor=blue, % Color of reference citations
+}
+
+% You should use BibTeX and apsrev.bst for references
+% Choosing a journal automatically selects the correct APS
+% BibTeX style file (bst file), so only uncomment the line
+% below if necessary.
+%\bibliographystyle{apsrev4-2}
+
 \begin{document}
 	
-	\maketitle % Output the title section
+	% Use the \preprint command to place your local institutional report
+	% number in the upper righthand corner of the title page in preprint mode.
+	% Multiple \preprint commands are allowed.
+	% Use the 'preprintnumbers' class option to override journal defaults
+	% to display numbers if necessary
+	%\preprint{}
+	
+	% --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- -
+	% TITLE SECTION
+	% --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- -
+	
+	\title{Dependence of the self-diffusion coefficient on the $q$-gap value in fluids} % Article title
+	
+	\author{Konstantin P. Zhukov}
+	
+	\author{Nikita P. Kryuchkov}
+	\email[]{kruchkov_nkt@mail.ru}
+	
+	\author{Stanislav O. Yurchenko}
+	\affiliation{Bauman Moscow State Technical University, 2nd Baumanskaya Street 5, 105005 Moscow, Russia}
+	
+	\date{\today}
+	
+	\begin{abstract} 
+		Intensive studies are currently focused on the properties of liquids and their collective dynamics, yet the microscopic mechanisms linking these collective modes to diffusion processes remain poorly understood. Using \textit{in silico} studies of model fluids and liquid metals, we show for the first time a linear relationship between the self-diffusion coefficient and the $q$-gap width, accompanied by a non-diffusive region across 3D systems. These findings open new avenues for studying fluid dynamics, providing a unified framework for linking microscopic transport properties with collective excitations.
+		
+	\end{abstract}
+	
+	% insert suggested keywords - APS authors don't need to do this
+	%\keywords{}
+	
+	%\maketitle must follow title, authors, abstract, and keywords
+	\maketitle
+	
+	% body of paper here - Use proper section commands
+	% References should be done using the \cite, \ref, and \label commands
 	
 	% --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- -
 	% ARTICLE CONTENTS
-	% --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- -
+	% --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- -
 	
 	\section{Introduction}
 	
-	The excitation spectra describe the propagation of mechanical waves in medium and make it possible to determine the energy distribution in the phonon system at various frequencies and wave vectors. These spectra arise from correlated many-body dynamics and manifest as distinct branches in dispersion relations -- longitudinal acoustic modes governing density fluctuations and transverse modes reflecting shear resistance. The analysis of collective excitation spectra offers valuable insights into various phenomena and associated properties, such as elastic, thermodynamic, and transport characteristics in crystals, condensed matter, and strongly coupled plasmas.\cite{978-981-02-4652-5, 978-0-521-39293-8,978-0-19-850779-6}.
+	The excitation spectra describe the propagation of mechanical waves in medium and make it possible to determine the energy distribution in the phonon system at various frequencies and wave vectors. These spectra arise from correlated many-body dynamics and manifest as distinct branches in dispersion relations -- longitudinal acoustic modes governing density fluctuations and transverse modes reflecting shear resistance. The analysis of collective excitation spectra offers valuable insights into various phenomena and associated properties, such as elastic, thermodynamic, and transport characteristics in crystals, condensed matter, and strongly coupled plasmas \cite{978-981-02-4652-5, 978-0-521-39293-8,978-0-19-850779-6}.
 	
-	Despite considerable progress in understanding collective excitations in crystalline structures using lattice dynamics theory, applying these frameworks to disordered systems (e.g., liquids and amorphous materials) faces major theoretical difficulties. Unlike crystalline solids, liquids are characterized by the absence of small parameter related to anharmonicity\cite{10.1088/0034-4885/79/1/016502}. Hence, traditional analytical approaches based on the assumption of small atomic fluctuations about fixed equilibrium positions are inapplicable. In recent studies, collective excitations have gained significant attention in the context of fluid thermodynamics and collective dynamics.\cite{10.1088/0034-4885/79/1/016502, 10.1038/s41598-019-46979-y, 10.1021/acs.jpclett.9b03568.s001, 10.1103/PhysRevLett.125.125501, 10.1103/PhysRevE.103.013207,10.1063/5.0054854, 10.1021/acs.jpclett.2c00297, 10.1103/PhysRevB.106.205412, 10.1016/j.pmatsci.2023.101180, 10.1103/PhysRevResearch.5.013149, 10.1063/5.0201689, 10.1016/j.physrep.2023.11.004, 10.1103/physreve.109.035202, 10.1103/PhysRevE.110.034602, 10.1039/d4cp04180a, 10.1063/5.0266423}. One of the distinct features of excitation spectra in fluids is the $q$-gap -- a discontinuity in transverse excitation dispersion curves arising from their instability at long wavelengths. This specific property characterizes the ability to maintain the propagation of transverse waves in liquids which is for significant importance for various applied industries, including biotechnology, chemical physics, and soft materials.
+	Despite considerable progress in understanding collective excitations in crystalline structures using lattice dynamics theory, applying these frameworks to disordered systems (e.g., liquids and amorphous materials) faces major theoretical difficulties. Unlike crystalline solids, liquids are characterized by the absence of small parameter related to anharmonicity \cite{10.1088/0034-4885/79/1/016502}. Hence, traditional analytical approaches based on the assumption of small atomic fluctuations about fixed equilibrium positions are inapplicable. In recent studies, collective excitations have gained significant attention in the context of fluid thermodynamics and collective dynamics \cite{10.1088/0034-4885/79/1/016502, 10.1038/s41598-019-46979-y, 10.1021/acs.jpclett.9b03568.s001, 10.1103/PhysRevLett.125.125501, 10.1103/PhysRevE.103.013207,10.1063/5.0054854, 10.1021/acs.jpclett.2c00297, 10.1103/PhysRevB.106.205412, 10.1016/j.pmatsci.2023.101180, 10.1103/PhysRevResearch.5.013149, 10.1063/5.0201689, 10.1016/j.physrep.2023.11.004, 10.1103/physreve.109.035202, 10.1103/PhysRevE.110.034602, 10.1039/d4cp04180a, 10.1063/5.0266423}. One of the distinct features of excitation spectra in fluids is the $q$-gap -- a discontinuity in transverse excitation dispersion curves arising from their instability at long wavelengths. This specific property characterizes the ability to maintain the propagation of transverse waves in liquids which is for significant importance for various applied industries, including biotechnology, chemical physics, and soft materials.
 	
-	The definition of $q$-gap was first formulated within the framework of Maxwell-Frenkel approach\cite{frenkel_kinetic_1946} as $q_g = 1/2c\tau$, where $c$ is the transverse sound velocity and $\tau$ is the Maxwell relaxation time. Originally identified in dusty plasmas\cite{10.1103/physrevlett.97.115001}, $q$-gap have since been extensively studied by molecular dynamics simulations of classical liquids\cite{10.1103/PhysRevLett.118.215502, 10.1103/physreve.107.014139, 10.1088/1361-648x/ab962e, 10.1038/s41598-019-46979-y,10.1103/PhysRevLett.125.125501, 10.1016/j.nocx.2019.100030, 10.1063/1.5050708, 10.1063/5.0236047, 10.1063/1.4997640} and other liquid systems\cite{10.1063/5.0054854, 10.1063/1.5088141, 10.1103/physreve.107.055211, 10.1103/PhysRevB.101.214312} and experiments in liquid metals and colloidal suspensions\cite{10.1103/PhysRevLett.102.105502, 10.1088/0953-8984/25/11/112101, 10.1088/0953-8984/27/19/194104, 10.1103/PhysRevB.101.214312, 10.1038/s42005-025-02008-1}. Additionally, the similarity between vibrational modes at high frequency/wave-vector in liquids and solids have been experimentally verified\cite{10.1038/379521a0, 10.1073/pnas.1006319107, 10.1103/revmodphys.77.881, 10.1088/0953-8984/24/37/372101, 10.1063/1.1637145}. The recent paper\cite{10.1016/j.physrep.2020.04.002} reviews the emergence of gapped momentum states across diverse physical systems, ranging from ordinary liquids to holographic models, discussing their origin, implications, and theoretical approaches. The review underscores the importance of $q$-gap in characterizing collective behavior across these systems, particularly in distinguishing between vibrational and diffusive regimes. Recent work\cite{10.1103/PhysRevLett.125.125501} establishes a correlation between the $q$-gap width and the system's heat capacity, implying its potential influence on other thermodynamic properties, including the self-diffusion coefficient. However, this topic remains little studied.
+	The definition of $q$-gap was first formulated within the framework of Maxwell-Frenkel approach \cite{frenkel_kinetic_1946} as $q_g = 1/2c\tau$, where $c$ is the transverse sound velocity and $\tau$ is the Maxwell relaxation time. Originally identified in dusty plasmas \cite{10.1103/physrevlett.97.115001}, $q$-gap have since been extensively studied by molecular dynamics simulations of classical liquids \cite{10.1103/PhysRevLett.118.215502, 10.1103/physreve.107.014139, 10.1088/1361-648x/ab962e, 10.1038/s41598-019-46979-y,10.1103/PhysRevLett.125.125501, 10.1016/j.nocx.2019.100030, 10.1063/1.5050708, 10.1063/5.0236047, 10.1063/1.4997640} and other liquid systems \cite{10.1063/5.0054854, 10.1063/1.5088141, 10.1103/physreve.107.055211, 10.1103/PhysRevB.101.214312} and experiments in liquid metals and colloidal suspensions \cite{10.1103/PhysRevLett.102.105502, 10.1088/0953-8984/25/11/112101, 10.1088/0953-8984/27/19/194104, 10.1103/PhysRevB.101.214312, 10.1038/s42005-025-02008-1}. Additionally, the similarity between vibrational modes at high frequency/wave-vector in liquids and solids have been experimentally verified \cite{10.1038/379521a0, 10.1073/pnas.1006319107, 10.1103/revmodphys.77.881, 10.1088/0953-8984/24/37/372101, 10.1063/1.1637145}. The recent paper \cite{10.1016/j.physrep.2020.04.002} reviews the emergence of gapped momentum states across diverse physical systems, ranging from ordinary liquids to holographic models, discussing their origin, implications, and theoretical approaches. The review underscores the importance of $q$-gap in characterizing collective behavior across these systems, particularly in distinguishing between vibrational and diffusive regimes. Recent work \cite{10.1103/PhysRevLett.125.125501} establishes a correlation between the $q$-gap width and the system's heat capacity, implying its potential influence on other thermodynamic properties, including the self-diffusion coefficient. However, this topic remains little studied.
 	
 	In this work we establish a correlation between the self-diffusion coefficient $D$ and the $q$-gap width in classical liquids through molecular dynamics simulations of Lennard-Jones, Yukawa, Embedded atom model (EAM for iron) and machine-learning-based (ML-IAP for liquid aluminum) potentials across 2D and 3D configurations. Analysis of velocity current spectra using two-oscillator model reveals a universal linear dependence of $D$ on $q$-gap width across all investigated interaction potentials in 3D cases. We demonstrate that 3D systems exhibit discontinuous growth of $D$ during melting due to crystalline lattice breakdown and metastable cluster formation, while 2D systems show smooth transitions consistent with Kosterlitz-Thouless-Halperin-Nelson-Young
-	(KTHNY) melting mediated by topological defects. The observed temperature-dependent expansion of the $q$-gap and emergence of solid-like transverse modes for $q > q_g$ confirm its role as a critical parameter separating vibrational and diffusive regimes.
+	(KTHNY) melting scenario. The observed temperature-dependent expansion of the $q$-gap and emergence of solid-like transverse modes for $q > q_g$ confirm its role as a critical parameter separating vibrational and diffusive regimes.
 	
 	\section{Methods}
-	We considered systems of particles interacting via the Lennard-Jones (LJ) and Yukawa (Ykw) pair potentials:
-	\begin{equation}
-		\varphi_{\text{LJ}}(r) = 4\varepsilon\left[\left(\dfrac{\sigma}{r}\right)^{12} - \left(\dfrac{\sigma}{r}\right)^6\right],
-		\label{DQG:Eq1}
-	\end{equation}
-	\begin{equation}
-		\varphi_{\text{Ykw}}(r) = A\dfrac{e^{-k_D r}}{r},
-		\label{DQG:Eq2}
-	\end{equation}
-	where $ \varepsilon $ and $ \sigma $ are the energy and length scale of the interaction,
-	respectively; $A$ and $k_D$ are parameters which where chosen as $A = 1$, $k_D = \lambda_D^{-1} = 1$. Corresponding coupling and screening parameters are $\Gamma = A(ak_BT)^{-1}$ and $\kappa = a\lambda_D^{-1}$, respectively. Here $\lambda_D$ is the Debye length, $a = (3/4\pi n)^{1/3}$ is the Wigner-Seitz radius, where $n = N/V$ is the numerical density, $k_B$ is the Boltzmann constant and $T$ is the temperature.
+	We considered model fluids of particles interacting via the Lennard-Jones and Yukawa pair potentials, as well as liquid aluminum described by a machine-learning interatomic potential (ML-IAP)~\cite{10.1103/PhysRevResearch.5.033162} and liquid iron modeled using Embedded Atom Model (EAM) with parameters reported in Ref.~\cite{10.1103/PhysRevLett.84.3638}. Further details of the simulation procedures can be found in the \href{https://www.latextemplates.com}{supplementary material}.
 	
-	We have studied 3D and 2D fluids consisting of $N = 4000$ ($N = 4900$ in 2D case) particles in an NVT ensemble with a Nose–Hoover thermostat. The initial state of the system was a cubic lattice (a square in 2D case) with a size $L = 10$ ($L = 70$ in 2D case) with periodic boundary conditions with Maxwell distribution of velocities. The cutoff radius of interaction was chosen as $r_\text{cut} = 7.5n^{-1/d}$, where $n = N/V$ is the numerical density and $d$ is the space dimension. The mass $m$, length $\sigma$, and energy $\varepsilon$ were normalized to unity.
+	Fluids in states near the freezing line were considered. Chosen states for each system are represented in \href{https://www.latextemplates.com}{supplementary material}. The reduced LJ units are used for Lennard-Jones and Yukawa systems throughout the paper.
 	
-	The interatomic potential with machine learning (ML-IAP) for liquid aluminum\cite{10.1103/PhysRevResearch.5.033162} was also considered:
-	\begin{equation}
-		\varphi_{\text{ML-IAP}}(r) = \varphi_{\text{ref}}(r) + \sum_{i=1}^{N} E^{i}_{\text{SNAP}},
-	\end{equation}
-	where $E_\text{ref}$ denotes a reference potential and $E^i_{\text{SNAP}}$ is the total energy of atom $i$ relative to the atoms in its neighborhood, governed by the spectral neighbor analysis potential method (SNAP)\cite{10.1016/j.jcp.2014.12.018}. Ziegler-Biersack-Littmark (ZBL) potential\cite{10.1007/978-1-4615-8103-1_3} is used as a reference potential. The SNAP energy for each atom is calculated using a linear combination of the bispectrum components $\mathbf{B}^i$
-	\begin{equation}
-		E^{i}_{\text{SNAP}} = \boldsymbol{\beta} \times \mathbf{B}^i,
-	\end{equation}
-	where $\boldsymbol{\beta}$ are linear coefficients and $\mathbf{B}^i$ are descriptors of the local environment of atom $i$. Obtained using machine learning coefficients\cite{10.14278/RODARE.2368} $\boldsymbol{\beta}$ were used in this work.
-	
-	Simulations of liquid \ce{Al} were performed in a three-dimensional face-centered cubic box with dimensions of $Lx = Ly = Lz = 10a$, where $a$ is lattice constant, with mass density $\rho = 2.7 \text{g/cm}^3$. The remaining simulation details including number of particles, thermostating and boundary conditions follow previously established setup.
-	
-	Moreover, we considered liquid iron using Embedded atom model (EAM). The general form of this potential can be expressed as:
-	%
-	\begin{equation}
-		E_i = \sum_{i} F(\rho_i) + \frac{1}{2} \sum_{i} \sum_{j \neq i} \varphi_{\text{p}}(r_{ij}),
-	\end{equation}
-	where $F_{i}(\rho_{i})$ denotes the embedding energy for atom $i$, a function of the local electron density $\rho_{i}$. This local density is computed as a superposition of the contributions from all neighboring atoms $j$:
-	
-	\begin{equation}
-		\rho_{i} = \sum_{j \neq i} \rho(r_{ij}).
-	\end{equation}
-	
-	In these expressions, $\varphi_{\text{p}}(r_{ij})$ represents the pairwise potential between atoms $i$ and $j$, separated by a distance $r_{ij}$. The specific functional forms for $F(\rho)$, $\rho(r)$, and $\varphi_{\text{p}}(r)$ employed in this work are those established in the corresponding paper\cite{10.1103/PhysRevLett.84.3638}.
-	
-	The mass density $\rho = 10g/cm^3$ was used in the simulations for liquid iron. The remaining simulation parameters correspond to those employed for liquid iron.
-	
-	Simulations of fluids of particles interacting via the Lennard-Jones and Yukawa potentials were performed using the numerical time step $\Delta t = 5\times 10^{-3}\sqrt{m\sigma^2/\varepsilon}$. For ML-IAP and EAM potentials in liquid aluminum and iron the time step $\Delta t = 5$ fs was chosen. All simulations where performed with the LAMMPS package\cite{10.1006/jcph.1995.1039} for $5\times10^4$ time steps, where the first 5000 were used for system relaxation.
-	
-	Fluids in states near the freezing line were considered. Chosen states for each system are represented in \href{https://www.latextemplates.com}{supplementary material}. The Lennard-Jones units are used for LJ and Yukawa systems throughout the paper.
-	
-	To obtain excitation spectra of the fluids, we studied the velocity current spectra\cite{hansen_theory_2013}
+	To obtain excitation spectra of the fluids, we studied the velocity current spectra \cite{hansen_theory_2013}
 	\begin{equation}
 		C_{L, T}(\mathbf{q}, \omega) = \int dt \, e^{i \omega t} \, \text{Re} \langle j_{L, T}(\mathbf{q}, t) j_{L, T}(-\mathbf{q}, 0) \rangle,
+		\label{DQG:Eq1}
 	\end{equation}
 	where $\mathbf{j}(\mathbf{q}, t) = N^{-1} \sum_{s}^{N} \mathbf{v}_s(t) \exp(i\mathbf{q}\mathbf{r}_s(t))$ is the velocity current; $\mathbf{v}_s(t) = \dot{\mathbf{r}}_s(t)$ is the velocity of particle $s$; $\mathbf{j}_L = \mathbf{q} (\mathbf{j} \cdot \mathbf{q})/q^2$ and $\mathbf{j}_T = (\mathbf{j} \cdot \mathbf{e}_{\perp}) \mathbf{e}_{\perp}$ are longitudinal and transverse components of velocity current, respectively (here $\mathbf{e}_{\perp}$ is unit vector, normal to the $\mathbf{q}$) and the brackets $\langle\ \dots \rangle$ denote ensemble average. The isotropy of simple fluids allows us to average $C_{L, T}(\mathbf{q}, \omega)$ across all wavevector $\mathbf{q}$ directions:
 	\begin{equation}
 		C_{L, T}(q, \omega) = \dfrac{1}{N_q}\sum_{|\mathbf{q}| = q}^{N_q}C_{L, T}(\mathbf{q}, \omega),
+		\label{DQG:Eq2}
 	\end{equation}
 	where $N_q$ is the number of directions used for averaging.
 	
-	Further, to obtain dispersion relations $\omega_{L,T}(q)$ the values of $C_{L, T}(q, \omega)$ were investigated by two-oscillator model\cite{10.1038/s41598-019-46979-y}
+	Further, to obtain dispersion relations $\omega_{L,T}(q)$ the values of $C_{L, T}(q, \omega)$ were investigated by two-oscillator model \cite{10.1038/s41598-019-46979-y}
 	\begin{equation}
 		\begin{aligned}
 			C(q, \omega)\ \propto\ &\dfrac{\Gamma_{L}}{(\omega - \omega_{L})^2 + \Gamma^2_{L}} + \dfrac{\Gamma_{L}}{(\omega + \omega_{L})^2 + \Gamma^2_{L}}\\ &+ \dfrac{(d-1)\Gamma_{T}}{(\omega - \omega_{T})^2 + \Gamma^2_{T}} + \dfrac{(d-1)\Gamma_{T}}{(\omega + \omega_{T})^2 + \Gamma^2_{T}},
-			\label{DQG:Eq4}
+			\label{DQG:Eq3}
 		\end{aligned}
 	\end{equation}
 	where $d$ is the space dimension.
@@ -150,176 +121,75 @@ twoside, % Two side traditional mode where headers and footers change between od
 	The self-diffusion coefficient $D$ was calculated using mean-squared displacement of particles:
 	\begin{equation}
 		\text{MSD}(t) = N^{-1}\sum_{s}^{N}(\mathbf{r}_s(t) - \mathbf{r}_s(0))^2,
+		\label{DQG:Eq4}
 	\end{equation}
 	\begin{equation}
 		D = \lim_{t\rightarrow\infty}\dfrac{\text{MSD}(t)}{2dt},
 		\label{DQG:Eq5}
 	\end{equation}
 	where $d$, as clarified earlier, is the space dimension. The calculated mean squared displacement dependencies for the investigated systems are illustrated in the \href{https://www.latextemplates.com}{supplementary material}.
-	% \begin{figure}
-		% \includegraphics[width=\linewidth]{im1.png}
-		% \end{figure}
-	%
-	% \begin{figure}
-		% \includegraphics[width=\linewidth]{im2.png}
-		% \end{figure}
-	%
-	% \begin{figure}
-		% \includegraphics[width=\linewidth]{im3.png}
-		% \end{figure}
 	
 	\section{Results}
 	The fluids were studied at the same densities ($\kappa$ for Yukawa), but under different temperatures ($\Gamma$ for Yukawa).
 	
 	To obtain the excitation spectra, velocity current spectra was calculated in a certain range of wavenumber values. The resulting velocity current spectra for the considered systems are presented in the \href{https://www.latextemplates.com}{supplementary material}.
 	
-	% Blue symbols on the plots represent calculated $C_T(q, \omega)$ values, while orange symbols correspond to the sum of high- and low-frequency terms $C(q, \omega) = C_L(q, \omega) + (d-1)C_T(q, \omega)$. Solid lines are fits by single-mode analysis (Eq. \eqref{sepmod}) and the two-oscillator model (Eq. \eqref{twomod}). Both approximation models reproduce the corresponding spectral modes with good accuracy. Similar velocity current spectra for other systems are presented in \href{https://www.latextemplates.com}{supplementary material}.
-	
 	The $q$-gap values were obtained by calculating the dispersion relations $\omega_{L,T}(q)$ and fitting them using Eq. \eqref{DQG:Eq4}. The \href{https://www.latextemplates.com}{supplementary material}. contains representative examples of the low-frequency terms $\omega_{T}(q)$ for the systems examined in this study.
-%	\begin{figure*}
-%		\centering
-%		\includegraphics[width=0.5\textwidth]{Figs/Fig1}
-%		% \input{../vkr_norm/images/w_lj}
-%		\caption{Dispersion relations $\omega_{L,T}(q)$ for a 3D Lennard-Jones fluid at density $n = 1$ and temperature $T = 5$. Transverse ($\omega_T$) and longitudinal ($\omega_L$) modes are represented by orange and gray circles, respectively. The gray and red lines depict the theoretical asymptotic curves $\omega = cq$. The dark gray zone indicates the region where $qn^{-1/3} < 2\pi/L$ and finite-size effects are significant ($L$ being the system size).}
-%		\label{DQG:Fig1}
-%	\end{figure*}
-%	Blue and red solid lines on the plots show results obtained using the single-mode analysis \eqref{DQG:Eq3} and the two-oscillator model \eqref{DQG:Eq4}, respectively. For both approximation models, a clear $q$-gap region with zero $\omega_T$ values is observed, confirming the applicability of model \eqref{DQG:Eq4} for identifying gap states in dispersion relations. Note that $q$-gap values calculated using models \eqref{DQG:Eq3} and \eqref{DQG:Eq4} show minor differences at low temperatures but exhibit increasing divergence with rising temperature, consistent with data from recent study\cite{10.1038/s41598-019-46979-y}. Additionally, an increase in $q$-gap width with increasing temperature is observed, which also aligns with results from \cite{10.1103/PhysRevLett.125.125501}. Similar dispersion relations for other systems are presented in \href{https://www.latextemplates.com}{supplementary material}.
-
-	The dependencies of the self-diffusion coefficient, calculated using particle MSD given by Eq. \eqref{DQG:Eq5}, on the $q$-gap width for the considered systems are shown in Figures \ref{DQG:Fig3}, \ref{DQG:Fig4}, and \ref{DQG:Fig5} for both three- and two-dimensional cases.
+	
+	The dependencies of the self-diffusion coefficient, calculated using particle MSD given by Eq. \eqref{DQG:Eq5}, on the $q$-gap width for the considered systems are shown in Figure \ref{DQG:Fig1} for both three- and two-dimensional cases.
 	
 	The plots display values corresponding to the $q$-gap along with their approximations. A clear linear relationship between the coefficient $D$ and the $q$-gap width is observed for three-dimensional cases and, notably, it does not pass through the origin, which corresponds to a crystalline state with zero values of $D$ and $q$-gap. Thus, the obtained dependencies indicate a nonlinear growth of the self-diffusion coefficient $D$ with increasing $q$-gap in 3D classical fluids during melting. However, in this work, we were unable to analyze systems with $q_g < q_{0}$ (values of $q_{0}$ are given in Table in \href{https://www.latextemplates.com}{supplementary material}), so clarifying the behavior of $D(q_g)$ in the melting region requires further investigation.
+	
+	\begin{figure*}
+		\centering
+		\includegraphics[width=\linewidth]{Figs/Fig1}
+		\caption{Dependence of the self-diffusion coefficient $D$ on the $q$-gap width for (\textbf{a}),(\textbf{b}) Lennard-Jones and (\textbf{c}),(\textbf{d}) Yukawa fluids in 3D and 2D cases. For Lennard-Jones: 3D systems with densities $n = 1$--$2$ and 2D systems with $n = 0.8$--$0.9$, solid lines are linear fits. For Yukawa: 3D and 2D systems with screening parameters $\kappa = 1$---$3$ and $\kappa = 1$---$2$ respectively, solid lines indicate linear approximations in 3D case and fit by Eq.\eqref{DQG:Eq6} in 2D.}
+		\label{DQG:Fig1}
+	\end{figure*}
 %	\begin{figure}
 %		\centering
-%		\includegraphics[width=\linewidth]{Figs/Fig2}
-%		% \input{../vkr_norm/images/MSD}
-%		\caption{Dependence of the MSD on the time $t$ for the Lennard-Jones potential in three- and two-dimensional cases.}
-%		\label{DQG:Fig2}
+%		\includegraphics[width=\linewidth]{Figs/Fig5}
+%		\caption{Dependence of the self-diffusion coefficient $D$ on the $q$-gap width for 3D liquid aluminum at density $\rho = 2.7$ g/cm$^3$.}
+%		\label{DQG:Fig5}
 %	\end{figure}
-	\begin{figure*}
-		\centering
-		\includegraphics[width=\linewidth]{Figs/Fig3}
-		% \input{../vkr_norm/images/D_lj}
-		\caption{Dependence of the self-diffusion coefficient $D$ on the $q$-gap width for the Lennard-Jones fluid in (\textbf{a}) 3D and (\textbf{b}) 2D cases. (\textbf{a}) Results for 3D systems with densities $n =$ 1 --- 2. Dashed colored lines are linear approximations. The scaled area is provided to clarify parameter variations at the melting point. (\textbf{b}) Results for 2D systems with densities $n =$ 0.8 --- 0.9. Solid colored lines are piecewise linear approximations.}
-		\label{DQG:Fig3}
-	\end{figure*}
-	\begin{figure*}
-		\includegraphics[width=\linewidth]{Figs/Fig4}
-		% \input{../vkr_norm/images/D_yukawa}
-		\caption{Dependence of the self-diffusion coefficient $D$ on the $q$-gap width for the Yukawa fluid in (\textbf{a}) 3D and (\textbf{b}) 2D cases. (\textbf{a}) Results for 3D systems screening parameters $\kappa =$ 1 --- 3. Solid colored lines are linear approximations. (\textbf{b}) Results for 2D systems with screening parameters $\kappa =$ 1 --- 3.}
-		\label{DQG:Fig4}
-	\end{figure*}
-	\begin{figure}
-		\centering
-		\includegraphics[width=\linewidth]{Figs/Fig5}
-		% \input{../vkr_norm/images/D_Al}
-		\caption{Dependence of the self-diffusion coefficient $D$ on the $q$-gap width for 3D liquid aluminum at density $\rho = 2.7$ g/cm$^3$.}
-		\label{DQG:Fig5}
-	\end{figure}
 	
 	\begin{figure}
 		\centering
-		\includegraphics[width=\linewidth]{Figs/Fig6}
-		% \input{../vkr_norm/images/MSD}
-		\caption{Dependence of the self-diffusion coefficient $D$ on the $\left(\text{d}D/\text{d}q_g\right)_{q_0}$ slope for investigated 3D system}
-		\label{DQG:Fig6}
+		\includegraphics[width=\linewidth]{Figs/Fig2}
+		\caption{Dependence of the self-diffusion coefficient $D$ on the $\left(\text{d}D/\text{d}q_g\right)$ slope for investigated 3D system. Gray solid line indicates theoretical fit by Eq.\eqref{DQG:Eq7}.}
+		\label{DQG:Fig2}
 	\end{figure}
 	
-%	\begin{figure*}
-%		\centering
-%		\includegraphics[width=\linewidth]{Figs/Fig7}
-%		% \input{../vkr_norm/images/MSD}
-%		\caption{Scatter plot with colormap of $D(q_g)$ values near the melting point: the color of each point represents the slope value $k$ of the corresponding dependence.}
-%		\label{DQG:Fig7}
-%	\end{figure*}
-	
-	In contrast, this effect does not manifest in two-dimensional systems, where the given dependencies exhibit a smooth increase from the origin. However, a nonlinear dependence is observed for the 2D Yukawa system. To analyze this behavior, we employed a fit based on Eq. \eqref{DQG:Eq12}.
+	In contrast, this effect does not manifest in two-dimensional systems, where the given dependencies exhibit a smooth increase from the origin. However, a nonlinear dependence is observed for the 2D Yukawa system (Fig. \hyperref[DQG:Fig1]{1(d)}). To analyze this behavior, we employed a fit based on Eq.\eqref{DQG:Eq6}.
 	\begin{equation}
 		D \propto q_g^{-\lambda_D/\sqrt{n}}.
-		\label{DQG:Eq12}
+		\label{DQG:Eq6}
 	\end{equation}
 	
-	We also investigated the dependency of the self-diffusion coefficient on the slope $\left(\frac{\text{d}D}{\text{d}q_g}\right)_{q_0}$ and observed an intriguing behavior, as shown in Figure~\ref{DQG:Fig6}. It appears that this universal relationship is accurately described by the theoretical fit~\eqref{DQG:Eq13}:
+	We also investigated the dependency of the self-diffusion coefficient on the slope $\text{d}D/\text{d}q_g$ and observed an intriguing behavior, as shown in Figure~\ref{DQG:Fig2}. It appears that this universal relationship might be described by the theoretical fit~\eqref{DQG:Eq7}:
 	
 	\begin{equation}
-		D \propto \exp\left[30\left( \frac{\text{d}D}{\text{d}q_g}\right)_{q_0}\right]
-		\label{DQG:Eq13}
+		D \approx 7.4\exp\left[30\left( \frac{\text{d}D}{\text{d}q_g}\right)\right]\cdot10^{-4}
+		\label{DQG:Eq7}
 	\end{equation}
 	
 	Furthermore, the extended Lennard-Jones (LJ) and Yukawa systems were analyzed, and a comparison of $D(q_g)$ with the original systems is provided in the \href{https://www.latextemplates.com}{supplementary material}.
 	
-%	\begin{table*}[]
-%		\centering
-%		\caption{Minimum values of $q_g$ and corresponding slopes for studied systems}
-%		\label{DQG:Table2}
-%		\begin{tabular}{@{}ccccc@{}}
-%			\toprule
-%			Potential & Dimension & Density & \begin{tabular}[c]{@{}c@{}}Value of $q_g$ \\ near the MP, $q_{0}$\end{tabular} & $\left( \dfrac{\text{d}D}{\text{d}q_g}\right)_{q_0}$ \\ \midrule
-%			ML-IAP (\ce{Al}) & 3D & 2.7 g/cm$^3$ & 0.078 & 0.0130 \\
-%			\midrule
-%			\multirow{11}{*}{LJ} & \multirow{8}{*}{3D} & 1.0 & 0.165 &0.0166 \\
-%			& & 1.1 & 0.159 &0.0142 \\
-%			& & 1.2 & 0.157 &0.0136 \\
-%			& & 1.3 & 0.151 &0.0124 \\
-%			& & 1.4 & 0.151 &0.0110 \\
-%			& & 1.6 & 0.169 &0.0079 \\
-%			& & 1.8 & 0.182 &0.0074 \\
-%			& & 2.0 & 0.170 &0.0062 \\ \cmidrule(l){2-5}
-%			& \multirow{3}{*}{2D} & 0.80 & 0.172 & 0.039\\
-%			& & 0.85 & 0.119 & 0.034\\
-%			& & 0.90 & 0.056 & 0.029\\ \midrule
-%			\multirow{12}{*}{Yukawa} & \multicolumn{1}{l}{} & $\kappa$ \\ \cmidrule(l){3-3}
-%			& \multirow{7}{*}{3D} & 1.00 & 0.115 & 0.015\\
-%			& & 1.25 & 0.105 & 0.027\\
-%			& & 1.50 & 0.123 & 0.042\\
-%			& & 2.00 & 0.106 & 0.052\\
-%			& & 2.50 & 0.130 & 0.058\\
-%			& & 3.00 & 0.111 & 0.098\\
-%			\cmidrule(l){2-5}
-%			& \multirow{5}{*}{2D} & 1.00 & 0.045 \\
-%			& & 1.50 & 0.048 \\
-%			& & 2.00 & 0.048 \\
-%			& & 2.50 & 0.048 \\
-%			& & 3.00 & 0.042 \\ \bottomrule
-%		\end{tabular}
-%	\end{table*}
-	
-	% --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
-	
 	\section{Discussion}
 	The distinction between 3D and 2D systems, as we assume, appears from fundamental differences in the melting scenarios. In three-dimensional systems, first-order phase transitions dominate, characterized by jumps in thermodynamic parameters and density inhomogeneities, whereas in two-dimensional systems, the Kosterlitz-Thouless-Halperin-Nelson-Young
-	(KTHNY) theory of two-dimensional melting is applied, involving the formation of topological defects and suppression of long-range order\cite{10.1039/C4SM00124A}. These differences are caused by the enhanced role of thermal fluctuations at $d<3$ and the constraints imposed by the Mermin-Wagner theorem\cite{10.1103/physrevlett.17.1133}, which prohibits spontaneous symmetry breaking in two-dimensional systems. However, a detailed study of this phenomenon remains a subject for future work.
+	(KTHNY) theory of two-dimensional melting is applied, involving the formation of topological defects and suppression of long-range order \cite{10.1039/C4SM00124A}. These differences are caused by the enhanced role of thermal fluctuations at $d<3$ and the constraints imposed by the Mermin-Wagner theorem \cite{10.1103/physrevlett.17.1133}, which prohibits spontaneous symmetry breaking in two-dimensional systems. However, a detailed study of this phenomenon remains a subject for future work.
 	
-	The nonlinear nature of the dependence on Figure \hyperref[DQG:Fig4]{2(b)}, as we suggest, may be caused by the absence of an attraction term in the Yukawa potential. 
+	The nonlinear nature of the dependence on Figure \hyperref[DQG:Fig1]{1(b)}, as we suggest, may be caused by the absence of an attraction term in the Yukawa potential. 
 	% --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- -
 	% REFERENCES
 	% --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- -
 	
-	\printbibliography % Output the bibliography
+	% If you have acknowledgments, this puts in the proper section head.
+	%\begin{acknowledgments}
+	% put your acknowledgments here.
+	%\end{acknowledgments}
 	
-	% --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- -
-	% \begin{table*} % Full width table (notice the starred environment)
-		% \caption{Example two column table with fixed-width columns.}
-		% \centering % Horizontally center the table
-		% \begin{tabular}{L{0.2\linewidth} L{0.2\linewidth} R{0.15\linewidth}} % Manually specify column alignments with L{}, R{} or C{} and widths as a fixed amount, usually as a proportion of \linewidth
-			% \toprule
-			% \multicolumn{2}{c}{Location} \\
-			% \cmidrule(r){1-2}
-			% East Distance & West Distance & Count \\
-			% \midrule
-			% 100km & 200km & 422 \\
-			% 350km & 1000km & 1833 \\
-			% 600km & 1200km & 890 \\
-			% \bottomrule
-			% \end{tabular}
-		% \end{table*}
-	%
-	% \begin{figure*} % Two column figure (notice the starred environment)
-		% \includegraphics[width=\linewidth]{Fibroblastid.jpg}
-		% \caption{Bovine pulmonary artery endothelial cells in culture. Blue: nuclei; red: mitochondria; green: microfilaments. Computer generated image from a 3D model based on a confocal laser scanning microscopy using fluorescent marker dyes. Source: Heiti Paves, \href{https://commons.wikimedia.org/wiki/File:Fibroblastid.jpg}{https://commons.wikimedia.org/wiki/File:Fibroblastid.jpg}.}
-		% \label{fig:bpartery}
-		% \end{figure*}
-	%
-	% \subsection{Links}
-	%
-	% This is a clickable URL link: \href{https://www.latextemplates.com}{LaTeX Templates}. This is a clickable email link: \href{mailto:vel@latextemplates.com}{vel@latextemplates.com}. This is a clickable monospaced URL link: \url{https://www.LaTeXTemplates.com}.
+	% Create the reference section using BibTeX:
+	\bibliography{DQG-bibliography_DOI}
+	
 \end{document}

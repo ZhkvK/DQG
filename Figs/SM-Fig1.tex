@@ -1,0 +1,127 @@
+% w_lj_standalone.tex
+\documentclass[tikz, border=1mm]{standalone}
+
+% ========== Настройка шрифта (pdfLaTeX) ==========
+% Рекомендуем: TeX Gyre Heros — свободная Helvetica-like гарнитура.
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+%\usepackage{tgheros}   % <--- поменяй здесь на \usepackage[scaled]{helvet} если хочешь PS Helvetica
+\usepackage{arev}
+\usepackage{helvet}
+%\usepackage{sansmath}  % даёт \sansmath для sans-математики
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{sfmath}
+\usepackage{textcomp}
+\usepackage{upgreek}
+
+% Подключаем pgfplots/tikz и нужные библиотеки
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18} % современный режим совместимости
+\usepackage{pgfplotstable}
+\usetikzlibrary{calc,arrows.meta,shapes,patterns,decorations.pathreplacing,backgrounds}
+% (добавь другие библиотеки, если они тебе нужны)
+
+% Математика и шрифты
+\usepackage{amsmath,amssymb}
+
+% ====== Применяем sans ко всему документу (без побочных эффектов на главный файл,
+% поскольку это standalone) ======
+\sffamily
+%\sfmath % теперь все формулы будут в sans внутри этого документа
+
+% --- при желании: уменьшить/увеличить масштаб шрифтов в рисунке ---
+%\renewcommand{\normalsize}{\fontsize{9}{11}\selectfont}
+%\renewcommand{small}{\fontsize{7}{11}\selectfont}
+
+%\renewcommand{\pi}{\uppi}
+%\renewcommand{\omega}{\upomega}
+
+\pgfplotsset{width=8.5cm,
+compat=1.3,
+% define the layers you need.
+% (Don't forget to add `main' somewhere in that list!!)
+layers/my layer set/.define layer set={
+	background,
+	main,
+	foreground
+}{
+	% you could state styles here which should be moved to
+	% corresponding layers, but that is not necessary here.
+	% That is why we don't state anything here
+},
+% activate the newly created layer set
+set layers=my layer set,
+scaled y ticks=true,
+scaled x ticks=false,}
+
+% ========== Тело документа: вставляй сюда исходный tikzpicture ==========
+\begin{document}
+	
+	% --- Ниже вставлен (твой) исходный tikzpicture: ---
+	% (я почти ничего в нём не менял, только обёрнул в standalone preamble)
+	\pgfplotstableread{Data/Fig1/data.txt}\datatable
+	\begin{tikzpicture}
+		
+		\definecolor{darkgrey176}{RGB}{176,176,176}
+		\definecolor{firebrick}{RGB}{178,34,34}
+		\definecolor{lightgrey204}{RGB}{204,204,204}
+		\definecolor{steelblue}{RGB}{0, 102, 204}
+		\definecolor{orange}{RGB}{255, 153, 51}
+		
+		\begin{axis}[  % Общая подпись Y слева,
+%			width=0.5\textwidth,
+			%		legend cell align={left},
+			%		legend style={fill opacity=0.8, draw opacity=1, text opacity=1, draw=lightgrey204, at={([yshift=10pt]0.5,1)},
+				%			anchor=south,},
+			tick align=inside,
+			%tick pos=left,
+			x grid style={darkgrey176},
+			xlabel={Wave vector, $qn^{-1/3}/\pi$},
+			ylabel={Frequency, $\mathsf{\omega}/\omega_0$},
+			xmin=0,
+			xtick style={color=black},
+			%		xtick={0, 20, 40, 60},
+			y grid style={darkgrey176},
+			ymin=0,
+			ytick style={color=black},
+			%		ytick={0, 1},
+			ylabel shift={-5pt},
+			enlargelimits=false,
+			axis lines=box,
+			clip=true,
+			clip mode=individual,
+			%		every axis y label/.style={
+				%			at={(ticklabel* cs:1.0)},
+				%			xshift=0pt,
+				%			rotate=90 % уменьшает расстояние
+				%		},
+			]
+			\addplot [mark=o, only marks, line width=0.3mm, mark size=2pt, each nth point={5}, orange, on layer=background]
+			table[x=q, y=w_T]{\datatable};
+			\addplot [mark=o, only marks, line width=0.3mm, mark size=2pt, each nth point={5}, lightgrey204, on layer=background]
+			table[x=q, y=w_L]{\datatable}
+			;
+			%		\addplot [blue, dashed, forget plot, on layer=foreground]
+			%		table[x=q, y=w]{../vkr_norm/images/texfigs/lj/1.0/w_lj_5.0_1.00/wfit_1.txt};
+			\addplot [red, thick, line width=0.3mm, forget plot, on layer=foreground]
+			table[x=q, y=w]{Data/Fig1/fit1.txt};
+			\addplot [gray, dashed, line width=0.3mm, forget plot, on layer=foreground]
+			table[x=q, y=w]{Data/Fig1/fit2.txt}
+			node [yshift=8pt,black,sloped, pos=0.25, font=\small]{$\omega = cq$};
+			\draw[thick, color=firebrick] (axis cs:0.3987835617604114,0) -- (axis cs:0.3987835617604114,3.5);
+			\draw[thick, <->, color=firebrick] (axis cs:0,3) -- 
+			(axis cs:0.3987835617604114,3) node[midway, above, font=\small] {$q_g$};
+			
+			\fill [
+			gray,           % Цвет
+			opacity=0.35,   % Прозрачность (0 = полностью прозрачный, 1 = непрозрачный)
+			%draw=red,      % Граница (опционально)
+			thick, on layer=background
+			] 
+			(axis cs:0,0) % Нижняя граница (x=1.5, y=0)
+			rectangle 
+			(axis cs:0.126,\pgfkeysvalueof{/pgfplots/ymax});
+		\end{axis}
+	\end{tikzpicture}
+	
+\end{document}

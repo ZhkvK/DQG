@@ -1,0 +1,133 @@
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{6}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Kumar}\ \emph
+  {et~al.}(2023{\natexlab{a}})\citenamefont {Kumar}, \citenamefont {Tahmasbi},
+  \citenamefont {Ramakrishna}, \citenamefont {Lokamani}, \citenamefont
+  {Nikolov}, \citenamefont {Tranchida}, \citenamefont {Wood},\ and\
+  \citenamefont {Cangi}}]{10.1103/PhysRevResearch.5.033162}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Kumar}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Tahmasbi}},
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Ramakrishna}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Lokamani}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Nikolov}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Tranchida}}, \bibinfo {author} {\bibfnamefont {M.~A.}\
+  \bibnamefont {Wood}},\ and\ \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Cangi}},\ }\bibfield  {title} {\bibinfo {title}
+  {Transferable interatomic potential for aluminum from ambient conditions to
+  warm dense matter},\ }\href
+  {https://doi.org/10.1103/PhysRevResearch.5.033162} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physical Review Research}\ }\textbf {\bibinfo {volume}
+  {5}},\ \bibinfo {pages} {033162} (\bibinfo {year}
+  {2023}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Thompson}\ \emph {et~al.}(2015)\citenamefont
+  {Thompson}, \citenamefont {Swiler}, \citenamefont {Trott}, \citenamefont
+  {Foiles},\ and\ \citenamefont {Tucker}}]{10.1016/j.jcp.2014.12.018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Thompson}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Swiler}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Trott}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Foiles}},\ and\ \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Tucker}},\ }\bibfield  {title} {\bibinfo
+  {title} {Spectral neighbor analysis method for automated generation of
+  quantum-accurate interatomic potentials},\ }\href
+  {https://doi.org/10.1016/j.jcp.2014.12.018} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Computational Physics}\ }\textbf {\bibinfo {volume}
+  {285}},\ \bibinfo {pages} {316} (\bibinfo {year} {2015})}\BibitemShut
+  {NoStop}%
+\bibitem [{10.(1985)}]{10.1007/978-1-4615-8103-1_3}%
+  \BibitemOpen
+  \bibfield  {title} {\bibinfo {title} {The {Stopping} and {Range} of {Ions} in
+  {Matter}},\ }in\ \href {https://doi.org/10.1007/978-1-4615-8103-1_3} {\emph
+  {\bibinfo {booktitle} {Treatise on {Heavy}-{Ion} {Science}}}}\ (\bibinfo
+  {publisher} {Springer US},\ \bibinfo {address} {Boston, MA},\ \bibinfo {year}
+  {1985})\ pp.\ \bibinfo {pages} {93--129}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kumar}\ \emph
+  {et~al.}(2023{\natexlab{b}})\citenamefont {Kumar}, \citenamefont {Tahmasbi},
+  \citenamefont {Ramakrishna}, \citenamefont {Lokamani}, \citenamefont
+  {Nikolov}, \citenamefont {Tranchida}, \citenamefont {Wood},\ and\
+  \citenamefont {Cangi}}]{10.14278/RODARE.2368}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Kumar}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Tahmasbi}},
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Ramakrishna}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Lokamani}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Nikolov}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Tranchida}}, \bibinfo {author} {\bibfnamefont {M.~A.}\
+  \bibnamefont {Wood}},\ and\ \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Cangi}},\ }\href {https://doi.org/10.14278/RODARE.2368}
+  {\bibinfo {title} {Training scripts and input data sets: {Transferable}
+  {Interatomic} {Potential} for {Aluminum} from {Ambient} {Conditions} to
+  {Warm} {Dense} {Matter}}} (\bibinfo {year} {2023}{\natexlab{b}})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Belonoshko}\ \emph {et~al.}(2000)\citenamefont
+  {Belonoshko}, \citenamefont {Ahuja},\ and\ \citenamefont
+  {Johansson}}]{10.1103/PhysRevLett.84.3638}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~B.}\ \bibnamefont
+  {Belonoshko}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Ahuja}},\
+  and\ \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Johansson}},\
+  }\bibfield  {title} {\bibinfo {title} {Quasi-- {{{\emph{Ab Initio}}}}
+  {{Molecular Dynamic Study}} of {{Fe Melting}}},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.84.3638} {\bibfield  {journal} {\bibinfo
+   {journal} {Physical Review Letters}\ }\textbf {\bibinfo {volume} {84}},\
+  \bibinfo {pages} {3638} (\bibinfo {year} {2000})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Plimpton}(1995)}]{10.1006/jcph.1995.1039}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Plimpton}},\ }\bibfield  {title} {\bibinfo {title} {Fast {Parallel}
+  {Algorithms} for {Short}-{Range} {Molecular} {Dynamics}},\ }\href
+  {https://doi.org/10.1006/jcph.1995.1039} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Computational Physics}\ }\textbf {\bibinfo {volume}
+  {117}},\ \bibinfo {pages} {1} (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
+\end{thebibliography}%

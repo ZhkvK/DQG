@@ -51,7 +51,7 @@
 	% TITLE SECTION
 	% --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- -
 	
-	\title{Dependence of the self-diffusion coefficient on the $q$-gap value in fluids} % Article title
+	\title{Dependence of the self-diffusion coefficient on the $q$-gap value in fluids}
 	
 	\author{Konstantin P. Zhukov}
 	
@@ -64,18 +64,14 @@
 	\date{\today}
 	
 	\begin{abstract} 
-		Intensive studies are currently focused on the properties of liquids and their collective dynamics, yet the microscopic mechanisms linking these collective modes to diffusion processes remain poorly understood. Using \textit{in silico} studies of model fluids and liquid metals, we show for the first time a linear relationship between the self-diffusion coefficient and the $q$-gap width, accompanied by a non-diffusive region across 3D systems. These findings open new avenues for studying fluid dynamics, providing a unified framework for linking microscopic transport properties with collective excitations.
+		The properties of liquids and their collective dynamics recently have garnered considerable attention, yet the microscopic mechanisms linking collective modes to diffusion processes remain poorly understood. Using \textit{in silico} studies of model fluids and liquid metals, we show for the first time a linear relationship between the self-diffusion coefficient and the $q$-gap width, accompanied by a non-diffusive region across 3D systems. These findings open new avenues for studying fluid dynamics by establishing a unified connection between microscopic transport property and collective excitations.
 		
 	\end{abstract}
 	
 	% insert suggested keywords - APS authors don't need to do this
 	%\keywords{}
-	
-	%\maketitle must follow title, authors, abstract, and keywords
 	\maketitle
 	
-	% body of paper here - Use proper section commands
-	% References should be done using the \cite, \ref, and \label commands
 	
 	% --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- -
 	% ARTICLE CONTENTS
@@ -89,7 +85,7 @@
 	
 	The definition of $q$-gap was first formulated within the framework of Maxwell-Frenkel approach \cite{frenkel_kinetic_1946} as $q_g = 1/2c\tau$, where $c$ is the transverse sound velocity and $\tau$ is the Maxwell relaxation time. Originally identified in dusty plasmas \cite{10.1103/physrevlett.97.115001}, $q$-gap have since been extensively studied by molecular dynamics simulations of classical liquids \cite{10.1103/PhysRevLett.118.215502, 10.1103/physreve.107.014139, 10.1088/1361-648x/ab962e, 10.1038/s41598-019-46979-y,10.1103/PhysRevLett.125.125501, 10.1016/j.nocx.2019.100030, 10.1063/1.5050708, 10.1063/5.0236047, 10.1063/1.4997640} and other liquid systems \cite{10.1063/5.0054854, 10.1063/1.5088141, 10.1103/physreve.107.055211, 10.1103/PhysRevB.101.214312} and experiments in liquid metals and colloidal suspensions \cite{10.1103/PhysRevLett.102.105502, 10.1088/0953-8984/25/11/112101, 10.1088/0953-8984/27/19/194104, 10.1103/PhysRevB.101.214312, 10.1038/s42005-025-02008-1}. Additionally, the similarity between vibrational modes at high frequency/wave-vector in liquids and solids have been experimentally verified \cite{10.1038/379521a0, 10.1073/pnas.1006319107, 10.1103/revmodphys.77.881, 10.1088/0953-8984/24/37/372101, 10.1063/1.1637145}. The recent paper \cite{10.1016/j.physrep.2020.04.002} reviews the emergence of gapped momentum states across diverse physical systems, ranging from ordinary liquids to holographic models, discussing their origin, implications, and theoretical approaches. The review underscores the importance of $q$-gap in characterizing collective behavior across these systems, particularly in distinguishing between vibrational and diffusive regimes. Recent work \cite{10.1103/PhysRevLett.125.125501} establishes a correlation between the $q$-gap width and the system's heat capacity, implying its potential influence on other thermodynamic properties, including the self-diffusion coefficient. However, this topic remains little studied.
 	
-	In this work we establish a correlation between the self-diffusion coefficient $D$ and the $q$-gap width in classical liquids through molecular dynamics simulations of Lennard-Jones, Yukawa, Embedded atom model (EAM for iron) and machine-learning-based (ML-IAP for liquid aluminum) potentials across 2D and 3D configurations. Analysis of velocity current spectra using two-oscillator model reveals a universal linear dependence of $D$ on $q$-gap width across all investigated interaction potentials in 3D cases. We demonstrate that 3D systems exhibit discontinuous growth of $D$ during melting due to crystalline lattice breakdown and metastable cluster formation, while 2D systems show smooth transitions consistent with Kosterlitz-Thouless-Halperin-Nelson-Young
+	In this work we establish a correlation between the self-diffusion coefficient $D$ and the $q$-gap width in classical liquids through molecular dynamics simulations of Lennard-Jones, Yukawa, Embedded atom model (EAM for iron) and machine-learning-based (ML-IAP for liquid aluminum) potentials across 2D and 3D configurations. Analysis of velocity current spectra using two-oscillator model reveals a universal linear dependence of $D$ on $q$-gap width across all investigated interaction potentials in 3D cases. We demonstrate that 3D systems exhibit discontinuous growth of $D$ during melting forming a non-diffusive region near the origin, while 2D systems show smooth transitions consistent with Kosterlitz-Thouless-Halperin-Nelson-Young
 	(KTHNY) melting scenario. The observed temperature-dependent expansion of the $q$-gap and emergence of solid-like transverse modes for $q > q_g$ confirm its role as a critical parameter separating vibrational and diffusive regimes.
 	
 	\section{Methods}
@@ -138,7 +134,7 @@
 	
 	The dependencies of the self-diffusion coefficient, calculated using particle MSD given by Eq. \eqref{DQG:Eq5}, on the $q$-gap width for the considered systems are shown in Figure \ref{DQG:Fig1} for both three- and two-dimensional cases.
 	
-	The plots display values corresponding to the $q$-gap along with their approximations. A clear linear relationship between the coefficient $D$ and the $q$-gap width is observed for three-dimensional cases and, notably, it does not pass through the origin, which corresponds to a crystalline state with zero values of $D$ and $q$-gap. Thus, the obtained dependencies indicate a nonlinear growth of the self-diffusion coefficient $D$ with increasing $q$-gap in 3D classical fluids during melting. However, in this work, we were unable to analyze systems with $q_g < q_{0}$ (values of $q_{0}$ are given in Table in \href{https://www.latextemplates.com}{supplementary material}), so clarifying the behavior of $D(q_g)$ in the melting region requires further investigation.
+	The plots display values corresponding to the $q$-gap along with their approximations. A clear linear relationship between the coefficient $D$ and the $q$-gap width is observed for three-dimensional cases and, notably, it does not pass through the origin, which corresponds to a crystalline state with zero values of $D$ and $q$-gap. Furthermore, the results obtained for the melting point in 3D systems appear to indicate the formation of a non-diffusive region represented by a gray area on the plots. The calculated values of the $q$-gap at the melting point, denoted as $q_{0}$, are presented in the table provided in the \href{https://www.latextemplates.com}{supplementary material}.
 	
 	\begin{figure*}
 		\centering
@@ -146,12 +142,6 @@
 		\caption{Dependence of the self-diffusion coefficient $D$ on the $q$-gap width for (\textbf{a}),(\textbf{b}) Lennard-Jones and (\textbf{c}),(\textbf{d}) Yukawa fluids in 3D and 2D cases. For Lennard-Jones: 3D systems with densities $n = 1$--$2$ and 2D systems with $n = 0.8$--$0.9$, solid lines are linear fits. For Yukawa: 3D and 2D systems with screening parameters $\kappa = 1$---$3$ and $\kappa = 1$---$2$ respectively, solid lines indicate linear approximations in 3D case and fit by Eq.\eqref{DQG:Eq6} in 2D.}
 		\label{DQG:Fig1}
 	\end{figure*}
-%	\begin{figure}
-%		\centering
-%		\includegraphics[width=\linewidth]{Figs/Fig5}
-%		\caption{Dependence of the self-diffusion coefficient $D$ on the $q$-gap width for 3D liquid aluminum at density $\rho = 2.7$ g/cm$^3$.}
-%		\label{DQG:Fig5}
-%	\end{figure}
 	
 	\begin{figure}
 		\centering
@@ -176,10 +166,7 @@
 	Furthermore, the extended Lennard-Jones (LJ) and Yukawa systems were analyzed, and a comparison of $D(q_g)$ with the original systems is provided in the \href{https://www.latextemplates.com}{supplementary material}.
 	
 	\section{Discussion}
-	The distinction between 3D and 2D systems, as we assume, appears from fundamental differences in the melting scenarios. In three-dimensional systems, first-order phase transitions dominate, characterized by jumps in thermodynamic parameters and density inhomogeneities, whereas in two-dimensional systems, the Kosterlitz-Thouless-Halperin-Nelson-Young
-	(KTHNY) theory of two-dimensional melting is applied, involving the formation of topological defects and suppression of long-range order \cite{10.1039/C4SM00124A}. These differences are caused by the enhanced role of thermal fluctuations at $d<3$ and the constraints imposed by the Mermin-Wagner theorem \cite{10.1103/physrevlett.17.1133}, which prohibits spontaneous symmetry breaking in two-dimensional systems. However, a detailed study of this phenomenon remains a subject for future work.
-	
-	The nonlinear nature of the dependence on Figure \hyperref[DQG:Fig1]{1(b)}, as we suggest, may be caused by the absence of an attraction term in the Yukawa potential. 
+	The distinction between 3D and 2D systems, as we assume, appears from fundamental differences in the melting scenarios. In three-dimensional systems, first-order phase transitions dominate, characterized by jumps in thermodynamic parameters which may serve as the underlying reason for the existence of the observed non-diffusive region, whereas in two-dimensional systems, the KTHNY theory of two-dimensional melting is applied, involving the formation of topological defects and suppression of long-range order \cite{10.1039/C4SM00124A}. These differences are caused by the enhanced role of thermal fluctuations at $d<3$ and the constraints imposed by the Mermin-Wagner theorem \cite{10.1103/physrevlett.17.1133}, which prohibits spontaneous symmetry breaking in two-dimensional systems. In 2D Yukawa case the nonlinear nature of the dependence (Fig. \hyperref[DQG:Fig1]{1(b)}), as we suggest, may be caused by the absence of an attraction term in the Yukawa potential. However, a detailed study of this phenomenon remains a subject for future work.
 	% --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- -
 	% REFERENCES
 	% --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- -
@@ -190,6 +177,6 @@
 	%\end{acknowledgments}
 	
 	% Create the reference section using BibTeX:
-	\bibliography{DQG-bibliography_DOI}
+	\bibliography{DQG-bibliography}
 	
 \end{document}

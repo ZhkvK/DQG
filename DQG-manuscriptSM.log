@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  13 NOV 2025 14:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  16 DEC 2025 16:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -354,6 +354,9 @@ Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
 )
+(/usr/local/texlive/2024/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
 
@@ -494,33 +497,33 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip76
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 27.
+Package hyperref Info: Option `colorlinks' set `true' on input line 29.
 Class revtex4-2 Info: Unrecognized LaTeX tabular. Please update this document c
-lass! (Proceeding with fingers crossed.) on input line 29.
-Class revtex4-2 Info: cite was not loaded (OK!) on input line 29.
-Class revtex4-2 Info: mcite was not loaded (OK!) on input line 29.
-Class revtex4-2 Info: multicol was not loaded (OK!) on input line 29.
+lass! (Proceeding with fingers crossed.) on input line 31.
+Class revtex4-2 Info: cite was not loaded (OK!) on input line 31.
+Class revtex4-2 Info: mcite was not loaded (OK!) on input line 31.
+Class revtex4-2 Info: multicol was not loaded (OK!) on input line 31.
  (./DQG-manuscriptSM.aux)
 \openout1 = `DQG-manuscriptSM.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -545,7 +548,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 
-Package chemgreek Info: Activating mapping `default' on line 29.
+Package chemgreek Info: Activating mapping `default' on line 31.
 
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/color.sty
@@ -557,22 +560,22 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 29.
+Package hyperref Info: Link coloring ON on input line 31.
 
 (./DQG-manuscriptSM.out) (./DQG-manuscriptSM.out)
 \@outlinefile=\write4
 \openout4 = `DQG-manuscriptSM.out'.
 
-Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 29.
+Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 31.
 \openout3 = `DQG-manuscriptSMNotes.bib'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
 
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
 
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -580,67 +583,107 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 41.
+(hyperref)                removing `math shift' on input line 43.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 41.
+(hyperref)                removing `math shift' on input line 43.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
 ocal/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-<Figs/SM-Fig1.pdf, id=55, 233.84866pt x 201.75375pt>
+LaTeX Font Info:    Trying to load font information for U+euf on input line 154
+.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+)
+<Figs/SM-Fig1.pdf, id=73, 485.20872pt x 480.98996pt>
 File: Figs/SM-Fig1.pdf Graphic file (type pdf)
 <use Figs/SM-Fig1.pdf>
-Package pdftex.def Info: Figs/SM-Fig1.pdf  used on input line 126.
-(pdftex.def)             Requested size: 306.00311pt x 264.00995pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Figs/SM-Fig2.pdf, id=56, 235.68552pt x 252.35881pt>
+Package pdftex.def Info: Figs/SM-Fig1.pdf  used on input line 160.
+(pdftex.def)             Requested size: 246.0pt x 243.86313pt.
+<Figs/SM-Fig2.pdf, id=74, 233.84866pt x 163.87422pt>
 File: Figs/SM-Fig2.pdf Graphic file (type pdf)
 <use Figs/SM-Fig2.pdf>
-Package pdftex.def Info: Figs/SM-Fig2.pdf  used on input line 133.
-(pdftex.def)             Requested size: 306.00311pt x 327.68904pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Figs/SM-Fig3.pdf, id=57, 486.50658pt x 211.95587pt>
+Package pdftex.def Info: Figs/SM-Fig2.pdf  used on input line 166.
+(pdftex.def)             Requested size: 246.0pt x 172.39056pt.
+<Figs/SM-Fig3.pdf, id=75, 235.68552pt x 195.59776pt>
 File: Figs/SM-Fig3.pdf Graphic file (type pdf)
 <use Figs/SM-Fig3.pdf>
-Package pdftex.def Info: Figs/SM-Fig3.pdf  used on input line 140.
-(pdftex.def)             Requested size: 458.99689pt x 199.97269pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Figs/SM-Fig4.pdf, id=58, 232.74855pt x 211.95587pt>
+Package pdftex.def Info: Figs/SM-Fig3.pdf  used on input line 173.
+(pdftex.def)             Requested size: 246.0pt x 204.16898pt.
+<Figs/SM-Fig4.pdf, id=76, 232.51266pt x 162.16585pt>
 File: Figs/SM-Fig4.pdf Graphic file (type pdf)
 <use Figs/SM-Fig4.pdf>
-Package pdftex.def Info: Figs/SM-Fig4.pdf  used on input line 183.
-(pdftex.def)             Requested size: 255.0pt x 232.23042pt.
+Package pdftex.def Info: Figs/SM-Fig4.pdf  used on input line 180.
+(pdftex.def)             Requested size: 246.0pt x 171.5807pt.
+<Figs/SM-Fig5.pdf, id=77, 232.51768pt x 309.64082pt>
+File: Figs/SM-Fig5.pdf Graphic file (type pdf)
+<use Figs/SM-Fig5.pdf>
+Package pdftex.def Info: Figs/SM-Fig5.pdf  used on input line 186.
+(pdftex.def)             Requested size: 246.0pt x 327.59402pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(./DQG-manuscriptSM.bbl) [2] [3 <./Figs/SM-Fig1.pdf>] [4 <./Figs/SM-Fig2.pdf> <
-./Figs/SM-Fig3.pdf>] [5 <./Figs/SM-Fig4.pdf>] (./DQG-manuscriptSM.aux)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (14.40912pt too wide) in paragraph at lines 195--225
+ []$[]$ 
+ []
+
+<Figs/SM-Fig6.pdf, id=78, 239.7738pt x 458.11453pt>
+File: Figs/SM-Fig6.pdf Graphic file (type pdf)
+<use Figs/SM-Fig6.pdf>
+Package pdftex.def Info: Figs/SM-Fig6.pdf  used on input line 229.
+(pdftex.def)             Requested size: 246.0pt x 470.0248pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2 <./Figs/SM-Fig1.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 233.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 233.
+
+
+Class revtex4-2 Warning: Deferred float stuck during \clearpage processing.
+
+(./DQG-manuscriptSM.bbl [3 <./Figs/SM-Fig2.pdf> <./Figs/SM-Fig3.pdf> <./Figs/SM
+-Fig4.pdf> <./Figs/SM-Fig5.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 9.
+
+
+Class revtex4-2 Warning: Deferred float stuck during \clearpage processing.
+
+[4 <./Figs/SM-Fig6.pdf>]
+Underfull \hbox (badness 1910) in paragraph at lines 81--88
+ []\T1/cmr/m/n/9 A. Thomp-son, L. Swiler, C. Trott, S. Foiles, and
+ []
+
+) [5] (./DQG-manuscriptSM.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
  ***********
 Package rerunfilecheck Info: File `DQG-manuscriptSM.out' has not changed.
-(rerunfilecheck)             Checksum: 4AFEA073FE5A633813CA7EFE9B063F89;922.
+(rerunfilecheck)             Checksum: 24431FECEF2CE1128D5BF59650D38D9F;1011.
  ) 
 Here is how much of TeX's memory you used:
- 14916 strings out of 473207
- 237459 string characters out of 5716288
- 700803 words of memory out of 5000000
- 37917 multiletter control sequences out of 15000+600000
- 576933 words of font info for 88 fonts, out of 8000000 for 9000
+ 14997 strings out of 473207
+ 239027 string characters out of 5716288
+ 702666 words of memory out of 5000000
+ 37982 multiletter control sequences out of 15000+600000
+ 578889 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,14n,79p,617b,578s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,17n,79p,617b,576s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/arev/ArevSans-Oblique.
 pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.p
 fb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pf
@@ -653,27 +696,29 @@ fb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb
 sr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr
 /local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr
 /local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
-ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/loca
-l/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
-exlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texl
-ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive
-/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
-2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/20
-24/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024
-/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb7y.pfb></usr/local/texliv
-e/2024/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/
-2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/20
-24/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2024
-/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2024/t
-exmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/tex
-mf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2024/texmf
--dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2024/texmf-dist/f
-onts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/ty
-pe1/urw/helvetic/uhvro8a.pfb>
-Output written on DQG-manuscriptSM.pdf (5 pages, 407195 bytes).
+ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loca
+l/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/t
+exlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texl
+ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
+/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2
+024/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texlive
+/2024/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb7y.pfb></usr/local/t
+exlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/tex
+live/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texli
+ve/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive
+/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2
+024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/202
+4/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2024/
+texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/te
+xmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2024/texm
+f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2024/texmf-dist/
+fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/t
+ype1/urw/helvetic/uhvro8a.pfb>
+Output written on DQG-manuscriptSM.pdf (5 pages, 621451 bytes).
 PDF statistics:
- 305 PDF objects out of 1000 (max. 8388607)
- 219 compressed objects within 3 object streams
- 27 named destinations out of 1000 (max. 500000)
- 45 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 371 PDF objects out of 1000 (max. 8388607)
+ 271 compressed objects within 3 object streams
+ 32 named destinations out of 1000 (max. 500000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 

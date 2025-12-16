@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  13 NOV 2025 13:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  25 NOV 2025 11:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1018,6 +1018,17 @@ File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@layerbox@background=\box87
 \pgf@layerboxsaved@background=\box88
 )
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryspy.code.tex
+File: tikzlibraryspy.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\tikz@lib@spybox=\box89
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplo
+ts.groupplots.code.tex
+\pgfplots@group@current@plot=\count301
+\pgfplots@group@current@row=\count302
+\pgfplots@group@current@column=\count303
+)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2024/11/05 v2.17t AMS math features
 \@mathmargin=\skip53
@@ -1038,19 +1049,19 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count301
+\inf@bad=\count304
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count302
-\leftroot@=\count303
+\uproot@=\count305
+\leftroot@=\count306
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count304
-\DOTSCASE@=\count305
+\classnum@=\count307
+\DOTSCASE@=\count308
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box89
-\strutbox@=\box90
+\Mathstrutbox@=\box90
+\strutbox@=\box91
 LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
@@ -1058,20 +1069,20 @@ LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen272
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count306
+\macc@depth=\count309
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count307
+\c@MaxMatrixCols=\count310
 \dotsspace@=\muskip17
-\c@parentequation=\count308
-\dspbrk@lvl=\count309
+\c@parentequation=\count311
+\dspbrk@lvl=\count312
 \tag@help=\toks43
-\row@=\count310
-\column@=\count311
-\maxfields@=\count312
+\row@=\count313
+\column@=\count314
+\maxfields@=\count315
 \andhelp@=\toks44
 \eqnshift@=\dimen273
 \alignsep@=\dimen274
@@ -1086,21 +1097,21 @@ LaTeX Info: Redefining \Relbar on input line 970.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 29
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 30
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
-\pgf@layerbox@foreground=\box91
-\pgf@layerboxsaved@foreground=\box92
-Package pgfplots info on input line 55: Setting layers 'background,main,foregro
+\pgf@layerbox@foreground=\box92
+\pgf@layerboxsaved@foreground=\box93
+Package pgfplots info on input line 56: Setting layers 'background,main,foregro
 und'...
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count313
-\l__pdf_internal_box=\box93
+\l__color_backend_stack_int=\count316
+\l__pdf_internal_box=\box94
 )
 (./SM-Fig1.aux)
 \openout1 = `SM-Fig1.aux'.
@@ -1130,16 +1141,16 @@ LaTeX Font Info:    ... okay on input line 58.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count314
+\scratchcounter=\count317
 \scratchdimen=\dimen279
-\scratchbox=\box94
-\nofMPsegments=\count315
-\nofMParguments=\count316
+\scratchbox=\box95
+\nofMPsegments=\count318
+\nofMParguments=\count319
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count317
+\MPscratchCnt=\count320
 \MPscratchDim=\dimen280
-\MPnumerator=\count318
-\makeMPintoPDFobject=\count319
+\MPnumerator=\count321
+\makeMPintoPDFobject=\count322
 \everyMPtoPDFconversion=\toks48
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1182,901 +1193,65 @@ e
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.18} (current compat level: 1.3).
 
-PGFPlots: reading {Data/Fig1/data.txt}
-NOTE: coordinate (0.003496223778391282,8.282415151784748e-11) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.006992447556782564,4.084751707895389e-22) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.010488671335173847,5.8833211195435625e-24) has been dropped
- because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.013984895113565128,1.3490494879201593e-07) has been dropped
- because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.020977342670347694,8.130335924853562e-23) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.024473566448738975,2.1066992560018376e-21) has been dropped
- because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.027969790227130257,1.709720007855301e-12) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.03146601400552154,2.606867964143324e-07) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.038458461562304105,3.7625639610727325e-23) has been dropped
- because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.04195468534069539,1.6064139923316925e-12) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.04545090911908667,1.4474974736886036e-06) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.04894713289747795,6.165105625964587e-13) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.055939580454260514,6.293690510628871e-07) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.059435804232651795,9.923411273250573e-14) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.06293202801104308,3.5996425498721033e-23) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.06642825178943436,1.1455540736725429e-23) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.07342069934621692,5.813593630454039e-24) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.07691692312460821,3.560181793427512e-19) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.08041314690299949,8.99593983869031e-24) has been dropped be
-cause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.08390937068139077,2.912243600358285e-19) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.09090181823817334,5.666720916035704e-08) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.09439804201656461,8.934316354082854e-12) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.0978942657949559,3.466057865836811e-08) has been dropped be
-cause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.10139048957334718,1.506074453100712e-08) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.10838293713012974,3.7692267521196346e-08) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.11187916090852103,1.6396808683250547e-19) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.11537538468691232,2.7468722196253527e-08) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.11887160846530359,3.020939509830456e-10) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.12586405602208617,3.5998227645891864e-09) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.12936027980047743,5.346673413695848e-12) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.13285650357886872,2.9549034859942923e-07) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.13635272735726,5.036279651297994e-16) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.14334517491404256,7.188494686409344e-08) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.14684139869243384,1.76062109545304e-24) has been dropped be
-cause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.15033762247082513,7.125652416441657e-19) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.15383384624921642,5.254804225141195e-26) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.16082629380599897,8.062464618195983e-20) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.16432251758439026,1.2093821954869e-07) has been dropped bec
-ause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.16781874136278155,6.593856714872673e-08) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.17131496514117284,5.854910354778608e-22) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.1783074126979554,1.717225051292407e-08) has been dropped be
-cause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.18180363647634668,5.885854436956016e-23) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.18529986025473796,9.174931696004103e-15) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.18879608403312922,6.946094223500369e-16) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.1957885315899118,2.410115322135638e-08) has been dropped be
-cause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.1992847553683031,8.248968969138278e-08) has been dropped be
-cause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.20278097914669435,7.422299779945102e-25) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.20627720292508564,2.68922156561924e-08) has been dropped be
-cause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.21326965048186822,1.4786192179311388e-08) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.21676587426025948,3.6622259432161634e-07) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.22026209803865077,1.3615090537255578e-08) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.22375832181704206,9.488803008662862e-21) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.23075076937382463,1.8695477986035593e-06) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.2342469931522159,5.894435284325474e-22) has been dropped be
-cause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.23774321693060718,2.687275472305513e-06) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.24123944070899847,4.506055017657107e-07) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.24823188826578102,4.480701690841765e-07) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.25172811204417234,4.612738899352766e-06) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.2552243358225636,4.153161551106902e-23) has been dropped be
-cause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.25872055960095486,1.5225883823290902e-19) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.26571300715773744,7.191829159768956e-19) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.2692092309361287,8.675609274516465e-07) has been dropped be
-cause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.27270545471452,2.8580479125195897e-15) has been dropped bec
-ause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.2762016784929113,5.818246696370653e-13) has been dropped be
-cause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.28319412604969385,3.73126364913961e-17) has been dropped be
-cause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.2866903498280851,1.1388701018004754e-05) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.29018657360647643,1.1379921716551109e-07) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.2936827973848677,1.2519158425432655e-17) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.30067524494165027,2.6728720919876597e-16) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.3041714687200415,7.510562719479266e-07) has been dropped be
-cause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.30766769249843284,8.489286160987014e-08) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.3111639162768241,2.6696016416334656e-07) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.3181563638336067,1.0651149334093692e-22) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.32165258761199794,1.5327593373700532e-07) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.32514881139038926,0.0001744504387338535) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.3286450351687805,5.994351407184214e-18) has been dropped be
-cause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.3356374827255631,4.6378812108141055e-08) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.33913370650395436,2.0809745060933076e-12) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.3426299302823457,3.8243892698344453e-13) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.34612615406073693,9.444581387665015e-15) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.3531186016175195,4.399257669889206e-09) has been dropped be
-cause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.3566148253959108,2.775324542913242e-06) has been dropped be
-cause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.36011104917430203,4.638542956621238e-08) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.36360727295269335,0.18134023243585543) has been dropped bec
-ause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.3705997205094759,0.5674008169750665) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.3740959442878672,0.6332708731432807) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.37759216806625845,0.6519640752381904) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.38108839184464977,0.6370092938069293) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.3880808394014323,0.4800055818233634) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.3915770631798236,0.29044098663685836) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.39507328695821486,8.611510902018773e-10) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.3985695107366062,1.63211683345601e-10) has been dropped bec
-ause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.4055619582933887,1.2660424990884882e-09) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.40905818207178,3.920728364220011e-05) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.4125544058501713,4.4678868666745766e-13) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.4160506296285626,2.048564169382582e-11) has been dropped be
-cause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.4230430771853451,6.615711965118858e-19) has been dropped be
-cause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.42653930096373643,9.709452069314815e-08) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.4300355247421277,1.5384046663676654e-15) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.43353174852051896,3.0792979592301797e-13) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.44052419607730153,1.8877585041266858e-10) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.44402041985569285,1.160358670872325e-06) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.4475166436340841,1.2966815125028128e-10) has been dropped b
-ecause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.45101286741247537,1.3964090257401627e-09) has been dropped 
-because of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.45800531496925795,0.3737702262021329) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.46150153874764926,0.8286807655135527) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.4649977625260405,1.1181674388245235) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.4684939863044318,1.347692438401442) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.47548643386121436,1.7166153051303983) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.4789826576396056,1.8659923084106769) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.48247888141799694,2.001787795350727) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.4859751051963882,2.127982836016232) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.4929675527531708,2.356261360491779) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.49646377653156204,2.4571750851332363) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.49996000030995336,2.5588955757974876) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5034562240883447,2.6577010938676393) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5104486716451272,2.8493883582675283) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5139448954235185,2.939084763865418) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5174411192019097,3.035430435364615) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.520937342980301,3.1297700286951966) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5279297905370836,3.315983998109) has been dropped because o
-f a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5314260143154749,3.410008200337206) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5349222380938662,3.5063921112347227) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5384184618722574,3.6008125484665223) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.54541090942904,3.7939814987220926) has been dropped because
- of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5489071332074313,3.8921557399965) has been dropped because 
-of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5524033569858225,3.989735385735196) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5558995807642139,4.087723456621689) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5628920283209964,4.2922914491389585) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5663882520993877,4.396585076695085) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.569884475877779,4.499927100581097) has been dropped because
- of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5733806996561702,4.606378417388998) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5803731472129529,4.826905441527627) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5838693709913441,4.935844543136265) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5873655947697354,5.0463580520705635) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5908618185481267,5.157669774106685) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5978542661049092,5.370744861906796) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6013504898833005,5.474646166267435) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6048467136616918,5.576268238295913) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.608342937440083,5.67120871169222) has been dropped because 
-of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6153353849968657,5.848249718452897) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6188316087752569,5.9306427980966925) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6223278325536482,6.004338574571519) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6258240563320395,6.075909934660031) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.632816503888822,6.201482278087867) has been dropped because
- of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6363127276672134,6.257749579718026) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6398089514456047,6.307879096326288) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6433051752239959,6.359129375538538) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6502976227807785,6.450756968337179) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6537938465591697,6.496346750644329) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.657290070337561,6.540914671847413) has been dropped because
- of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6607862941159524,6.588302779318853) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6677787416727349,6.692387433196824) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6712749654511262,6.752094407722861) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6747711892295174,6.814893021537492) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6782674130079087,6.889484839599872) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6852598605646913,7.055766903738861) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6887560843430826,7.154594699510771) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6922523081214739,7.259626687357289) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6957485318998652,7.373685161101762) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7027409794566477,7.621528583803933) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.706237203235039,7.757377020624973) has been dropped because
- of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7097334270134302,7.8948863379292264) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7132296507918215,8.03429892782286) has been dropped because
- of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7202220983486041,8.310603008429988) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7237183221269954,8.447583851909451) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7272145459053867,8.576868729165215) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.730710769683778,8.702866010059243) has been dropped because
- of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7377032172405605,8.93231869210928) has been dropped because
- of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7411994410189519,9.037434518450373) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7446956647973431,9.133732191762824) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7481918885757344,9.22268641550451) has been dropped because
- of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7551843361325169,9.377364897402767) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7586805599109082,9.444970736770415) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7621767836892995,9.507619100323218) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7656730074676907,9.564591088049573) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7726654550244734,9.667479121780604) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7761616788028646,9.714895099282908) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7796579025812559,9.761748601626406) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7831541263596472,9.809179848805401) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7901465739164297,9.906400176490187) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.793642797694821,9.95988146892493) has been dropped because 
-of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7971390214732124,10.01975298090269) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8006352452516036,10.081394139297128) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8076276928083862,10.226008994415317) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8111239165867774,10.309114439076462) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8146201403651687,10.398883943838788) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.81811636414356,10.497739741762098) has been dropped because
- of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8251088117003426,10.71944323305956) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8286050354787339,10.840692313624587) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8321012592571252,10.969330367087593) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8355974830355164,11.104060308199108) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.842589930592299,11.388788739067657) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8460861543706902,11.536397880445643) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8495823781490816,11.686440424789241) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8530786019274729,11.837916285029616) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8600710494842554,12.14002926221272) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8635672732626467,12.288219595388638) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8670634970410379,12.43577301842777) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8705597208194292,12.579213230775428) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8775521683762119,12.853656952931729) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8810483921546031,12.985606080960382) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8845446159329944,13.11372313861694) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8880408397113857,13.235350863704442) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.003496223778391282,5.277406906605141) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.006992447556782564,5.276344984666158) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.010488671335173847,5.276450806217037) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.013984895113565128,5.277026085927457) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.020977342670347694,5.279029520702227) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.024473566448738975,5.280424657463314) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.027969790227130257,5.2820110688652315) has been dropped bec
-ause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.03146601400552154,5.283913818359612) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.038458461562304105,5.288636016897365) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.04195468534069539,5.291536784764443) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.04545090911908667,5.294821321280741) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.04894713289747795,5.298469763883132) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.055939580454260514,5.30739082376672) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.059435804232651795,5.3127682037362645) has been dropped bec
-ause of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.06293202801104308,5.318790047346356) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.06642825178943436,5.3256831984564625) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.07342069934621692,5.342370194525351) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.07691692312460821,5.352692362482849) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.08041314690299949,5.364543767726539) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.08390937068139077,5.378374153880407) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.09090181823817334,5.413990864158948) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.09439804201656461,5.437241947484104) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.0978942657949559,5.465552373006707) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.10139048957334718,5.50036866819884) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.10838293713012974,5.598426724889866) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.11187916090852103,5.668066163061846) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.11537538468691232,5.756605207354359) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.11887160846530359,5.868141171112988) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.12586405602208617,6.157735300317893) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.12936027980047743,6.319612215940825) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.13285650357886872,6.477812417870494) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.13635272735726,6.624925715110163) has been dropped because 
-of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.14334517491404256,6.875676943515876) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.14684139869243384,6.980016703826409) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.15033762247082513,7.072292128384698) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.15383384624921642,7.154355628918113) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.16082629380599897,7.294551683488321) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.16432251758439026,7.356012057100747) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.16781874136278155,7.4135790816262315) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.17131496514117284,7.468680864483023) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.1783074126979554,7.57638469823799) has been dropped because
- of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.18180363647634668,7.6314391068257565) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.18529986025473796,7.688955401495371) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.18879608403312922,7.750424258830567) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.1957885315899118,7.891776307231885) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.1992847553683031,7.975792686629056) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.20278097914669435,8.072115667454026) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.20627720292508564,8.184265514119069) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.21326965048186822,8.471780409323898) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.21676587426025948,8.656239320073126) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.22026209803865077,8.871939164953536) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.22375832181704206,9.117867657711479) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.23075076937382463,9.670167134877348) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.2342469931522159,9.95202417696087) has been dropped because
- of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.23774321693060718,10.222952502497613) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.24123944070899847,10.4766821883742) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.24823188826578102,10.923939812659516) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.25172811204417234,11.11828406276507) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.2552243358225636,11.29547746495534) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.25872055960095486,11.457957019540142) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.26571300715773744,11.74891978888113) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.2692092309361287,11.882031207450838) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.27270545471452,12.010038060110617) has been dropped because
- of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.2762016784929113,12.13494028704603) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.28319412604969385,12.38472531562184) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.2866903498280851,12.513467427004166) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.29018657360647643,12.647481421791188) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.2936827973848677,12.788388569697736) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.30067524494165027,13.096644885439721) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.3041714687200415,13.265619063213677) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.30766769249843284,13.444704120239988) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.3111639162768241,13.632751733142772) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.3181563638336067,14.028921119076834) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.32165258761199794,14.23201384568205) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.32514881139038926,14.434568268881321) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.3286450351687805,14.633670716451357) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.3356374827255631,15.011332646591374) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.33913370650395436,15.186410464950551) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.3426299302823457,15.350529608321473) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.34612615406073693,15.503216010476953) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.3531186016175195,15.774911074741008) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.3566148253959108,15.895172666390318) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.36011104917430203,16.006092749602118) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.36360727295269335,16.109688887053466) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.3705997205094759,16.303281584310568) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.3740959442878672,16.39209609595438) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.37759216806625845,16.477404237024725) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.38108839184464977,16.561216306016288) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.3880808394014323,16.729827958384053) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.3915770631798236,16.817675566330504) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.39507328695821486,16.91191897145126) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.3985695107366062,17.014494034094575) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.4055619582933887,17.24341335924115) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.40905818207178,17.371323050409817) has been dropped because
- of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.4125544058501713,17.508772681652722) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.4160506296285626,17.655732724401194) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.4230430771853451,17.97642060674133) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.42653930096373643,18.14810302516957) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.4300355247421277,18.325668753349152) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.43353174852051896,18.507325574299653) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.44052419607730153,18.87595103601364) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.44402041985569285,19.05948810502606) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.4475166436340841,19.240788813060203) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.45101286741247537,19.418264072073445) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.45800531496925795,19.76346537562664) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.46150153874764926,19.944500359416253) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.4649977625260405,20.11998187854112) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.4684939863044318,20.289627007397677) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.47548643386121436,20.612010305213254) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.4789826576396056,20.764761702910285) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.48247888141799694,20.912658108120286) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.4859751051963882,21.056700979174554) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.4929675527531708,21.33458262150278) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.49646377653156204,21.468931906434168) has been dropped beca
-use of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.49996000030995336,21.60211890017081) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5034562240883447,21.733869243160086) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5104486716451272,21.994370992857483) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5139448954235185,22.1231935512983) has been dropped because
- of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5174411192019097,22.253023372220547) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.520937342980301,22.382587774637518) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5279297905370836,22.642327163051814) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5314260143154749,22.773114928585674) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5349222380938662,22.904972159930438) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5384184618722574,23.03733702851864) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.54541090942904,23.30610536842808) has been dropped because 
-of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5489071332074313,23.4427429800705) has been dropped because
- of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5524033569858225,23.580822489161406) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5558995807642139,23.720437491511866) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5628920283209964,24.006974567806157) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5663882520993877,24.15332248425016) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.569884475877779,24.301328185436567) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5733806996561702,24.451600436127997) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5803731472129529,24.75813513504959) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5838693709913441,24.912572311111667) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5873655947697354,25.067616854473776) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5908618185481267,25.222908049012197) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.5978542661049092,25.528289241527826) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6013504898833005,25.678061681411428) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6048467136616918,25.82498830329041) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.608342937440083,25.96729896163176) has been dropped because
- of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6153353849968657,26.23923581118073) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6188316087752569,26.36840910646516) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6223278325536482,26.491705047544635) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6258240563320395,26.611198301107947) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.632816503888822,26.836161261972897) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6363127276672134,26.94304975341732) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6398089514456047,27.046196450399197) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6433051752239959,27.148373973658757) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6502976227807785,27.34754849171818) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6537938465591697,27.447174515255078) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.657290070337561,27.547484543571713) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6607862941159524,27.64959981957202) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6677787416727349,27.862685012416264) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6712749654511262,27.975225104558934) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6747711892295174,28.090955061014256) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6782674130079087,28.21380989026147) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6852598605646913,28.472726317614082) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6887560843430826,28.611591053548636) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6922523081214739,28.755200731900775) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.6957485318998652,28.903851999982965) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7027409794566477,29.213004724451405) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.706237203235039,29.373566599357304) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7097334270134302,29.534752482375016) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7132296507918215,29.695856727173815) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7202220983486041,30.012386131917275) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7237183221269954,30.166507593496245) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7272145459053867,30.31401254724806) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.730710769683778,30.456300011713694) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7377032172405605,30.71795406272143) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7411994410189519,30.837262383988268) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7446956647973431,30.947632012849862) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7481918885757344,31.049706663057776) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7551843361325169,31.228858935967974) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7586805599109082,31.306848409237315) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7621767836892995,31.378948334217753) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7656730074676907,31.444460473635058) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7726654550244734,31.560828043027307) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7761616788028646,31.612982063835904) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7796579025812559,31.66328085043846) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7831541263596472,31.712249505506488) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7901465739164297,31.80783217879649) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.793642797694821,31.857316083987662) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.7971390214732124,31.910265639302178) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8006352452516036,31.96348059714864) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8076276928083862,32.08292242977149) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8111239165867774,32.14943039198982) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8146201403651687,32.21997428093795) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.81811636414356,32.29648919352154) has been dropped because 
-of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8251088117003426,32.466225031241954) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8286050354787339,32.55851934129888) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8321012592571252,32.65602341579557) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8355974830355164,32.75836416111195) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.842589930592299,32.975917467375346) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8460861543706902,33.08957903117613) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8495823781490816,33.20640882034511) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8530786019274729,33.32560626629349) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8600710494842554,33.56789185945307) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8635672732626467,33.689699836857926) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8670634970410379,33.81350367018163) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8705597208194292,33.93741843521985) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8775521683762119,34.18433906703235) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8810483921546031,34.30964699936973) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8845446159329944,34.43733399648302) has been dropped becaus
-e of a coordinate filter. (see also unbounded coords=jump). 
-NOTE: coordinate (0.8880408397113857,34.563961260674475) has been dropped becau
-se of a coordinate filter. (see also unbounded coords=jump). 
-PGFPlots: reading {Data/Fig1/fit1.txt}
-PGFPlots: reading {Data/Fig1/fit2.txt}
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
-24.
+743.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Trying to load font information for OML+zavm on input line 
-124.
+1743.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/arev/omlzavm.fd
 File: omlzavm.fd 2006/05/30 Fontinst v1.929 font definitions for OML/zavm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zavm on input line 
-124.
+1743.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/arev/omszavm.fd
 File: omszavm.fd 2006/05/30 Fontinst v1.929 font definitions for OMS/zavm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+mdbch on input line
- 124.
+ 1743.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/mathdesign/mdbch/omxmdbch.fd
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 124.
+(Font)              scaled to size 13.82408pt on input line 1743.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.29605pt on input line 124.
+(Font)              scaled to size 9.60007pt on input line 1743.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 124.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 124
-.
+(Font)              scaled to size 7.68005pt on input line 1743.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 174
+3.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 124
-.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 174
+3.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for MDA+mdbch on input line
- 124.
+ 1743.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 9.60007pt on input line 124.
+(Font)              scaled to size 13.82408pt on input line 1743.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 7.29605pt on input line 124.
+(Font)              scaled to size 9.60007pt on input line 1743.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 5.76004pt on input line 124.
-LaTeX Font Info:    Trying to load font information for U+zavm on input line 12
-4.
+(Font)              scaled to size 7.68005pt on input line 1743.
+LaTeX Font Info:    Trying to load font information for U+zavm on input line 17
+43.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/arev/uzavm.fd
 File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
 )
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 8.64006pt on input line 124.
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 124.
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 4.80003pt on input line 124.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 8.64006pt on input line 124.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 124.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 124.
-LaTeX Font Info:    Freeze math alphabet allocation in version normal.
-(Font)              Allocated math groups: 14 (local: 2) on input line 124.
-LaTeX Font Info:    Undo math alphabet allocation in version normal on input li
-ne 124.
-
 
 [1
 
@@ -2089,21 +1264,22 @@ L3 programming layer <2024-12-25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 28618 strings out of 473207
- 742500 string characters out of 5716288
- 1409327 words of memory out of 5000000
- 51295 multiletter control sequences out of 15000+600000
- 599161 words of font info for 124 fonts, out of 8000000 for 9000
+ 28746 strings out of 473207
+ 748973 string characters out of 5716288
+ 1848231 words of memory out of 5000000
+ 51433 multiletter control sequences out of 15000+600000
+ 584236 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,8n,121p,791b,2045s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,7n,121p,791b,2074s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/arev/ArevSans-Oblique.
 pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-
-chb7y.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.p
-fb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on SM-Fig1.pdf (1 page, 37603 bytes).
+chb7y.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.p
+fb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></us
+r/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on SM-Fig1.pdf (1 page, 129348 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
- 21 compressed objects within 1 object stream
+ 38 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

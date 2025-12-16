@@ -58,27 +58,31 @@
 		\begin{tikzpicture}
 	
 	\definecolor{darkgray176}{RGB}{176,176,176}
-	\definecolor{darkorange25512714}{RGB}{255,127,14}
-	\definecolor{steelblue31119180}{RGB}{31,119,180}
-	\definecolor{crimson2143940}{RGB}{214,39,40} 
+	\definecolor{blu}{RGB}{0, 127, 210}        % Синий (голубой) — круги
+	\definecolor{gree}{RGB}{75, 150, 0}           % Зелёный — треугольники вверх
+	\definecolor{DustyRose}{RGB}{197, 94, 94}            % Тёмно-зелёный — треугольники вниз
+	\definecolor{orang}{RGB}{255, 127, 0}         % Оранжевый — ромбы
+	\definecolor{re}{RGB}{210, 0, 0}         % Красный — звёздочки
+	\definecolor{purp}{RGB}{127, 0, 127} 
 	\definecolor{lightgrey204}{RGB}{204,204,204}
 	
 	\begin{axis}[
+		height=6cm,
 %		width=0.6\textwidth,
 		legend cell align={left},
-		legend style={fill opacity=0.8, draw opacity=1, draw=none,, text opacity=1, at={([yshift=0pt]0.1,0.78)},
+		legend style={fill opacity=0.8, draw opacity=1, draw=none,, text opacity=1, at={([yshift=0pt]0.1,0.73)},
 			anchor=south,},
 		tick align=inside,
 %		tick pos=left,
 		x grid style={darkgray176},
 %		xmajorgrids,
-		xlabel={$ q $-gap, $q_gn^{-1/3}/\pi$},
+		xlabel={$ q $-gap, $q_g$},
 		xmin=0,
 		xtick style={color=black},
 		y grid style={darkgray176},
 %		ymajorgrids,
 		grid style=dashed,
-		ylabel={Self-diffusion coefficient, $Dn^{1/3}/c\cdot10^{-3}$},
+		ylabel={Self-diffusion, $D\cdot10^{-3}$},
 %		ylabel shift=-5pt,
 		ytick scale label code/.code={},
 		yticklabel style={
@@ -96,16 +100,16 @@
 %		\addlegendentry{Single mode analysis};
 %		\addplot [semithick, steelblue31119180, forget plot]
 %		table[x=x,y=y]{../vkr_norm/images/Dvsq_new/Al/1.0/fit2.7.txt};
-		\addplot [semithick, crimson2143940, line width=0.5mm, mark=o, only marks, mark size=2, mark options={solid}]
+		\addplot [semithick, blu, line width=0.5mm, mark=o, only marks, mark size=2, mark options={solid}]
 		table[x=q,y=D]{Data/Fig5/Al.txt};
 		\addlegendentry{Al};
-		\addplot [semithick, crimson2143940, forget plot]
+		\addplot [semithick, blu, forget plot]
 		table[x=x,y=y]{Data/Fig5/fitAl.txt};
 		
-		\addplot [semithick, steelblue31119180, line width=0.5mm, mark=o, only marks, mark size=2, mark options={solid}]
+		\addplot [semithick, re, line width=0.5mm, mark=o, only marks, mark size=2, mark options={solid}]
 		table[x=q,y=D]{Data/Fig5/Fe.txt};
 		\addlegendentry{Fe};
-		\addplot [semithick, steelblue31119180, forget plot]
+		\addplot [semithick, re, forget plot]
 		table[x=x,y=y]{Data/Fig5/fitFe.txt};
 	\end{axis}
 %	\spy [black] on (0,0) in node at (1,1);

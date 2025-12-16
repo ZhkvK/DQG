@@ -1,4 +1,4 @@
-\documentclass[aps,prl,reprint,groupedaddress]{revtex4-2}
+\documentclass[aps,prl,reprint,groupedaddress, floatfix]{revtex4-2}
 
 % Standard packages
 \usepackage[english]{babel}
@@ -16,6 +16,8 @@
 \usepackage{multirow}
 
 \usepackage{indentfirst}
+
+\usepackage{placeins}
 
 % Hyperlink setup
 \usepackage{hyperref}
@@ -39,7 +41,7 @@
 	\date{\today}
 	
 	\maketitle
-	\onecolumngrid 
+%	\onecolumngrid 
 	
 	\section{Molecular dynamics simulations details}
 	We considered systems of particles interacting via the Lennard-Jones (LJ) and Yukawa (Ykw) pair potentials:
@@ -59,32 +61,16 @@
 	The interatomic potential with machine learning (ML-IAP) for liquid aluminum \cite{10.1103/PhysRevResearch.5.033162} was also considered:
 	\begin{equation}
 		\varphi_{\text{ML-IAP}}(r) = \varphi_{\text{ref}}(r) + \sum_{i=1}^{N} E^{i}_{\text{SNAP}},
+		\label{DQGSM:Eq3}
 	\end{equation}
 	where $E_\text{ref}$ denotes a reference potential and $E^i_{\text{SNAP}}$ is the total energy of atom $i$ relative to the atoms in its neighborhood, governed by the spectral neighbor analysis potential method (SNAP) \cite{10.1016/j.jcp.2014.12.018}. Ziegler-Biersack-Littmark (ZBL) potential \cite{10.1007/978-1-4615-8103-1_3} is used as a reference potential. The SNAP energy for each atom is calculated using a linear combination of the bispectrum components $\mathbf{B}^i$
 	\begin{equation}
 		E^{i}_{\text{SNAP}} = \boldsymbol{\beta} \times \mathbf{B}^i,
+		\label{DQGSM:Eq4}
 	\end{equation}
 	where $\boldsymbol{\beta}$ are linear coefficients and $\mathbf{B}^i$ are descriptors of the local environment of atom $i$. Obtained using machine learning coefficients \cite{10.14278/RODARE.2368} $\boldsymbol{\beta}$ were used in this work.
 	
-	Simulations of liquid \ce{Al} were performed in a three-dimensional face-centered cubic box with dimensions of $Lx = Ly = Lz = 10a$, where $a$ is lattice constant, with mass density $\rho = 2.7 \text{g/cm}^3$. The remaining simulation details including number of particles, thermostating and boundary conditions follow previously established setup.
-	
-	Moreover, we considered liquid iron using Embedded atom model (EAM). The general form of this potential can be expressed as:
-	%
-	\begin{equation}
-		E_i = \sum_{i} F(\rho_i) + \frac{1}{2} \sum_{i} \sum_{j \neq i} \varphi_{\text{p}}(r_{ij}),
-	\end{equation}
-	where $F_{i}(\rho_{i})$ denotes the embedding energy for atom $i$, a function of the local electron density $\rho_{i}$. This local density is computed as a superposition of the contributions from all neighboring atoms $j$:
-	
-	\begin{equation}
-		\rho_{i} = \sum_{j \neq i} \rho(r_{ij}).
-	\end{equation}
-	
-	In these expressions, $\varphi_{\text{p}}(r_{ij})$ represents the pairwise potential between atoms $i$ and $j$, separated by a distance $r_{ij}$. The specific functional forms for $F(\rho)$, $\rho(r)$, and $\varphi_{\text{p}}(r)$ employed in this work are those established in the corresponding paper \cite{10.1103/PhysRevLett.84.3638}.
-	
-	The mass density $\rho = 10g/cm^3$ was used in the simulations for liquid iron. The remaining simulation parameters correspond to those employed for liquid iron.
-	
-	Simulations of fluids of particles interacting via the Lennard-Jones and Yukawa potentials were performed using the numerical time step $\Delta t = 5\times 10^{-3}\sqrt{m\sigma^2/\varepsilon}$. For ML-IAP and EAM potentials in liquid aluminum and iron the time step $\Delta t = 5$ fs was chosen. All simulations where performed with the LAMMPS package \cite{10.1006/jcph.1995.1039} for $5\times10^4$ time steps, where the first 5000 were used for system relaxation.
-	\begin{table}[h!]
+		\begin{table}[h!]
 		\centering
 		\caption{Chosen states of considered systems.}
 		\label{DQGSM:Table1}
@@ -121,34 +107,94 @@
 		\end{tabular}
 	\end{table}
 	
-	\begin{figure*}[h!]
-		\centering
-		\includegraphics[width=0.6\textwidth]{SM-Fig1}
-		\caption{Dispersion relations $\omega_{L,T}(q)$ for a 3D Lennard-Jones fluid at density $n = 1$ and temperature $T = 5$. Transverse ($\omega_T$) and longitudinal ($\omega_L$) modes are represented by orange and gray circles, respectively. The gray and red lines depict the theoretical asymptotic curves $\omega = cq$. The dark gray zone indicates the region where $qn^{-1/3} < 2\pi/L$ and finite-size effects are significant ($L$ being the system size).}
-		\label{DQGSM:Fig1}
-	\end{figure*}
+	Simulations of liquid \ce{Al} were performed in a three-dimensional face-centered cubic box with dimensions of $Lx = Ly = Lz = 10a$, where $a$ is lattice constant, with mass density $\rho = 2.7 \text{g/cm}^3$. The remaining simulation details including number of particles, thermostating and boundary conditions follow previously established setup.
 	
-	\begin{figure*}[h!]
+	Moreover, we considered liquid iron using Embedded atom model (EAM). The general form of this potential can be expressed as:
+	%
+	\begin{equation}
+		E_i = \sum_{i} F(\rho_i) + \frac{1}{2} \sum_{i} \sum_{j \neq i} \varphi_{\text{p}}(r_{ij}),
+		\label{DQGSM:Eq5}
+	\end{equation}
+	where $F_{i}(\rho_{i})$ denotes the embedding energy for atom $i$, a function of the local electron density $\rho_{i}$. This local density is computed as a superposition of the contributions from all neighboring atoms $j$:
+	
+	\begin{equation}
+		\rho_{i} = \sum_{j \neq i} \rho(r_{ij}).
+		\label{DQGSM:Eq6}
+	\end{equation}
+	
+	In these expressions, $\varphi_{\text{p}}(r_{ij})$ represents the pairwise potential between atoms $i$ and $j$, separated by a distance $r_{ij}$. The specific functional forms for $F(\rho)$, $\rho(r)$, and $\varphi_{\text{p}}(r)$ employed in this work are those established in the corresponding paper \cite{10.1103/PhysRevLett.84.3638}.
+	
+	The mass density $\rho = 10g/cm^3$ was used in the simulations for liquid iron. The remaining simulation parameters correspond to those employed for liquid iron.
+	
+	Simulations of fluids of particles interacting via the Lennard-Jones and Yukawa potentials were performed using the numerical time step $\Delta t = 5\times 10^{-3}\sqrt{m\sigma^2/\varepsilon}$. For ML-IAP and EAM potentials in liquid aluminum and iron the time step $\Delta t = 5$ fs was chosen. All simulations where performed with the LAMMPS package \cite{10.1006/jcph.1995.1039} for $5\times10^4$ time steps, where the first 5000 were used for system relaxation.
+	
+	Table \ref{DQGSM:Table1} shows the parameters of examined systems states.
+	
+	\section{Results}
+	
+	Figure \ref{DQGSM:Fig1} presents the example of computed velocity current spectra for 3D Lennard-Jones fluid with density $n=1$ at temperatures \textbf{(a--c)} 2 and \textbf{(d--f)} 6. Data where estimated using two-oscillator model (Eq. \href{https://www.latextemplates.com}{3} in main article). Corresponding fits are represented with solid line on the plots.
+	
+	By obtaining the mode frequencies from the approximation we analyzed dispersion relations $\omega_{L,T}(q)$ to calculate $q$-gap values. Figure \ref{DQGSM:Fig2} represents dispersion relation for Lennard-Jones fluid at $n = 1$, $T = 5$. The longitudinal and transverse modes (circles) with linear approximations (solid lines) are shown in gray and orange colors, respectively. Red node $q_g$ indicates the $q$-gap region in low-frequency branch $\omega_T(q)$. The dark gray zone corresponds to the region of $qn^{-1/3} < 2\pi/L$.
+	
+	To calculate self-diffusion coefficient $D$ we used mean-squared displacement (MSD) of particles. The MSD$(t)$ dependencies for Lennard-Jones fluid are illustrated in Figure \ref{DQGSM:Fig3} for both \textbf{(a)} 3D and \textbf{(b)} 2D cases at temperatures 2 and 1.2 respectively.
+	
+	The dependencies of self-diffusion coefficient (SDC) on $q$-gap width for liquid \ce{Al} and \ce{Fe} are presented on Figure \ref{DQGSM:Fig4} in red and blue colors respectively. Solid lines represent linear approximations, consistent with the results reported for other systems in the main article.
+	
+	We compared the results for the Lennard–Jones and Yukawa fluids with those obtained for extended systems in the same states. The simulation box was enlarged such that $L_{\mathrm{ext}} = 1.5 L_{\mathrm{orig}}$. The resulting dependencies closely match those of the original systems, as illustrated in Fig.~\ref{DQGSM:Fig5}. Data for the original systems are shown in red, and those for the extended systems in blue, along with their respective linear fits.
+	
+	Obtained $q$-gap values near the melting point (MP) -- $q_{g, \text{MP}}$ are presented in Table \ref{DQGSM:Table2} along with the slopes of $D(q_g)$ dependencies for each considered system.
+	
+	In main article we observed universal relationship between the self-diffusion coefficient value in MP $D_{\text{MP}}$ and the slope of $D(q_g)$ dependence $\dot{D}$ which can be described by fit \ref{DQGSM:Eq7}
+	\begin{equation}
+		D_{\text{MP}} \approx \left(\dfrac{\text{d}D}{\text{d}q_g}\right)^2 + C_{\text{MP}}
+		\label{DQGSM:Eq7},
+	\end{equation}
+	where $C_{\text{MP}} = 9.2 \cdot 10^{-4}$. Using this equation we reconstructed initial $D(q_g)$ dependencies in form:
+	\begin{equation}
+		D = D_{\text{MP}} + \mathfrak{D}(q_g - q_{g,\text{MP}}),
+	\end{equation}
+	where $\mathfrak{D} = \sqrt{D_{\text{MP}}-C_{\text{MP}}}$. The comparison between obtained phenomenological form and initial data for 3D LJ, Yukawa and Al systems is presented in Figure \ref{DQGSM:Fig6}
+	
+	\begin{figure}
 		\centering
-		\includegraphics[width=0.6\textwidth]{SM-Fig2}
+			\includegraphics[width=\linewidth]{SM-Fig1}
+			\caption{Transverse modes of dispersion relations for a three-dimensional fluids with the Lennard-Jones potential. Panels \textbf{(a--c)} show spectra for a system with density $n = 1$ at $T =2$, obtained from velocity flux power spectra analysis using two-oscillator model. For panels \textbf{(d--f)}, results are obtained at $n = 1$ and $T=6$, with the same description as for panels (a--c).}
+			\label{DQGSM:Fig1}
+	\end{figure}
+	\begin{figure}
+			\centering
+			\includegraphics[width=\linewidth]{SM-Fig2}
+			\caption{Dispersion relations $\omega_{L,T}(q)$ for a 3D Lennard-Jones fluid at density $n = 1$ and temperature $T = 5$. Transverse ($\omega_T$) and longitudinal ($\omega_L$) modes are represented by orange and gray circles, respectively. The gray and red lines depict the theoretical asymptotic curves $\omega = cq$. The dark gray zone indicates the region where $qn^{-1/3} < 2\pi/L$ and finite-size effects are significant ($L$ being the system size).}
+			\label{DQGSM:Fig2}
+	\end{figure}
+	
+	\begin{figure}
+		\centering
+		\includegraphics[width=\linewidth]{SM-Fig3}
 		\caption{Dependence of the MSD on the time $t$ for the Lennard-Jones potential in three- and two-dimensional cases.}
-		\label{DQGSM:Fig2}
-	\end{figure*}
-	
-	\begin{figure*}[h!]
-		\centering
-		\includegraphics[width=0.9\textwidth]{SM-Fig3}
-		\caption{The comparison between $D(q_g)$ relations in extended (blue) and original (red) 3D systems with Lennard-Jones ($n=1$) and Yukawa ($\kappa=1$) potentials.}
 		\label{DQGSM:Fig3}
-	\end{figure*}
+	\end{figure}
 	
-	\begin{table*}[h!]
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=\linewidth]{SM-Fig4}
+		\caption{Dependence of the self-diffusion coefficient $D$ on the $q$-gap width for 3D liquid aluminum (red) at and iron (blue).}
+		\label{DQGSM:Fig4}
+	\end{figure}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=\linewidth]{SM-Fig5}
+		\caption{The comparison between $D(q_g)$ relations in extended (blue) and original (red) 3D systems with Lennard-Jones ($n=1$) and Yukawa ($\kappa=1$) potentials.}
+		\label{DQGSM:Fig5}
+	\end{figure}
+	
+	\begin{table}
 		\centering
 		\caption{Minimum values of $q_g$ and corresponding slopes for studied systems}
 		\label{DQGSM:Table2}
 		\begin{tabular}{@{}ccccc@{}}
 			\toprule
-			Potential & Dimension & Density & \begin{tabular}[c]{@{}c@{}}Value of $q_g$ \\ near the MP, $q_{0}$\end{tabular} & $\left( \dfrac{\text{d}D}{\text{d}q_g}\right)_{q_0}$ \\ \midrule
+			Potential & Dimension & Density & \begin{tabular}[c]{@{}c@{}}Value of $q_g$ \\ near the MP, $q_{g, \text{MP}}$\end{tabular} & $\left( \dfrac{\text{d}D}{\text{d}q_g}\right)$ \\ \midrule
 			ML-IAP (\ce{Al}) & 3D & 2.7 g/cm$^3$ & 0.078 & 0.013 \\
 			\midrule
 			EAM (\ce{Fe}) & 3D & 3.6 g/cm$^3$ & 0.168 & 0.024 \\
@@ -176,14 +222,14 @@
 			& & 1.50 & 0.097 \\
 			& & 2.00 & 0.129 \\ \bottomrule
 		\end{tabular}
-	\end{table*}
+	\end{table}
 	
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=0.5\linewidth]{SM-Fig4}
-		\caption{Dependence of the self-diffusion coefficient $D$ on the $q$-gap width for 3D liquid aluminum at density $\rho = 2.7$ g/cm$^3$.}
-		\label{DQGSM:Fig4}
+		\includegraphics[width=\linewidth]{SM-Fig6}
+		\caption{The comparison between obtained phenomenological form (solid lines) and initial data (circles) for 3D \textbf{(a)} LJ, \textbf{(b)} Yukawa and \textbf{(c)} Al.}
+		\label{DQGSM:Fig6}
 	\end{figure}
-	
-	\bibliography{DQG-bibliography_DOI}
+	\FloatBarrier
+	\bibliography{DQG-bibliography}
 \end{document}

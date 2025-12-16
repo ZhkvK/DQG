@@ -36,7 +36,7 @@
 %\renewcommand{\pi}{\uppi}
 %\renewcommand{\omega}{\upomega}
 
-\pgfplotsset{width=8.5cm,
+\pgfplotsset{width=8.55cm,
 	compat=1.3,
 	% define the layers you need.
 	% (Don't forget to add `main' somewhere in that list!!)
@@ -62,12 +62,16 @@
 		}]
 		
 		\definecolor{darkgray176}{RGB}{176,176,176}
-		\definecolor{darkorange25512714}{RGB}{255,127,14}
-		\definecolor{steelblue31119180}{RGB}{31,119,180}
-		\definecolor{crimson2143940}{RGB}{214,39,40} 
+		% Определение цветов в преамбуле
+		\definecolor{blu}{RGB}{0, 127, 210}        % Синий (голубой) — круги
+		\definecolor{gree}{RGB}{75, 150, 0}           % Зелёный — треугольники вверх
+		\definecolor{DustyRose}{RGB}{197, 94, 94}            % Тёмно-зелёный — треугольники вниз
+		\definecolor{orang}{RGB}{255, 127, 0}         % Оранжевый — ромбы
+		\definecolor{re}{RGB}{210, 0, 0}         % Красный — звёздочки
+		\definecolor{purp}{RGB}{127, 0, 127}            % Фиолетовый — квадраты
 		\definecolor{lightgrey204}{RGB}{204,204,204}
 		
-		\begin{groupplot}[group style={group size=2 by 2, horizontal sep=2cm, vertical sep=0.25cm,
+		\begin{groupplot}[group style={group size=2 by 1, horizontal sep=2cm, vertical sep=0.25cm,
 				%			%	xticklabels at=edge bottom, % Метки X только у нижнего графика
 							%	ylabel at=edge left,       % Метки Y только у среднего графика
 								x descriptions at=edge bottom, % Общая подпись X снизу
@@ -102,7 +106,7 @@
 			},
 			ymin=0,
 			]
-			\nextgroupplot[ylabel={SDC, $Dn^{1/3}/c\cdot10^{-3}$}, ylabel shift=8pt, xmax=0.4,
+			\nextgroupplot[ylabel={Self-diffusion, $D\cdot10^{3}$},xlabel={$ q $-gap, $q_g$}, ylabel shift=8pt, xmax=0.4,
 			legend style={
 				fill opacity=0, draw opacity=1, text opacity=1, draw=none, at={([yshift=0pt]0.05,0.85)},
 				anchor=north west,
@@ -116,10 +120,10 @@
 			%		\addplot [dashed, forget plot, on layer=foreground]
 			%		table[x=x,y=y]{Data/Fig3/a/fit0.9.txt};
 			
-			\addplot [semithick, crimson2143940, mark=o, line width=0.5mm, only marks, mark size=2, mark options={solid}]
+			\addplot [semithick, re, mark=o, line width=0.5mm, only marks, mark size=2, mark options={solid}]
 			table[x=q,y=D, each nth point={1}]{Data/Fig3/a/1.00.txt};
 			\addlegendentry{$n = 1.0$};
-			\addplot [crimson2143940, forget plot, on layer=foreground]
+			\addplot [re, forget plot, on layer=foreground]
 			table[x=x,y=y]{Data/Fig3/a/fit1.00.txt};
 			
 %			\addplot [semithick, steelblue31119180, mark=square, line width=0.5mm, only marks, mark size=2, mark options={solid}]
@@ -128,10 +132,10 @@
 %			\addplot [dashed, steelblue31119180, forget plot, on layer=foreground]
 %			table[x=x,y=y]{Data/Fig3/a/fit1.10.txt};
 			
-			\addplot [semithick, darkorange25512714, mark=o, line width=0.5mm, only marks, mark size=2, mark options={solid}]
+			\addplot [semithick, orang, mark=o, line width=0.5mm, only marks, mark size=2, mark options={solid}]
 			table[x=q,y=D, each nth point={1}]{Data/Fig3/a/1.20.txt};
 			\addlegendentry{$n = 1.2$};
-			\addplot [darkorange25512714, forget plot, on layer=foreground]
+			\addplot [orang, forget plot, on layer=foreground]
 			table[x=x,y=y]{Data/Fig3/a/fit1.20.txt};
 			
 			\node[anchor=west] at (rel axis cs:0.02,0.92) {\textbf{(a) LJ 3D}};
@@ -142,10 +146,10 @@
 %			\addplot [dashed, olive, forget plot, on layer=foreground]
 %			table[x=x,y=y]{Data/Fig3/a/fit1.3.txt};
 			%		
-			\addplot [semithick, blue, mark=o, line width=0.5mm, only marks, mark size=2, mark options={solid}]
+			\addplot [semithick, blu, mark=o, line width=0.5mm, only marks, mark size=2, mark options={solid}]
 			table[x=q,y=D, each nth point={1}]{Data/Fig3/a/1.4.txt};
 			\addlegendentry{$n = 1.4$};
-			\addplot [blue, forget plot, on layer=foreground]
+			\addplot [blu, forget plot, on layer=foreground]
 			table[x=x,y=y]{Data/Fig3/a/fit1.4.txt};
 			%		
 			%		\addplot [semithick, pink, mark=x, line width=0.5mm, only marks, mark size=2, mark options={solid}]
@@ -154,10 +158,10 @@
 			%		\addplot [dashed, pink, forget plot, on layer=foreground]
 			%		table[x=x,y=y]{Data/Fig3/a/fit1.5.txt};
 			%		
-			\addplot [semithick, cyan, mark=o, line width=0.5mm, only marks, mark size=2, mark options={solid}]
+			\addplot [semithick, gree, mark=o, line width=0.5mm, only marks, mark size=2, mark options={solid}]
 			table[x=q,y=D, each nth point={1}]{Data/Fig3/a/1.6.txt};
 			\addlegendentry{$n = 1.6$};
-			\addplot [cyan, forget plot, on layer=foreground]
+			\addplot [gree, forget plot, on layer=foreground]
 			table[x=x,y=y]{Data/Fig3/a/fit1.6.txt};
 			
 			%		\addplot [semithick, yellow, mark=+, line width=0.5mm, only marks, mark size=2, mark options={solid}]
@@ -166,10 +170,10 @@
 			%		\addplot [dashed, yellow, forget plot, on layer=foreground]
 			%		table[x=x,y=y]{Data/Fig3/a/fit1.7.txt};
 			%		
-			\addplot [semithick, green, mark=o, line width=0.5mm, only marks, mark size=2, mark options={solid}]
+			\addplot [semithick, purp, mark=o, line width=0.5mm, only marks, mark size=2, mark options={solid}]
 			table[x=q,y=D, each nth point={1}]{Data/Fig3/a/1.8.txt};
 			\addlegendentry{$n = 1.8$};
-			\addplot [green, forget plot, on layer=foreground]
+			\addplot [purp, forget plot, on layer=foreground]
 			table[x=x,y=y]{Data/Fig3/a/fit1.8.txt};
 			%		
 			%		\addplot [semithick, blue, mark=halfcircle, line width=0.5mm, only marks, mark size=2, mark options={solid}]
@@ -178,10 +182,10 @@
 			%		\addplot [dashed, blue,  forget plot, on layer=foreground]
 			%		table[x=x,y=y]{Data/Fig3/a/fit1.9.txt};
 			%		
-			\addplot [semithick, red,  mark=o, line width=0.5mm, only marks, mark size=2, mark options={solid}]
+			\addplot [semithick, DustyRose,  mark=o, line width=0.5mm, only marks, mark size=2, mark options={solid}]
 			table[x=q,y=D, each nth point={1}]{Data/Fig3/a/2.0.txt};
 			\addlegendentry{$n = 2.0$};
-			\addplot [red, forget plot, on layer=foreground]
+			\addplot [DustyRose, forget plot, on layer=foreground]
 			table[x=x,y=y]{Data/Fig3/a/fit2.0.txt};
 			
 			%		\addplot[only marks, mark=*, red, mark size=2pt] coordinates {(0.17, 0.001)};
@@ -189,150 +193,52 @@
 			%		\spy [size=2cm] on (axis cs:0.17,0.001) in node[fill=white] at (axis cs:0.1,0.003);
 %			\spy [black, size=2.5cm] on (2.9,1.2) in node at (3.5,4);
 			
-			\nextgroupplot[ylabel={SDC, $Dn^{1/2}/c\cdot10^{-3}$},
-			legend style={
-				fill opacity=0, draw opacity=1, text opacity=1, draw=none, at={([yshift=0pt]0.05,0.85)},
-				anchor=north west,
-				%				/tikz/every even column/.append style={column sep=0.2cm}
-			},
-			xmax=0.4
-			,]
-			\addplot [semithick, crimson2143940, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
-			table[x=q,y=D]{Data/Fig3/b/0.80.txt};
-			\addlegendentry{$n = 0.80$};
-%			\addplot [semithick, crimson2143940, forget plot, on layer=foreground, line width=0.5mm]
-%			table[x=x,y=y]{Data/Fig3/b/fit0.80_1.txt};
-%			\addplot [semithick, crimson2143940, forget plot, on layer=foreground, line width=0.5mm]
-%			table[x=x,y=y]{Data/Fig3/b/fit0.80_2.txt};
-			\addplot [semithick, crimson2143940, forget plot, on layer=foreground]
-			table[x=x,y=y]{Data/Fig3/b/fit0.80.txt};
-%	
-			\addplot [semithick, steelblue31119180, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
-			table[x=q,y=D]{Data/Fig3/b/0.85.txt};
-			\addlegendentry{$n = 0.85$};
-%			\addplot [semithick, steelblue31119180, forget plot, on layer=foreground, line width=0.5mm]
-%			table[x=x,y=y]{Data/Fig3/b/fit0.85_1.txt};
-%			\addplot [semithick, steelblue31119180, forget plot, on layer=foreground, line width=0.5mm]
-%			table[x=x,y=y]{Data/Fig3/b/fit0.85_2.txt};\\
-			\addplot [semithick, steelblue31119180, forget plot, on layer=foreground]
-			table[x=x,y=y]{Data/Fig3/b/fit0.85.txt};
-%			
-			\addplot [semithick, darkorange25512714, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
-			table[x=q,y=D]{Data/Fig3/b/0.90.txt};
-			\addlegendentry{$n = 0.90$};
-%			\addplot [semithick, darkorange25512714, forget plot, on layer=foreground, line width=0.5mm]
-%			table[x=x,y=y]{Data/Fig3/b/fit0.90_1.txt};
-%			\addplot [semithick, darkorange25512714, forget plot, on layer=foreground, line width=0.5mm]
-%			table[x=x,y=y]{Data/Fig3/b/fit0.90_2.txt};\\
-			\addplot [semithick, darkorange25512714, forget plot, on layer=foreground]
-			table[x=x,y=y]{Data/Fig3/b/fit0.90.txt};
-			
-			\node[anchor=west] at (rel axis cs:0.02,0.92) {\textbf{(b) LJ 2D}};
-			
 			%%%		YUKAWA		%%%
 			
-			\nextgroupplot[ylabel={SDC, $Dn^{1/3}/c\cdot10^{-2}$}, xlabel={$ q $-gap, $q_gn^{-1/3}/\pi$},
+			\nextgroupplot[ylabel={Self-diffusion, $D\cdot10^{2}$}, xlabel={$ q $-gap, $q_g$},
 			legend style={
 				fill opacity=0, draw opacity=1, text opacity=1, draw=none, at={([yshift=0pt]0.05,0.85)},
 				anchor=north west,
 				%				/tikz/every even column/.append style={column sep=0.2cm}
 			},xmax=0.4]
-			\addplot [semithick, crimson2143940, mark=o, line width=0.5mm, only marks, mark size=2, mark options={solid}]
+			\addplot [semithick, DustyRose, mark=o, line width=0.5mm, only marks, mark size=2, mark options={solid}]
 			table[x=q,y=D]{Data/Fig4/a/1.txt};
 			\addlegendentry{$\kappa = 1$};
-			\addplot [semithick, crimson2143940, forget plot, on layer=foreground]
+			\addplot [semithick, DustyRose, forget plot, on layer=foreground]
 			table[x=x,y=y]{Data/Fig4/a/fit1.txt};
 			
-			%			\addplot [semithick, cyan, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
-			%			table[x=q,y=D]{Data/Fig4/a/1.25.txt};
-			%			\addlegendentry{$\kappa = 1.25$};
-			%			\addplot [semithick, cyan, forget plot, on layer=foreground]
-			%			table[x=x,y=y]{Data/Fig4/a/fit1.25.txt};
+%						\addplot [semithick, cyan, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
+%						table[x=q,y=D]{Data/Fig4/a/1.25.txt};
+%						\addlegendentry{$\kappa = 1.25$};
+%						\addplot [semithick, cyan, forget plot, on layer=foreground]
+%						table[x=x,y=y]{Data/Fig4/a/fit1.25.txt};
 			
-			\addplot [semithick, darkorange25512714, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
+			\addplot [semithick, purp, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
 			table[x=q,y=D]{Data/Fig4/a/1.5.txt};
 			\addlegendentry{$\kappa = 1.5$};
-			\addplot [semithick, darkorange25512714, forget plot, on layer=foreground]
+			\addplot [semithick, purp, forget plot, on layer=foreground]
 			table[x=x,y=y]{Data/Fig4/a/fit1.5.txt};
 			
-			\addplot [semithick, steelblue31119180, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
+			\addplot [semithick, gree, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
 			table[x=q,y=D]{Data/Fig4/a/2.txt};
 			\addlegendentry{$\kappa = 2$};
-			\addplot [semithick, steelblue31119180, forget plot, on layer=foreground]
+			\addplot [semithick, gree, forget plot, on layer=foreground]
 			table[x=x,y=y]{Data/Fig4/a/fit2.txt};
 			
-			\addplot [semithick, green, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
+			\addplot [semithick, blu, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
 			table[x=q,y=D]{Data/Fig4/a/2.5.txt};
 			\addlegendentry{$\kappa = 2.5$};
-			\addplot [semithick, green, forget plot, on layer=foreground]
+			\addplot [semithick, blu, forget plot, on layer=foreground]
 			table[x=x,y=y]{Data/Fig4/a/fit2.5.txt};
 			
-			\addplot [semithick, red, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
+			\addplot [semithick, orang, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
 			table[x=q,y=D]{Data/Fig4/a/3.txt};
 			\addlegendentry{$\kappa = 3$};
-			\addplot [semithick, red, forget plot, on layer=foreground]
+			\addplot [semithick, orang, forget plot, on layer=foreground]
 			table[x=x,y=y]{Data/Fig4/a/fit3.txt};
 			
-			\node[anchor=west] at (rel axis cs:0.02,0.92) {\textbf{(c) Yukawa 3D}};
+			\node[anchor=west] at (rel axis cs:0.02,0.92) {\textbf{(b) Yukawa 3D}};
 			
-			\nextgroupplot[ylabel={SDC, $Dn^{1/2}/c\cdot10^{-2}$}, xlabel={$ q $-gap, $q_gn^{-1/2}/\pi$},
-			legend style={
-				fill opacity=0, draw opacity=1, text opacity=1, draw=none, at={([yshift=0pt]0.05,0.85)},
-				anchor=north west,
-				%				/tikz/every even column/.append style={column sep=0.2cm}
-			},xmax=0.4]
-			\addplot [semithick, crimson2143940, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
-			table[x=q,y=D]{Data/Fig4/b/1.txt};
-			\addlegendentry{$\kappa = 1$};
-			%			\addplot [semithick, crimson2143940, forget plot, on layer=foreground, line width=0.5mm]
-			%			table[x=x,y=y]{Data/Fig4/b/fit1_1.txt};
-			%			\addplot [semithick, crimson2143940, forget plot, on layer=foreground, line width=0.5mm]
-			%			table[x=x,y=y]{Data/Fig4/b/fit1_2.txt};
-			\addplot [semithick, crimson2143940, forget plot, on layer=foreground]
-			table[x=x,y=y]{Data/Fig4/b/fit1_0.txt};
-			
-			\addplot [semithick, steelblue31119180, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
-			table[x=q,y=D]{Data/Fig4/b/1.5.txt};
-			\addlegendentry{$\kappa = 1.5$};
-			%			\addplot [semithick, steelblue31119180, forget plot, on layer=foreground, line width=0.5mm]
-			%			table[x=x,y=y]{Data/Fig4/b/fit1.5_1.txt};
-			%			\addplot [semithick, steelblue31119180, forget plot, on layer=foreground, line width=0.5mm]
-			%			table[x=x,y=y]{Data/Fig4/b/fit1.5_2.txt};
-			\addplot [semithick, steelblue31119180, forget plot, on layer=foreground]
-			table[x=x,y=y]{Data/Fig4/b/fit1.5_0.txt};
-			
-			\addplot [semithick, darkorange25512714, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
-			table[x=q,y=D]{Data/Fig4/b/2.txt};
-			\addlegendentry{$\kappa = 2$};
-			%			\addplot [semithick, darkorange25512714, forget plot, on layer=foreground, line width=0.5mm]
-			%			table[x=x,y=y]{Data/Fig4/b/fit2_1.txt};
-			%			\addplot [semithick, darkorange25512714, forget plot, on layer=foreground, line width=0.5mm]
-			%			table[x=x,y=y]{Data/Fig4/b/fit2_2.txt};
-			\addplot [semithick, darkorange25512714, forget plot, on layer=foreground]
-			table[x=x,y=y]{Data/Fig4/b/fit2_0.txt};
-			
-			%			\addplot [semithick, cyan, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
-			%			table[x=q,y=D]{Data/Fig4/b/2.5.txt};
-			%			\addlegendentry{$\kappa = 2.5$};
-			%%			%			\addplot [semithick, darkorange25512714, forget plot, on layer=foreground, line width=0.5mm]
-			%%			%			table[x=x,y=y]{Data/Fig4/b/fit2_1.txt};
-			%%			%			\addplot [semithick, darkorange25512714, forget plot, on layer=foreground, line width=0.5mm]
-			%%			%			table[x=x,y=y]{Data/Fig4/b/fit2_2.txt};
-			%			\addplot [semithick, cyan, forget plot, on layer=foreground, line width=0.5mm, dashed]
-			%			table[x=x,y=y]{Data/Fig4/b/fit2.5_0.txt};
-			%%			
-			%			\addplot [semithick, red, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
-			%			table[x=q,y=D]{Data/Fig4/b/3.txt};
-			%			\addlegendentry{$\kappa = 3$};
-			%%			%			\addplot [semithick, darkorange25512714, forget plot, on layer=foreground, line width=0.5mm]
-			%%			%			table[x=x,y=y]{Data/Fig4/b/fit2_1.txt};
-			%%			%			\addplot [semithick, darkorange25512714, forget plot, on layer=foreground, line width=0.5mm]
-			%%			%			table[x=x,y=y]{Data/Fig4/b/fit2_2.txt};
-			%			\addplot [semithick, red, forget plot, on layer=foreground, line width=0.5mm, dashed]
-			%			table[x=x,y=y]{Data/Fig4/b/fit3_0.txt};
-			
-			%			
-			\node[anchor=west] at (rel axis cs:0.02,0.92) {\textbf{(d) Yukawa 2D}};
 		\end{groupplot}
 		%	\spy [black] on (3.36,2.58) in node at (8.7,1);
 		\vspace{2cm}

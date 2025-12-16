@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  13 NOV 2025 13:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  16 DEC 2025 16:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1097,7 +1097,7 @@ LaTeX Info: Redefining \Relbar on input line 970.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 26
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 29
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/t1phv.fd
@@ -1105,7 +1105,7 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 \pgf@layerbox@foreground=\box92
 \pgf@layerboxsaved@foreground=\box93
-Package pgfplots info on input line 52: Setting layers 'background,main,foregro
+Package pgfplots info on input line 55: Setting layers 'background,main,foregro
 und'...
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -1116,27 +1116,27 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 (./Fig2.aux)
 \openout1 = `Fig2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 57.
 LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 5
-4.
+7.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/mathdesign/mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    ... okay on input line 57.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count317
@@ -1191,74 +1191,85 @@ e
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.18} (current compat level: 1.3).
 
-PGFPlots: reading {/home/konst/lj_3d/Dqk_lj.txt}
+PGFPlots: reading {Data/Fig3/b/0.80.txt}
 Missing character: There is no ; in font nullfont!
-PGFPlots: reading {/home/konst/lj_3d/Dqk_yukawa.txt}
+PGFPlots: reading {Data/Fig3/b/fit0.80.txt}
+PGFPlots: reading {Data/Fig3/b/0.85.txt}
 Missing character: There is no ; in font nullfont!
-PGFPlots: reading {/home/konst/lj_3d/Dqk_Al.txt}
+PGFPlots: reading {Data/Fig3/b/fit0.85.txt}
+PGFPlots: reading {Data/Fig3/b/0.90.txt}
 Missing character: There is no ; in font nullfont!
-PGFPlots: reading {/home/konst/lj_3d/Dqk_Fe.txt}
-Missing character: There is no ; in font nullfont!
-PGFPlots: reading {Data/Fig6/fit.txt}
+PGFPlots: reading {Data/Fig3/b/fit0.90.txt}
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
-45.
+54.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Trying to load font information for OML+zavm on input line 
-145.
+154.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/arev/omlzavm.fd
 File: omlzavm.fd 2006/05/30 Fontinst v1.929 font definitions for OML/zavm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zavm on input line 
-145.
+154.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/arev/omszavm.fd
 File: omszavm.fd 2006/05/30 Fontinst v1.929 font definitions for OMS/zavm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+mdbch on input line
- 145.
+ 154.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/mathdesign/mdbch/omxmdbch.fd
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 145.
+(Font)              scaled to size 9.60007pt on input line 154.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.29605pt on input line 145.
+(Font)              scaled to size 7.29605pt on input line 154.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 145.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 145
+(Font)              scaled to size 5.76004pt on input line 154.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 154
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 145
+LaTeX Font Info:    Trying to load font information for U+msb on input line 154
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for MDA+mdbch on input line
- 145.
+ 154.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 9.60007pt on input line 145.
+(Font)              scaled to size 9.60007pt on input line 154.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 7.29605pt on input line 145.
+(Font)              scaled to size 7.29605pt on input line 154.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 5.76004pt on input line 145.
-LaTeX Font Info:    Trying to load font information for U+zavm on input line 14
-5.
+(Font)              scaled to size 5.76004pt on input line 154.
+LaTeX Font Info:    Trying to load font information for U+zavm on input line 15
+4.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/arev/uzavm.fd
 File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
 )
+PGFPlots: reading {Data/Fig4/b/1.txt}
+
+Missing character: There is no ; in font nullfont!
+PGFPlots: reading {Data/Fig4/b/fit1_0.txt}
+PGFPlots: reading {Data/Fig4/b/1.5.txt}
+Missing character: There is no ; in font nullfont!
+PGFPlots: reading {Data/Fig4/b/fit1.5_0.txt}
+PGFPlots: reading {Data/Fig4/b/2.txt}
+Missing character: There is no ; in font nullfont!
+PGFPlots: reading {Data/Fig4/b/fit2_0.txt}
+
 
 [1
 
@@ -1271,21 +1282,22 @@ L3 programming layer <2024-12-25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 28754 strings out of 473207
- 748822 string characters out of 5716288
- 1298452 words of memory out of 5000000
- 51428 multiletter control sequences out of 15000+600000
- 581301 words of font info for 84 fonts, out of 8000000 for 9000
+ 28794 strings out of 473207
+ 749365 string characters out of 5716288
+ 1406712 words of memory out of 5000000
+ 51454 multiletter control sequences out of 15000+600000
+ 583159 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,15n,121p,788b,2007s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,16n,121p,788b,2387s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/arev/ArevSans-Oblique.
 pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-
-chb7y.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.p
-fb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Fig2.pdf (1 page, 28494 bytes).
+chb7y.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.p
+fb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></us
+r/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on Fig2.pdf (1 page, 50824 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
- 21 compressed objects within 1 object stream
+ 38 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

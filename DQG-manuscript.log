@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  16 DEC 2025 16:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  18 DEC 2025 13:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -561,30 +561,43 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
 ocal/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-<Figs/Fig1.pdf, id=102, 507.18785pt x 200.27121pt>
-File: Figs/Fig1.pdf Graphic file (type pdf)
-<use Figs/Fig1.pdf>
-Package pdftex.def Info: Figs/Fig1.pdf  used on input line 150.
-(pdftex.def)             Requested size: 510.0pt x 201.39221pt.
-<Figs/Fig2.pdf, id=103, 496.34335pt x 199.04663pt>
-File: Figs/Fig2.pdf Graphic file (type pdf)
-<use Figs/Fig2.pdf>
-Package pdftex.def Info: Figs/Fig2.pdf  used on input line 157.
-(pdftex.def)             Requested size: 510.0pt x 204.53435pt.
-<Figs/Fig3.pdf, id=106, 249.44794pt x 213.81079pt>
-File: Figs/Fig3.pdf Graphic file (type pdf)
-<use Figs/Fig3.pdf>
-Package pdftex.def Info: Figs/Fig3.pdf  used on input line 164.
-(pdftex.def)             Requested size: 246.0pt x 210.86096pt.
-
-Underfull \hbox (badness 1057) in paragraph at lines 175--176
+Underfull \hbox (badness 1057) in paragraph at lines 150--151
 []\T1/cmr/m/n/10 We also in-ves-ti-gated the de-pen-dency of the self-
  []
 
-[2] [3 <./Figs/Fig1.pdf> <./Figs/Fig2.pdf>]
+LaTeX Font Info:    Trying to load font information for U+euf on input line 159
+.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+)
+
+pdfTeX warning: /usr/local/texlive/2024/bin/x86_64-linux/pdflatex (file ./Figs/
+SM-Fig6.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
+ allowed
+<Figs/SM-Fig6.pdf, id=107, 319.69843pt x 610.81937pt>
+File: Figs/SM-Fig6.pdf Graphic file (type pdf)
+<use Figs/SM-Fig6.pdf>
+Package pdftex.def Info: Figs/SM-Fig6.pdf  used on input line 166.
+(pdftex.def)             Requested size: 246.0pt x 470.0248pt.
+<Figs/Fig2.pdf, id=110, 242.59332pt x 369.7534pt>
+File: Figs/Fig2.pdf Graphic file (type pdf)
+<use Figs/Fig2.pdf>
+Package pdftex.def Info: Figs/Fig2.pdf  used on input line 173.
+(pdftex.def)             Requested size: 246.0pt x 374.96567pt.
+<Figs/Fig3.pdf, id=113, 249.44794pt x 213.81079pt>
+File: Figs/Fig3.pdf Graphic file (type pdf)
+<use Figs/Fig3.pdf>
+Package pdftex.def Info: Figs/Fig3.pdf  used on input line 180.
+(pdftex.def)             Requested size: 246.0pt x 210.86096pt.
+[2]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 191.
+ on input line 186.
+
+[3 <./Figs/SM-Fig6.pdf> <./Figs/Fig2.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 198.
 
 (./DQG-manuscript.bbl [4 <./Figs/Fig3.pdf>]
 Underfull \hbox (badness 1354) in paragraph at lines 668--675
@@ -605,13 +618,13 @@ Package rerunfilecheck Info: File `DQG-manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: B657F53D2A6DDD474CEED7CDFFE8B749;1033.
  ) 
 Here is how much of TeX's memory you used:
- 14938 strings out of 473207
- 239862 string characters out of 5716288
- 708944 words of memory out of 5000000
- 37909 multiletter control sequences out of 15000+600000
- 575103 words of font info for 82 fonts, out of 8000000 for 9000
+ 14961 strings out of 473207
+ 240305 string characters out of 5716288
+ 708041 words of memory out of 5000000
+ 37925 multiletter control sequences out of 15000+600000
+ 576283 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,2039b,699s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,2039b,697s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/arev/ArevSans-Oblique.
 pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.p
 fb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb
@@ -628,20 +641,21 @@ live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texliv
 e/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 /2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2
 024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/202
-4/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb7y.pfb></usr/local/texli
-ve/2024/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive
-/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2
-024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/202
-4/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2024/
-texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/te
-xmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2024/texm
-f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2024/texmf-dist/
-fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/t
-ype1/urw/helvetic/uhvro8a.pfb>
-Output written on DQG-manuscript.pdf (5 pages, 403079 bytes).
+4/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texlive/2
+024/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb7y.pfb></usr/local/tex
+live/2024/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texli
+ve/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive
+/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2
+024/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/202
+4/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/
+texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2024/te
+xmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2024/texmf-dis
+t/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts
+/type1/urw/helvetic/uhvro8a.pfb>
+Output written on DQG-manuscript.pdf (5 pages, 1091794 bytes).
 PDF statistics:
- 433 PDF objects out of 1000 (max. 8388607)
- 357 compressed objects within 4 object streams
- 71 named destinations out of 1000 (max. 500000)
+ 609 PDF objects out of 1000 (max. 8388607)
+ 442 compressed objects within 5 object streams
+ 72 named destinations out of 1000 (max. 500000)
  72 words of extra memory for PDF output out of 10000 (max. 10000000)
 

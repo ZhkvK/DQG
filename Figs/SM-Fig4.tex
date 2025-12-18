@@ -36,7 +36,7 @@
 %\renewcommand{\pi}{\uppi}
 %\renewcommand{\omega}{\upomega}
 
-\pgfplotsset{width=8.5cm,
+\pgfplotsset{width=8.55cm,
 	compat=1.3,
 	% define the layers you need.
 	% (Don't forget to add `main' somewhere in that list!!)
@@ -54,64 +54,213 @@
 	scaled y ticks=true,
 	scaled x ticks=false,}
 
-	\begin{document}
-		\begin{tikzpicture}
-	
-	\definecolor{darkgray176}{RGB}{176,176,176}
-	\definecolor{blu}{RGB}{0, 127, 210}        % Синий (голубой) — круги
-	\definecolor{gree}{RGB}{75, 150, 0}           % Зелёный — треугольники вверх
-	\definecolor{DustyRose}{RGB}{197, 94, 94}            % Тёмно-зелёный — треугольники вниз
-	\definecolor{orang}{RGB}{255, 127, 0}         % Оранжевый — ромбы
-	\definecolor{re}{RGB}{210, 0, 0}         % Красный — звёздочки
-	\definecolor{purp}{RGB}{127, 0, 127} 
-	\definecolor{lightgrey204}{RGB}{204,204,204}
-	
-	\begin{axis}[
-		height=6cm,
-%		width=0.6\textwidth,
-		legend cell align={left},
-		legend style={fill opacity=0.8, draw opacity=1, draw=none,, text opacity=1, at={([yshift=0pt]0.1,0.73)},
-			anchor=south,},
-		tick align=inside,
-%		tick pos=left,
-		x grid style={darkgray176},
-%		xmajorgrids,
-		xlabel={$ q $-gap, $q_g$},
-		xmin=0,
-		xtick style={color=black},
-		y grid style={darkgray176},
-%		ymajorgrids,
-		grid style=dashed,
-		ylabel={Self-diffusion, $D\cdot10^{-3}$},
-%		ylabel shift=-5pt,
-		ytick scale label code/.code={},
-		yticklabel style={
-			/pgf/number format/fixed,
-			/pgf/number format/precision=2
-		},
-		xticklabel style={
-			/pgf/number format/fixed,
-			/pgf/number format/precision=2
-		},
-		ymin=0,
-		]
-%		\addplot [semithick, steelblue31119180, mark=*, only marks, mark size=3]
-%		table[x=q,y=D]{../vkr_norm/images/Dvsq_new/Al/1.0/2.7.txt};
-%		\addlegendentry{Single mode analysis};
-%		\addplot [semithick, steelblue31119180, forget plot]
-%		table[x=x,y=y]{../vkr_norm/images/Dvsq_new/Al/1.0/fit2.7.txt};
-		\addplot [semithick, blu, line width=0.5mm, mark=o, only marks, mark size=2, mark options={solid}]
-		table[x=q,y=D]{Data/Fig5/Al.txt};
-		\addlegendentry{Al};
-		\addplot [semithick, blu, forget plot]
-		table[x=x,y=y]{Data/Fig5/fitAl.txt};
+\begin{document}
+	\begin{tikzpicture}[spy using outlines={
+			circle,
+			magnification=3,
+			connect spies
+		}]
 		
-		\addplot [semithick, re, line width=0.5mm, mark=o, only marks, mark size=2, mark options={solid}]
-		table[x=q,y=D]{Data/Fig5/Fe.txt};
-		\addlegendentry{Fe};
-		\addplot [semithick, re, forget plot]
-		table[x=x,y=y]{Data/Fig5/fitFe.txt};
-	\end{axis}
-%	\spy [black] on (0,0) in node at (1,1);
-\end{tikzpicture}
-	\end{document}
+		\definecolor{darkgray176}{RGB}{176,176,176}
+		% Определение цветов в преамбуле
+		\definecolor{blu}{RGB}{0, 127, 210}        % Синий (голубой) — круги
+		\definecolor{gree}{RGB}{10, 100, 0}           % Зелёный — треугольники вверх
+		\definecolor{DustyRose}{RGB}{50, 170, 50}            % Тёмно-зелёный — треугольники вниз
+		\definecolor{orang}{RGB}{255, 127, 0}         % Оранжевый — ромбы
+		\definecolor{re}{RGB}{210, 0, 0}         % Красный — звёздочки
+		\definecolor{purp}{RGB}{127, 0, 127}            % Фиолетовый — квадраты
+		\definecolor{lightgrey204}{RGB}{204,204,204}
+		
+		\begin{groupplot}[group style={group size=1 by 3, horizontal sep=2cm, vertical sep=0.25cm,
+				%			%	xticklabels at=edge bottom, % Метки X только у нижнего графика
+				%	ylabel at=edge left,       % Метки Y только у среднего графика
+				x descriptions at=edge bottom, % Общая подпись X снизу
+				xlabels at=edge bottom,
+				%			ylabels at=edge left,
+			},
+			clip=true,
+			clip mode=individual,
+			legend columns=1,
+			legend cell align={left},
+			legend image post style={mark size=2pt, line width=0.5mm},
+			tick align=inside,
+			%			tick pos=left,
+			x grid style={darkgray176},
+			%		xmajorgrids,
+			xmin=0,
+			%		xmax=0.5,
+			xtick style={color=black},
+			y grid style={darkgray176},
+			%		ymajorgrids,
+			grid style=dashed,
+			%		ylabel={$Dn^{-1/d}/c_L$},
+			%		ylabel shift=-5pt,
+			ytick scale label code/.code={},
+			yticklabel style={
+				/pgf/number format/fixed,
+				/pgf/number format/precision=2
+			},
+			xticklabel style={
+				/pgf/number format/fixed,
+				/pgf/number format/precision=2
+			},
+			ymin=0,
+			]
+			\nextgroupplot[ylabel={Self-diffusion, $D\cdot10^{3}$}, ylabel shift=8pt, xmax=0.45,
+			legend style={
+				fill opacity=0, draw opacity=1, text opacity=1, draw=none, at={([yshift=0pt]0.05,0.85)},
+				anchor=north west,
+				%				/tikz/every even column/.append style={column sep=0.2cm}
+			}
+			]
+			
+			%		\addplot [semithick, mark=o, line width=0.5mm, only marks, mark size=2, mark options={solid}]
+			%		table[x=q,y=D]{Data/Fig3/a/0.9.txt};
+			%		\addlegendentry{$n = 0.9$};
+			%		\addplot [dashed, forget plot, on layer=foreground]
+			%		table[x=x,y=y]{Data/Fig3/a/fit0.9.txt};
+			
+			\addplot [semithick, re, mark=o, line width=0.5mm, only marks, mark size=2, mark options={solid}]
+			table[x=q,y=D, each nth point={1}]{Data/Fig3/a/1.00.txt};
+			\addlegendentry{$n = 1.0$};
+			\addplot [re, forget plot, on layer=foreground]
+			table[x=x,y=y]{Data/Fig3/a/fit1.00.txt};
+			
+			%			\addplot [semithick, steelblue31119180, mark=square, line width=0.5mm, only marks, mark size=2, mark options={solid}]
+			%			table[x=q,y=D, each nth point={1}]{Data/Fig3/a/1.10.txt};
+			%			\addlegendentry{$n = 1.1$};
+			%			\addplot [dashed, steelblue31119180, forget plot, on layer=foreground]
+			%			table[x=x,y=y]{Data/Fig3/a/fit1.10.txt};
+			
+			\addplot [semithick, orang, mark=o, line width=0.5mm, only marks, mark size=2, mark options={solid}]
+			table[x=q,y=D, each nth point={1}]{Data/Fig3/a/1.20.txt};
+			\addlegendentry{$n = 1.2$};
+			\addplot [orang, forget plot, on layer=foreground]
+			table[x=x,y=y]{Data/Fig3/a/fit1.20.txt};
+			
+			\node[anchor=west] at (rel axis cs:0.02,0.92) {\textbf{(a) LJ 3D}};
+			%		
+			%			\addplot [semithick, olive, mark=x, line width=0.5mm, only marks, mark size=2, mark options={solid}]
+			%			table[x=q,y=D, each nth point={1}]{Data/Fig3/a/1.3.txt};
+			%			\addlegendentry{$n = 1.3$};
+			%			\addplot [dashed, olive, forget plot, on layer=foreground]
+			%			table[x=x,y=y]{Data/Fig3/a/fit1.3.txt};
+			%		
+			\addplot [semithick, blu, mark=o, line width=0.5mm, only marks, mark size=2, mark options={solid}]
+			table[x=q,y=D, each nth point={1}]{Data/Fig3/a/1.4.txt};
+			\addlegendentry{$n = 1.4$};
+			\addplot [blu, forget plot, on layer=foreground]
+			table[x=x,y=y]{Data/Fig3/a/fit1.4.txt};
+			%		
+			%		\addplot [semithick, pink, mark=x, line width=0.5mm, only marks, mark size=2, mark options={solid}]
+			%		table[x=q,y=D, each nth point={1}]{Data/Fig3/a/1.5.txt};
+			%		\addlegendentry{$n = 1.5$};
+			%		\addplot [dashed, pink, forget plot, on layer=foreground]
+			%		table[x=x,y=y]{Data/Fig3/a/fit1.5.txt};
+			%		
+			\addplot [semithick, gree, mark=o, line width=0.5mm, only marks, mark size=2, mark options={solid}]
+			table[x=q,y=D, each nth point={1}]{Data/Fig3/a/1.6.txt};
+			\addlegendentry{$n = 1.6$};
+			\addplot [gree, forget plot, on layer=foreground]
+			table[x=x,y=y]{Data/Fig3/a/fit1.6.txt};
+			
+			%		\addplot [semithick, yellow, mark=+, line width=0.5mm, only marks, mark size=2, mark options={solid}]
+			%		table[x=q,y=D, each nth point={1}]{Data/Fig3/a/1.7.txt};
+			%		\addlegendentry{$n = 1.7$};
+			%		\addplot [dashed, yellow, forget plot, on layer=foreground]
+			%		table[x=x,y=y]{Data/Fig3/a/fit1.7.txt};
+			%		
+			\addplot [semithick, purp, mark=o, line width=0.5mm, only marks, mark size=2, mark options={solid}]
+			table[x=q,y=D, each nth point={1}]{Data/Fig3/a/1.8.txt};
+			\addlegendentry{$n = 1.8$};
+			\addplot [purp, forget plot, on layer=foreground]
+			table[x=x,y=y]{Data/Fig3/a/fit1.8.txt};
+			%		
+			%		\addplot [semithick, blue, mark=halfcircle, line width=0.5mm, only marks, mark size=2, mark options={solid}]
+			%		table[x=q,y=D, each nth point={1}]{Data/Fig3/a/1.9.txt};
+			%		\addlegendentry{$n = 1.9$};
+			%		\addplot [dashed, blue,  forget plot, on layer=foreground]
+			%		table[x=x,y=y]{Data/Fig3/a/fit1.9.txt};
+			%		
+			\addplot [semithick, DustyRose,  mark=o, line width=0.5mm, only marks, mark size=2, mark options={solid}]
+			table[x=q,y=D, each nth point={1}]{Data/Fig3/a/2.0.txt};
+			\addlegendentry{$n = 2.0$};
+			\addplot [DustyRose, forget plot, on layer=foreground]
+			table[x=x,y=y]{Data/Fig3/a/fit2.0.txt};
+			
+			%		\addplot[only marks, mark=*, red, mark size=2pt] coordinates {(0.17, 0.001)};
+			
+			%		\spy [size=2cm] on (axis cs:0.17,0.001) in node[fill=white] at (axis cs:0.1,0.003);
+			%			\spy [black, size=2.5cm] on (2.9,1.2) in node at (3.5,4);
+			
+			%%%		YUKAWA		%%%
+			
+			\nextgroupplot[ylabel={Self-diffusion, $D\cdot10^{2}$},
+			legend style={
+				fill opacity=0, draw opacity=1, text opacity=1, draw=none, at={([yshift=0pt]0.05,0.85)},
+				anchor=north west,
+				%				/tikz/every even column/.append style={column sep=0.2cm}
+			},xmax=0.45]
+			\addplot [semithick, DustyRose, mark=o, line width=0.5mm, only marks, mark size=2, mark options={solid}]
+			table[x=q,y=D]{Data/Fig4/a/1.txt};
+			\addlegendentry{$\kappa = 1$};
+			\addplot [semithick, DustyRose, forget plot, on layer=foreground]
+			table[x=x,y=y]{Data/Fig4/a/fit1.txt};
+			
+			%						\addplot [semithick, cyan, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
+			%						table[x=q,y=D]{Data/Fig4/a/1.25.txt};
+			%						\addlegendentry{$\kappa = 1.25$};
+			%						\addplot [semithick, cyan, forget plot, on layer=foreground]
+			%						table[x=x,y=y]{Data/Fig4/a/fit1.25.txt};
+			
+			\addplot [semithick, purp, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
+			table[x=q,y=D]{Data/Fig4/a/1.5.txt};
+			\addlegendentry{$\kappa = 1.5$};
+			\addplot [semithick, purp, forget plot, on layer=foreground]
+			table[x=x,y=y]{Data/Fig4/a/fit1.5.txt};
+			
+			\addplot [semithick, gree, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
+			table[x=q,y=D]{Data/Fig4/a/2.txt};
+			\addlegendentry{$\kappa = 2$};
+			\addplot [semithick, gree, forget plot, on layer=foreground]
+			table[x=x,y=y]{Data/Fig4/a/fit2.txt};
+			
+			\addplot [semithick, blu, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
+			table[x=q,y=D]{Data/Fig4/a/2.5.txt};
+			\addlegendentry{$\kappa = 2.5$};
+			\addplot [semithick, blu, forget plot, on layer=foreground]
+			table[x=x,y=y]{Data/Fig4/a/fit2.5.txt};
+			
+			\addplot [semithick, orang, mark=o, line width=0.5mm,, only marks, mark size=2, mark options={solid}]
+			table[x=q,y=D]{Data/Fig4/a/3.txt};
+			\addlegendentry{$\kappa = 3$};
+			\addplot [semithick, orang, forget plot, on layer=foreground]
+			table[x=x,y=y]{Data/Fig4/a/fit3.txt};
+			
+			\node[anchor=west] at (rel axis cs:0.02,0.92) {\textbf{(b) Yukawa 3D}};
+			
+			\nextgroupplot[ylabel={Self-diffusion, $D\cdot10^{3}$}, xlabel={$ q $-gap, $q_g$},
+			legend style={
+				fill opacity=0, draw opacity=1, text opacity=1, draw=none, at={([yshift=0pt]0.05,0.85)},
+				anchor=north west,
+				%				/tikz/every even column/.append style={column sep=0.2cm}
+			},xmax=0.45]
+			
+			\addplot [semithick, blu, line width=0.5mm, mark=o, only marks, mark size=2, mark options={solid}]
+			table[x=q,y=D]{Data/Fig5/Al.txt};
+			\addlegendentry{Al};
+			\addplot [semithick, blu, forget plot]
+			table[x=x,y=y]{Data/Fig5/fitAl.txt};
+			
+			\addplot [semithick, re, line width=0.5mm, mark=o, only marks, mark size=2, mark options={solid}]
+			table[x=q,y=D]{Data/Fig5/Fe.txt};
+			\addlegendentry{Fe};
+			\addplot [semithick, re, forget plot]
+			table[x=x,y=y]{Data/Fig5/fitFe.txt};
+			
+			\node[anchor=west] at (rel axis cs:0.02,0.92) {\textbf{(c) Liquid metals}};
+		\end{groupplot}
+		%	\spy [black] on (3.36,2.58) in node at (8.7,1);
+		\vspace{2cm}
+	\end{tikzpicture}
+\end{document}

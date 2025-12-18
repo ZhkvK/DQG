@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  16 DEC 2025 16:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  17 DEC 2025 17:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1282,19 +1282,19 @@ L3 programming layer <2024-12-25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 28794 strings out of 473207
- 749365 string characters out of 5716288
- 1406712 words of memory out of 5000000
- 51454 multiletter control sequences out of 15000+600000
+ 28791 strings out of 473207
+ 749330 string characters out of 5716288
+ 1408624 words of memory out of 5000000
+ 51451 multiletter control sequences out of 15000+600000
  583159 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,16n,121p,788b,2387s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,16n,121p,788b,2399s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/arev/ArevSans-Oblique.
 pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-
 chb7y.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.p
 fb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Fig2.pdf (1 page, 50824 bytes).
+Output written on Fig2.pdf (1 page, 50569 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream

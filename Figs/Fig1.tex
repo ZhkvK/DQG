@@ -64,14 +64,14 @@
 		\definecolor{darkgray176}{RGB}{176,176,176}
 		% Определение цветов в преамбуле
 		\definecolor{blu}{RGB}{0, 127, 210}        % Синий (голубой) — круги
-		\definecolor{gree}{RGB}{75, 150, 0}           % Зелёный — треугольники вверх
-		\definecolor{DustyRose}{RGB}{197, 94, 94}            % Тёмно-зелёный — треугольники вниз
+		\definecolor{gree}{RGB}{10, 100, 0}           % Зелёный — треугольники вверх
+		\definecolor{DustyRose}{RGB}{50, 170, 50}            % Тёмно-зелёный — треугольники вниз
 		\definecolor{orang}{RGB}{255, 127, 0}         % Оранжевый — ромбы
 		\definecolor{re}{RGB}{210, 0, 0}         % Красный — звёздочки
 		\definecolor{purp}{RGB}{127, 0, 127}            % Фиолетовый — квадраты
 		\definecolor{lightgrey204}{RGB}{204,204,204}
 		
-		\begin{groupplot}[group style={group size=2 by 1, horizontal sep=2cm, vertical sep=0.25cm,
+		\begin{groupplot}[group style={group size=1 by 2, horizontal sep=2cm, vertical sep=0.25cm,
 				%			%	xticklabels at=edge bottom, % Метки X только у нижнего графика
 							%	ylabel at=edge left,       % Метки Y только у среднего графика
 								x descriptions at=edge bottom, % Общая подпись X снизу
@@ -106,7 +106,7 @@
 			},
 			ymin=0,
 			]
-			\nextgroupplot[ylabel={Self-diffusion, $D\cdot10^{3}$},xlabel={$ q $-gap, $q_g$}, ylabel shift=8pt, xmax=0.4,
+			\nextgroupplot[ylabel={Self-diffusion, $D\cdot10^{3}$}, ylabel shift=8pt, xmax=0.4,
 			legend style={
 				fill opacity=0, draw opacity=1, text opacity=1, draw=none, at={([yshift=0pt]0.05,0.85)},
 				anchor=north west,

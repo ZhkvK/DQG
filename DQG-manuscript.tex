@@ -135,9 +135,11 @@
 	Furthermore, we introduce the self-diffusion and $q$-gap scales
 	\begin{equation}
 		D_0 = \dfrac{c}{n^{1/d}};
+		\label{DQG:Eq6}
 	\end{equation}
 	\begin{equation}
 		q_0 = \pi n^{1/d},
+		\label{DQG:Eq7}
 	\end{equation}
 	where $n$ is the numerical density, $d$ is the space dimension and $c$ is the longitudinal sound velocity, and normalize all self-diffusion and $q$-gap values by $D_0$ and $q_0$ so that $D/D_0 \rightarrow D$ and $q/q_0 \rightarrow q$.
 	
@@ -145,19 +147,33 @@
 	
 	The plots display values corresponding to the $q$-gap along with their approximations. A clear linear relationship between the coefficient $D$ and the $q$-gap width is observed for three-dimensional cases and, notably, it does not pass through the origin, which corresponds to a crystalline state with zero values of $D$ and $q$-gap. Furthermore, the results obtained for the melting point (MP) in 3D systems appear to indicate the formation of a non-diffusive region represented by a gray area on the plots. The calculated values of the $q$-gap at the MP, denoted as $q_{0}$, are presented in the table provided in the \href{https://www.latextemplates.com}{supplementary material}.
 	
-	\begin{figure*}
-		\centering
-		\includegraphics[width=\linewidth]{Figs/Fig1}
-		\caption{Dependence of the self-diffusion coefficient $D$ on the $q$-gap width for 3D systems: (\textbf{a}) Lennard-Jones fluids with densities $n = 1$---$2$, and (\textbf{b}) Yukawa fluids with screening parameters $\kappa = 1$---$3$. Solid lines represent linear fits for both cases. Gradient regions and dashed lines represent a non-diffusive area.}
-		\label{DQG:Fig1}
-	\end{figure*}
+	We also investigated the dependency of the self-diffusion coefficient value in MP $D_{\text{MP}}$ on the slope $\dot{D} = \text{d}D/\text{d}q_g$ and observed an intriguing behavior, as shown in Figure~\ref{DQG:Fig3}. It appears that this universal relationship might be described by the phenomenological fit~\eqref{DQG:Eq8}:
 	
-	\begin{figure*}
+	\begin{equation}
+		D_{\text{MP}} \approx \left(\dfrac{\text{d}D}{\text{d}q_g}\right)^2 + C_{\text{MP}},
+		\label{DQG:Eq8}
+	\end{equation}
+	
+	where $C_{\text{MP}} = 9.2 \cdot 10^{-4}$. Using this equation we reconstructed initial $D(q_g)$ dependencies in form:
+	\begin{equation}
+		D = D_{\text{MP}} + \mathfrak{D}(q_g - q_{g,\text{MP}}),
+		\label{DQG:Eq9}
+	\end{equation}
+	where $\mathfrak{D} = \sqrt{D_{\text{MP}}-C_{\text{MP}}}$. Solid lines on Figure \ref{DQG:Fig1} represent linear fits by Eq.\eqref{DQG:Eq9} and demonstrate strong agreement with the data. Direct linear fits of initial data along with calculated slopes $\dot{D}$ are presented in \href{https://www.latextemplates.com}{supplementary material}.
+	
+	\begin{figure}
+		\centering
+		\includegraphics[width=\linewidth]{Figs/SM-Fig6}
+		\caption{Dependence of the self-diffusion coefficient $D$ on the $q$-gap width for 3D systems: (\textbf{a}) Lennard-Jones fluids with densities $n = 1$---$2$, (\textbf{b}) Yukawa fluids with screening parameters $\kappa = 1$---$3$ and (\textbf{c}) liquid \ce{Al}. Solid lines represent linear fits by Eq.\eqref{DQG:Eq9}. Gradient regions and dashed lines represent a non-diffusive area.}
+		\label{DQG:Fig1}
+	\end{figure}
+	
+	\begin{figure}
 		\centering
 		\includegraphics[width=\linewidth]{Figs/Fig2}
-		\caption{Dependence of the self-diffusion coefficient $D$ on the $q$-gap width for 2D systems: (\textbf{a}) Lennard-Jones fluids with densities $n = 0.8$---$0.9$, and (\textbf{b}) Yukawa fluids with screening parameters $\kappa = 1$---$2$. Solid lines indicate linear approximations for LJ systems and fit by Eq.\eqref{DQG:Eq6} for Yukawa systems.}
+		\caption{Dependence of the self-diffusion coefficient $D$ on the $q$-gap width for 2D systems: (\textbf{a}) Lennard-Jones fluids with densities $n = 0.8$---$0.9$, and (\textbf{b}) Yukawa fluids with screening parameters $\kappa = 1$---$2$. Solid lines indicate linear approximations for LJ systems and fit by Eq.\eqref{DQG:Eq10} for Yukawa systems.}
 		\label{DQG:Fig2}
-	\end{figure*}
+	\end{figure}
 	
 	\begin{figure}
 		\centering
@@ -166,20 +182,11 @@
 		\label{DQG:Fig3}
 	\end{figure}
 	
-	In contrast, this effect does not manifest in two-dimensional systems, where the given dependencies exhibit a smooth increase from the origin. However, a nonlinear dependence is observed for the 2D Yukawa system (Fig. \hyperref[DQG:Fig2]{2(b)}). To analyze this behavior, we employed a fit based on Eq.\eqref{DQG:Eq6}.
+	In contrast, this effect does not manifest in two-dimensional systems, where the given dependencies exhibit a smooth increase from the origin. However, a nonlinear dependence is observed for the 2D Yukawa system (Fig. \hyperref[DQG:Fig2]{2(b)}). To analyze this behavior, we employed a fit based on Eq.\eqref{DQG:Eq10}.
 	\begin{equation}
 		D \propto q_g^{-\lambda_D/\sqrt{n}}.
-		\label{DQG:Eq6}
+		\label{DQG:Eq10}
 	\end{equation}
-	
-	We also investigated the dependency of the self-diffusion coefficient value in MP $D_{\text{MP}}$ on the slope $\dot{D} = \text{d}D/\text{d}q_g$ and observed an intriguing behavior, as shown in Figure~\ref{DQG:Fig3}. It appears that this universal relationship might be described by the phenomenological fit~\eqref{DQG:Eq7}:
-	
-	\begin{equation}
-		D_{\text{MP}} \approx \left(\dfrac{\text{d}D}{\text{d}q_g}\right)^2 + C_{\text{MP}},
-		\label{DQG:Eq7}
-	\end{equation}
-	
-	where $C_{\text{MP}} = 9.2 \cdot 10^{-4}$. Using this fit we reconstructed initial data for 3D systems. Results are presented in \href{https://www.latextemplates.com}{supplementary material}.
 	
 	Furthermore, the extended Lennard-Jones (LJ) and Yukawa systems were analyzed, and a comparison of $D(q_g)$ with the original systems is provided in the \href{https://www.latextemplates.com}{supplementary material}.
 	
